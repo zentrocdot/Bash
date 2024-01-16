@@ -1,11 +1,14 @@
 #!/usr/bin/bash
+# shellcheck disable=SC2086
 #
-# Version 0.0.0.2
+# Version 0.0.0.3
 #
 # The snippet was checked with ShellCheck.
 #
 # See also:
+# www.cyberciti.biz/faq/repeat-a-character-in-bash-script-under-linux-unix/
 # unix.stackexchange.com/questions/122845/using-a-b-for-variable-assignment-in-scripts
+# dirask.com/posts/Bash-repeat-a-character-N-times-prz6rp
 
 # *****************************************************************************
 # Function repchr $1 $2
@@ -37,16 +40,22 @@ repchr () {
     return 0
 }
 
+# Clear screen.
+clear
+
 # Test the function.
 echo -e "Function test ...\n"
-nr=80
 echo -e "$(repchr)"
+nr=80
 echo -e "$(repchr ":" ${nr})"
 echo -e "$(repchr "?" ${nr})"
 echo -e "$(repchr "#" ${nr})"
 
 # Onliner if char and number are predefined.
 echo -e "\nOnliner test ...\n"
-echo -e "$(for _ in {1..80}; do echo -n "+"; done)"  # chr="+" and nr=80
-echo -e "$(printf "=%.0s" {1..80})"                  # chr="=" and nr=80
-echo -e "$(printf %80s " " |tr " " "%")"             # chr="%" and nr=80
+echo -e "$(for i in {1..80}; do echo -n "+"; done)"              # 80 * "+"
+echo -e "$(for (( i = 0; i < 80; i++ )); do echo -n "§"; done)"  # 80 * "§"
+echo -e "$(printf "=%.0s" {1..80})"                              # 80 * "="
+echo -e "$(printf %80s " " |tr " " "%")"                         # 80 * "%"
+echo -e "$(printf %*s 80 "" |tr " " "!")"                        # 80 * "!"
+echo -e "$(echo -e ''$_{1..80}'\b_')"                            # 80 * "_"
