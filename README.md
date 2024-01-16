@@ -2,7 +2,7 @@
 
 ### Introduction
 
-> Many years ago, I generally gave up working with Windows. Before that point, I used Windows and Linux in parallel and sometimes Unix as well as Sinix. In the first days of my Linux experience I used Suse Linux. Later on I came to Ubuntu and finally to Mint. In between I also used Raspian.
+> <p align="justify">Many years ago, I generally gave up working with Windows. Before that point, I used Windows and Linux in parallel and sometimes Unix as well as Sinix. In the first days of my Linux experience I used Suse Linux. Later on I came to Ubuntu and finally to Mint. In between I also used Raspian.</p>
 
 > I used Basic intensively on the C64 and on the Apple IIe. I always missed the good programming options that were available as standard under MS-DOS and Windows. So I used Pascal/Turbo Pascal and also Fortran. I also programmed in C/C++ from time to time.
 
