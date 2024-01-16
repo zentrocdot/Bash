@@ -2,7 +2,7 @@
 
 ### Write something nice here!
 
->First off, thank you for considering contributing to Active Admin. It's people like you that make Active Admin such a great tool.
+>Everyone is invited to contribute to this repository.
 
 
 
@@ -38,8 +38,6 @@ This includes not just how to communicate with others (being respectful, conside
 > * Don't add any classes to the codebase unless absolutely needed. Err on the side of using functions.
 > * Keep feature versions as small as possible, preferably one new feature per version.
 > * Be welcoming to newcomers and encourage diverse new contributors from all backgrounds. See the [Python Community Code of Conduct](https://www.python.org/psf/codeofconduct/).
-
-[source: [cookiecutter](https://github.com/audreyr/cookiecutter/blob/master/CONTRIBUTING.rst)] **Need more inspiration?** [1] [Celery](https://github.com/celery/celery/blob/master/CONTRIBUTING.rst#community-code-of-conduct) [2] [geocoder](https://github.com/alexreisner/geocoder#contributing)
 
 # Your First Contribution
 Help people who are new to your project understand where they can be most helpful. This is also a good time to let people know if you follow a label convention for flagging beginner issues.
