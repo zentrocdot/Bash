@@ -9,6 +9,9 @@
 # API_URL="icanhazip.com"
 # API_URL="ifconfig.co"
 # API_URL="ifconfig.me"
+#
+# Before using one of the listed services, read the 
+# rules that apply to the respective service.
 
 # Set API url.
 API_URL="api.ipify.org"
