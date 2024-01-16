@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 #
 # Basic software installation
-# version 0.0.0.3
+# version 0.0.0.5
 #
 # www.google.com/search?client=firefox-b-lm&q=flogisoft
 # itsfoss.com/install-microsoft-fonts-ubuntu/
@@ -16,6 +16,7 @@ pkg_graphic=("inkscape" "imagemagick" "pdf2svg" "img2pdf" "hugin" "exif")
 pkg_cad=("librecad")
 pkg_video=("smplayer" "vlc" "mplayer" "mpv")
 pkg_multimedia=("kodi" "ffmpeg")
+pkg_ripper=("lame" "vorbis-tools" "libopus0" "opus-tools" "flac" "asunder" "ripperx")
 pkg_pdf=("evince" "okular" "qpdfview" "ghostscript" "gv" "mupdf" "lyx")
 pkg_qr=("qrencode" "qtqr" "qreator" "barcode")
 pkg_gnuplot=("gnuplot" "gnuplot-x11" "gnuplot-doc")
@@ -32,9 +33,9 @@ pkg_tor=("tor" "tor-geoipdb" "torsocks" "tshark" "proxychains")
 pkg_network=("fping" "etherape" "wireshark" "nmap" "tcpdump" "mtr")
 pkg_fonts=("ttf-mscorefonts-installer")
 pkg_office=("libreoffice" "scribus")
-pkg_system=("gparted" "gnome-disk-utility" "samba")
-pkg_recovery=("testdisk" "gddrescue")
-pkg_tools=("htop")
+pkg_system=("gparted" "parted" "gnome-disk-utility" "samba" "brasero")
+pkg_recovery=("testdisk" "gddrescue" "smartmontools")
+pkg_tools=("htop" "f3")
 pkg_webserver=("apache2" "php" "php-fpm" "php-cgi" "php-cli" "php-imagick")
 pkg_programming=("ruby" "perl" "python3" "git" "shellcheck" "tcl" "tk")
 pkg_security=("fail2ban" "openssl" "hydra" "aircrack-ng")
@@ -42,31 +43,22 @@ pkg_linux=("neofetch" "linuxlogo")
 pkg_asciiart=("figlet" "toilet" "lolcat" "asciiart" "jp2a" "cowsay" "aewan")
 pkg_fun=("sl" "cbonsai" "cmatrix")
 pkg_support=("software-properties-common" "build-essential")
-pkg_misc=("f3" "p7zip-full" "gzip" "unzip" "bzip2" "pv" "brasero")
+pkg_pack=("p7zip-full" "gzip" "unzip" "bzip2")
+pkg_misc=("pv")
 
 # Merge all previous defined arrays.
 pkg_array=("${pkg_install[@]}" "${pkg_audio[@]}" "${pkg_webcam[@]}"
            "${pkg_photo[@]}" "${pkg_graphic[@]}" "${pkg_cad[@]}"
-           "${pkg_video[@]}" "${pkg_multimedia[@]}"
-           "${pkg_pdf[@]}"
-           "${pkg_qr[@]}"
-           "${pkg_gnuplot[@]}" "${pkg_scan[@]}" "${pkg_filemanager[@]}"
-           "${pkg_editor[@]}" "${pkg_hexeditor[@]}" "${pkg_htmleditor[@]}"
-           "${pkg_math[@]}" "${pkg_terminal[@]}" "${pkg_browser[@]}"
-           "${pkg_internet[@]}"
-           "${pkg_tor[@]}"
-           "${pkg_network[@]}"
-           "${pkg_fonts[@]}"
-           "${pkg_office[@]}"
-           "${pkg_system[@]}"
-           "${pkg_recovery[@]}"
-           "${pkg_tools[@]}"
-           "${pkg_webserver[@]}" "${pkg_programming[@]}"
-           "${pkg_security[@]}"
-           "${pkg_linux[@]}"
-           "${pkg_asciiart[@]}"
-           "${pkg_fun[@]}"
-           "${pkg_support[@]}"
+           "${pkg_video[@]}" "${pkg_multimedia[@]}" "${pkg_ripper[@]}"
+           "${pkg_pdf[@]}" "${pkg_qr[@]}" "${pkg_gnuplot[@]}"
+           "${pkg_scan[@]}" "${pkg_filemanager[@]}" "${pkg_editor[@]}"
+           "${pkg_hexeditor[@]}" "${pkg_htmleditor[@]}" "${pkg_math[@]}"
+           "${pkg_terminal[@]}" "${pkg_browser[@]}" "${pkg_internet[@]}"
+           "${pkg_tor[@]}" "${pkg_network[@]}" "${pkg_fonts[@]}"
+           "${pkg_office[@]}" "${pkg_system[@]}" "${pkg_recovery[@]}"
+           "${pkg_tools[@]}" "${pkg_webserver[@]}" "${pkg_programming[@]}"
+           "${pkg_security[@]}" "${pkg_linux[@]}" "${pkg_asciiart[@]}"
+           "${pkg_fun[@]}" "${pkg_support[@]}" "${pkg_pack[@]}"
            "${pkg_misc[@]}")
 
 # Set the error array.
