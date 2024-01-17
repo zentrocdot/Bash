@@ -1,0 +1,93 @@
+#!/usr/bin/env bash
+
+# ##############################################################################
+#
+# Reference:
+#     www.shellcheck.net
+#
+# Prerequisite:
+#     package wmctrl   
+#     package xprop    
+#
+# Disable warning/error:
+#     'shellcheck disable=SCXXXX'	
+#
+# SC2034: INTERFACE appears unused. Verify it or export it.
+# SC2068: Double quote array expansions to avoid re-splitting elements.
+# SC2086: Double quote to prevent globbing and word splitting.
+# SC2181: Check exit code directly with e.g. 'if mycmd;', not indirectly with $?.
+#
+# ##############################################################################
+
+# Get title of current window.
+WINDOW_TITLE=$(xprop -id "$(xprop -root _NET_ACTIVE_WINDOW | cut -d ' ' -f 5)" WM_NAME | sed -e 's/.*"\(.*\)".*/\1/')
+
+# Get the filename of the current script.
+SCRIPT_NAME=${0}
+
+# Set global variable.
+NR="\n\r"
+
+# Clear screen.
+clear
+
+# Check the permissions of the current script.
+if [[ ! -x "${SCRIPT_NAME}" ]]
+then
+    # Make the current script executable.
+    chmod +x ${SCRIPT_NAME}
+fi
+
+# Switch to fullscreen mode.
+wmctrl -r "${WINDOW_TITLE}" -b add,maximized_vert,maximized_horz
+
+# Reset screen.
+reset
+
+shellcheck -V
+
+# Select a file.
+FILENAME=$(zenity --file-selection --title="Select a file")
+
+# Get the exit status of the last operation.
+STATUS=$?
+
+# Check the status of the last operation.
+if [ ${STATUS} != 0 ]
+then
+    # Write an error message into the terminal window. 
+    echo -e "No file selected! Bye"
+    # Exiting the script.
+    exit 1
+fi
+
+# Get basename.
+FN=$(basename ${FILENAME})
+
+# Write filename into the terminal window.
+echo -e "${NR}Filename: ${FN}${NR}"
+
+# Write a message into the terminal window.
+echo -e "Check started ..."
+
+# Check the syntax of the selected script.
+shellcheck -s bash "${FILENAME}" 
+
+# Get status of last operation
+STATUS=$?
+
+# Check status of last operation.
+if [ ${STATUS} == 0 ]
+then
+    # Write a message into the terminal window. 
+    echo -e "${NR}No warnings and no errors found!${NR}"
+fi
+
+# Write a message into the terminal window.
+echo -e "... check finished!"
+
+# Write farewell message into the terminal window.
+echo -e "${NR}Exiting script! Bye!${NR}"
+
+# Exiting the script.
+exit 0
