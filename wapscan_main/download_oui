@@ -1,5 +1,7 @@
-#!/bin/bash
+#!/usr/bin/bash
 
-wget standards-oui.ieee.org/oui.txt
+url="https://standards-oui.ieee.org/oui/oui.txt"
+
+wget "${url}"
 
 exit 0
