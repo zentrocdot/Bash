@@ -86,33 +86,6 @@
 #
 # Ref.: http://misc.flogisoft.com/bash/tip_colors_and_formatting
 #
-# Copyright Notice:
-# -----------------
-#
-# The software is for private use of natural persons only. The use of the
-# software by authorities, institutions, enterprises and profit as well as
-# non-profit organisations etc. is explicitly prohibited.
-#
-# The permission is hereby granted, free of charge, to any person obtaining
-# a copy of this software and associated documentation files, to deal in the
-# software without restriction, including without limitation the rights to
-# use, to copy, to modify, to merge, to publish, to distribute, to sublicense,
-# and to permit persons to whom the software is furnished to do so, subject to
-# the following conditions:
-#
-# The above copyright notice and this permission notice shall be included in
-# all copies or substantial portions of the software.
-#
-# Warranty:
-# ---------
-#
-# The software is provided "as is", without warranty of any kind, express or
-# implied, including but not limited to the warranties of merchantability,
-# fitness for a particular purpose and noninfringement. In no event shall the
-# authors or copyright holders be liable for any claim, damages or other
-# liability, whether in an action of contract, tort or otherwise, arising
-# from, out of or in connection with the software or the use or other dealings
-# in the software.
 # ##############################################################################
 
 # Script variables.
