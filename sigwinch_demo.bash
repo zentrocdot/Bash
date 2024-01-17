@@ -21,9 +21,4 @@ do
     :
 done
 
-#while read ALINE
-#do
-#        echo "Read: '$ALINE'"
-#done
-
 exit 0
