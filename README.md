@@ -18,3 +18,7 @@
 
 > <p align="justify">This repository is a collection of helpful bash scripts. I assume Debian, Ubuntu or Mint as the operating system. Recurring tasks can be ideally mapped in algorithms.</p>
 
+### To-Do
+
+> <p align="justify">I have posted some scripts here in the raw version. I will gradually revise them and provide better comments and documentation.</p>
+
