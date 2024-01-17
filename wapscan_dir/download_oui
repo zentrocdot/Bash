@@ -1,0 +1,5 @@
+#!/bin/bash
+
+wget standards-oui.ieee.org/oui.txt
+
+exit 0
