@@ -1,0 +1,305 @@
+#!/bin/bash
+
+# Reference:
+# https://unix.stackexchange.com/questions/36734/is-there-a-way-to-detect-null-bytes-nul-0-in-sed
+# https://stackoverflow.com/questions/2398393/identifying-and-removing-null-characters-in-unix
+# https://stackoverflow.com/questions/19227564/why-0-or-x0-is-an-empty-string-should-be-the-null-character-isnt-it
+# http://stackoverflow.com/questions/25394772/parsing-iwlist-scan-using-bash
+# http://misc.flogisoft.com/bash/tip_colors_and_formatting
+
+# Alternatives for scanning
+# nmcli dev wifi list
+# iw dev wlan0 scan
+# tcpdump, tshark
+
+# Make the script executable.
+if [[ ! -x "$0" ]]; then chmod +x "$0"; fi
+
+# Make sure that only root can run the script.
+if [ "$(id -u)" != "0" ]; then
+   echo "This script must be run as root" 1>&2
+   exit 1
+fi
+
+# Initialise the limit variable.
+LIMIT=""
+
+# Initialise the interface variable.
+IFACE=""
+
+# Set the filename.
+FILENAME="wap_scan.txt"
+
+# Set the array.
+BSSIDLIST=()
+
+# Get the command line arguments.
+OPT=$1
+VAR=$2
+
+# Set the lower and upper bound.
+UB=0
+LB=-256
+
+# Check the command line arguments.
+if [ "${OPT}" == "-l" ] && [ "${VAR}" != "" ]; then
+    if [ -z ${VAR//[0-9\-]/} ]; then
+        if [ "${VAR}" -le "${UB}" ] && [ "${VAR}" -gt "${LB}" ]; then
+            # Set the limit variable.
+            LIMIT=${VAR}
+        fi
+    fi
+fi
+
+# ==============================================================================
+# Function header()
+# ==============================================================================
+function header() {
+# Define a heredoc.
+cat << "HEREDOC"
+__      ____ _ _ __     ___  ___ __ _ _ __
+\ \ /\ / / _` | '_ \   / __|/ __/ _` | '_ \
+ \ V  V / (_| | |_) |  \__ \ (_| (_| | | | |
+  \_/\_/ \__,_| .__/___|___/\___\__,_|_| |_|
+              |_| |_____|
+
+wap_scan | Copyright © 2017, Dr. Peter Netz
+
+HEREDOC
+# Return the exit code.
+return 0
+}
+
+# ==============================================================================
+# Function get_iface()
+# ==============================================================================
+function get_iface() {
+    # Declare the local array.
+    declare -A array
+    # Define the local variables.
+    local ifaces=""
+    local number=""
+    local count=0
+    # Set the local strings.
+    local str0="Found WLAN Devices:"
+    local str1="==================="
+    local str2="Make your selection followed by ENTER:"
+    local str3="Wrong selection. Bye!"
+    # Get the name of the interfaces.
+    ifaces=$(iw dev | awk '$1=="Interface"{print $2}')
+    # Get the number of the interfaces.
+    number=$(echo "${ifaces}" | wc -l)
+    # Check the number of interfaces.
+    if [[ "${number}" -ne "1" ]]; then
+        # Print a headline into the terminal window.
+        printf "%s\n%s\n\n" "${str0}" "${str1}"
+        # List interfaces in the terminal window.
+        while IFS="" read -r iface
+        do
+            # Increment the counter.
+            ((count=count+1))
+            # Add a pair of data to the array.
+            array+=(["${count}"]="${iface}")
+            # Write the pair into the terminal window.
+            printf "%s  =  %s\n" "${count}" "${iface}"
+        done < <(echo "${ifaces}")
+        # Read the selection.
+        printf "\n%s " "${str2}"
+        read -r selection
+        # Check the selection.
+        if [ -z ${selection//[0-9]/} ]; then
+            if [ "${selection}" -gt "${count}" ] || \
+               [ "${selection}" -lt "1" ]; then
+                printf "\n%s\n" "${str3}"
+                exit 1
+            fi
+        fi
+        # Set the wlan interface.
+        IFACE="${array[${selection}]}"
+    else
+        # Set the wlan interface.
+        IFACE="${ifaces}"
+    fi
+    # Return exit code.
+    return 0
+}
+
+# ==============================================================================
+# Function get_bssidlist()
+# ==============================================================================
+function get_bssidlist() {
+    # Reset array.
+    BSSIDLIST=()
+    # Initialise the local variables.
+    local mac=''
+    local chn=''
+    local freq=''
+    local qual=''
+    local rssi=''
+    local ssid=''
+    local mode=''
+    local enc=''
+    # Read data from Linux command line by line.
+    while IFS="" read -r line
+    do
+        #echo $line
+        if [[ "$line" == *"Interface doesn't support scanning."* ]]; then exit 1; fi
+        [[ "$line" =~ Address: ]] && { mac=$(echo "${line##*ess:}" | xargs); }
+        [[ "$line" =~ Channel: ]] && { chn=$(echo "${line##*nel:}" | xargs); }
+        [[ "$line" =~ Frequency: ]] && {
+            freq=${line##*uency:}; freq=${freq%% *}
+        }
+        [[ "$line" =~ Quality ]] && {
+            qual=${line##*ity=}; qual=${qual%% *}
+            rssi=${line##*level=}; rssi=${rssi%% *}
+        }
+        [[ "$line" =~ Encryption ]] && {
+            enc=${line##*key:}; enc=${enc%% *}
+        }
+        [[ "$line" =~ ESSID: ]] && {
+            ssid=${line##*SID:};
+            ssid=${ssid//\"/}
+            if  echo "${ssid}" | grep -q '\x00'; then
+                len=$(echo "${ssid}" | grep -o '\x00' | wc -l)
+                ssid="<length $len>"
+            fi
+            if  [[ "${ssid}" == "" ]]; then
+                ssid="<length 0>"
+            fi
+            ssid=${ssid:0:32}
+        }
+        [[ "$line" =~ Mode: ]] && {
+            mode=${line##*ode:};
+            if [[ $LIMIT == "" ]]; then
+                ap=$(printf "%s" "$mac;$chn;$freq;$rssi;$qual;$ssid;$mode;$enc")
+                BSSIDLIST+=("$ap")
+            else
+	        if [[ "${rssi}" -gt $LIMIT ]]; then
+                    ap=$(printf "%s" "$mac;$chn;$freq;$rssi;$qual;$ssid;$mode;$enc")
+                    BSSIDLIST+=("$ap")
+                fi
+            fi
+        }
+    done < <(iwlist "${IFACE}" scan 2>&1)
+    # Return exit code.
+    return 0
+}
+
+# ==============================================================================
+# Function get_best_bssid()
+# ==============================================================================
+function get_best_bssid() {
+    # Set local variables.
+    local rssi_ref="-256"
+    local bssid_ref="n/a"
+    local rssi_mac=""
+    local bssid_mac=""
+    for mac in "${BSSIDLIST[@]}"
+    do
+        rssi_mac=$(echo "${mac}" | awk -F ';' '{print $4}')
+        if [[ "${rssi_mac}" -gt "${rssi_ref}" ]]; then
+            rssi_ref="${rssi_mac}"
+            bssid_mac=$(echo "${mac}" | awk -F ';' '{print $1}')
+        fi
+    done
+    echo -n "${bssid_mac}"
+    # Return exit code.
+    return 0
+}
+
+# ==============================================================================
+# Function print_result()
+# ==============================================================================
+function print_result() {
+    # Set char.
+    ch='='
+    # Set strings.
+    fs1=$(printf '%*s' 17 | tr ' ' "$ch")
+    fs2=$(printf '%*s' 2 | tr ' ' "$ch")
+    fs3=$(printf '%*s' 5 | tr ' ' "$ch")
+    fs4=$(printf '%*s' 4 | tr ' ' "$ch")
+    fs5=$(printf '%*s' 5 | tr ' ' "$ch")
+    fs6=$(printf '%*s' 32 | tr ' ' "$ch")
+    fs7=$(printf '%*s' 8 | tr ' ' "$ch")
+    fs8=$(printf '%*s' 4 | tr ' ' "$ch")
+    # Clear screen.
+    clear
+    printf "%-17s\t%-2s\t%-5s\t%-4s\t%-5s\t%-32s\t%-8s\t%-4s\n" \
+           "BSSID" "CH" "FREQ" "RSSI" "QUAL" "ESSID" "MODE" "ENC"
+    printf "%-17s\t%-2s\t%-5s\t%-4s\t%-5s\t%-32s\t%-8s\t%-4s\n" \
+           "${fs1}" "${fs2}" "${fs3}" "${fs4}" \
+           "${fs5}" "${fs6}" "${fs7}" "${fs8}"
+    # Print file to screen.
+    cat $FILENAME
+    # Return exit code.
+    return 0
+}
+
+# ==============================================================================
+# Function main_loop()
+# ==============================================================================
+function main_loop() {
+    while true
+    do
+        get_bssidlist
+        bssid_ref=$(get_best_bssid)
+        for ele in "${BSSIDLIST[@]}";
+        do
+            bssid_ele=$(echo "${ele}" | awk -F ';' '{print $1}')
+            if [[ "${bssid_ele}" == "${bssid_ref}" ]]; then
+                temp=$(echo "${ele}" | \
+                    awk -F ';' '{printf "%-17s\t",$1; printf "%-2s\t",$2;
+                                 printf "%5s\t",$3; printf "%4s\t",$4;
+                                 printf "%5s\t", $5; printf "%-32s\t",$6;
+                                 printf "%-8s\t",$7; printf "%-4s\n", $8 }')
+                temp="\e[42m$temp\e[49m"
+                echo -e "$temp"
+            fi
+        done > "$FILENAME"
+        for ele in "${BSSIDLIST[@]}";
+        do
+            bssid_ele=$(echo "${ele}" | awk -F ';' '{print $1}')
+            if [[ "${bssid_ele}" != "${bssid_ref}" ]]; then
+                echo "${ele}" | \
+                    awk -F ';' '{printf "%-17s\t",$1; printf "%-2s\t",$2;
+                                 printf "%5s\t",$3; printf "%4s\t",$4;
+                                 printf "%5s\t",$5; printf "%-32s\t",$6;
+                                 printf "%-8s\t",$7; printf "%-4s\n", $8 }'
+            fi
+        done | sort -u -k4 -k5 >> "$FILENAME"
+        if [ -s "$FILENAME" ]
+        then
+            print_result
+        fi
+    done
+    # Return exit code.
+    return 0
+}
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Main Script Section
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Reset screen.
+reset
+
+# Write header.
+header
+
+# Call function.
+get_iface
+
+# Check mode of interface.
+if [ -z $(iwconfig 2>/dev/null "${IFACE}" | grep -o "Mode:Managed") ]; then
+    printf "\n%s\n" "Interface is not in managed mode. Bye!"
+    exit 1
+fi
+
+# Write message into the terminal window.
+echo -e "\nBe patient. Data will be collected."
+
+# Run main loop.
+main_loop
+
+# Exit script.
+exit 0
