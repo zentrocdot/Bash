@@ -24,5 +24,6 @@ printf "\033c"      or    printf "\ec"</pre>
 ### References
 
 [1] manpages.debian.org/bookworm/manpages-de/console_codes.4.de.html
+
 [2] en.wikipedia.org/wiki/ANSI_escape_code#CSI_(Control_Sequence_Introducer)_sequences
     
