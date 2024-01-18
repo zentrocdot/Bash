@@ -6,7 +6,7 @@
 
 > <p align="justify">In Bash scripts, the clear and reset commands can be replaced by ANSI escape sequences. On my laptop there is a significant difference in the execution time of e.g. <code>reset</code> or <code>tput reset</code> and the corresponding ANSI escape sequence.</p>
 
-# Brief explanation
+### Brief explanation
 
 >  <p align="justify">An ANSI escape sequence consists of the so-called CSI (Control Sequence Introducer) followed by an expression which describes what should be done within the terminal.</p>
 
