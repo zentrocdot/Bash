@@ -19,7 +19,7 @@
 <pre>echo -en "\033c"    or    echo -en "\ec"
 printf "\033c"      or    printf "\ec"</pre>
 
-> <p align="justify">Newbies should note the difference between double quotes and single quotes. Using the double quotes the ANSI escape sequence is interpreted as expected otherwise not.</p>
+> <p align="justify">It has to be noted that there is no difference in using double quotes and single quotes. The usage of <code>echo</code> works only on implementations that support the option <code>-e</code></p>
 
 ### References
 
