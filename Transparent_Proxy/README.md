@@ -10,6 +10,10 @@
 
 > <p align="justify">The aim should be to anonymise all Internet traffic via an interface without having to worry about whether a program is running or not in the background. TCP/IP traffic as well as DNS requests should be tunneled over the approach.</p>
 
+### Security Check
+
+> <p align="justify">For certain groups of people, their lives may depend on internet traffic not having leaks that jeopardize their anonymity. I wrote a script <code>anonymity_check.bash</code> to check, if everything works the right way.</p>
+
 ### Approach
 
 > <p align="justify">The chosen approach is a transparent proxy that tunnels any type of Internet traffic locally over the defined interface. It should also be possible to control the transparent proxy via a GUI. In the end, I implemented this as Bash script.</p>
