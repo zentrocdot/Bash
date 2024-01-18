@@ -19,6 +19,7 @@
     echo -en "\033c"    or    echo -en "\ec"
     printf "\033c"      or    printf "\ec"
 
+> <p align="justify">Newbies should note the difference between double quotes and single quotes. Using the double quotes the ANSI escape sequence is interpreted as expected otherwise not.</p>
 
 ### References
 
