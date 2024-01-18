@@ -1,5 +1,7 @@
 # README
 
+> <p align="justify">Read section Prerequisites and Warning first before using the transparent proxy.</p>
+
 > <p align="justify">There are various ways to anonymize the Internet traffic. One way is using a tool called <code>proxychains</code> another way is using <code>Tor</code>. For <code>proxychains</code> one needs a list of proxy servers of type socks5, socks4, https and http.</p>
 
 ### Motivation
@@ -24,7 +26,7 @@ Change the variable _OUT_IF="wlan0" to your personal needs. That's all you have 
 
 ### Prerequisites
 
-Installation of <code>resolvconf</code> and <code>xdotool</code>
+Installation of <code>resolvconf</code> and <code>xdotool</code> is needed.
 
 ### Warning
 
