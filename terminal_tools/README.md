@@ -8,7 +8,7 @@
 
 ### Brief explanation
 
->  <p align="justify">An ANSI escape sequence consists of the so-called CSI (Control Sequence Introducer) followed by an expression which describes what should be done within the terminal.</p>
+>  <p align="justify">An ANSI escape sequence consists of the CSI (Control Sequence Introducer) followed by the OSC (Operating System Command), which is a sequences of a number of bytes, and terminated by a predefined string. This ANSI escape sequence  defines what should be done within the terminal.</p>
 
 <pre><code>CSI</code> = <code>ESC[</code> is written as <code>\e[</code> or <code>\033[</code></pre>    
 
