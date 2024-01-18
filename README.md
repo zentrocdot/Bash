@@ -22,6 +22,10 @@
 
 > <p align="justify">So far almost all of the listed scripts are working under Linux Mint 21.3 without problems. In very rare cases I have to install a missing package.</p>
 
+### Naming
+
+> <p align="justify">The names of the scripts were assigned according to the task to be performed. I have not checked whether there are Bash scripts worldwide that use the same or similar names. This would be a pure coincidence.</p>
+
 ### To-Do
 
 > <p align="justify">Some scripts still need to be revised with regard to comments and documentation. This will be done step by step.</p>
