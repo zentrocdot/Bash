@@ -64,8 +64,7 @@ fi
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Your outgoing interface.
-#_OUT_IF="wlan0"
-_OUT_IF="wlp7s0"
+_OUT_IF="wlan0"
 
 # Tor's TransPort
 _TRANS_PORT="9040"
