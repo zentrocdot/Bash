@@ -1,6 +1,8 @@
 # README
 
-> <p align="justify">Read section Prerequisites and Warning first before using the transparent proxy.</p>
+>>> <p align="justify">Read the section Prerequisites and Warning first before using the transparent proxy.</p>
+
+### Introduction
 
 > <p align="justify">There are various ways to anonymize the Internet traffic. One way is using a tool called <code>proxychains</code> another way is using <code>Tor</code>. For <code>proxychains</code> one needs a list of proxy servers of type socks5, socks4, https and http.</p>
 
