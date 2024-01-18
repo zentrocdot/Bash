@@ -14,7 +14,7 @@
 
 ### Usage
 
->  <p align="justify">E.g. a reset of the terminal window can be done using the ANSI escape sequences consisting of <code></code>CSI</p>code> + <kbd>c</kbd> in two ways:</p>
+>  <p align="justify">E.g. a reset of the terminal window can be done using the ANSI escape sequences consisting of <code></code>CSI</code> + <kbd>c</kbd> in two ways:</p>
 
 <pre>echo -en "\033c"    or    echo -en "\ec"
 printf "\033c"      or    printf "\ec"</pre>
