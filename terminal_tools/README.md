@@ -16,8 +16,8 @@
 
 >  <p align="justify">E.g. a reset of a terminal window can be done using ANSI escape sequences in two ways:</p>
 
-    echo -en "\033c"    or    echo -en "\ec"
-    printf "\033c"      or    printf "\ec"
+<pre>echo -en "\033c"    or    echo -en "\ec"
+printf "\033c"      or    printf "\ec"</pre>
 
 > <p align="justify">Newbies should note the difference between double quotes and single quotes. Using the double quotes the ANSI escape sequence is interpreted as expected otherwise not.</p>
 
