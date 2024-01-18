@@ -155,7 +155,6 @@ cp ${SOURCE} "${DESTINATION}"
 
 # Remove EXIF data from image.
 echo -e "\r"
-exiftool -all= "${DESTINATION}"
 echo -e "\r"
 
 # Encode the given image.
