@@ -10,9 +10,7 @@
 
 >  <p align="justify">An ANSI escape sequence consists of the so-called CSI (Control Sequence Introducer) followed by an expression which describes what should be done within the terminal.</p>
 
-<pre><code>CSI</code> = <code>ESC[</code> is written as <code>\e[</code> or <code>\033[</code></pre>pre>    
-
-CSI, commands, the ESC [ (written as \e[ or \033[ in several programming languages) is
+<pre><code>CSI</code> = <code>ESC[</code> is written as <code>\e[</code> or <code>\033[</code></pre>    
 
 ### Usage
 
