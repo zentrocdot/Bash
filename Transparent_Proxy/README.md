@@ -24,15 +24,15 @@
 
 ### Customisation Trans Proxy
 
-Change the variable _OUT_IF="wlan0" to your personal needs. That's all you have to do to get the trans proxy running.
+> <p align="justify">Change the variable _OUT_IF="wlan0" to your personal needs. That's all you have to do to get the trans proxy running.</p>
 
 ### Prerequisites
 
-Installation of <code>resolvconf</code> and <code>xdotool</code> is needed.
+> <p align="justify">Installation of <code>resolvconf</code> and <code>xdotool</code> is required.</p>
 
 ### Warning
 
-Make a copy of resolv.conf. If resolvconf is not installed, DNS requests will fail.
+> <p align="justify">It is recommended to make a copy of <code>resolv.conf</code>. If <code>resolvconf</code> is not installed, DNS requests will fail in the future. In the year 2018, when I wrote the transparent proxy, <code>resolvconf</code> was still installed by default.</p>
 
 ### Notice
 
