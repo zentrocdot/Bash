@@ -18,7 +18,18 @@
 
 > <p align="justify">This repository is a collection of helpful bash scripts. I assume Debian, Ubuntu or Mint as the operating system. Recurring tasks can be ideally mapped in algorithms.</p>
 
+### Remark
+
+> <p align="justify">So far almost all of the listed scripts are working under Linux Mint 21.3 without problems. In very rare cases I have to install a missing package.</p>
+
 ### To-Do
 
-> <p align="justify">I have posted some scripts here in the raw version. I will gradually revise them and provide better comments and documentation.</p>
+> <p align="justify">Some scripts still need to be revised with regard to comments and documentation. This will be done step by step.</p>
 
+### Web Links
+
+> <p align="justify"></p>
+
+### Legal Notice
+
+> <p align="justify">Used common names, trade names, product designations, etc. may be trademarks even without special identification and as such may be subject to local country statutory provisions.</p>
