@@ -30,6 +30,10 @@
 
 <p align="justify">Installation of <code>resolvconf</code> and <code>xdotool</code> is required.</p>
 
+    sudo apt-get install resolvconf
+
+    sudo apt-get install xdotool
+
 ### Warning
 
 <p align="justify">It is recommended to make a copy of <code>resolv.conf</code>. If <code>resolvconf</code> is not installed, DNS requests will fail in the future. In the year 2018, when I wrote the transparent proxy, <code>resolvconf</code> was still installed by default.</p>
