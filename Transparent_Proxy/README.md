@@ -37,6 +37,10 @@ sudo apt-get install xdotool</pre>
 
 <p align="justify">It is recommended to make a copy of <code>resolv.conf</code>. If <code>resolvconf</code> is not installed, DNS requests will fail in the future. In the year 2018, when I wrote the transparent proxy, <code>resolvconf</code> was still installed by default.</p>
 
+## trans_proxy.bash
+
+<p align="justify">The transparent proxy is designed to work with ipv4. Keeping this in mind, I disabled ipv6 permanently.</p>
+
 ## anonymity_check.bash
 
 <p align="justify">The script performs the following tests:</p>
