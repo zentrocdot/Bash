@@ -37,7 +37,17 @@ sudo apt-get install xdotool</pre>
 
 <p align="justify">It is recommended to make a copy of <code>resolv.conf</code>. If <code>resolvconf</code> is not installed, DNS requests will fail in the future. In the year 2018, when I wrote the transparent proxy, <code>resolvconf</code> was still installed by default.</p>
 
-### Notice
+## anonymity_check.bash
+
+<p align="justify">It is recommended to make a copy of <code>resolv.conf</code>. If <code>resolvconf</code> is not installed, DNS requests will fail in the future. In the year 2018, when I wrote the transparent proxy, <code>resolvconf</code> was still installed by default.</p>
+
+1. Checks if Tor is runninng on boot
+2. Checks if DNS over Tor is working
+3. Checks if DNS in general is working
+4. Checks if the Tor exit node is valid
+5. Shows the geolocation data of the IP  
+
+## General note
 
 <p align="justify">The presented scripts are produced independently from the Tor® anonymity software and carries no guarantee from The Tor Project about quality, suitability or anything else.</p>
 
