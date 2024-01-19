@@ -1,6 +1,6 @@
 # README
 
-<pre>Read the below sections 'Prerequisites' and 'Warning' first before using the transparent proxy.</pre>
+<pre>Read the below sections 'Prerequisites' and 'Warning' first before you are using the transparent proxy.</pre>
 
 ### Introduction
 
