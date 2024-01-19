@@ -45,7 +45,9 @@ sudo apt-get install xdotool</pre>
 2. Checks if DNS over Tor is working
 3. Checks if DNS in general is working
 4. Checks if the Tor exit node is valid
-5. Shows the geolocation data of the IP  
+5. Shows the geolocation data of the IP
+
+<p align="justify">At the end of the tests, the script reports whether the tests have all been passed or not.</p>
 
 ## General note
 
