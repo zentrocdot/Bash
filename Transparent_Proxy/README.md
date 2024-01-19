@@ -37,19 +37,19 @@ sudo apt-get install xdotool</pre>
 
 <p align="justify">It is recommended to make a copy of <code>resolv.conf</code>. If <code>resolvconf</code> is not installed, DNS requests will fail in the future. In the year 2018, when I wrote the transparent proxy, <code>resolvconf</code> was still installed by default.</p>
 
-## trans_proxy.bash
+## Script trans_proxy.bash
 
-<p align="justify">The transparent proxy is designed to work with ipv4. Keeping this in mind, I disabled ipv6 permanently.</p>
+<p align="justify">The transparent proxy is designed to work with ipv4. Keeping this in mind, I disabled ipv6 permanently. This prevents me from having a data leak via ipv6.</p>
 
-## anonymity_check.bash
+## Script anonymity_check.bash
 
 <p align="justify">The script performs the following tests:</p>
 
-1. Checks if Tor is runninng on boot
-2. Checks if DNS over Tor is working
-3. Checks if DNS in general is working
-4. Checks if the Tor exit node is valid
-5. Shows the geolocation data of the IP
+1. Check if Tor is runninng on boot
+2. Check if DNS over Tor is working
+3. Check if DNS in general is working
+4. Check if the Tor exit node is valid
+5. Check the geolocation data related to the IP address
 
 <p align="justify">At the end of the tests, the script reports whether the tests have all been passed or not.</p>
 
