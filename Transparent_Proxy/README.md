@@ -39,7 +39,7 @@ sudo apt-get install xdotool</pre>
 
 ## anonymity_check.bash
 
-<p align="justify">It is recommended to make a copy of <code>resolv.conf</code>. If <code>resolvconf</code> is not installed, DNS requests will fail in the future. In the year 2018, when I wrote the transparent proxy, <code>resolvconf</code> was still installed by default.</p>
+<p align="justify">The script performs the following tests:</p>
 
 1. Checks if Tor is runninng on boot
 2. Checks if DNS over Tor is working
