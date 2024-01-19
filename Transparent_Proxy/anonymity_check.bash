@@ -1,17 +1,19 @@
 #!/bin/bash
 # shellcheck disable=SC2001
 ################################################################################
+#     _    _   _  ___  _   ___   ____  __ ___ _______   __
+#    / \  | \ | |/ _ \| \ | \ \ / /  \/  |_ _|_   _\ \ / /
+#   / _ \ |  \| | | | |  \| |\ V /| |\/| || |  | |  \ V /
+#  / ___ \| |\  | |_| | |\  | | | | |  | || |  | |   | |
+# /_/   \_\_| \_|\___/|_| \_| |_| |_|  |_|___| |_|   |_|
+#                ____ _   _ _____ ____ _  __
+#               / ___| | | | ____/ ___| |/ /
+#              | |   | |_| |  _|| |   | ' /
+#              | |___|  _  | |__| |___| . \
+#               \____|_| |_|_____\____|_|\_\
 #
-#  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-#  ┃                               _ _             _           _    ┃
-#  ┃  __ _ _ _  ___ _ _ _  _ _ __ (_) |_ _  _   __| |_  ___ __| |__ ┃
-#  ┃ / _` | ` \/ _ \ ``\ || | `  \| |  _| || | / _| ' \/ -_) _| / / ┃
-#  ┃ \__,_|_||_\___/_||_\_, |_|_|_|_|\__|\_, |_\__|_||_\___\__|_\_\ ┃
-#  ┃                    |__/             |__/___|                   ┃
-#  ┃                 anonymity_check version 0.0.0.3                ┃
-#  ┃              copyright © 2018-2024, Dr. Peter Netz             ┃
-#  ┃                                                                ┃
-#  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+#             anonymity_check version 0.0.0.5
+#          copyright © 2018-2024, Dr. Peter Netz
 #
 # Notice:
 #   This bash script is produced independently from the Tor® anonymity software
@@ -829,6 +831,7 @@ TORURL='https://check.torproject.org'
 #DOMAINNAME='www.example.org'
 #DOMAINNAME='www.iana.org'
 DOMAINNAME='www.icann.org'
+DOMAINNAME1='www.example.org'
 
 # Set the message color.
 ESC="\e["
@@ -852,16 +855,21 @@ local rstcol="\e[0m"
 echo -ne "\e[44m"
 # Show heredoc.
 cat << "HEREDOC"
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃                               _ _             _           _    ┃
-┃  __ _ _ _  ___ _ _ _  _ _ __ (_) |_ _  _   __| |_  ___ __| |__ ┃
-┃ / _` | ' \/ _ \ ' \ || | '  \| |  _| || | / _| ' \/ -_) _| / / ┃
-┃ \__,_|_||_\___/_||_\_, |_|_|_|_|\__|\_, |_\__|_||_\___\__|_\_\ ┃
-┃                    |__/             |__/___|                   ┃
-┃                 anonymity_check version 0.0.0.2                ┃
-┃              copyright © 2018-2024, Dr. Peter Netz             ┃
-┃                                                                ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃     _    _   _  ___  _   ___   ____  __ ___ _______   __  ┃
+┃    / \  | \ | |/ _ \| \ | \ \ / /  \/  |_ _|_   _\ \ / /  ┃
+┃   / _ \ |  \| | | | |  \| |\ V /| |\/| || |  | |  \ V /   ┃
+┃  / ___ \| |\  | |_| | |\  | | | | |  | || |  | |   | |    ┃
+┃ /_/   \_\_| \_|\___/|_| \_| |_| |_|  |_|___| |_|   |_|    ┃
+┃                ____ _   _ _____ ____ _  __                ┃
+┃               / ___| | | | ____/ ___| |/ /                ┃
+┃              | |   | |_| |  _|| |   | ' /                 ┃
+┃              | |___|  _  | |__| |___| . \                 ┃
+┃               \____|_| |_|_____\____|_|\_\                ┃
+┃                                                           ┃
+┃             anonymity_check version 0.0.0.5               ┃
+┃          copyright © 2018-2024, Dr. Peter Netz            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 HEREDOC
 # Reset color.
 echo -ne "\e[49m"
@@ -1127,6 +1135,7 @@ function geolocdata0() {
     local response
     local validdata
     # Try to get the geolocation data.
+    # Free for non-commercial use: https://ip-api.com/
     response=$(timeout 20s curl -s "ip-api.com/${ipaddr}")
     if [[ "${response}" == "" ]]; then
         echo ""
@@ -1401,8 +1410,7 @@ function perform_pings() {
     # Create the fill string.
     fill=$(printf "${char}%.0s" {1..4})
     # Perform 5 pings. Ignore error messages. Store the exit code.
-    #answer=$(ping -c 5 "${DOMAINNAME}" 2>/dev/null)
-    answer=$(ping -c 5 "www.example.org" 2>/dev/null)
+    answer=$(ping -c 5 "${DOMAINNAME1}" 2>/dev/null)
     status=$?
     # Evaluate the value of the exit code.
     if [ ${status} -eq 0 ]; then
