@@ -30,8 +30,8 @@
 
 <p align="justify">Installation of <code>resolvconf</code> and <code>xdotool</code> is required.</p>
 
-    sudo apt-get install resolvconf
-    sudo apt-get install xdotool
+<pre>sudo apt-get install resolvconf
+sudo apt-get install xdotool</pre>
 
 ### Warning
 
