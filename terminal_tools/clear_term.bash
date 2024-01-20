@@ -2,7 +2,7 @@
 #
 # Clear Terminal Window
 #
-# Version 0.0.0.1
+# Version 0.0.0.2
 # Copyright © 2024, Dr. Peter Netz
 #
 # The script is published under the MIT license.
@@ -22,7 +22,9 @@
 # ******************************
 clear_term () {
     # Clear the terminal window.
-    printf "\033[1;1H\033[2J"
+    #printf "\x1b[1;1H\x1b[2J"
+    #printf "\033[1;1H\033[2J"
+    printf "\e[1;1H\e[2J"
 }
 
 # Call the function.

@@ -2,7 +2,7 @@
 #
 # Reset Terminal Window
 #
-# Version 0.0.0.1
+# Version 0.0.0.2
 # Copyright © 2024, Dr. Peter Netz
 #
 # The script is published under the MIT license.
@@ -20,7 +20,9 @@
 # ******************************
 reset_term () {
     # Reset the terminal window.
-    printf "\033c"
+    #printf "\x1bc"
+    #printf "\033c"
+    printf "\ec"
 }
 
 # Call the function.
