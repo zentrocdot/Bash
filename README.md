@@ -32,7 +32,7 @@
 
 ### Web Links
 
-<p align="justify"></p>
+<p align="justify">I do not use web links to prevent unnecessary Internet traffic. Web links are references.</p>
 
 ### Legal Notice
 
