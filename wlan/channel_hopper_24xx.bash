@@ -45,7 +45,7 @@
 #     Further test after 6 yeras under Linux Mint 21. Revision and modernisation
 #     of the code
 #
-# Last modified: 2022/01/22
+# Last modified: 2024/01/22
 # ******************************************************************************
 
 # Check if the script was started with sudo privileges.
