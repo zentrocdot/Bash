@@ -1,24 +1,27 @@
 #!/usr/bin/bash
 #
 # Basic software installation
-# version 0.0.0.5
+# version 0.0.0.8
 #
 # www.google.com/search?client=firefox-b-lm&q=flogisoft
 # itsfoss.com/install-microsoft-fonts-ubuntu/
 # snapcraft.io/docs/installing-snap-on-linux-mint
+#
+# sudo add-apt-repository ppa:libreoffice/ppa
+# sudo add-apt-repository ppa:team-xbmc/ppa
 
 # Define the package arrays.
-pkg_install=("snapd" "flatpak" "python3-pip")
-pkg_audio=("espeak")
+pkg_install=("snapd" "flatpak" "gnome-software-plugin-flatpak" "python3-pip")
+pkg_audio=("espeak" "sox")
 pkg_webcam=("cheese" "guvcview")
-pkg_photo=("gimp" "rawtherapee")
-pkg_graphic=("inkscape" "imagemagick" "pdf2svg" "img2pdf" "hugin" "exif")
+pkg_photo=("gimp" "rawtherapee" "fim")
+pkg_graphic=("inkscape" "imagemagick" "pdf2svg" "img2pdf" "hugin" "exif" "converseen")
 pkg_cad=("librecad")
 pkg_video=("smplayer" "vlc" "mplayer" "mpv")
 pkg_multimedia=("kodi" "ffmpeg")
 pkg_ripper=("lame" "vorbis-tools" "libopus0" "opus-tools" "flac" "asunder" "ripperx")
 pkg_pdf=("evince" "okular" "qpdfview" "ghostscript" "gv" "mupdf" "lyx")
-pkg_qr=("qrencode" "qtqr" "qreator" "barcode")
+pkg_qr=("qrencode" "qtqr" "qreator" "barcode" "zbar-tools")
 pkg_gnuplot=("gnuplot" "gnuplot-x11" "gnuplot-doc")
 pkg_scan=("simple-scan" "gscan2pdf" "tesseract-ocr" "tesseract-ocr-deu" "lios")
 pkg_filemanager=("pluma" "nautilus" "nemo" "mc")
@@ -26,25 +29,25 @@ pkg_editor=("gedit" "nano" "vim")
 pkg_hexeditor=("bless" "ghex" "xxd" "hexedit")
 pkg_htmleditor=("bluefish")
 pkg_math=("bc" "geogebra" "scilab")
-pkg_terminal=("gnome-terminal" "xterm" "roxterm")
+pkg_terminal=("gnome-terminal" "xterm" "roxterm" "xdotool")
 pkg_browser=("firefox" "chromium-browser" "epiphany-browser")
 pkg_internet=("filezilla" "ftp" "telnet")
-pkg_tor=("tor" "tor-geoipdb" "torsocks" "tshark" "proxychains")
-pkg_network=("fping" "etherape" "wireshark" "nmap" "tcpdump" "mtr")
+pkg_anonymity=("tor" "tor-geoipdb" "torsocks" "proxychains" "proxychains4")
+pkg_network=("fping" "etherape" "wireshark" "tshark" "nmap" "tcpdump" "mtr" "wavemon")
 pkg_fonts=("ttf-mscorefonts-installer")
 pkg_office=("libreoffice" "scribus")
-pkg_system=("gparted" "parted" "gnome-disk-utility" "samba" "brasero")
+pkg_system=("gparted" "parted" "gnome-disk-utility" "samba" "brasero" "resolvconf")
 pkg_recovery=("testdisk" "gddrescue" "smartmontools")
 pkg_tools=("htop" "f3")
 pkg_webserver=("apache2" "php" "php-fpm" "php-cgi" "php-cli" "php-imagick")
 pkg_programming=("ruby" "perl" "python3" "git" "shellcheck" "tcl" "tk")
-pkg_security=("fail2ban" "openssl" "hydra" "aircrack-ng")
+pkg_security=("fail2ban" "openssl" "hydra" "aircrack-ng" "macchanger")
 pkg_linux=("neofetch" "linuxlogo")
-pkg_asciiart=("figlet" "toilet" "lolcat" "asciiart" "jp2a" "cowsay" "aewan")
+pkg_asciiart=("figlet" "boxes" "toilet" "lolcat" "asciiart" "jp2a" "cowsay" "aewan")
 pkg_fun=("sl" "cbonsai" "cmatrix")
 pkg_support=("software-properties-common" "build-essential")
 pkg_pack=("p7zip-full" "gzip" "unzip" "bzip2")
-pkg_misc=("pv")
+pkg_misc=("pv" "tree")
 
 # Merge all previous defined arrays.
 pkg_array=("${pkg_install[@]}" "${pkg_audio[@]}" "${pkg_webcam[@]}"
@@ -54,7 +57,7 @@ pkg_array=("${pkg_install[@]}" "${pkg_audio[@]}" "${pkg_webcam[@]}"
            "${pkg_scan[@]}" "${pkg_filemanager[@]}" "${pkg_editor[@]}"
            "${pkg_hexeditor[@]}" "${pkg_htmleditor[@]}" "${pkg_math[@]}"
            "${pkg_terminal[@]}" "${pkg_browser[@]}" "${pkg_internet[@]}"
-           "${pkg_tor[@]}" "${pkg_network[@]}" "${pkg_fonts[@]}"
+           "${pkg_anonymity[@]}" "${pkg_network[@]}" "${pkg_fonts[@]}"
            "${pkg_office[@]}" "${pkg_system[@]}" "${pkg_recovery[@]}"
            "${pkg_tools[@]}" "${pkg_webserver[@]}" "${pkg_programming[@]}"
            "${pkg_security[@]}" "${pkg_linux[@]}" "${pkg_asciiart[@]}"
