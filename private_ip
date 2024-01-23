@@ -1,0 +1,101 @@
+#!/Usr/bin/bash
+#
+# unix.stackexchange.com/questions/98923/programmatically-extract-private-ip-addresses
+# www.linuxjournal.com/content/validating-ip-address-bash-script
+# en.wikipedia.org/wiki/IP_address
+# en.wikipedia.org/wiki/IPv4
+#
+# Localhost
+# 127.X.X.X
+#
+# Locallink
+# 169.254.X.X
+#
+# Private IP addresse
+# 24-bit block - 10.X.X.X
+# 20-bit block - 172.16.X.X - 172.31.X.X
+# 16-bit block - 192.168.X.X
+#
+# 0.0.0.0/8 		Current network (only valid as source address) 	RFC 6890
+# 10.0.0.0/8 		Private network 				RFC 1918
+# 100.64.0.0/10 	Shared address space for carrier-grade NAT 	RFC 6598
+# 127.0.0.0/8 		Loopback				 	RFC 6890
+# 169.254.0.0/16 	Link-local 					RFC 3927
+# 172.16.0.0/12	 	Private network 				RFC 1918
+# 192.0.0.0/24 		IETF Protocol Assignments 			RFC 6890
+# 192.0.2.0/24 		TEST-NET-1, documentation and examples 		RFC 5737
+# 192.88.99.0/24	IPv6 to IPv4 relay (includes 2002::/16) 	RFC 3068
+# 192.168.0.0/16 	Private network 				RFC 1918
+# 198.18.0.0/15 	Network benchmark tests 			RFC 2544
+# 198.51.100.0/24 	TEST-NET-2, documentation and examples 		RFC 5737
+# 203.0.113.0/24	TEST-NET-3, documentation and examples 		RFC 5737
+# 224.0.0.0/4	 	IP multicast (former Class D network) 		RFC 5771
+# 240.0.0.0/4 		Reserved (former Class E network) 		RFC 1700
+# 255.255.255.255 	Broadcast 					RFC 919
+
+# Clear screen.
+clear
+
+# Get IP addresses.
+IP=$(ifconfig | grep -E -o '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}')
+
+# Function valid_ip
+function valid_ip() {
+    local ip=$1
+    local stat=1
+    if [[ $ip =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]]; then
+        OIFS=$IFS
+        IFS='.'
+        ip=($ip)
+        IFS=$OIFS
+        [[ ${ip[0]} -le 255 && ${ip[1]} -le 255 && \
+           ${ip[2]} -le 255 && ${ip[3]} -le 255 ]]
+        stat=$?
+    fi
+    return $stat
+}
+
+# function class_ip
+function class_ip() {
+    for ip in ${IP[@]}
+    do
+        if valid_ip $ip; then
+            if [[ $ip =~ ^(10\.|172\.1[6789]\.|172\.2[0-9]\.|172\.3[01]\.|192\.168\.) ]]; then
+                printf "%-15s %s %s\n" "$ip" "->" "Private network"
+            elif [[ $ip =~ ^(0\.) ]]; then
+                printf "%-15s %s %s\n" "$ip" "->" "Current network (only valid as source address)"
+            elif [[ $ip =~ ^(100\.6[456789]\.|100\.[789][0-9]\.|100\.127\.) ]]; then
+                printf "%-15s %s %s\n" "$ip" "->" "Shared address space for carrier-grade NAT"
+            elif [[ $ip =~ ^(127\.) ]]; then
+                printf "%-15s %s %s\n" "$ip" "->" "Loopback"
+            elif [[ $ip =~ ^(169\.254\.) ]]; then
+                printf "%-15s %s %s\n" "$ip" "->" "Link-local"
+            elif [[ $ip =~ ^(198\.51\.100\.) ]]; then
+                printf "%-15s %s %s\n" "$ip" "->" "TEST-NET-2, documentation and examples"
+            elif [[ $ip =~ ^(203\.0\.113\.) ]]; then
+                printf "%-15s %s %s\n" "$ip" "->" "TEST-NET-3, documentation and examples"
+            elif [[ $ip =~ ^(192\.0\.0\.) ]]; then
+                printf "%-15s %s %s\n" "$ip" "->" "IETF Protocol Assignments"
+            elif [[ $ip =~ ^(192\.2\.0\.) ]]; then
+                printf "%-15s %s %s\n" "$ip" "->" "TEST-NET-1, documentation and examples"
+            elif [[ $ip =~ ^(192\.88\.99\.) ]]; then
+                printf "%-15s %s %s\n" "$ip" "->" "IPv6 to IPv4 relay (includes 2002::/16)"
+            elif [[ $ip =~ ^(198\.1[89]\.) ]]; then
+                printf "%-15s %s %s\n" "$ip" "->" "Network benchmark tests"
+            elif [[ $ip =~ ^(2[23][456789]\.) ]]; then
+                printf "%-15s %s %s\n" "$ip" "->" "IP multicast (former Class D network)"
+            elif [[ $ip =~ ^(2[45][012345]\.) ]]; then
+                printf "%-15s %s %s\n" "$ip" "->" "Reserved (former Class E network)"
+            elif [[ $ip =~ ^(255\.) ]]; then
+                printf "%-15s %s %s\n" "$ip" "->" "Broadcast"
+            else
+                printf "%-15s %s %s\n" "$ip" "->" "Public IP Address"
+           fi
+        fi
+    done
+}
+
+# Call function
+class_ip
+
+exit 0
