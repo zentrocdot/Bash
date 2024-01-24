@@ -3,7 +3,7 @@
 # version 0.0.0.1
 #
 # Description:
-# Exchange newlines, carriage returns and tabs by one space and remove
+# Exchange l, carriage returns and tabs by one space and remove
 # leading and trailing spaces and
 #
 # Explanation:
