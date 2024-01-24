@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # Use standard Posix bracket Expression for removal:
-# [[:space:]] = all whitespace characters, including line breaks
+# [[:space:]] = all whitespace characters
 # [[:blank:]] = space and tab
 
 # Get the filename from the command line argument.
