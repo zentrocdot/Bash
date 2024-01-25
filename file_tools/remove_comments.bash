@@ -6,6 +6,6 @@
 # Assign the command line argument to the global variable.
 FN=$1
 
-# Remove comment lines and remove empty lines from file.
-sed -i -e '/^[#]/d' -e '/^[[:space:]]*$/d' "${FN}" 2> /dev/null
+# Remove comment lines from file.
+sed -i -e '/^[#]/d' "${FN}" 2> /dev/null
 
