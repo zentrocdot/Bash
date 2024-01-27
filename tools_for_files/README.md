@@ -2,15 +2,16 @@
 
 ### Introduction
 
-<p align="justify">In addition to Bash and its commands, sed or awk can also be used to manipulate data in files.</p>
+<p align="justify">In addition to Bash and its commands, sed or awk can also be used to manipulate data in files. sed and awk are known as Bash commands but both are also programming languages.</p>
 
 ### sed
 
-<p align="justify">sed is the abbreviation for stream editor.</p>
+<p align="justify">sed is the abbreviation for stream editor. It is possible to write more or less complex programs with sed.</p>
 
 ### awk
 
-<p align="justify">awk is named based on the last names of the awk authors Alfred V. Aho, Peter J. Weinberger und Brian W. Kernighan.</p>
+<p align="justify">awk is named after the surnames of the awk authors Alfred V. Aho, Peter J. Weinberger und Brian W. Kernighan. 
+It is possible to write more or less complex programs with awk.</p>
 
 ### References
 
