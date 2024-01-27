@@ -23,5 +23,7 @@ It is possible to write more or less complex programs with awk.</p>
 
 [4] manpages.ubuntu.com/manpages/jammy/en/man1/sed.1.html
 
+[5] www&#8203;.regular-expressions.info/
+
 
 
