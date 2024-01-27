@@ -61,12 +61,19 @@
 # Assign the command line argument to the global variable.
 FN=$1 # comment for deletion
 
+# Define opening and closing char set.
+opening='\x22\x27\x28\x3C\x7B'
+closing='\x22\x27\x29\x3E\x7D'
+
+# Define a search pattern.
+pattern='.*[[:space:]].*#\+[[:space:]].*'
+
 # Remove comments from a file.
 # '0,/^#!\//p' -> Ignore line with Shebang
 # '/^[[:blank:]]*#/d' -> Delete regular comment lines
 # The second to fourth lines are removing inline comments.
-sed -i -e '0,/^#!\//p' -e '/^[[:blank:]]*#/d' \
-       -e 's/\(^.*\[.*[[:space:]].*#\+[[:space:]].*\]\)\(.*$\)/\1/g;t' \
-       -e 's/\(^.*[\x22\x27\x28\x3C\x7B].*[[:space:]].*#\+[[:space:]].*[\x22\x27\x29\x3E\x7D]\)\(.*$\)/\1/g;t' \
-       -e 's/[[:space:]]\+#\+.*$//g' \
+sed -i -e "0,/^#!\//p" -e "/^[[:blank:]]*#/d" \
+       -e "s/\(^.*\[${pattern}\]\)\(.*$\)/\1/g;t" \
+       -e "s/\(^.*[${opening}${pattern}[${closing}]\)\(.*$\)/\1/g;t" \
+       -e "s/[[:space:]]\+#\+.*$//g" \
        "${FN}" # comment for deletion
