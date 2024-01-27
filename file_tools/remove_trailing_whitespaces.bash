@@ -1,5 +1,10 @@
 #!/usr/bin/bash
 #
+# Remove Trailing Whitespaces
+# Version 0.0.0.1
+# Copyright © 2024, Dr. Peter Netz
+# Published under the MIT license.
+#
 # [:space:]
 # tab, vertical tab, form feed, newline, line feed, carriage return and space
 # [:blank:]
