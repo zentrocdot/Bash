@@ -6,7 +6,7 @@
 
 ### sed
 
-<p align="justify">sed is the abbreviation for stream editor. It is possible to write more or less complex programs with sed.</p>
+<p align="justify">sed is the abbreviation for <u>s</u>tream <u>ed</u>itor. It is possible to write more or less complex programs with sed.</p>
 
 ### awk
 
