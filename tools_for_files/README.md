@@ -8,7 +8,7 @@
 
 ### sed
 
-<p align="justify">sed is the abbreviation for <b>s</b>tream <b>ed</b>itor. It is possible to write more or less complex programs with sed.</p>
+<p align="justify">sed is the abbreviation for <b>s</b>tream <b>ed</b>itor. It is possible to write more or less complex programs with sed. The stream editor sed is used to perform manipulations on an input data stream.</p>
 
 ### awk
 
