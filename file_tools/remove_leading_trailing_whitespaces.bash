@@ -7,5 +7,5 @@
 FN=$1
 
 # Use sed for the replacements in the file.
-sed -i -e 's/^[[:space:]]\+//g;s/[[:space:]]\+$//g' "${FN}" 2> /dev/null
+sed -i 's/^[[:space:]]\+//g;s/[[:space:]]\+$//g' "${FN}" 2> /dev/null
 
