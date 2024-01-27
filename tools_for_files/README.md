@@ -14,6 +14,10 @@
 
 <p align="justify">awk is named after the surnames of the awk authors Alfred V. <b>A</b>ho, Peter J. <b>W</b>einberger und Brian W. <b>K</b>ernighan. It is also possible to write more or less complex programs with awk.</p>
 
+### Scripts
+
+<p align="justify">The scripts in the main folder have been tested and work as expected. The scripts in the tmp folder needs a little bit more work to get the expected results.</p>
+
 ### References
 
 [1] www&#8203;.gnu.org/software/bash/manual/bash.pdf
