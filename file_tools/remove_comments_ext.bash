@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 #
-# Remove Comments
+# Remove Comments 
 # Version 0.0.0.5
 # Copyright © 2024, Dr. Peter Netz
 # Published under the MIT license.
