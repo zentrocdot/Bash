@@ -4,7 +4,7 @@
 
 <p align="justify">In addition to Bash and its commands, sed or awk can also be used to manipulate data in files. sed and awk are known as Bash commands but both are also programming languages.</p>
 
-<p align="justify">Standard tasks in daily work are the removal of blank lines and the removal of leading and trailing spaces.</p>
+<p align="justify">Standard tasks in daily work are the removal of blank lines and the removal of leading and trailing spaces in files. It can also be useful to remove comments from files.</p>
 
 ### sed
 
