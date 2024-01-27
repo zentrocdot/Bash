@@ -6,7 +6,7 @@
 
 ### sed
 
-<p align="justify">sed is the abbreviation for <b>s</b>tream <mark>ed</mark>itor. It is possible to write more or less complex programs with sed.</p>
+<p align="justify">sed is the abbreviation for <b>s</b>tream <strong>ed</strong>itor. It is possible to write more or less complex programs with sed.</p>
 
 ### awk
 
