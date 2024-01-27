@@ -8,12 +8,11 @@
 
 ### sed
 
-<p align="justify">sed is the abbreviation for <b>s</b>tream <b>ed</b>itor. It is possible to write more or less complex programs with sed. The stream editor sed can be used to perform manipulations on an input data stream.</p>
+<p align="justify">sed is the abbreviation for <b>s</b>tream <b>ed</b>itor. The stream editor sed can be used to perform manipulations on an input data stream. It is possible to write more or less complex programs with sed.</p>
 
 ### awk
 
-<p align="justify">awk is named after the surnames of the awk authors Alfred V. <b>A</b>ho, Peter J. <b>W</b>einberger und Brian W. <b>K</b>ernighan. 
-It is possible to write more or less complex programs with awk.</p>
+<p align="justify">awk is named after the surnames of the awk authors Alfred V. <b>A</b>ho, Peter J. <b>W</b>einberger und Brian W. <b>K</b>ernighan. It is also possible to write more or less complex programs with awk.</p>
 
 ### References
 
