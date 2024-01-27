@@ -27,7 +27,7 @@
 # This script is used for the functionality check, based on the fact that in
 # the sed command there is the hashtag three times and this are not comments.
 #
-# Possible usage of the hashtag # in Bash:
+# Possible usages of the hashtag # in Bash:
 #   # Comment lines
 #   echo "#"
 #   printf "#"
