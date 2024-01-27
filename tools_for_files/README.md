@@ -6,11 +6,11 @@
 
 ### sed
 
-<p align="justify">sed is the abbreviation for <b>s</b>tream <strong>ed</strong>itor. It is possible to write more or less complex programs with sed.</p>
+<p align="justify">sed is the abbreviation for <strong>s</strong>tream <strong>ed</strong>itor. It is possible to write more or less complex programs with sed.</p>
 
 ### awk
 
-<p align="justify">awk is named after the surnames of the awk authors Alfred V. Aho, Peter J. Weinberger und Brian W. Kernighan. 
+<p align="justify">awk is named after the surnames of the awk authors Alfred V. <b>A</b>ho, Peter J. <b>W</b>einberger und Brian W. <b>K</b>ernighan. 
 It is possible to write more or less complex programs with awk.</p>
 
 ### References
