@@ -15,15 +15,17 @@ It is possible to write more or less complex programs with awk.</p>
 
 ### References
 
-[1] www&#8203;.gnu.org/software/gawk/manual/gawk.html
+[1] www&#8203;.gnu.org/software/bash/manual/bash.pdf
 
-[2] www&#8203;.gnu.org/software/sed/manual/sed.html
+[2] www&#8203;.gnu.org/software/gawk/manual/gawk.html
 
-[3] manpages.ubuntu.com/manpages/jammy/en/man1/awk.1posix.html
+[3] www&#8203;.gnu.org/software/sed/manual/sed.html
 
-[4] manpages.ubuntu.com/manpages/jammy/en/man1/sed.1.html
+[4] manpages.ubuntu.com/manpages/jammy/en/man1/awk.1posix.html
 
-[5] www&#8203;.regular-expressions.info/
+[5] manpages.ubuntu.com/manpages/jammy/en/man1/sed.1.html
+
+[6] www&#8203;.regular-expressions.info/
 
 
 
