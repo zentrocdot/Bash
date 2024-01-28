@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 #
 # Wrap ASCII text after a defined number of characters.
-# Version 0.0.0.2
+# Version 0.0.0.3
 # Copyright © 2024, Dr. Peter Netz
 # Published under the MIT license.
 #
@@ -37,8 +37,8 @@ FN=$1
 # Default value is set to 40 characters.
 NR=${2:-40}
 
-# Get output flag.
-OUT_FLAG=${3:-false}
+# Get the value of the output flag.
+PRINT_OUT=${3:-false}
 
 # Define the output file.
 FN_OUT="wrap_ascii.out"
@@ -70,7 +70,7 @@ if [[ "${exit_code}" = 0 ]]; then
 fi
 
 # Output data into terminal window.
-if [[ "${OUT_FLAG}" = true ]]; then
+if [[ "${PRINT_OUT}" = true ]]; then
     # Use cat to print the file content.
     out=$(cat "${FN_OUT}")
     printf "\n%s\n\n" "${out}"
