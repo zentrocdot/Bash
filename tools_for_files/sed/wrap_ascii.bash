@@ -18,6 +18,7 @@
 # Arguments:
 #     $1  Filename of input file
 #     $2  Wrap length
+#     $3  Print output into terminal window
 #
 # Output:
 #     Wrapped ASCII text into txt-file
