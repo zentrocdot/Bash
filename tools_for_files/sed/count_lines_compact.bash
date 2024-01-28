@@ -2,7 +2,7 @@
 #
 # Count Lines in file
 #
-# Credits:
+# Acknowledgement:
 # stackoverflow.com/questions/1781329/count-the-number-of-occurrences-of-a-string-using-sed
 
 FN=$1
