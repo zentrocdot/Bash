@@ -23,7 +23,7 @@ if [ "${FN}" = '' ]; then
     exit 1
 fi
 
-# Remove comment lines and remove empty lines from file.
+# Remove empty lines from file.
 sed -i '/^[[:space:]]*$/d' "${FN}" 2> /dev/null
 
 # Exit script.
