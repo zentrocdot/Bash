@@ -32,5 +32,11 @@
 
 [6] www&#8203;.regular-expressions.info/
 
+> [!WARNING]
+> The streamline editor <code>sed</code> using the inline option <code>-i</code> maybe will damage a given file.
+
+
+
+
 
 
