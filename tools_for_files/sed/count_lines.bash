@@ -10,7 +10,6 @@
 # See also:
 # www.gnu.org/software/sed/manual/sed.html
 # www.gnu.org/software/sed/manual/sed.pdf
- 
 
 FN=$1
 
