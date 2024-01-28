@@ -1,7 +1,7 @@
 # :card_file_box: Tools For Files
 
 > [!NOTE]
-> The scripts were tested with the Linux OS Mint 21.3 with the code name Virginia using the Bash shell in version 5.x.x.
+> The scripts were tested with the OS Linux Mint 21.3 with the code name Virginia using the GNU Bash shell in version 5.x.x.
 
 ### Introduction
 
