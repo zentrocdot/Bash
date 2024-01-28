@@ -2,8 +2,15 @@
 #
 # Count Lines in file
 #
+# Use at the command line: info sed
+#
 # Acknowledgement:
 # stackoverflow.com/questions/1781329/count-the-number-of-occurrences-of-a-string-using-sed
+#
+# See also:
+# www.gnu.org/software/sed/manual/sed.html
+# www.gnu.org/software/sed/manual/sed.pdf
+ 
 
 FN=$1
 
