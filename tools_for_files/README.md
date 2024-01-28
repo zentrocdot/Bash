@@ -1,5 +1,8 @@
 # :card_file_box: Tools For Files
 
+> [!NOTE]
+> The scripts were tested with the Linux OS Mint 21.3 with the code name Virginia using the Bash shell in version 5.x.x.
+
 ### Introduction
 
 <p align="justify">Standard tasks in daily work are the removal of blank lines and the removal of leading and trailing spaces in files. It can also be useful to remove comments from files. This can be done within a <code>Bash</code> script. But there are easier ways to work with file content.</p>
