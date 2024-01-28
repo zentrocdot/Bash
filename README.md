@@ -34,6 +34,6 @@
 
 <p align="justify">I do not use web links to prevent unnecessary Internet traffic. Web links are references.</p>
 
-### Legal Notice
+### :balance_scale: Legal Notice
 
 <p align="justify">Used common names, trade names, product designations, etc. may be trademarks even without special identification and as such may be subject to local country statutory provisions.</p>
