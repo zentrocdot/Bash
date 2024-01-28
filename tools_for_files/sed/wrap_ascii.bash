@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 #
+# Wrap ASCII text after a defined number of characters.
+#
 # See also:
 # www.gnu.org/software/sed/manual/sed.html
 # www.gnu.org/software/sed/manual/sed.pdf
