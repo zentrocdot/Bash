@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 #
-# Wrap ASCII text after a defined number of characters.
+# Wrap text after a defined number of characters.
 #
 # See also:
 # www.gnu.org/software/sed/manual/sed.html
@@ -21,3 +21,5 @@ s/.*\n//
 by
 }
 bz" "${FN}"
+
+exit 0
