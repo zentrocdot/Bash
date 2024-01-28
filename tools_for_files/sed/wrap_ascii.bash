@@ -20,20 +20,22 @@
 FN=$1
 
 # Set the number of characters for wrapping.
-NR=160
+NR=40
 
 # Wrap Ascii text and print result to screen.
-sed ":z
-N
-s/\n//g
-:y
-s/\(.\{$NR\}\)/\1\n/
-/\n/ {
-P
-s/.*\n//
-by
-}
-bz" "${FN}"
+sed "
+: z                   # Define the label z.
+$ {/^$/d}             # Remove remaining empty lines in a command group.
+N                     # Append a newline and the next input line to the pattern space.
+s/\n//g               # Remove all newlines from the pattern space.
+: y                   # Define the label y.
+s/\(.\{$NR\}\)/\1\n/  # Add a newline after the first NR characters.
+/\n/ {                # Execute command group if there is a newline in the pattern space.
+P                     # Print the pattern space until the first newline.
+s/.*\n//              # Remove the printed characters and the first newline.
+by                    # Branch to label y.
+}; bz                 # Branch to label z.
+" "${FN}"
 
 # Exit script.
 exit 0
