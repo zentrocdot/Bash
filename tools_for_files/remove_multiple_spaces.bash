@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 #
-# Exchange Tab To Space
+# Remove Multiple Whitespaces
 # Version 0.0.0.1
 # Copyright © 2024, Dr. Peter Netz
 # Published under the MIT license.
