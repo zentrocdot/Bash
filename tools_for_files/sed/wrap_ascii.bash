@@ -65,16 +65,15 @@ b inner                 # Branch to label inner.
 exit_code=$?
 
 # Write message into terminal window.
-if [ ${exit_code} = 0 ]; then
+if [[ "${exit_code}" = 0 ]]; then
     printf "%s\n" "Wrapped data written to file '${FN_OUT}'."
 fi
 
 # Output data into terminal window.
-if [ "${OUT_FLAG}" = true ]; then
+if [[ "${OUT_FLAG}" = true ]]; then
     # Use cat to print the file content.
-    printf "\n"
-    cat "${FN_OUT}"
-    printf "\n"
+    out=$(cat "${FN_OUT}")
+    printf "\n%s\n\n" "${out}"
 fi
 
 # Print farewell message.
