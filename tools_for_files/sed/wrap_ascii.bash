@@ -5,6 +5,8 @@
 # Copyright © 2024, Dr. Peter Netz
 # Published under the MIT license.
 #
+# Description:
+# The script is intended to reformat Base64 data.
 #
 # See also:
 # www.gnu.org/software/sed/manual/sed.html
