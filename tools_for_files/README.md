@@ -1,7 +1,7 @@
 # :card_file_box: Tools For Files
 
 > [!NOTE]
-> <p align="justify">The existing scripts were tested with the OS Linux Mint 21.3 with the code name Virginia using the GNU Bash shell version 5.x in a GNOME-Terminal version 3.x. If a description is given in the scripts itself, you will find a description of what the program code does.</p> 
+> <p align="justify">The existing scripts were tested with the OS Linux Mint 21.3 code name Virginia using the GNU Bash shell version 5.x in a GNOME-Terminal version 3.x. If a description is given in the scripts itself, you will find a description of what the program code does.</p> 
 
 ### Introduction
 
