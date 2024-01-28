@@ -2,17 +2,17 @@
 
 ### Introduction
 
-<p align="justify">Standard tasks in daily work are the removal of blank lines and the removal of leading and trailing spaces in files. It can also be useful to remove comments from files.</p>
+<p align="justify">Standard tasks in daily work are the removal of blank lines and the removal of leading and trailing spaces in files. It can also be useful to remove comments from files. This can be done within a <code>Bash</code> script. But there are easier ways to work with file content.</p>
 
-<p align="justify">In addition to Bash and its commands, <code>sed</code> or <code>awk</code> can also be used to manipulate data in files. Both are programming languages, even if they are often not seen as such.</p>
+<p align="justify">In addition to <code>Bash</code> and its commands, <code>sed</code> or <code>awk</code> can also be used to manipulate data in files. Both are programming languages, even if they are often not seen as such. It should be noted that the latter two programming languages are also  Turing-complete.</p>
 
-### sed
+### The stream editor sed
 
-<p align="justify">sed is the abbreviation for <b>s</b>tream <b>ed</b>itor. The stream editor sed can be used to perform manipulations on an input data stream. It is possible to write more or less complex programs with sed.</p>
+<p align="justify">sed is the abbreviation for <b>s</b>tream <b>ed</b>itor. The stream editor <code>sed</code> can be used to perform manipulations on an input data stream. It is possible to write more or less complex programs with <code>sed</code>.</p>
 
-### awk
+### The scripting language awk
 
-<p align="justify">awk is named after the surnames of the awk authors Alfred V. <b>A</b>ho, Peter J. <b>W</b>einberger und Brian W. <b>K</b>ernighan. It is also possible to write more or less complex programs with awk.</p>
+<p align="justify">awk is named after the surnames of the awk authors Alfred V. <b>A</b>ho, Peter J. <b>W</b>einberger und Brian W. <b>K</b>ernighan. It is also possible to write more or less complex programs with <code>awk</code>.</p>
 
 ### Scripts
 
