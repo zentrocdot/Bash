@@ -19,7 +19,7 @@
 
 ### Scripts
 
-<p align="justify">The scripts in the main folder have been tested and work as expected. The scripts in the <code>tmp</code> folder needs a little bit more work to get the expected results. They are intented for testing purposes.</p>
+<p align="justify">The scripts in the main folder have been tested and work as expected. The scripts in the <code>tmp</code> folder needs a little bit more work to get the expected results. They are intended for testing purposes.</p>
 
 ### References
 
