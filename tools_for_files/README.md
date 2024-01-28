@@ -19,6 +19,8 @@
 
 ### Scripts
 
+<p align="justify">You will find scripts which are written using <code>Bash</code>, <code>sed</code> and <code>awk</code>. To make <code>sed</code> and <code>awk</code> code portable these scripts are located in a outer <code>Bash</code> script.</p>
+
 <p align="justify">The scripts in the main folder have been tested and work as expected. The scripts in the <code>tmp</code> folder needs a little bit more work to get the expected results. They are intended for testing purposes.</p>
 
 ### References
