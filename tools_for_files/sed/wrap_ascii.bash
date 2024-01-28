@@ -8,6 +8,10 @@
 # Description:
 # The script is intended to reformat Base64 data.
 #
+# Remark:
+# One can use 'fold -w <number_chars> <filename>' from the GNU coreutils
+# to get the same result.
+#
 # See also:
 # www.gnu.org/software/sed/manual/sed.html
 # www.gnu.org/software/sed/manual/sed.pdf
