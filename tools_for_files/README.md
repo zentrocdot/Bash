@@ -6,7 +6,7 @@
 
 ### Background
 
-<p align="justify">In addition to Bash and its commands, sed or <kbd>awk</kbd> can also be used to manipulate data in files.</p>
+<p align="justify">In addition to Bash and its commands, <code>sed</code> or <kbd>awk</kbd> can also be used to manipulate data in files.</p>
 
 ### sed
 
