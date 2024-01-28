@@ -4,9 +4,7 @@
 
 <p align="justify">Standard tasks in daily work are the removal of blank lines and the removal of leading and trailing spaces in files. It can also be useful to remove comments from files.</p>
 
-### Background
-
-<p align="justify">In addition to Bash and its commands, <code>sed</code> or <kbd>awk</kbd> can also be used to manipulate data in files.</p>
+<p align="justify">In addition to Bash and its commands, <code>sed</code> or <code>awk</code> can also be used to manipulate data in files. Both are programming languages, even if they are often not seen as such.</p>
 
 ### sed
 
