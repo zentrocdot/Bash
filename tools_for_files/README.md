@@ -4,6 +4,10 @@
 
 <p align="justify">Standard tasks in daily work are the removal of blank lines and the removal of leading and trailing spaces in files. It can also be useful to remove comments from files.</p>
 
+### Background
+
+<p align="justify">In addition to Bash and its commands, sed or <kbd>awk</kbd> can also be used to manipulate data in files.</p>
+
 ### sed
 
 <p align="justify">sed is the abbreviation for <b>s</b>tream <b>ed</b>itor. The stream editor sed can be used to perform manipulations on an input data stream. It is possible to write more or less complex programs with sed.</p>
