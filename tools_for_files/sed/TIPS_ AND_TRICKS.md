@@ -19,3 +19,7 @@ Print whole file content except first line.
 Print whole file content except first and second line.
 
     sed -n '1,2!p' testfile.bash
+
+Print lines in file.
+
+    sed -n '$=' testfile.txt
