@@ -13,9 +13,19 @@
 
 <p align="justify">sed is the abbreviation for <b>s</b>tream <b>ed</b>itor. The stream editor <code>sed</code> can be used to perform manipulations on an input data stream. It is possible to write more or less complex programs with <code>sed</code>.</p>
 
+Example:
+
+    Print the whole file content line by line
+    sed -n p $filename
+
 ### The scripting language awk
 
 <p align="justify">awk is named after the surnames of the awk authors Alfred V. <b>A</b>ho, Peter J. <b>W</b>einberger und Brian W. <b>K</b>ernighan. It is also possible to write more or less complex programs with <code>awk</code>.</p>
+
+Example:
+
+    Print the whole file content line by line
+    awk '{print}' $filename
 
 ### Scripts
 
