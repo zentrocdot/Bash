@@ -16,7 +16,7 @@
 Example:
 
     # Print the whole file content line by line.
-    sed -n p $filename
+    sed -n 'p' $filename
 
 ### The scripting language awk
 
