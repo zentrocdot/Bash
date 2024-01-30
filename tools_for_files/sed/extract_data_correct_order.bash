@@ -1,7 +1,7 @@
-#!Usr/bin/bash
+#!usr/bin/bash
 #
 # Extract expressions from structured data
-# Version 0.0.0.2
+# Version 0.0.0.3
 # Copyright © 2024, Dr. Peter Netz
 # Published under the MIT license.
 #
@@ -20,12 +20,26 @@
 # If the pattern is escaped like \; it will not be recognised.
 #
 # Example for a file content to work with:
-# ; United Kingdom; Germany; Marshall Islands; France
-# ; Argentina; Saint Kitts and Nevis
-# ; Vanuatu
-# ; United States
-# ; Australia; Norway; Mexico
-# ; Brazil; Cyprus
+#   ; United Kingdom; Germany; Marshall Islands; France
+#   ; Argentina; Saint Kitts and Nevis
+#   ; Vanuatu
+#   ; United States
+#   ; Australia; Norway; Mexico
+#   ; Brazil; Cyprus
+# Resulting output:
+#   United Kingdom
+#   Germany
+#   Marshall Islands
+#   France
+#   Argentina
+#   Saint Kitts and Nevis
+#   Vanuatu
+#   United States
+#   Australia
+#   Norway
+#   Mexico
+#   Brazil
+#   Cyprus
 
 # Assign the command line argument to the global variable.
 FN=$1
@@ -37,7 +51,6 @@ s/^[^\;]*\;/;/                      # Remove everything before first pattern.
 s/\;$//                             # If last char is the pattern remove it.
 h                                   # Store pattern space to hold space.
 :z                                  # Set label z.
-x                                   # Exchange hold space with pattern space.
 s/^[^\;]*;\([^\;]*\)\;.*/\1/g       # Remove everything after second pattern.
 {                                   # Group defines the breaking condition for the loop.
 s/^[[:blank:]]*//                   # Remove leading spaces if existing.
