@@ -20,6 +20,14 @@ Print whole file content except first and second line.
 
     sed -n '1,2!p' testfile.bash
 
-<p align="justify">Print the number of lines in a file.</p>
+<p align="justify">Print the number of lines in a file. The script count_lines.bash shows the long way to get the number of lines.</p>
 
     sed -n '$=' testfile.txt
+
+The following is working too
+
+    wc -l < testfile.txt
+    awk 'END{print NR}' testfile.txt
+
+    
+    
