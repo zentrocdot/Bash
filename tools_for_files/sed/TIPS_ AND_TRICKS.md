@@ -20,6 +20,6 @@ Print whole file content except first and second line.
 
     sed -n '1,2!p' testfile.bash
 
-Print number of lines in file.
+<p align="justify">Print the number of lines in a file.</p>
 
     sed -n '$=' testfile.txt
