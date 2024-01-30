@@ -1,4 +1,4 @@
-#!Usr/bin/bash
+#!usr/bin/bash
 #
 # Extract words from structured data
 #
