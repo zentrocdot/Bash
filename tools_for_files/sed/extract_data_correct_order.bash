@@ -1,7 +1,7 @@
 #!usr/bin/bash
 #
 # Extract expressions from structured data
-# Version 0.0.0.3
+# Version 0.0.0.4
 # Copyright © 2024, Dr. Peter Netz
 # Published under the MIT license.
 #
@@ -58,7 +58,7 @@ s/^\;[[:blank:]]*\(.*$\)/\1/        # Remove pattern and spaces if exiting.
 T                                   # Branch on no success. End the cycle.
 }                                   # End of group commands.
 /^[[:space:]]*$/! {p}               # Print match if not empty.
-x                                   # Exchange hold space with pattern space.
+g                                   # Exchange hold space with pattern space.
 s/^[^\;]*;\([^\;]*\)\(\;.*\)/\2/g   # Remove last match from pattern space.
 h                                   # Store pattern space to hold space.
 tz                                  # Branch to label z on success.
