@@ -24,7 +24,7 @@ Print whole file content except first and second line.
 
     sed -n '$=' testfile.txt
 
-The following is working too
+The following is working, too
 
     wc -l < testfile.txt
     awk 'END{print NR}' testfile.txt
