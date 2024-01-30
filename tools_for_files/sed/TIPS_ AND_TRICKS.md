@@ -26,6 +26,7 @@ Print whole file content except first and second line.
 
 The following is working, too
 
+    cat test1 | wc -l
     wc -l < testfile.txt
     awk 'END{print NR}' testfile.txt
 
