@@ -1,6 +1,7 @@
-#!usr/bin/bash
+#!Usr/bin/bash
 #
 # Extract words from structured data
+# Version 0.0.0.1
 #
 # Description
 # The sed script reads a file line by line. If there is data after a semicolon ;
@@ -20,15 +21,15 @@ FN=$1
 
 # Print out the extracted data line by line.
 sed -n '
-/\;/ {                          # Match every line with the pattern.
+/\;/ {                          # Match every line with pattern.
 s/^[^\;]*\;/;/                  # Remove everything before first pattern.
 :z                              # Set the label z.
-h                               # Store the pattern space in the hold space.
-s/.*\;[[:blank:]]*\(.*\)$/\1/g  # Match the pattern and what follows.
-/^[[:space:]]*$/! {p}           # Print match if not empty.
+h                               # Store pattern space in hold space.
+s/.*\;[[:space:]]*\(.*\)$/\1/g  # Match the pattern and what follows.
+/^$/! {p}                       # Print pattern space if not empty.
 g                               # Write the hold space to the pattern space.
-s/\(.*\)\;.*/\1/g               # Remove the match.
-tz }                            # Branch to label z
+s/\(.*\)\;.*$/\1/g              # Remove the matching pattern.
+tz }                            # Branch to label z on success.
 ' "${FN}"
 
 # Exit the script.
