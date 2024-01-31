@@ -45,7 +45,7 @@
 #     Further test after 6 yeras under Linux Mint 21. Revision and modernisation
 #     of the code
 #
-# Last modified: 2024/01/22
+# Last modified: 2024/01/31
 # ******************************************************************************
 
 # Check if the script was started with sudo privileges.
@@ -552,7 +552,9 @@ fi
 chk_mod "${SCRIPT_NAME}" "${DEBUG}"
 
 # Kill all previous instances of the script.
-# I do not understand my intention from 2017
+# If you need to call this script from another script with & in the 
+# background, comment out the next line. Otherwise do not use the next
+# line. It will kill the running session.
 #kill_prev_inst
 
 # Define trap. Catch SIGINT and SIGTERM.
