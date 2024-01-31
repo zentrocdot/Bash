@@ -23,4 +23,8 @@
 [7]  &#8203;catonmat.net/sed-one-liners-explained-part-three
 
 [8]  &#8203;www.pement.org/sed/sed1line.txt
+
+[9]   &#8203;wiki.ubuntuusers.de/sed/
+
+[10]  &#8203;sed.sourceforge.io/
   
