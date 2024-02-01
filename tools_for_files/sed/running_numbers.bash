@@ -21,7 +21,7 @@ file=$''
 read -r rows cols < <(stty size)
 
 # Set wrap length
-NR=41
+#NR=41
 #NR=$((cols-1))
 
 
