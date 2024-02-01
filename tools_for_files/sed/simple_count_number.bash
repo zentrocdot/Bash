@@ -14,8 +14,8 @@ QUIT=$((NR+1))
 # Read data from empty file.
 sed -n "
 x                         # Exchange the (empty) hold space with the pattern space.
-#/^$/ { s/^.*$/1/ }        # Set the line counter to 1.
-/^$/ { s/^$/1/ }        # Set the line counter to 1.
+#/^$/ { s/^.*$/1/ }       # Set the line counter to 1.
+/^$/ { s/^$/1/ }          # Set the line counter to 1.
 :l {                      # Set the label l.
 p                         # Print the incremented number.
 h                         # Store the pattern space to the hold space.
