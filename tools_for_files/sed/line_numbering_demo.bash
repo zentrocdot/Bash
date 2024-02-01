@@ -18,7 +18,7 @@ echo -e "My simplified numbering example:\n"
 sed -n '
 x                         # Exchange pattern space with hold space.
 s/^/0/                    # Initialise the line number counter.
-s/.*\([0-9]\{1\}\)$/\1/g  # If mor than one number get the last number.
+s/.*\([0-9]\{1\}\)$/\1/g  # If more than one number get the last number.
 y/0123456789/1234567890/  # Transliterate the number.
 x                         # Exchange pattern space with hold space.
 H                         # Add newline and append the pattern space.
