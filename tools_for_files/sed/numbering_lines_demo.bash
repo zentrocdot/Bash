@@ -10,7 +10,7 @@
 # Increase the correct numbering to infinite.
 
 # Simulate a text file.
-file=$'test1\ntest2\ntest3\ntest4\ntest5\ntest6\ntest7\ntest8\ntest9\ntest10\ntest11'
+file=$'test1\ntest2\ntest3\ntest4\ntest5\ntest6\ntest7\ntest8\ntest9\ntest10\ntest11\ntest12\ntest13'
 
 echo -e "My simplified numbering example:\n"
 
