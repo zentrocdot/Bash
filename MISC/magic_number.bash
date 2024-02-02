@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 # shellcheck disable=SC2312
 #
-# Identify Magic Numbers
+# Magic Number Identifier
 # Version 0.0.0.2
 # Copyright © 2024, Dr. Peter Netz
 # Published under the MIT license.
