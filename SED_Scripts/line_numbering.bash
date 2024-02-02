@@ -8,7 +8,10 @@
 #
 # Header and footer can be commented out. The line format can be
 # reformatted according to requirements. The file which sed reads
-# is simulated by reading a heredoc.
+# is simulated by reading a heredoc. Incrementing the line numbers
+# is done within the pattern space. The line to be printed is
+# temporarily stored in the hold space. Composing of the printed
+# line is done in the pattern space.
 #
 # Acknowledgment:
 # The core code of the underlying sed script was written by Bruno
