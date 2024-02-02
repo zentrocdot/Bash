@@ -33,8 +33,10 @@ test line 9
 test line 10
 test line 11
 test line 12
+test line 13
 test line 14
 test line 15
+test line 16
 HEREDOC
 
 # Run the sed script.
