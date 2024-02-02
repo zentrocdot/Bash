@@ -70,11 +70,8 @@
 # 7Z           -> 37 7A BC AF 27 1C       -> 7-Zip File Format
 #
 # SCRIPT       -> 23 21
-#
 # XPM          -> 2F 2A 20 58 50 4D 20 2A 2F
-#
 # CR2          ->  49 49 2A 00 10 00 00 00 43 52
-#
 # JPEG 2000    ->  00 00 00 0C 6A 50 20 20 0D 0A 87 0A
 # JPEG 2000    ->  FF 4F FF 51
 #
