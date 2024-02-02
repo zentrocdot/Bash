@@ -1,10 +1,14 @@
 #!/usr/bin/bash
 #
-# Increment a number
+# Line numbering demo
 #
 # Description:
-# This is the best solution for incrementing a number by 1. This
-# solution is easy to understand and straightforward.
+# The approach for the numbering as well as the formatting is taken
+# from the GNU sed tutorial.
+#
+# Header and footer can be commented out. The line format can be
+# reformatted according to requirements. The file which sed reads
+# is simulated by reading a heredoc.
 #
 # Acknowledgment:
 # The core code of the underlying sed script was written by Bruno
@@ -12,6 +16,7 @@
 #
 # Reference:
 # getdocs.org/Sed/docs/latest/Increment-a-number
+# www.gnu.org/software/sed/manual/html_node/cat-_002dn.html
 # www.gnu.org/software/sed/manual/html_node/Increment-a-number.html
 
 # Simulate a file. The quoted string is the start value.
@@ -34,21 +39,16 @@ HEREDOC
 
 # Run the sed script.
 sed -n '
-# Add header.
-1 {
-i\No.   Printed line\n====  ============\n
-}
-# Add footer.
-$ {
-a\\nEnd of printout.
-}
-# If last line is empty, delete it.
+# Add a header.
+1i\No.   Printed line\n====  ============\n
+# Add a footer.
+$a\\nEnd of printout.
+# If the last line is empty, delete it.
 $ {/^$/d}
-# Exchange hold pattern with space pattern.
-x
-# Execute the subroutine.
-{
-# If hold pattern is empty set counter to 0.
+# Exchange the hold space with the pattern space.
+# Then execute the subroutine.
+x; {
+# If the hold space is empty set the counter to 0.
 s/^$/0/g
 # Replace all trailing 9s by the underscore _.
 :l; s/9\(_*\)$/_\1/; tl
@@ -62,22 +62,19 @@ s/3\(_*\)$/4\1/; tend
 s/2\(_*\)$/3\1/; tend
 s/1\(_*\)$/2\1/; tend
 s/0\(_*\)$/1\1/; tend
-# Add a most-significant digit 1 if there are only 9s..
+# Add a most-significant digit 1 if there are only 9s.
 s/^\(_*\)$/1\1/; tend
 # Define the label end.
 :end
 # Transliterate the underscore _ back to digit 0.
-y/_/0/
-}
-# Append a newline to the hold space, append the pattern space to the hold space.
-H
-# Exchange hold space with pattern space.
-x
-# Print the numbered line.
+y/_/0/ }
+# Append a newline and the pattern space to the hold space.
+# Then exchange the hold space with the pattern space.
+H; x
+# Exchange the line and the numbering.
 s/\(.*\)\n\(.*\)/\2\n\1/
-# Applying the printing format.
-s/^/    /
-s/^ *\(....\)\n/\1  /p
+# Format the line and print it.
+s/^/    /; s/^ *\(....\)\n/\1  /p
 ' <(echo "${FN}")
 
 # Print the exit code of the sed script (on demand).
