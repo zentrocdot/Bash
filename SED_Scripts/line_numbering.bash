@@ -3,19 +3,17 @@
 # Line numbering demo
 #
 # Description:
-# The approach for the numbering as well as the formatting is taken
-# from the GNU sed tutorial.
+# The approach for the numbering as well as the formatting is taken from the
+# GNU sed tutorial.
 #
-# Header and footer can be commented out. The line format can be
-# reformatted according to requirements. The file which sed reads
-# is simulated by reading a heredoc. Incrementing the line numbers
-# is done within the pattern space. The line to be printed is
-# temporarily stored in the hold space. Composing of the printed
-# line is done in the pattern space.
+# Header and footer can be commented out. The line format can be reformatted
+# according to requirements. The file which sed reads is simulated by reading
+# a heredoc. Incrementing the line numbers is done within the pattern space.
+# The line to be printed is temporarily stored in the hold space. Composing
+# of the printed line is done in the pattern space.
 #
 # Acknowledgment:
-# The core code of the underlying sed script was written by Bruno
-# Haible.
+# The core code of the underlying sed script was written by Bruno Haible.
 #
 # Reference:
 # getdocs.org/Sed/docs/latest/Increment-a-number
