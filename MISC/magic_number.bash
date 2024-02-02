@@ -33,7 +33,7 @@
 # JPE/JPG/JPEG -> FF D8 FF E0 00 10 4A 46 -> Joint Photographic Experts Group
 # JPG/JPEG     -> FF D8 FF E1 87 90 45 78 -> Joint Photographic Experts Group
 # JPG/JPEG     -> 45 78 69 66 00          -> Joint Photographic Experts Group
-# JPG/JPEG     -> 49 46 00 01	          -> Joint Photographic Experts Group
+# JPG/JPEG     -> 49 46 00 01	            -> Joint Photographic Experts Group
 # JPG/JPEG     -> FF D8 FF EE             -> Joint Photographic Experts Group
 # JPG/JPEG     -> FF D8 FF E0             -> Joint Photographic Experts Group
 # JPG/JPEG     -> 69 66 00 00             -> Joint Photographic Experts Group
@@ -46,7 +46,7 @@
 # MP3          -> 49 44 33                -> MPEG-1 Layer 3
 # MP4          -> 66 74 79 70 69 73 6F 6D -> MPEG-4
 # MP4          -> 66 74 79 70 4D 53 4E 56 -> MPEG-4
-# ORC          -> 4F 52 43	          -> Apache ORC (Optimized Row Columnar) file format
+# ORC          -> 4F 52 43	              -> Apache ORC (Optimized Row Columnar) file format
 # OTF          -> 4F 54 54 4F             -> OpenType font
 # PCX          -> 0A 00 01                -> ZSOFT Paintbrush file
 # PCX          -> 0A 02 01                -> ZSOFT Paintbrush file
@@ -64,16 +64,16 @@
 # TIF/TIFF     -> 49 49 2A 00             -> Tag(ged) Image File Format
 # TIF/TIFF     -> 4D 4D 00 2B             -> Tag(ged) Image File Format
 # TTF          -> 00 01 00 00 00          -> Tag(ged) Image File Format
-# WMF	       -> D7 CD C6 9A             -> Windows Meta File
+# WMF	         -> D7 CD C6 9A             -> Windows Meta File
 # XCF          -> 67 69 6D 70 20 78 63 66 -> Gimp xcf file
 # ZIP          -> 50 4B 03 04             -> Zip file
 # 7Z           -> 37 7A BC AF 27 1C       -> 7-Zip File Format
 #
-# SCRIPT       -> 23 21
-# XPM          -> 2F 2A 20 58 50 4D 20 2A 2F
-# CR2          ->  49 49 2A 00 10 00 00 00 43 52
-# JPEG 2000    ->  00 00 00 0C 6A 50 20 20 0D 0A 87 0A
-# JPEG 2000    ->  FF 4F FF 51
+# SCRIPT    -> 23 21
+# XPM       -> 2F 2A 20 58 50 4D 20 2A 2F
+# CR2       -> 49 49 2A 00 10 00 00 00 43 52
+# JPEG 2000 -> 00 00 00 0C 6A 50 20 20 0D 0A 87 0A
+# JPEG 2000 -> FF 4F FF 51
 #
 # See also:
 # asecuritysite.com/forensics/magic
