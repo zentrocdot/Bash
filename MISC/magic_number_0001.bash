@@ -5,7 +5,6 @@
 # Version 0.0.0.2
 # Copyright © 2024, Dr. Peter Netz
 # Published under the MIT license.
-# Vesion 0.0.0.1
 #
 # Collection of magic numbers:
 # AI           -> 25 50 44 46             -> Adobe Illustrator
