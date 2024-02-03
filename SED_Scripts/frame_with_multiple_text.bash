@@ -34,8 +34,7 @@ s/\(..\{1,${WIDTH}\}\).*/\1/;s/^/${CHR}/;s/$/${CHR}/;p}}
 # Print lines after header.
 5,$ {/^$/! p}
 # We are done.
-" <(echo "${FN}")
-# 2> /dev/null
+" <(echo "${FN}") 2> /dev/null
 
 # Exit the script.
 exit 0
