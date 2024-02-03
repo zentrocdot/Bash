@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 #
-# Center the lines of a file on the screen
+# Align right the lines of a file on the screen
 # Version 0.0.0.1
 #
 # Description:
