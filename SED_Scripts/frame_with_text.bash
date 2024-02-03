@@ -23,7 +23,7 @@ STR=${1:-This String Is A Good Sample Text Example!}
 # Set the char.
 CHR=${2:-#}
 
-# Set the width.
+# Set the line width.
 LINE_WIDTH="80"
 
 # Set the width
