@@ -25,7 +25,6 @@ sed -n "
 #4a
 # Print the head line.
 1 {h;s/^.*$/${CHR}/;:x;/^.\{1,${LINE_WIDTH}\}$/ {s/^\(.*\)$/${CHR}\1/;bx;};p;x}
-#s/\(..\{1,${LINE_WIDTH}\}\).*/\1/
 # Print the text with the border chars.
 1,4 {/^$/! {:y;/^.\{1,${WIDTH}\}$/ {s/^\(..*\)$/\x20\1\x20/;by}
 s/\(..\{1,${WIDTH}\}\).*/\1/;s/^/${CHR}/;s/$/${CHR}/;p}}
