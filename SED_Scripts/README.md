@@ -16,7 +16,7 @@
 
 <p align="justify">Up to now I used the Bash script as container for the sed script. When I have spare time I will take a look if there are an advantage to run sed as stand alone script.</p> 
 
-[!TIP]
+> [!TIP]
 > Use labels that are clearly different from sed options and sed commands. For example, the use of x as a label can be confused with the sed command x. Clear label naming also improve the readability of the script.
 
 [!IMPORTANT]
