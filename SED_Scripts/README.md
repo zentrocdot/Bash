@@ -12,15 +12,16 @@
 
 <p align="justify">One disadvantage of sed is that it is not possible to hand over command line argument to the script. In awk this is not a problem at all. Nevertheless working with sed in Bash allows to use command line arguments. But one has to take care about single and double quotes.</p> 
 
-### To-Do
-
-<p align="justify">Up to now I used the Bash script as container for the sed script. When I have spare time I will take a look if there are an advantage to run sed as stand alone script.</p> 
-
 > [!TIP]
 > Use labels that are clearly different from sed options and sed commands. For example, the use of x as a label can be confused with the sed command x. Clear label naming also improve the readability of the script.
 
 > [!IMPORTANT]
 > Never use a label twice in a sed script. That will give funny results. And later debugging is considerably more difficult.
+
+### To-Do
+
+<p align="justify">Up to now I used the Bash script as container for the sed script. When I have spare time I will take a look if there are an advantage to run sed as stand alone script.</p> 
+
 
 ### Web-Links
 
