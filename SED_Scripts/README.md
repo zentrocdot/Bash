@@ -22,6 +22,10 @@
 [!IMPORTANT]
 > Never use a label twice in a sed script. That will give funny results. And later debugging is considerably more difficult.
 
+### Web-Links
+
+<p align="justify">For me, weblinks are references as I also give them in a book, but in abbreviated form. Accordingly, I deliberately do not link through clickable links. I leave out the corresponding protocol, since the correct protocol is or should be recognised in a correct way on the server side.</p>
+
 ### References
 
 [1]  &#8203;edoras.sdsu.edu/doc/sed-oneliners.html
@@ -53,4 +57,14 @@
 [14]  &#8203;www.pement.org/sed/ifelse.txt
 
 [15]  &#8203;www.pement.org/sed/index.htm
+
+[16]    &#8203;www.gnu.org/software/sed/manual/sed.html
+
+[17]    &#8203;www.grymoire.com/Unix/Sed.html
+
+[18]  &#8203;www.regular-expressions.info/
+
+[19]  &#8203;berkeley-scf.github.io/tutorial-using-bash/regex.html
+
+
   
