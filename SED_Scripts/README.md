@@ -1,3 +1,5 @@
+# :floppy_disk: README
+
 ### Motivation
 
 <p align="justify">While using sed I decided to take a deeper look in the things which can be done with sed. This section is the result of my research.</p>
