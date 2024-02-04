@@ -19,7 +19,7 @@
 > [!TIP]
 > Use labels that are clearly different from sed options and sed commands. For example, the use of x as a label can be confused with the sed command x. Clear label naming also improve the readability of the script.
 
-[!IMPORTANT]
+> [!IMPORTANT]
 > Never use a label twice in a sed script. That will give funny results. And later debugging is considerably more difficult.
 
 ### Web-Links
