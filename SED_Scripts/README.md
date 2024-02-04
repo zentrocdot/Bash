@@ -20,7 +20,7 @@
 
 ### Debugging
 
-<p align="justify">Simple troubleshooting is possible by printing the pattern space with p as often as possible. Otherwise the sed option <code>--debug</code> is helpful.</p> 
+<p align="justify">Simple troubleshooting is possible by printing the pattern space with p as often as possible. Otherwise the sed option <code>--&emsp;debug</code> is helpful.</p> 
 
 
 ### To-Do
