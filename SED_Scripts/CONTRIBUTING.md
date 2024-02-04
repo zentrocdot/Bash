@@ -15,3 +15,4 @@
 <p align="justify">Help is particularly welcome for the open questions.</p>
 
 1. I have not yet been able to find out whether it is possible to address lines 2 to the second last line.
+2. Is there a sed way to use command line arguments without using Bash and Bash variables.
