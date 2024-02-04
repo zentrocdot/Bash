@@ -14,6 +14,12 @@
 
 <p align="justify">Up to now I used the Bash script as container for the sed script. When I have spare time I will take a look if there are an advantage to run sed as stand alone script.</p> 
 
+[!TIP]
+> Use labels that are clearly different from sed options and sed commands. For example, the use of x as a label can be confused with the sed command x. Clear label naming also improve the readability of the script.
+
+[!IMPORTANT]
+> Never use a label twice in a sed script. That will give funny results. And later debugging is considerably more difficult.
+
 ### References
 
 [1]  &#8203;edoras.sdsu.edu/doc/sed-oneliners.html
