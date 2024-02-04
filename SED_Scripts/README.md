@@ -18,6 +18,11 @@
 > [!IMPORTANT]
 > Never use a label twice in a sed script. That will give funny results. And later debugging is considerably more difficult.
 
+### Debugging
+
+<p align="justify">Simple troubleshooting is possible by printing the pattern space with p as often as possible. Otherwise the sed option --debug is helpful.</p> 
+
+
 ### To-Do
 
 <p align="justify">Up to now I used the Bash script as container for the sed script. When I have spare time I will take a look if there are an advantage to run sed as stand alone script.</p> 
