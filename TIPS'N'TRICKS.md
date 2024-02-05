@@ -1,22 +1,24 @@
-# Tipps And Trick
+# Tips And Trick
 
 ## Length of string
 
-Subsequently follows a collection of methods how the length of a string can be obtained.
+<p align="justify">Subsequently follows a collection of methods how the length of a string can be obtained.</p>
 
-Output with linebreak using echo and printf.
+<p align="justify">The commands <code>echo</code> and <code>printf</code> together with <code>awk</code> can be used to print the length of a string with newline into the terminal window.</p>
 
     echo "teststring" | awk '{print length}'
 
     printf "teststring" | awk '{print length}'
 
-Output without linebreak using echo and printf.
+<p align="justify">The commands <code>echo</code> and <code>printf</code> together with <code>awk</code> can be used to print the length of a string without a newline into the terminal window.</p>
 
     echo "teststring" | awk -v ORS= '{print length}'
 
-    printf "teststring" | awk -v ORS= '{print length}' 
+    printf "teststring" | awk -v ORS= '{print length}'
 
-Other approaches.
+The last one can be used to store the length in a variable.    
+
+Other approaches are following.
 
     expr length "teststring"
     
