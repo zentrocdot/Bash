@@ -30,5 +30,11 @@ The following is working, too
     wc -l < testfile.txt
     awk 'END{print NR}' testfile.txt
 
+Simple file numbering with formatted output.
+
+    sed '=' example.bash | sed 'N;s/^/   /; s/^ *\(...\)\n/\1  /p'
+
+    
+
     
     
