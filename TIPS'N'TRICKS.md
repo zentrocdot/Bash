@@ -18,30 +18,32 @@
 
 The last one can be used to store the length in a variable.    
 
-Other approaches are following.
+Other approaches are following listed.
 
     expr length "teststring"
     
     echo -n "teststring" | wc -m
 
     str="teststring"
-    
-    echo ${#str}
 
     echo "$teststring" | perl -nle "print length"
 
-Doing it in a loop
+My preferred method is
+
+    str="teststring"     
+    echo ${#str}
+
+<p align="justify">It is also possible to get the number of chars by incrementing each char.</p>
 
     str="teststring"
     n=0
-    while read -n1 character; dostring='Hello, Bash!'
-        #n=$((n+1)) 
+    while read -n1 character; do
         ((n++)) 
     done < <(echo -n "$str")
-    #echo -n "$n"
-    echo "$n" 
+    #echo -n "$n"               # Print without linebreak
+    echo "$n"                   # Print with linebreak
 
-or a senseless method
+<p align="justify">One senseless method can be used to show how my preferred method works in a loop. In addition to this it can be demonstrated how a number can be incremented.</p>
 
     str="teststring"
     n=0
