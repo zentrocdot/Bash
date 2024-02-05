@@ -43,7 +43,7 @@ My preferred method is
     #echo -n "$n"               # Print without linebreak
     echo "$n"                   # Print with linebreak
 
-<p align="justify">One senseless method can be used to show how my preferred method works in a loop. In addition to this it can be demonstrated how a number can be incremented.</p>
+<p align="justify">One senseless method can be used to demonstrate how my preferred method works in a loop. In addition to this it can be demonstrated how a number can be incremented.</p>
 
     str="teststring"
     n=0
