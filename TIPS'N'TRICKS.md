@@ -81,4 +81,4 @@ Examples:
 
 [4]  stackoverflow.com/questions/17368067/length-of-string-in-bash
  
-[5]  www.ubuntumint.com/find-longest-lines-file-linux/
+[5]  www&#8203;.ubuntumint.com/find-longest-lines-file-linux/
