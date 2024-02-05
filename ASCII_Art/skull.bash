@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 printf "%-21s%s%-21s\n\r" '' "              ____              " ''
 printf "%-21s%s%-21s\n\r" '' "           _.'    '._           " ''
