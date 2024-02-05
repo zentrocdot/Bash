@@ -55,7 +55,26 @@ My preferred method is
     done
     #echo -n "$n"
     echo "$n"
+    
+Subsequently an overview of some parameter expansion modes:
+    
+    ${VAR#pattern}     # Delete shortest match of pattern from the beginning
+    ${VAR##pattern}    # Delete longest match of pattern from the beginning
+    ${VAR%pattern}     # Delete shortest match of pattern from the end
+    ${VAR%%pattern}    # Delete longest match of pattern from the end
 
+Examples:
+
+    VAR="This is a long test example."
+        
+    echo ${VAR#* }   ->  is a long test example.
+
+    echo ${VAR##* }  ->  example.
+    
+    echo ${VAR% *}   ->  This is a long test
+
+    echo ${VAR%%* }  ->  This
+    
 ## References
 
 [1]  stackoverflow.com/questions/19482123/extract-part-of-a-string-using-bash-cut-split
