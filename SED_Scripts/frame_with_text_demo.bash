@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 #
-# Print frame in text
+# Print frame with text
 # Version 0.0.0.3
 
 # Assign the command line argument to the global variable.
