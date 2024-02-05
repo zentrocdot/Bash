@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# Standard output of 'iptables -L' when no rules are defined:
+# -----------------------------------------------------------
+# Chain INPUT (policy ACCEPT)
+# target     prot opt source               destination
+#
+# Chain FORWARD (policy ACCEPT)
+# target     prot opt source               destination
+#
+# Chain OUTPUT (policy ACCEPT)
+# target     prot opt source               destination
+
+# Set the iptables variable.
+IPT="/sbin/iptables"
+
+function status() {
+    local ipt_out=$("${IPT}" -L)
+    local cnt1=$(echo "${ipt_out}" | grep '^Chain' | grep "ACCEPT" | wc -l)
+    local cnt2=$(echo "${ipt_out}" | grep '^target' | wc -l)
+    local cnt3=$(echo "${ipt_out}" | grep '^$' | wc -l)
+    if [[ "${cnt1}" == "3" && \
+          "${cnt2}" == "3" && \
+          "${cnt3}" == "2" ]]; then
+        # Output that iptable rules are disabled.
+        echo -n "RULES_DISABLED"
+    else
+        # Output that iptables rules are enabled.
+        echo -n "RULES_ENABLED"
+    fi
+    # Return the exit status.
+    return 0
+}
+
+echo $(status)
+
+# Exit script.
+exit 0
