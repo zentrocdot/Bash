@@ -66,15 +66,19 @@ Subsequently an overview of some parameter expansion modes:
 Examples:
 
     VAR="This is a long test example."
-        
     echo ${VAR#* }   ->  is a long test example.
-
     echo ${VAR##* }  ->  example.
-    
     echo ${VAR% *}   ->  This is a long test
-
     echo ${VAR%%* }  ->  This
     
 ## References
 
 [1]  stackoverflow.com/questions/19482123/extract-part-of-a-string-using-bash-cut-split
+
+[2]  linuxsimply.com/bash-scripting-tutorial/expansion/parameter-expansion/
+
+[3]  tecadmin.net/bash-parameter-expansion/
+
+[4]  stackoverflow.com/questions/17368067/length-of-string-in-bash
+ 
+[5]    www .ubuntumint.com/find-longest-lines-file-linux/
