@@ -8,7 +8,7 @@
 
 ## Shebang
 
-<p align="justify">A Shebang is a script introducer which can be found in the first line of a script. The Shebang tells the system which interpreter should be used to execute the script. This can be e.g. Shell, Bash or Python. Typical Bash Shegbangs lokk like:</p>
+<p align="justify">A Shebang is a script introducer which can be found in the first line of a script. The Shebang tells the operation system and the running shell which interpreter should be used to execute the in the file folowing commands of the script. This can be e.g. Shell, Bash or Python. A typical Bash Shegbang looks like:</p>
 
     #!/usr/bin/bash
     #!/usr/bin env
