@@ -28,7 +28,7 @@ To print the Bash builtins use:
 
     compgen -b
 
-## Special characters like <code>:</code>, <code>;</code> and <code>\\</code> 
+## Special characters like <code>:</code>, <code>;</code> and <code>&bsol;</code> 
 
     To-do ...
 
