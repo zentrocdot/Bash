@@ -4,6 +4,8 @@
 
 <p align="justify">Below is a list of information on programming in Bash that I have dealt with over the course of time. This serves once again to reflect on what I have learned.</p>
 
+<p align="justify">I am using the well known shell script analysis tool Shellcheck for checking my Bash scripts. ShellCheck is very well suited for optimizing Bash scripts. The feedback from ShellCheck in the form of warnings are also always very helpful.</p>
+
 ## Parameter Expansion
 
 ### The special character <code>$</code>
@@ -108,17 +110,19 @@ Examples:
 
 ## See also:
 
-[A]    www&#8203;.gnu.org/software/bash/manual/
+[A1]    www&#8203;.gnu.org/software/bash/manual/
 
-[B]    stackoverflow.com/questions/19482123/extract-part-of-a-string-using-bash-cut-split
+[B1]    stackoverflow.com/questions/19482123/extract-part-of-a-string-using-bash-cut-split
 
-[C]    linuxsimply.com/bash-scripting-tutorial/expansion/parameter-expansion/
+[B2]    stackoverflow.com/questions/17368067/length-of-string-in-bash
 
-[D]    tecadmin.net/bash-parameter-expansion/
+[C1]    linuxsimply.com/bash-scripting-tutorial/expansion/parameter-expansion/
 
-[E]    stackoverflow.com/questions/17368067/length-of-string-in-bash
- 
-[F]    www&#8203;.ubuntumint.com/find-longest-lines-file-linux/
+[D1]    tecadmin.net/bash-parameter-expansion/
+
+[F1]    www&#8203;.ubuntumint.com/find-longest-lines-file-linux/
+
+[G1]    www&#8203;.shellcheck.net/
 
 <h2>Donation</h2>
 
