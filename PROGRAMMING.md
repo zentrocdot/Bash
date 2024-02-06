@@ -116,6 +116,20 @@ To-do ...
 
 To-do ...    
 
+## Bash if else Statement.
+
+<p align="justify">Like in other programming languages there is a if else statement which can be used for the query of conditional cases. A query of a conditional expression in Bash can look like:</p>
+
+    if [[ -f "$filename" ]]; then
+        echo "Regular file exists.!"
+    elif [[ -e "$filename" ]]; then
+        echo "File NOT exists!"
+    else
+        echo "File NOT exists!"
+    fi
+
+<p align="justify">The if statement starts with the if keyword followed by the conditional expression and is followed by the then keyword separated by a semicolon. The block with all conditional expressions ends with an fi. Further conditional expressions can be considered by the elif statement. The else clause catches all the rest of the possible conditions. Nested if fi blocks are allowed.</p>
+
 ##  Short Circuit Expressions
 
 Short Circuit Evaluation of a Conditional.
