@@ -6,6 +6,13 @@
 
 <p align="justify">I am using the well known shell script analysis tool Shellcheck for checking my Bash scripts. ShellCheck is very well suited for optimizing Bash scripts. The feedback from ShellCheck in the form of warnings are also always very helpful.</p>
 
+## Invocation of a Bash script
+
+<p align="justify">The synopsis for the invocation of a Bash script is:</p>
+
+    [sudo] bash [options] [command_string | file]
+
+
 ## Shebang
 
 <p align="justify">A Shebang is a script introducer which can be found in the first line of a script. The Shebang tells the operation system and the running shell which interpreter should be used to execute the in the file folowing commands of the script. This can be e.g. Shell, Bash or Python. A typical Bash Shegbang looks like:</p>
@@ -13,11 +20,16 @@
     #!/usr/bin/bash
     #!/usr/bin env
 
+<p align="justify">Some option can be added to the command line invokation of the bash script or after the Shebang. In addition to this these option can be set by the command set.</p>
 ## Bash builtins
 
 To print the Bash builtins use:
 
     compgen -b
+
+## Special characters like <code>:</code>, <code>;</code> and <code>\</code> 
+
+    To-do ...
 
 ## Parameter Expansion
 
