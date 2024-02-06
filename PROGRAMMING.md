@@ -178,9 +178,12 @@ To-do ...
 
 ### References:
 
-[1] www&#8203;.gnu.org/software/bash/manual/bash.html
+[1]    www&#8203;.gnu.org/software/bash/manual/bash.html
 
-[2] www&#8203;.gnu.org/software/bash/manual/bash.pdf
+[2]    www&#8203;.gnu.org/software/bash/manual/bash.pdf
+
+[3]    mywiki.wooledge.org/BashPitfalls
+
 
 ## See also:
 
@@ -197,7 +200,7 @@ To-do ...
 [F1]    www&#8203;.ubuntumint.com/find-longest-lines-file-linux/
 
 [G1]    www&#8203;.shellcheck.net/
-
+  
 <h2>Donation</h2>
 
 <p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee.</p>
