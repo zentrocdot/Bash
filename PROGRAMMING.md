@@ -12,7 +12,7 @@ To-do ...
 
 ## Parameter Expansion
 
-### The special character <code>$</code>
+### Special character <code>$</code>
 
 <p align="justify">The special character <code>$</code> allows the so called parameter expansion, a command substitution or an arithmetic expansion. The basic form of a parameter expansion is <code>${parameter}</code> where the value of the parameter is substituted. The curly braces can be omitted when e.g. <code>$parameter</code> is surounded by spaces. The curly braces are required when e.g. a parameter is followed by a character that is not to be interpreted as part of the parameter.<p>
 
