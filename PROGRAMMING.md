@@ -6,6 +6,10 @@
 
 <p align="justify">I am using the well known shell script analysis tool Shellcheck for checking my Bash scripts. ShellCheck is very well suited for optimizing Bash scripts. The feedback from ShellCheck in the form of warnings are also always very helpful.</p>
 
+## Shebang
+
+To-do ...
+
 ## Parameter Expansion
 
 ### The special character <code>$</code>
@@ -100,6 +104,10 @@ Examples:
     echo ${VAR% *}   ->  This is a long test
     echo ${VAR%%* }  ->  This
 
+## Types of Loops
+
+To-do ...
+
 ## Signal Processing
 
 To-do ...
@@ -111,6 +119,14 @@ To-do ...
 ##  Short Circuit Expressions
 
 Short Circuit Evaluation of a Conditional.
+
+To-do ...
+
+##  Exit Conditions
+
+To-do ...
+
+## Short Circuit Evaluation of a Conditional.
 
 To-do ...
     
