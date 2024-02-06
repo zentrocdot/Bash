@@ -13,6 +13,12 @@
     #!/usr/bin/bash
     #!/usr/bin env
 
+## Bash builtins
+
+To print the Bash builtins use:
+
+    compgen -b
+
 ## Parameter Expansion
 
 ### Special character <code>$</code>
