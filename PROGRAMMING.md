@@ -2,13 +2,16 @@
 
 ## Introductory Words
 
-<p align="justify">Below is a list of information on programming in Bash that I have dealt with over the course of time. This serves once again to reflect on what I have learned.</p>
+<p align="justify">Below you will find a selected list of information on programming in Bash that I have dealt with over time. This serves me to reflect once again on what I have learned.</p>
 
 <p align="justify">I am using the well known shell script analysis tool Shellcheck for checking my Bash scripts. ShellCheck is very well suited for optimizing Bash scripts. The feedback from ShellCheck in the form of warnings are also always very helpful.</p>
 
 ## Shebang
 
-To-do ...
+<p align="justify">A Shebang is a script introducer which can be found in the first line of a script. The Shebang tells the system which interpreter should be used to execute the script. This can be e.g. Shell, Bash or Python. Typical Bash Shegbangs lokk like:</p>
+
+    #!/usr/bin/bash
+    #!/usr/bin env
 
 ## Parameter Expansion
 
