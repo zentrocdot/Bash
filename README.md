@@ -39,3 +39,9 @@
 ### :balance_scale: Legal Notice
 
 <p align="justify">Used common names, trade names, product designations, etc. may be trademarks even without special identification and as such may be subject to local country statutory provisions.</p>
+
+<h2>Donation</h2>
+
+<p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee.</p>
+
+<div class="snippet-clipboard-content position-relative overflow-auto" data-snippet-clipboard-copy-content="TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7"><pre><code>TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7</code></pre></div>
