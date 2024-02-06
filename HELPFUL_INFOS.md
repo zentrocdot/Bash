@@ -24,8 +24,15 @@
 
 <p align="justify">My preferred method is the one using the parameter expansion in following form:</p>
 
-    str="string length example"     
-    echo ${#str}
+    str="string length example"    # String to measure
+    echo "${str}"                  # Print the string
+    len=${#str}                    # Get the length
+    echo "${len}"                  # Print the length 
+
+<p align="justify">The only disadvantage is that we cannot directly assign the length of a string to a variable, for example. This will fail:</p>
+
+    len=${#string length example} 
+    echo "${len}"
 
 <p align="justify">Subsequently follows a collection of other methods how the length of a string can be obtained.</p>
 
