@@ -4,7 +4,7 @@
 
 <p align="justify">Below you will find a selected list of information on programming in Bash that I have dealt with over time. This serves me to reflect once again on what I have learned.</p>
 
-<p align="justify">Based on the fact that I am programming in different programming languages like Python or Perl and not programming whole day in Bash I am forgetting some things about the timeline. Nevertheless I am quite fast back in Bash programming. This should serve as a brief introduction and memory aid.</p>
+<p align="justify">Based on the fact that I am programming in different programming languages like <code>Python</code>,<code>Perl</code>, <code>Ruby</code> and sometime <code>C/C++</code> and not programming the whole day in Bash I am forgetting some things about the timeline. Nevertheless I am quite fast back in Bash programming. This should serve as a brief introduction and memory aid.</p>
 
 <p align="justify">I am using the well known shell script analysis tool Shellcheck for checking my Bash scripts. ShellCheck is very well suited for optimizing Bash scripts. The feedback from ShellCheck in the form of warnings are also always very helpful.</p>
 
