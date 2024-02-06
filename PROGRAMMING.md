@@ -182,8 +182,9 @@ To-do ...
 
 [2]    www&#8203;.gnu.org/software/bash/manual/bash.pdf
 
-[3]    mywiki.wooledge.org/BashPitfalls
+[3]    &#8203;wiki.ubuntuusers.de/Shell/Bash-Skripting-Guide_für_Anfänger/
 
+[4]    mywiki.wooledge.org/BashPitfalls
 
 ## See also:
 
