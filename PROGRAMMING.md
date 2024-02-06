@@ -46,15 +46,19 @@ further explanations to-do ...
 
     #!/usr/bin/bash              # The Shebang is not a comment.
     # shellcheck disable=SC2034  # No comment in the true sense of the word.
-                                 # <- This disables infos, warnings and errors when using shellcheck.
-                                 # <- Last and this line are single-line comments.
+                                 # This disables infos, warnings and errors when using shellcheck.
+                                 # Last and this line are single-line comments.
 
-    # Print 'Hello World' into the terminal window.  # <- This is a single-line comment.
-    # printf "%s\n" "Hello World!                    # <- This is a single-line comment.
-    echo -e "Hello World!"                           # -> This is a inline comment.
+    # Print 'Hello World' into the terminal window.  # This line is a single-line comment.
+    # printf "%s\n" "Hello World!                    # This line is a single-line comment.
+    echo -e "Hello World!"                           # This text is an inline comment.
 
-    # Print a farewell message.                            # <- This is a single-line comment.
-    echo -e "Goodbye!"  # echo -e "Have a nice day. Bye!"  # -> This is an inline comment.
+    # Print a farewell message.                            # This is a single-line comment.
+    echo -e "Goodbye!"  # echo -e "Have a nice day. Bye!"  # These texts are an inline comment.
+
+    # Exit script.  # This line is a single-line comment.
+    #exit 42        # This line is a single-line comment.
+    exit 0
 
 <p align="justify">A single line comment starts at the end of the line or have an indentation. An inline-comment follows the last command in a line. Everything after a hashtag # in a line is interpreted as comment.</p>
 
