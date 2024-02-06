@@ -99,6 +99,20 @@ Examples:
     echo ${VAR##* }  ->  example.
     echo ${VAR% *}   ->  This is a long test
     echo ${VAR%%* }  ->  This
+
+## Signal Processing
+
+To-do ...
+
+##  Trap Errors
+
+To-do ...    
+
+##  Short Circuit Expressions
+
+Short Circuit Evaluation of a Conditional.
+
+To-do ...
     
 ## Resources 
 
