@@ -116,7 +116,7 @@ To-do ...
 
 To-do ...    
 
-## Bash if else Statement.
+## Bash if else Statement
 
 <p align="justify">Like in other programming languages there is a if else statement which can be used for the query of conditional cases. A query of a conditional expression in Bash can look like:</p>
 
