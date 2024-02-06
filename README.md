@@ -44,11 +44,17 @@
 
 <p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee.</p>
 
-Use TRON: <div class="snippet-clipboard-content position-relative overflow-auto" data-snippet-clipboard-copy-content="TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7"><pre><code>TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7</code></pre></div>
+You can use TRON
 
-or use DODGE
+<div class="snippet-clipboard-content position-relative overflow-auto" data-snippet-clipboard-copy-content="TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7"><pre><code>TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7</code></pre></div>
+
+or DOGE
 
 <div class="snippet-clipboard-content position-relative overflow-auto" data-snippet-clipboard-copy-content="DMh7EXf7XbibFFsqaAetdQQ77Zb5TVCXiX"><pre><code>DMh7EXf7XbibFFsqaAetdQQ77Zb5TVCXiX</code></pre></div>
 
+or BITCOIN:
 
+<div class="snippet-clipboard-content position-relative overflow-auto" data-snippet-clipboard-copy-content="12JsKesep3yuDpmrcXCxXu7EQJkRaAvsc5"><pre><code>12JsKesep3yuDpmrcXCxXu7EQJkRaAvsc5</code></pre></div>
+
+<p align="justify">My wallet says thank you :smiley:</p>
 
