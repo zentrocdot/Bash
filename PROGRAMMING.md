@@ -6,13 +6,18 @@
 
 <p align="justify">Based on the fact that I am programming in different programming languages like <code>Python</code>,<code>Perl</code>, <code>Ruby</code> and sometime <code>C/C++</code> and not programming the whole day in Bash I am forgetting some things about the timeline. Nevertheless I am quite fast back in Bash programming. This should serve as a brief introduction and memory aid.</p>
 
-<p align="justify">I am using the well known shell script analysis tool Shellcheck for checking my Bash scripts. ShellCheck is very well suited for optimizing Bash scripts. The feedback from ShellCheck in the form of warnings are also always very helpful.</p>
+<p align="justify">I am using the well known shell script analysis tool Shellcheck for checking my Bash scripts. ShellCheck is very well suited for optimizing Bash scripts. The feedback from <code>ShellCheck</code> in the form of warnings are also always very helpful.</p>
 
 ## Invocation of a Bash script
 
-<p align="justify">The synopsis for the invocation of a Bash script is:</p>
+<p align="justify">The synopsis for the invocation of a <code>Bash</code> script is:</p>
 
     [sudo] bash [options] [command_string | file]
+
+For more informations type at the command prompt:
+
+    man bash    or
+    info bash 
 
 ## Shebang
 
