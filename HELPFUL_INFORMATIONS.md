@@ -1,4 +1,8 @@
-# Tips And Tricks
+# Helpful Informations
+
+## Introductory Words
+
+<p align="justify">Below is a list of information on programming in Bash that I have dealt with over the course of time. This serves once again to reflect on what I have learned.</p>
 
 ## Length of string
 
