@@ -1,4 +1,4 @@
-# Helpful Infos
+# PROGRAMMING
 
 ## Introductory Words
 
@@ -108,14 +108,24 @@ Examples:
 
 ## See also:
 
-[A] www&#8203;.gnu.org/software/bash/manual/
+[A]    www&#8203;.gnu.org/software/bash/manual/
 
-[B] stackoverflow.com/questions/19482123/extract-part-of-a-string-using-bash-cut-split
+[B]    stackoverflow.com/questions/19482123/extract-part-of-a-string-using-bash-cut-split
 
-[C] linuxsimply.com/bash-scripting-tutorial/expansion/parameter-expansion/
+[C]    linuxsimply.com/bash-scripting-tutorial/expansion/parameter-expansion/
 
-[D] tecadmin.net/bash-parameter-expansion/
+[D]    tecadmin.net/bash-parameter-expansion/
 
-[E] stackoverflow.com/questions/17368067/length-of-string-in-bash
+[E]    stackoverflow.com/questions/17368067/length-of-string-in-bash
  
-[F] www&#8203;.ubuntumint.com/find-longest-lines-file-linux/
+[F]    www&#8203;.ubuntumint.com/find-longest-lines-file-linux/
+
+<h2>Donation</h2>
+
+<p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee.</p>
+
+<pre>TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7    (TRON)
+DMh7EXf7XbibFFsqaAetdQQ77Zb5TVCXiX    (DOGE)
+12JsKesep3yuDpmrcXCxXu7EQJkRaAvsc5    (BITCOIN)</pre>
+    
+<p align="justify">My wallet says thank you :smiley:</p>
