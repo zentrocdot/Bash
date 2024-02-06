@@ -103,6 +103,14 @@ Examples:
     echo ${VAR##* }  ->  example.
     echo ${VAR% *}   ->  This is a long test
     echo ${VAR%%* }  ->  This
+  
+## Commands set and unset
+
+To-do ...
+
+## Incrementing and decrementing numbers
+
+To-do ...
 
 ## Types of Loops
 
@@ -136,11 +144,11 @@ Short Circuit Evaluation of a Conditional.
 
 To-do ...
 
-##  Exit Conditions
+## Short Circuit Evaluation of a Conditional.
 
 To-do ...
 
-## Short Circuit Evaluation of a Conditional.
+##  Exit Conditions
 
 To-do ...
     
