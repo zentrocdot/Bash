@@ -6,6 +6,8 @@
 
 ## Parameter Expansion
 
+### Special character <code>$</code>
+
 <p align="justify">The special character <code>$</code> allows the so called parameter expansion, a command substitution or an arithmetic expansion. The basic form of a parameter expansion is <code>${parameter}</code> where the value of the parameter is substituted. The curly braces can be omitted when e.g. <code>$parameter</code> is surounded by spaces. The curly braces are required when e.g. a parameter is followed by a character that is not to be interpreted as part of the parameter.<p>
 
 <p align="justify">Assignment of a value to a variable example:</p>
@@ -18,7 +20,7 @@
 
 <p align="justify">I always use the last variant without exception, unless I have to omit the double quotes within an expression. On the other hand, command line arguments are used by me in the rule without double quotes and curly braces.</p>
 
-## Length of string
+### Length of string
 
 <p align="justify">Subsequently follows a collection of methods how the length of a string can be obtained.</p>
 
