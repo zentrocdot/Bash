@@ -190,9 +190,9 @@ To-do ...
 
 [A1]    www&#8203;.gnu.org/software/bash/manual/
 
-[B1]    stackoverflow.com/questions/19482123/extract-part-of-a-string-using-bash-cut-split
+[B1]    linuxize.com/post/bash-if-else-statement/
 
-[B2]    stackoverflow.com/questions/17368067/length-of-string-in-bash
+[B2]    linuxize.com/post/bash-check-if-file-exists/
 
 [C1]    linuxsimply.com/bash-scripting-tutorial/expansion/parameter-expansion/
 
@@ -201,6 +201,19 @@ To-do ...
 [F1]    www&#8203;.ubuntumint.com/find-longest-lines-file-linux/
 
 [G1]    www&#8203;.shellcheck.net/
+
+[H1]    phoenixnap.com/kb/bash-if-statement
+
+[I1]    stackabuse.com/guide-to-parameter-expansion-in-bash/
+
+[J1]    dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je
+
+[S1]    stackoverflow.com/questions/19482123/extract-part-of-a-string-using-bash-cut-split
+
+[S2]    stackoverflow.com/questions/17368067/length-of-string-in-bash
+
+[S3]    stackoverflow.com/questions/3826425/how-to-represent-multiple-conditions-in-a-shell-if-statement
+
   
 <h2>Donation</h2>
 
