@@ -14,7 +14,6 @@
 
     [sudo] bash [options] [command_string | file]
 
-
 ## Shebang
 
 <p align="justify">A Shebang is a script introducer which can be found in the first line of a script. The Shebang tells the operation system and the running shell which interpreter should be used to execute the in the file folowing commands of the script. This can be e.g. Shell, Bash or Python. A typical Bash Shegbang looks like:</p>
@@ -29,7 +28,7 @@ To print the Bash builtins use:
 
     compgen -b
 
-## Special characters like <code>:</code>, <code>;</code> and <code>\</code> 
+## Special characters like <code>:</code>, <code>;</code> and <code>\\</code> 
 
     To-do ...
 
