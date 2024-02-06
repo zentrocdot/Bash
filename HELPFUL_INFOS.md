@@ -101,12 +101,14 @@ Examples:
 
 ## See also:
 
-[A]  stackoverflow.com/questions/19482123/extract-part-of-a-string-using-bash-cut-split
+[A] www&#8203;.gnu.org/software/bash/manual/
 
-[B]  linuxsimply.com/bash-scripting-tutorial/expansion/parameter-expansion/
+[B] stackoverflow.com/questions/19482123/extract-part-of-a-string-using-bash-cut-split
 
-[C]  tecadmin.net/bash-parameter-expansion/
+[C] linuxsimply.com/bash-scripting-tutorial/expansion/parameter-expansion/
 
-[D]  stackoverflow.com/questions/17368067/length-of-string-in-bash
+[D] tecadmin.net/bash-parameter-expansion/
+
+[E] stackoverflow.com/questions/17368067/length-of-string-in-bash
  
-[E]  www&#8203;.ubuntumint.com/find-longest-lines-file-linux/
+[F] www&#8203;.ubuntumint.com/find-longest-lines-file-linux/
