@@ -26,12 +26,39 @@ For more informations type at the command prompt:
     #!/usr/bin/bash
     #!/usr/bin env
 
+further explanations to-do ...
+
 <p align="justify">Some option can be added to the command line invokation of the bash script or after the Shebang. In addition to this these option can be set by the command set.</p>
+
 ## Bash builtins
 
 To print the Bash builtins use:
 
     compgen -b
+
+further explanations to-do ...
+
+## Comments in scripts
+
+<p align="justify">Comments in Bash scripts are introduced using the special characteror hashtag <code>#</code>. Other denotations are hash tag, hash mark, hash sign or pound symbol.</p>
+
+<p align="justify">A distinction is made between single-line comments and inline comments.</p>
+
+    #!/usr/bin/bash              # The Shebang is not a comment.
+    # shellcheck disable=SC2034  # No comment in the true sense of the word.
+                                 # <- This disables infos, warnings and errors when using shellcheck.
+                                 # <- Last and this line are single-line comments.
+
+    # Print 'Hello World' into the terminal window.  # <- This is a single-line comment.
+    # printf "%s\n" "Hello World!                    # <- This is a single-line comment.
+    echo -e "Hello World!"                           # -> This is a inline comment.
+
+    # Print a farewell message.                            # <- This is a single-line comment.
+    echo -e "Goodbye!"  # echo -e "Have a nice day. Bye!"  # -> This is an inline comment.
+
+<p align="justify">A single line comment starts at the end of the line or have an indentation. An inline-comment follows the last command in a line. Everything after a hashtag # in a line is interpreted as comment.</p>
+
+further explanations to-do ...
 
 ## Special characters like <code>:</code>, <code>;</code> and <code>&bsol;</code> 
 
@@ -174,6 +201,23 @@ To-do ...
 ## Short Circuit Evaluation of a Conditional.
 
 To-do ...
+
+
+##  Read from the command prompt
+
+To-do ... 
+
+##  Write to files
+
+To-do ... 
+
+##  Concepts of heredocs and herestrings
+
+To-do ... 
+
+##  Redirections
+
+To-do ... 
 
 ##  Exit Conditions
 
