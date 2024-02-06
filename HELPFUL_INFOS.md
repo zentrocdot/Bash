@@ -29,7 +29,7 @@
     len=${#str}                    # Get the length
     echo "${len}"                  # Print the length 
 
-<p align="justify">The only disadvantage is that we cannot directly assign the length of a string to a variable, for example. This will fail:</p>
+<p align="justify">The only disadvantage is that we cannot assign the length of a given string to a variable directly. This example will fail:</p>
 
     len=${#string length example} 
     echo "${len}"
