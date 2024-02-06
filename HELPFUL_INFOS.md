@@ -22,7 +22,12 @@
 
 ### Length of string
 
-<p align="justify">Subsequently follows a collection of methods how the length of a string can be obtained.</p>
+<p align="justify">My preferred method is the one using the parameter expansion in following form:</p>
+
+    str="string length example"     
+    echo ${#str}
+
+<p align="justify">Subsequently follows a collection of other methods how the length of a string can be obtained.</p>
 
 <p align="justify">The commands <code>echo</code> and <code>printf</code> together with <code>awk</code> can be used to print the length of a string with a newline into the terminal window.</p>
 
@@ -47,11 +52,6 @@ Other approaches are following listed.
     str="teststring"
 
     echo "$teststring" | perl -nle "print length"
-
-My preferred method is
-
-    str="teststring"     
-    echo ${#str}
 
 <p align="justify">It is also possible to get the number of chars by incrementing each char.</p>
 
