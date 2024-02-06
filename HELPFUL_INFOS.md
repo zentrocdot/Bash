@@ -1,4 +1,4 @@
-# Helpful Informations
+# Helpful Infos
 
 ## Introductory Words
 
@@ -91,14 +91,22 @@ Examples:
     echo ${VAR% *}   ->  This is a long test
     echo ${VAR%%* }  ->  This
     
-## References
+## Resources 
 
-[1]  stackoverflow.com/questions/19482123/extract-part-of-a-string-using-bash-cut-split
+### References:
 
-[2]  linuxsimply.com/bash-scripting-tutorial/expansion/parameter-expansion/
+[1] www&#8203;.gnu.org/software/bash/manual/bash.html
 
-[3]  tecadmin.net/bash-parameter-expansion/
+[2] www&#8203;.gnu.org/software/bash/manual/bash.pdf
 
-[4]  stackoverflow.com/questions/17368067/length-of-string-in-bash
+## See also:
+
+[A]  stackoverflow.com/questions/19482123/extract-part-of-a-string-using-bash-cut-split
+
+[B]  linuxsimply.com/bash-scripting-tutorial/expansion/parameter-expansion/
+
+[C]  tecadmin.net/bash-parameter-expansion/
+
+[D]  stackoverflow.com/questions/17368067/length-of-string-in-bash
  
-[5]  www&#8203;.ubuntumint.com/find-longest-lines-file-linux/
+[E]  www&#8203;.ubuntumint.com/find-longest-lines-file-linux/
