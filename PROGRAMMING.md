@@ -35,7 +35,7 @@ or
 
 <p align="justify">The <code>Shebang</code> in the classic sense consists only of two characters:</p>
 
-    #!
+<pre>#!</pre>
 
 <p align="justify">When I am talking about the Shebang I am meaning the whole Shebang line or Shebang directive which is:</p>
 
