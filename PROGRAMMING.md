@@ -281,7 +281,25 @@ To-do ...
 
 ## Signal Processing
 
-<p align="justify"></p>
+<p align="justify">Signals are a kind of one-way communication between the operating system kernel and the running operating system processes. These signals can be seen as events that are triggered under certain conditions. In Bash scripts it is possible to listen to these signals to react correctly on these events.</p>
+
+Some important signals are:
+
+1. SIGINT
+2. SIGQUIT
+3. SIGHUP
+4. SIGTERM
+5. SIGKILL
+6. SIGSTOP
+7. SIGCONT
+8. SIGWINCH
+10. SIGUSR1
+11. SIGUSR2
+12. SIGPWR
+
+Get the complete supported list:
+
+    trap -l
 
 To-do ...
 
