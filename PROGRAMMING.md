@@ -301,6 +301,10 @@ Get the complete supported list:
 
     trap -l
 
+Informations:
+
+    man 7 signal
+
 To-do ...
 
 ##  Trap Signals and Errors
