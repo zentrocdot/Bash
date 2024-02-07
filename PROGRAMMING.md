@@ -21,7 +21,11 @@
 
 ## What is Bash
 
-<p align="justify">Bash is a so called shell and the command language interpreter installed on an operating system like Unix or Linux. It runs within a terminal window or a virtual console. The name is an acronym for <code>Bourne-Again SHell</code>. It is an direct successor of the Unix or Linux shell <code>sh</code>.</p>
+<p align="justify">Bash is a so called shell and the command language interpreter installed on an operating system like Unix or Linux. It runs within a terminal window or a virtual console. The name is an acronym for <code>Bourne-Again SHell</code>. It is an direct successor of the Unix or Linux shell <code>sh</code>. There are other shells next to Bash.</p>
+
+<p align="justify">To get a list of available shells on the operating system use the the following command :</p>
+
+    cat /etc/shells
 
 ## Invocation of a Bash script
 
