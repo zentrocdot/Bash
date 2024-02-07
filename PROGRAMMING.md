@@ -6,7 +6,7 @@
 
 <p align="justify">Based on the fact that I am programming in different programming languages like <code>Python</code>, <code>Perl</code>, <code>Ruby</code>, <code>Fortran</code>, <code>Pascal</code> and sometime <code>C/C++</code> and not programming the whole day in <code>Bash</code> I am forgetting some things about the timeline. Nevertheless I am quite fast back in <code>Bash</code> programming. This should serve as a brief introduction and memory aid.</p>
 
-<p align="justify">I am using the well known shell script analysis tool <code>Shellcheck</code> for checking my <code>Bash</code> scripts. <code>ShellCheck</code> is very well suited for optimizing <code>Bash</code>code> scripts. The feedback from <code>ShellCheck</code> in the form of warnings are also always very helpful.</p>
+<p align="justify">I am using the well known shell script analysis tool <code>Shellcheck</code> for checking my <code>Bash</code> scripts. <code>ShellCheck</code> is very well suited for optimizing <code>Bash</code> scripts. The feedback from <code>ShellCheck</code> in the form of warnings are also always very helpful.</p>
 
 ## Invocation of a Bash script
 
