@@ -30,8 +30,8 @@ or
 
 <p align="justify">A <code>Shebang</code> line is a script introducer which can be found in the first line of a script. The Shebang line tells the operation system and the running shell which interpreter should be used to execute the commands which are following of the script in a file. This can be e.g. <code>Shell</code>, <code>Bash</code> or <code>Python</code> and so on. A typical Bash <code>Shebang line</code> looks like:</p>
 
-    #!/usr/bin/bash
-    #!/usr/bin/env bash
+<pre>#!/usr/bin/bash
+#!/usr/bin/env bash</pre>
 
 <p align="justify">The <code>Shebang</code> in the classic sense consists only of two characters:</p>
 
