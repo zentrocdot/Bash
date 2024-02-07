@@ -400,6 +400,8 @@ To-do ...
 
 [H1]    phoenixnap.com/kb/bash-if-statement
 
+[H2]    phoenixnap.com/kb/change-bash-prompt-linux
+
 [I1]    stackabuse.com/guide-to-parameter-expansion-in-bash/
 
 [J1]    dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je
@@ -412,7 +414,7 @@ To-do ...
 
 # Donation
 
-<p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee.</p>
+<p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee. I drink a lot of coffee while programming and writing.</p>
 
 <pre>TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7            (TRON)
 DMh7EXf7XbibFFsqaAetdQQ77Zb5TVCXiX            (DOGE)
