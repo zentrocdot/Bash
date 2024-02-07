@@ -258,7 +258,7 @@ To-do ...
 
 ##  Command prompt
 
-You can easily change the commad prompt [5]. The next command is changing the color of my command prompt:
+You can easily change the commad prompt [5,6]. The next command is changing the color of my command prompt:
 
     PS1="\e[1;36m\u@\h\e[0m:\e[1;34m\W\e[0m\$ "
 
@@ -296,6 +296,8 @@ To-do ...
 [4]    mywiki.wooledge.org/BashPitfalls
 
 [5]    phoenixnap.com/kb/change-bash-prompt-linux
+
+[6]    misc.flogisoft.com/bash/tip_colors_and_formatting
 
 ## See also:
 
