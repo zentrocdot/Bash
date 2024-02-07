@@ -43,7 +43,7 @@ For more informations type at the command prompt:
 
 ### History and background
 
-<p align="justify">In the early computer age, when we talk about Unix and the incorporated Shell environment the Shebang <code>#!</code> was a magic number 0x23 0x21 which told the shell or operating system which programm should be used for execution.<p>
+<p align="justify">In the early computer age, when we talk about <code>Unix</code> and the incorporated <code>Shell</code> environment the Shebang <code>#!</code> was a magic number <code>0x23</code> <code>0x21</code> which told the shell or operating system which programm should be used for execution.<p>
 
 Early Shebang directives looked like:
 
