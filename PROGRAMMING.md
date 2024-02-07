@@ -23,7 +23,7 @@ For more informations type at the command prompt:
 
 ### Reason and usage
 
-<p align="justify">A Shebang line is a script introducer which can be found in the first line of a script. The Shebang line tells the operation system and the running shell which interpreter should be used to execute the folowing commands of the script in a file. This can be e.g. Shell, Bash or Python and so on. A typical Bash Shegbang line looks like:</p>
+<p align="justify">A Shebang line is a script introducer which can be found in the first line of a script. The Shebang line tells the operation system and the running shell which interpreter should be used to execute the commands which are following of the script in a file. This can be e.g. Shell, Bash or Python and so on. A typical Bash Shegbang line looks like:</p>
 
     #!/usr/bin/bash
     #!/usr/bin/env bash
