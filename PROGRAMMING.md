@@ -392,7 +392,7 @@ To-do ...
 
 [D1]    tecadmin.net/bash-parameter-expansion/
 
-[E]    www www&#8203;.redhat.com/sysadmin/exit-codes-demystified
+[E1]    www www&#8203;.redhat.com/sysadmin/exit-codes-demystified
 
 [F1]    www&#8203;.ubuntumint.com/find-longest-lines-file-linux/
 
@@ -405,6 +405,8 @@ To-do ...
 [I1]    stackabuse.com/guide-to-parameter-expansion-in-bash/
 
 [J1]    dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je
+
+[K1]    linuxconfig.org/bash-prompt-basics
 
 [S1]    stackoverflow.com/questions/19482123/extract-part-of-a-string-using-bash-cut-split
 
