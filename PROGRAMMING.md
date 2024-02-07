@@ -274,9 +274,20 @@ To-do ...
 
 To-do ...
 
+
 ##  Unicode support
 
-Unicodes allow funny things like:
+<p align="justify">Unicode characters can be given in two ways:</p>
+
+    echo -e '\u262e'        # \u uses four hexadecimal digits
+
+☮
+
+    echo -e '\U0001f5fd'    # \U uses eight hexadecimal digits
+
+🗽
+
+<p align="justify">The unicode support of <code>Bash</code> allow funny things to use and to print like a teddy bear or a upside down smiley:</p>
 
     echo -e '\U0001f9f8'
     
