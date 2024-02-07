@@ -257,25 +257,33 @@ To-do ...
 
 <p align="justify">The if statement starts with the if keyword followed by the conditional expression and is followed by the then keyword separated by a semicolon. The block with all conditional expressions ends with an fi. Further conditional expressions can be considered by the elif statement. The else clause catches all the rest of the possible conditions. Nested if fi blocks are allowed.</p>
 
-##  Short Circuit Expressions
+##  Command break and continue
 
-Short Circuit Evaluation of a Conditional.
+<p align="justify"></p>
 
 To-do ...
 
-## Short Circuit Evaluation of a Conditional.
+## Short Circuit evaluation of a conditional
+
+<p align="justify"></p>
 
 To-do ...
 
 ##  Read from the command prompt
 
+<p align="justify"></p>
+
 To-do ... 
 
 ##  Write to files
 
+<p align="justify"></p>
+
 To-do ... 
 
 ##  Concepts of heredocs and herestrings
+
+<p align="justify"></p>
 
 To-do ... 
 
@@ -287,7 +295,7 @@ To-do ...
 
 ##  Exit Codes
 
-<p align="justify">The available exit code numbers are depending on the command which is used. The usual exit codes are 0 and 1. The exit code 0 means successful execution of the command and the exit code 1 is a general error while executing the command.</p>
+<p align="justify">The available exit code numbers are depending on the command which is used. The usual exit codes are 0 and 1. The exit code 0 means successful execution of the command and the exit code 1 is a general error while executing the command. For more informations use [7].</p>
 
 <p align="justify">A distinction must be made between command execution and script execution.</p>
 
@@ -339,7 +347,9 @@ Using former code results in a upside down smiley :upside_down_face:.
 
 To-do ...
     
-## Resources 
+## Resources
+
+<p align="justify">In addition to the books and literature I own, I use websites and forums as sources of information. I like to use good internet sources again and again. I check all information several times and carry out cross-checks.</p>
 
 ### References:
 
@@ -354,6 +364,8 @@ To-do ...
 [5]    phoenixnap.com/kb/change-bash-prompt-linux
 
 [6]    misc.flogisoft.com/bash/tip_colors_and_formatting
+
+[7]    tldp.org/LDP/abs/html/exitcodes.html
 
 ## See also:
 
