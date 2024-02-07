@@ -285,7 +285,26 @@ To-do ...
 
 To-do ...
 
-##  Trap signal and errors
+##  Trap Signals and Errors
+
+### Trap signals
+
+<p align="justify">It is possible to trap signals. This is an simple example:</p>
+
+    # Trap signal when a user has resised the terminal window.
+    trap 'get_window_size' SIGWINCH
+
+    function get_window_size () {
+        _WINDOW_X=$(tput lines)
+        _WINDOW_Y=$(tput cols)
+        echo -e "X: ${_WINDOW_X}"
+        echo -e "Y: ${_WINDOW_Y}"
+        return 0
+    }
+
+To-do ...    
+
+### Trap errors
 
 <p align="justify"></p>
 
