@@ -278,8 +278,8 @@ To-do ...
 
 Unicodes allow funny things like:
 
-    echo -e '\U0001f9f8'
-    echo -e '\U0001f643'
+    echo -e '\U0001f9f8'    :teddy_bear:
+    echo -e '\U0001f643'    :upside_down_face:
 
 To-do ...
     
