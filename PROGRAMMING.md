@@ -284,7 +284,7 @@ To-do ...
 <p align="justify">A distinction must be made between the hardware interrupt and the software interrupt. Simply spoken a hardware interrupt is an event triggered by the hardware and announced to the kernel. On the other hand a software interrupt 
 is an event triggered by the kernel and announced to the running processes.</p>
 
-Remark: All Linux based OS are interrupt driven.
+<p align="justify">All Linux-based operating systems are interrupt-driven, which should be logical in itself.</p>
 
 To-do ... 
 
@@ -545,6 +545,8 @@ To-do ...
 [S2]    stackoverflow.com/questions/17368067/length-of-string-in-bash
 
 [S3]    stackoverflow.com/questions/3826425/how-to-represent-multiple-conditions-in-a-shell-if-statement
+
+[T1]    www&#8203;.thegeekstuff.com/2014/01/linux-interrupts/
 
 # Donation
 
