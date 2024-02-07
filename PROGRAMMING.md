@@ -12,9 +12,11 @@
 
 <p align="justify">The synopsis for the invocation of a <code>Bash</code> script is:</p>
 
-    [sudo] bash [options] [command_string | file]
+    [sudo] bash [options] {command_string | file}
 
-For more informations type at the command prompt:
+<p align="justify">The content in square brackets is optional and the content in the curly braces is required.</p>
+
+For more informations about <code>bash</code> type at the command prompt:
 
     man bash    or
     info bash 
@@ -61,7 +63,7 @@ Early Shebang directives looked like:
 
 ## Bash builtins
 
-To print the Bash builtins use:
+To print the <code>Bash builtins</code> use:
 
     compgen -b
 
@@ -94,6 +96,8 @@ further explanations to-do ...
 further explanations to-do ...
 
 ## Special characters like <code>:</code>, <code>;</code> and <code>&bsol;</code> 
+
+<p align="justify">The no-op (no-operation) command in Bash is the : (single colon). Sometimes it is helpful to have a command which does nothing. This is true especially in if else statements. This is comparable to the pass command of Python.</p>
 
     To-do ...
 
