@@ -8,6 +8,15 @@
 
 <p align="justify">I am using the well known shell script analysis tool <code>Shellcheck</code> for checking my <code>Bash</code> scripts. <code>ShellCheck</code> is very well suited for optimizing <code>Bash</code> scripts. The feedback from <code>ShellCheck</code> in the form of infos, warnings and errors are also always very helpful.</p>
 
+> [!NOTE]
+> The Bash version I am working with is GNU Bash 5.1.16. What I am presenting below is valid for the above mentioned version.
+
+## What is a script
+
+<p align="justify"></p>
+
+To-do ...
+
 ## Invocation of a Bash script
 
 <p align="justify">The synopsis for the invocation of a <code>Bash</code> script is:</p>
@@ -206,13 +215,13 @@ Examples:
 
 To-do ...    
 
-## Command set
+## The command set
 
 <p align="justify"></p>
 
 To-do ...
 
-## Command unset
+## The command unset
 
 <p align="justify"></p>
 
@@ -248,19 +257,37 @@ To-do ...
 
 To-do ...    
 
-## Bash if else Statement
+## Bash if else statement
 
-<p align="justify">Like in other programming languages there is a if else statement which can be used for the query of conditional cases. A query of a conditional expression in Bash can look like:</p>
+<p align="justify">Like in other programming languages there is a if else statement which can be used for the query of conditional cases. A query of a conditional expression in <code>Bash</code> can look like:</p>
 
-    if [[ -f "$filename" ]]; then
-        echo "Regular file exists.!"
-    elif [[ -e "$filename" ]]; then
-        echo "File NOT exists!"
+    if CONDITION; then
+        COMMANDS
+    elif CONDITION; then
+        COMMANDS
     else
-        echo "File NOT exists!"
+        COMMANDS
+    fi
+
+or 
+
+    if CONDITION;
+    then
+        COMMANDS
+    elif CONDITION;
+    then
+        COMMANDS
+    else
+        COMMANDS
     fi
 
 <p align="justify">The if statement starts with the if keyword followed by the conditional expression and is followed by the then keyword separated by a semicolon. The block with all conditional expressions ends with an fi. Further conditional expressions can be considered by the elif statement. The else clause catches all the rest of the possible conditions. Nested if fi blocks are allowed.</p>
+
+## Bash case statement
+
+<p align="justify"></p>
+
+To-do ...
 
 ##  Command break and continue
 
