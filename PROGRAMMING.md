@@ -255,6 +255,22 @@ To-do ...
 ##  Exit Conditions
 
 To-do ...
+
+##  Command prompt
+
+To-do ...
+
+##  Color support
+
+To-do ...
+
+##  ANSI-C / ASCII
+
+To-do ...
+
+##  unicode support
+
+To-do ...
     
 ## Resources 
 
