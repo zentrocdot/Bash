@@ -343,10 +343,6 @@ To-do ...
 
 [S3]    stackoverflow.com/questions/3826425/how-to-represent-multiple-conditions-in-a-shell-if-statement
 
-# Last but not least
-
-<p align="justify">Help innocent people of every race, religion and skin color. Black, yellow, green and other skin colors lives matter. Be against war, whenever and wherever it should takes place. Give dictators and aggressors no place on the blue planet. Stand up for the rights of every human being, every animal and our environment.</p>
-
 # Donation
 
 <p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee.</p>
