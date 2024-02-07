@@ -407,6 +407,7 @@ To-do ...
 
 <pre>TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7    (TRON)
 DMh7EXf7XbibFFsqaAetdQQ77Zb5TVCXiX    (DOGE)
-12JsKesep3yuDpmrcXCxXu7EQJkRaAvsc5    (BITCOIN)</pre>
+12JsKesep3yuDpmrcXCxXu7EQJkRaAvsc5    (BITCOIN)
+0x31042e2F3AE241093e0387b41C6910B11d94f7ec    (Ethereum)</pre>
     
 <p align="justify">My wallet says thank you :smiley:</p>
