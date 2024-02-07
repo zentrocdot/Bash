@@ -380,13 +380,17 @@ To-do ...
 
 [A1]    www&#8203;.gnu.org/software/bash/manual/
 
-[B1]    linuxize.com/post/bash-if-else-statement/
+[B1]    linuxize.com/post/bash-break-continue/
 
 [B2]    linuxize.com/post/bash-check-if-file-exists/
+
+[B3]    linuxize.com/post/bash-if-else-statement/
 
 [C1]    linuxsimply.com/bash-scripting-tutorial/expansion/parameter-expansion/
 
 [D1]    tecadmin.net/bash-parameter-expansion/
+
+[E]    www www&#8203;.redhat.com/sysadmin/exit-codes-demystified
 
 [F1]    www&#8203;.ubuntumint.com/find-longest-lines-file-linux/
 
