@@ -39,8 +39,10 @@ or
 
 <p align="justify">When I am talking about the Shebang I am meaning the whole Shebang line or Shebang directive which is:</p>
 
-    #!interpreter [options/arguments]    or in our case e.g.
-    
+<pre>#!interpreter [options/arguments]</pre>
+
+or in our case e.g.
+     
 <pre>#!/usr/bin/bash -x 
 #!/usr/bin/env bash -x</pre>
 
