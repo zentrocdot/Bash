@@ -279,6 +279,15 @@ To-do ...
 
 To-do ...    
 
+## Hardware Interrupt versus Software Interrupt
+
+<p align="justify">A distinction must be made between the hardware interrupt and the software interrupt. Simply spoken a hardware interrupt is an event triggered by the hardware and announced to the kernel. On the other hand a software interrupt 
+is an event triggered by the kernel and announced to the running processes.</p>
+
+Remark: All Linux based OS are interrupt driven.
+
+To-do ... 
+
 ## Signal Processing
 
 <p align="justify">Signals are a kind of one-way communication between the operating system kernel and the running operating system processes. These signals can be seen as events that are triggered under certain conditions. In Bash scripts it is possible to listen to these signals to react correctly on these events.</p>
