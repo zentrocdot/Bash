@@ -548,6 +548,8 @@ To-do ...
 
 [T1]    www&#8203;.thegeekstuff.com/2014/01/linux-interrupts/
 
+[Z1]    www#8203;.geeksforgeeks.org/difference-between-hardware-interrupt-and-software-interrupt/
+
 # Donation
 
 <p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee. I drink a lot of coffee while programming and writing :smiley:.</p>
