@@ -290,12 +290,12 @@ Using former code results in the statue of liberty 🗽.
 <p align="justify">The unicode support of <code>Bash</code> allow funny things to use and to print like a teddy bear or a upside down smiley:</p>
 
     echo -e '\U0001f9f8'
-    
-:teddy_bear:
+
+Using former code results in a teddy bear :teddy_bear:.
 
     echo -e '\U0001f643'
     
-:upside_down_face:
+Using former code results in a upside down smiley :upside_down_face:.
 
 To-do ...
     
