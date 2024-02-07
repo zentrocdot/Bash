@@ -93,6 +93,20 @@ Early Shebang directives looked like:
 
 <p align="justify">In the modern computer age, it no longer makes sense to view the Shebang #! separately from the interpreter. Especially as the Shebang is used to executes scripts via interpreters like Python, Perl, Ruby, awk and sed etc. in the shell environment. The lost space character is a good example of the correctness of this statement. The shebang should be seen as a collective term for the first line in an executable script. In the shell, a script is executed by an interpreter, so the shebang is still correct. To be precise there should be of course nothing after the Shebang until the line break.<p>
 
+## Command line arguments
+
+### Command line arguments
+
+<p align="justify"></p>
+
+To-do ...
+
+### The command shift
+
+<p align="justify"></p>
+
+To-do ...
+
 ## Bash builtins
 
 To print the <code>Bash builtins</code> use:
@@ -326,6 +340,13 @@ To-do ...
 <p align="justify"></p>
 
 To-do ... 
+
+##  Functions in bash
+
+<p align="justify"></p>
+
+To-do ... 
+
 
 ##  Write to files
 
