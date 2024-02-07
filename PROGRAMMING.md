@@ -353,8 +353,6 @@ You can easily change the commad prompt [5,6]. The next command is changing the 
 
 As long as you do not change your configuration this is valid up to the moment when you close the terminal window.
 
-To-do ...
-
 ##  Color support
 
 <p align="justify"></p>
@@ -388,8 +386,6 @@ Using former code results in a teddy bear :teddy_bear:.
     echo -e '\U0001f643'
     
 Using former code results in a upside down smiley :upside_down_face:.
-
-To-do ...
     
 ## Resources
 
