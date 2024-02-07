@@ -11,7 +11,17 @@
 > [!NOTE]
 > The <code>Bash</code> version I am working with is <code>GNU Bash 5.1.16</code>. What I am presenting below is valid for the above mentioned version.
 
+## What is Bash
+
+<p align="justify"></p>
+
+To-do ...
+
 ## What is a script
+
+<p align="justify">In the simplest conceivable case, a script is nothing more than a list of system commands that are stored in a ASCII compatible text file. This saves the effort of having to re-enter this special sequence of system commands each time they are needed and they are called.</p>
+
+<p align="justify">In the next step, we add a suitable first line to the file. This first line contains the so-called <code>Shebang</code> and the required interpreter for the script with the full path. In addition to the system commands, comments can be added to the file.</p>
 
 <p align="justify"></p>
 
