@@ -53,7 +53,7 @@ Early Shebang directives looked like:
 
 ### Origin of the name Shebang
 
-<p align="justify">In the explanation where the name Shebang comes from I am missing an explanation for the <kbd>e</kbh>. From my point of view It could be interpreted as as SHell Executes BANG, SHarp Executes BANG or haSH Excecutes BANG. It is undisputed in the sources that bang stands for The exclamation mark [to-do: add reference].<p>
+<p align="justify">In the explanation where the name Shebang comes from I am missing an explanation for the <kbd>e</kbd>. From my point of view It could be interpreted as as SHell Executes BANG, SHarp Executes BANG or haSH Excecutes BANG. It is undisputed in the sources that bang stands for The exclamation mark [to-do: add reference].</p>
 
 ### Modern usage of the Shebang
 
