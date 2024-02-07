@@ -258,6 +258,12 @@ To-do ...
 
 ##  Command prompt
 
+You can easily change the commad prompt [5]. The next command is changing the color of my command prompt:
+
+    PS1="\e[1;36m\u@\h\e[0m:\e[1;34m\W\e[0m\$ "
+
+As long as you do not change your configuration this is valid up to the moment when you close the terminal window.
+
 To-do ...
 
 ##  Color support
@@ -268,7 +274,12 @@ To-do ...
 
 To-do ...
 
-##  unicode support
+##  Unicode support
+
+Unicodes allow funny things like:
+
+    echo -e '\U0001f9f8'
+    echo -e '\U0001f643'
 
 To-do ...
     
@@ -283,6 +294,8 @@ To-do ...
 [3]    &#8203;wiki.ubuntuusers.de/Shell/Bash-Skripting-Guide_für_Anfänger/
 
 [4]    mywiki.wooledge.org/BashPitfalls
+
+[5]    phoenixnap.com/kb/change-bash-prompt-linux
 
 ## See also:
 
@@ -312,8 +325,7 @@ To-do ...
 
 [S3]    stackoverflow.com/questions/3826425/how-to-represent-multiple-conditions-in-a-shell-if-statement
 
-  
-<h2>Donation</h2>
+# Donation
 
 <p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee.</p>
 
