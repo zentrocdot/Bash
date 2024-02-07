@@ -27,6 +27,14 @@
 
     cat /etc/shells
 
+With following commands it can be checked which shell are in use:
+
+    echo $0
+
+and
+
+    echo $SHELL
+
 ## Invocation of a Bash script
 
 <p align="justify">The synopsis for the invocation of a <code>Bash</code> script is:</p>
@@ -358,6 +366,12 @@ You can easily change the commad prompt [5,6]. The next command is changing the 
     PS1="\e[1;36m\u@\h\e[0m:\e[1;34m\W\e[0m\$ "
 
 As long as you do not change your configuration this is valid up to the moment when you close the terminal window.
+
+##  Environmental variables
+
+<p align="justify"></p>
+
+To-do ... 
 
 ##  Color support
 
