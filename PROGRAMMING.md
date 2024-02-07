@@ -18,7 +18,8 @@
 
 For more informations about <code>bash</code> type at the command prompt:
 
-    man bash    or
+    man bash
+or
     info bash 
 
 ## Shebang
