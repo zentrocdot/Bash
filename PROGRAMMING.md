@@ -97,7 +97,7 @@ further explanations to-do ...
 
 ## Special characters like <code>:</code>, <code>;</code> and <code>&bsol;</code> 
 
-<p align="justify">The no-op (no-operation) command in Bash is the : (single colon). Sometimes it is helpful to have a command which does nothing. This is true especially in if else statements. This is comparable to the pass command of Python.</p>
+<p align="justify">The no-op (no-operation) command in Bash is the : (single colon). Sometimes it is helpful to have a command which does nothing. This is true especially in if else statements. This is comparable to the pass command of Python. The return status of the command : is zero.</p>
 
     To-do ...
 
@@ -194,24 +194,52 @@ Examples:
     echo ${VAR##* }  ->  example.
     echo ${VAR% *}   ->  This is a long test
     echo ${VAR%%* }  ->  This
-  
-## Commands set and unset
+
+##  Command substitution
+
+<p align="justify"></p>
+
+To-do ...    
+
+## Command set
+
+<p align="justify"></p>
+
+To-do ...
+
+## Command unset
+
+<p align="justify"></p>
 
 To-do ...
 
 ## Incrementing and decrementing numbers
 
+<p align="justify"></p>
+
 To-do ...
 
 ## Types of Loops
 
+<p align="justify"></p>
+
 To-do ...
+
+##  Piping of commands
+
+<p align="justify"></p>
+
+To-do ...    
 
 ## Signal Processing
 
+<p align="justify"></p>
+
 To-do ...
 
-##  Trap Errors
+##  Trap signal and errors
+
+<p align="justify"></p>
 
 To-do ...    
 
@@ -239,7 +267,6 @@ To-do ...
 
 To-do ...
 
-
 ##  Read from the command prompt
 
 To-do ... 
@@ -254,9 +281,15 @@ To-do ...
 
 ##  Redirections
 
+<p align="justify"></p>
+
 To-do ... 
 
-##  Exit Conditions
+##  Exit Codes
+
+<p align="justify">The available exit code numbers are depending on the command which is used. The usual exit codes are 0 and 1. The exit code 0 means successful execution of the command and the exit code 1 is a general error while executing the command.</p>
+
+<p align="justify">A distinction must be made between command execution and script execution.</p>
 
 To-do ...
 
@@ -272,12 +305,15 @@ To-do ...
 
 ##  Color support
 
+<p align="justify"></p>
+
 To-do ...
 
 ##  ANSI-C / ASCII
 
-To-do ...
+<p align="justify"></p>
 
+To-do ...
 
 ##  Unicode support
 
