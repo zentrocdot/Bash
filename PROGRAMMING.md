@@ -281,11 +281,11 @@ To-do ...
 
     echo -e '\u262e'        # \u uses four hexadecimal digits
 
-☮
+Using former code results in the peace sign ☮.
 
     echo -e '\U0001f5fd'    # \U uses eight hexadecimal digits
 
-🗽
+Using former code results in the statue of liberty 🗽.
 
 <p align="justify">The unicode support of <code>Bash</code> allow funny things to use and to print like a teddy bear or a upside down smiley:</p>
 
@@ -342,6 +342,10 @@ To-do ...
 [S2]    stackoverflow.com/questions/17368067/length-of-string-in-bash
 
 [S3]    stackoverflow.com/questions/3826425/how-to-represent-multiple-conditions-in-a-shell-if-statement
+
+# Last but not least
+
+<p align="justify">Help innocent people of every race, religion and skin color. Black, yellow, green and other skin colors lives matter. Be against war, whenever and wherever it should takes place. Give dictators and aggressors no place on the blue planet. Stand up for the rights of every human being, every animal and our environment.</p>
 
 # Donation
 
