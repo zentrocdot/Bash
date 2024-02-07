@@ -427,7 +427,19 @@ Using former code results in a teddy bear :teddy_bear:.
     echo -e '\U0001f643'
     
 Using former code results in a upside down smiley :upside_down_face:.
-    
+
+##  Zombie processes
+
+<p align="justify"></p>
+
+To-do ...
+
+##  Interface programming
+
+<p align="justify"></p>
+
+To-do ...
+
 ## Resources
 
 <p align="justify">In addition to the books and literature I own, I use websites and forums as sources of information. I like to use good internet sources again and again. I check all information several times and carry out cross-checks.</p>
