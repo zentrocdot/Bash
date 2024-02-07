@@ -119,7 +119,9 @@ further explanations to-do ...
 
 <p align="justify">The no-op (no-operation) command in Bash is the : (single colon). Sometimes it is helpful to have a command which does nothing. This is true especially in if else statements. This is comparable to the pass command of Python. The return status of the command : is zero.</p>
 
-To-do ...
+<p align="justify">The semicolon is used as delimiter between command.</p>
+
+<p align="justify">The backslash is used for multiline commands.</p>
 
 ## Parameter Expansion
 
@@ -277,10 +279,10 @@ To-do ...
 
 or 
 
-    if CONDITION;
+    if CONDITION
     then
         COMMANDS
-    elif CONDITION;
+    elif CONDITION
     then
         COMMANDS
     else
