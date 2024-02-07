@@ -21,14 +21,43 @@ For more informations type at the command prompt:
 
 ## Shebang
 
-<p align="justify">A Shebang is a script introducer which can be found in the first line of a script. The Shebang tells the operation system and the running shell which interpreter should be used to execute the in the file folowing commands of the script. This can be e.g. Shell, Bash or Python. A typical Bash Shegbang looks like:</p>
+### Reason and usage
+
+<p align="justify">A Shebang line is a script introducer which can be found in the first line of a script. The Shebang line tells the operation system and the running shell which interpreter should be used to execute the folowing commands of the script in a file. This can be e.g. Shell, Bash or Python and so on. A typical Bash Shegbang line looks like:</p>
 
     #!/usr/bin/bash
-    #!/usr/bin env
+    #!/usr/bin/env bash
 
-further explanations to-do ...
+<p align="justify">The Shebang in the classic sense consists only of two characters:</p>
 
-<p align="justify">Some option can be added to the command line invokation of the bash script or after the Shebang. In addition to this these option can be set by the command set.</p>
+    #!
+
+<p align="justify">When I am talking about the Shebang I am meaning the whole Shebang line or Shebang directive which is:</p>
+
+    #!interpreter [options/arguments]    or in our case e.g.
+    
+    #!/usr/bin/bash -x 
+    #!/usr/bin/env bash -x
+
+<p align="justify">It should be noted that the option may work as expected in the second case, but this must be checked on a case by case basis.</p>
+
+### History and background
+
+<p align="justify">In the early computer age, when we talk about Unix and the incorporated Shell environment the Shebang <code>#!</code> was a magic number 0x23 0x21 which told the shell or operating system which programm should be used for execution.<p>
+
+Early Shebang directives looked like:
+
+    #! /bin/sed -f
+
+<p align="justify">I am using the last example related to sed, as this directive can still be found as a relic in many sed scripts.<p>
+
+### Origin of the name Shebang
+
+<p align="justify">In the explanation where the name Shebang comes from I am missing an explanation for the <kbd>e</kbh>. From my point of view It could be interpreted as as SHell Executes BANG, SHarp Executes BANG or haSH Excecutes BANG. It is undisputed in the sources that bang stands for The exclamation mark [to-do: add reference].<p>
+
+### Modern usage of the Shebang
+
+<p align="justify">In the modern computer age, it no longer makes sense to view the Shebang #! separately from the interpreter. Especially as the Shebang is used to executes scripts via interpreters like Python, Perl, Ruby, awk, sed etc. in the shell environment. The lost space character is a good example of the correctness of this statement. The shebang should be seen as a collective term for the first line in an executable script. In the shell, a script is executed by an interpreter, so the shebang is still correct. To be precise there should be of course nothing after the Shebang until the line break.<p>
 
 ## Bash builtins
 
