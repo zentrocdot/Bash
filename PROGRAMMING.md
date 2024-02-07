@@ -41,8 +41,8 @@ or
 
     #!interpreter [options/arguments]    or in our case e.g.
     
-    #!/usr/bin/bash -x 
-    #!/usr/bin/env bash -x
+<pre>#!/usr/bin/bash -x 
+#!/usr/bin/env bash -x</pre>
 
 <p align="justify">It should be noted that the option may work as expected in the second case, but this must be checked on a case by case basis.</p>
 
