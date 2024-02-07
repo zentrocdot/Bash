@@ -13,6 +13,8 @@
 
 ## What is Bash
 
+<p align="justify">Bash is a so called shell and the command language interpreter installed on an operating system. It runs within a terminal window or a virtual console. The name is an acronym for <code>Bourne-Again SHell</code>. It is an direct ancestor of the Unix shell sh</p>
+
 <p align="justify"></p>
 
 To-do ...
@@ -23,9 +25,7 @@ To-do ...
 
 <p align="justify">In the next step, we add a suitable first line to the file. This first line contains the so-called <code>Shebang</code> and the required interpreter for the script with the full path. In addition to the system commands, comments can be added to the file.</p>
 
-<p align="justify"></p>
-
-To-do ...
+<p align="justify">In the last step, control structures such as loops and if else statements can be added to the file. The result is a file that produces an executable program as a script.</p>
 
 ## Invocation of a Bash script
 
