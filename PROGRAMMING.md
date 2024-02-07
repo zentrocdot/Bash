@@ -12,7 +12,7 @@
 
 <p align="justify">The synopsis for the invocation of a <code>Bash</code> script is:</p>
 
-    [sudo] bash [options] {command_string | script_file}
+<pre>[sudo] bash [options] {command_string | script_file}</pre>
 
 <p align="justify">The content in square brackets is optional and the content in the curly braces is required. One needs a command string or a script file, otherwise the command bash makes no sense. No sense is in this context to seen relative here. With the command execution without options and string or file we are opening a new bash session, which we can leave again with exit. I will explain later on how we can get PID and PPID of these processes.</p>
 
