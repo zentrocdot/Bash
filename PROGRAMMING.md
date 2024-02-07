@@ -9,9 +9,9 @@
 <p align="justify">I am using the well known shell script analysis tool <code>Shellcheck</code> for checking my <code>Bash</code> scripts. <code>ShellCheck</code> is very well suited for optimizing <code>Bash</code> scripts. The feedback from <code>ShellCheck</code> in the form of infos, warnings and errors are also always very helpful.</p>
 
 > [!NOTE]
-> The <code>Bash</code> version I am working with is <code>GNU Bash 5.1.16</code>. What I am presenting below is valid for the above mentioned version.
+> The <code>Bash</code> version I am working with is <code>GNU Bash 5.1.16</code>. What I am presenting below is valid for the previous mentioned <code>Bash</code> version.
 
-## What is a script
+## Writing scripts
 
 <p align="justify">In the simplest conceivable case, a script is nothing more than a list of system commands that are stored in a ASCII compatible text file. This saves the effort of having to re-enter this special sequence of system commands each time they are needed and they are called.</p>
 
@@ -19,9 +19,9 @@
 
 <p align="justify">In the last step, control structures such as loops and if else statements can be added to the file. The result is a file that produces an executable program as a script.</p>
 
-## What is Bash
+##  Command line interpreter Bash
 
-<p align="justify">Bash is a so called shell and the command language interpreter installed on an operating system like Unix or Linux. It runs within a terminal window or a virtual console. The name is an acronym for <code>Bourne-Again SHell</code>. It is an direct successor of the Unix or Linux shell <code>sh</code>. There are other shells next to Bash.</p>
+<p align="justify"><code>Bash</code> is a so called shell and the command language interpreter or command line interpreter installed on an operating system like <code>Unix</code> or <code>Linux</code>. It runs within a terminal window or a virtual console. The name is an acronym for <code>Bourne-Again SHell</code>. It is an direct successor of the <code>Unix</code> or <code>Linux</code> shell <code>sh</code>. There are other shells next to Bash.</p>
 
 <p align="justify">To get a list of available shells on the operating system use the the following command :</p>
 
