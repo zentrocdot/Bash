@@ -11,7 +11,7 @@
 > [!NOTE]
 > The <code>Bash</code> version I am working with is <code>GNU Bash 5.1.16</code>. What I am presenting below is valid for the previous mentioned <code>Bash</code> version.
 
-## Writing scripts
+## Writing Program Scripts
 
 <p align="justify">In the simplest conceivable case, a script is nothing more than a list of system commands that are stored in a ASCII compatible text file. This saves the effort of having to re-enter this special sequence of system commands each time they are needed and they are called.</p>
 
@@ -19,7 +19,7 @@
 
 <p align="justify">In the last step, control structures such as loops and if else statements can be added to the file. The result is a file that produces an executable program as a script.</p>
 
-##  Command line interpreter Bash
+##  Command Line Interpreter Bash
 
 <p align="justify"><code>Bash</code> is a so called shell and the command language interpreter or command line interpreter installed on an operating system like <code>Unix</code> or <code>Linux</code>. It runs within a terminal window or a virtual console. The name is an acronym for <code>Bourne-Again SHell</code>. It is an direct successor of the <code>Unix</code> or <code>Linux</code> shell <code>sh</code>. There are other shells next to Bash.</p>
 
@@ -35,7 +35,7 @@ and
 
     echo $SHELL
 
-## Invocation of a Bash script
+## Invocation of a Bash Program Script
 
 <p align="justify">The synopsis for the invocation of a <code>Bash</code> script is:</p>
 
