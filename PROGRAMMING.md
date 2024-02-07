@@ -2,7 +2,7 @@
 
 ## Introductory Words
 
-<p align="justify">Below you will find a selected list of information on programming in <code>Bash</code> that I have dealt with over time. This serves me to reflect once again on what I have learned. See also [1,2].</p>
+<p align="justify">Below you will find a selected list of information on programming in <code>Bash</code> that I have dealt with over time. This serves me to reflect once again on what I have learned. See also the references [1,2].</p>
 
 <p align="justify">Based on the fact that I am programming in different programming languages like <code>Python</code>,<code>Perl</code>, <code>Ruby</code>, <code>Fortran</code>, <code>Pascal</code> and sometime <code>C/C++</code> and not programming the whole day in <code>Bash</code> I am forgetting some things about the timeline. Nevertheless I am quite fast back in <code>Bash</code> programming. This should serve as a brief introduction and memory aid.</p>
 
