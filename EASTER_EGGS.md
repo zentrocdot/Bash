@@ -24,6 +24,10 @@ And try this:
 
     apt-get moo
 
+Sense of life:
+
+    vim  +h42
+
     
 
     
