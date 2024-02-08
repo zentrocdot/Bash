@@ -265,8 +265,10 @@ To-do ...
 
 ### Incrementing integer numbers 
 
-<p align="justify">Following you will find sme ways to increment a number. For a maximum value of n=100.000 I counted to execution time. The elapsed time for the calculation can be found in column 2.</p>
-
+<p align="justify">Subsequently there is a more or less complete list of methods for incrementing an integer number together with the time the execution takes for a maximum value of <code>n=100000</code>.</p>
+    
+    Expression          Execution Time
+    ----------          -------------- 
     i=$((i+1))      	0m0,268s
     i=$((i+=1))     	0m0,303s
     ((i=i+1))       	0m0,252s
@@ -285,9 +287,20 @@ To-do ...
     declare -i i; i+=1	0m0,409s
     i=$(expr $i + 1)	0m52,903s
 
-<p align="justify">As expected ((++i)) gave a good performance. Best perfomance is reached with ((++i)). The script for running this test can be found in the folder Math_Scripts. You can play arround with that script on your own.</p>
+<p align="justify">As expected, ((++i)) and ((++i)) have the best performance. If you run more than one test with the test script, the performance of the two methods will change slightly per run between each other. The script for performing this test can be found in the Math_Scripts folder.</p>
 
-Be careful with ((++i)) and ((++i)). The meaning is not the same in context of a script.
+> [!WARNING]
+> The prefix increment $((++i)) and the postfix increment $((++i)) do not behave the same way.
+
+Try on the command line the following:
+
+    ~$ i=0; echo $((i++))
+    ~$ 0
+
+versus
+
+    ~$ i=0; echo $((++i))
+    ~$ 1
 
 To-do ...
 
