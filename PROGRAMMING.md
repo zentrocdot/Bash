@@ -269,22 +269,24 @@ To-do ...
     
     Expression              Execution Time
     ----------              -------------- 
-    i=$((i+1))      	0m0,268s
-    i=$((i+=1))     	0m0,303s
-    ((i=i+1))       	0m0,252s
-    ((i+=1))        	0m0,223s
-    ((i++))         	0m0,208s
-    ((++i))         	0m0,211s 
-    let "i=i+1"     	0m0,353s
-    let "i+=1"      	0m0,337s
-    let "i++"       	0m0,323s
-    let "++i"       	0m0,317s
-    let i=i+1       	0m0,311s
-    let i+=1        	0m0,327s
-    let i++         	0m0,283s
-    let ++i         	0m0,289s
-    declare -i i; i=i+1	0m0,399s
-    declare -i i; i+=1	0m0,409s
+    i=$((i+1))      	0m0,267s
+    i=$((i+=1))     	0m0,323s
+    ((i=i+1))       	0m0,237s
+    ((i+=1))        	0m0,210s
+    ((i++))         	0m0,197s
+    ((++i))         	0m0,206s
+    let "i=i+1"     	0m0,368s
+    let "i+=1"      	0m0,322s
+    let "i++"       	0m0,320s
+    let "++i"       	0m0,304s
+    let i=i+1       	0m0,340s
+    let i+=1        	0m0,328s
+    let i++         	0m0,314s
+    let ++i         	0m0,284s
+    declare -i i; i=i+1	0m0,412s
+    declare -i i; i+=1	0m0,396s
+    i=$(expr $i + 1)	0m53,121s
+
     i=$(expr $i + 1)	0m52,903s
 
 <p align="justify">As expected, ((++i)) and ((++i)) have the best performance. If you run more than one test with the test script, the performance of the two methods will change slightly per run between each other. The script for performing this test can be found in the Math_Scripts folder.</p>
