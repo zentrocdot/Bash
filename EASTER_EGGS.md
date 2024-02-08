@@ -19,6 +19,11 @@ aptitude -vvvv moo
 aptitude -vvvvv moo       # First thought. A snake has eaten an elephant.
 
 aptitude -vvvvvv moo      # Quite right!</pre>
+
+And try this:
+
+    apt-get moo
+
     
 
     
