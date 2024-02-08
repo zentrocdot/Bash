@@ -290,7 +290,8 @@ To-do ...
 <p align="justify">As expected, ((++i)) and ((i++)) have the best performance. If you run more than one test with the test script, the performance of the two methods will change slightly per run between each other. The script for performing this test can be found in the Math_Scripts folder.</p>
 
 > [!WARNING]
-> The prefix increment <code>$((++i))</code> and the postfix increment <code>$((i++))</code> do not behave the same way.
+> The prefix increment <code>$((++i))</code> and the postfix increment <code>$((i++))</code> do not behave the same way. See also [8].
+
 
 Try on the command line the following:
 
@@ -330,7 +331,7 @@ a little more to-do ...
 <p align="justify">As expected, ((--i)) and ((i--)) have the best performance. If you run more than one test with the test script, the performance of the two methods will change slightly per run between each other. The script for performing this test can be found in the Math_Scripts folder.</p>
 
 > [!WARNING]
-> The prefix decrement <code>$((--i))</code> and the postfix decrement <code>$((i--))</code> do not behave the same way.
+> The prefix decrement <code>$((--i))</code> and the postfix decrement <code>$((i--))</code> do not behave the same way. See also [8].
 
 Try on the command line the following:
 
@@ -586,6 +587,8 @@ To-do ...
 [6]    misc.flogisoft.com/bash/tip_colors_and_formatting
 
 [7]    tldp.org/LDP/abs/html/exitcodes.html
+
+[8]    tldp.org/LDP/abs/html/dblparens.html
 
 ## See also:
 
