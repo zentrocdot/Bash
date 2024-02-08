@@ -6,19 +6,19 @@ This is the story of the littel prince.
 
 Try out:
 
-    aptitude moo
+<pre>aptitude moo
     
-    aptitude -v moo
-    
-    aptitude -vv moo
+aptitude -v moo
+   
+aptitude -vv moo
 
-    aptitude -vvv moo
+aptitude -vvv moo
 
-    aptitude -vvvv moo
+aptitude -vvvv moo
 
-    aptitude -vvvvv moo       # First thought. A snake has eaten an elephant.
+aptitude -vvvvv moo       # First thought. A snake has eaten an elephant.
 
-    aptitude -vvvvvv moo      # Quite right!
+aptitude -vvvvvv moo      # Quite right!</pre>
     
 
     
