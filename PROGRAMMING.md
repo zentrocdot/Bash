@@ -267,23 +267,23 @@ To-do ...
 
 <p align="justify">Following you will find sme ways to increment a number. For a maximum value of n=100.000 I counted to execution time. The elapsed time for the calculation can be found in column 2.</p>
 
-  i=$((i+1))      	0m0,268s
-  i=$((i+=1))     	0m0,303s
-  ((i=i+1))       	0m0,252s
-  ((i+=1))        	0m0,223s
-  ((i++))         	0m0,208s
-  ((++i))         	0m0,211s 
-  let "i=i+1"     	0m0,353s
-  let "i+=1"      	0m0,337s
-  let "i++"       	0m0,323s
-  let "++i"       	0m0,317s
-  let i=i+1       	0m0,311s
-  let i+=1        	0m0,327s
-  let i++         	0m0,283s
-  let ++i         	0m0,289s
-  declare -i i; i=i+1	0m0,399s
-  declare -i i; i+=1	0m0,409s
-  i=$(expr $i + 1)	0m52,903s
+    i=$((i+1))      	0m0,268s
+    i=$((i+=1))     	0m0,303s
+    ((i=i+1))       	0m0,252s
+    ((i+=1))        	0m0,223s
+    ((i++))         	0m0,208s
+    ((++i))         	0m0,211s 
+    let "i=i+1"     	0m0,353s
+    let "i+=1"      	0m0,337s
+    let "i++"       	0m0,323s
+    let "++i"       	0m0,317s
+    let i=i+1       	0m0,311s
+    let i+=1        	0m0,327s
+    let i++         	0m0,283s
+    let ++i         	0m0,289s
+    declare -i i; i=i+1	0m0,399s
+    declare -i i; i+=1	0m0,409s
+    i=$(expr $i + 1)	0m52,903s
 
 <p align="justify">As expected ((++i)) gave a good performance. Best perfomance is reached with ((++i)). The script for running this test can be found in the folder Math_Scripts. You can play arround with that script on your own.</p>
 
