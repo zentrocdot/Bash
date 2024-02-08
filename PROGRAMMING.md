@@ -287,8 +287,6 @@ To-do ...
     declare -i i; i+=1	0m0,396s
     i=$(expr $i + 1)	0m53,121s
 
-    i=$(expr $i + 1)	0m52,903s
-
 <p align="justify">As expected, ((++i)) and ((i++)) have the best performance. If you run more than one test with the test script, the performance of the two methods will change slightly per run between each other. The script for performing this test can be found in the Math_Scripts folder.</p>
 
 > [!WARNING]
@@ -318,8 +316,8 @@ To-do ...
     ((i-=1))        	0m0,223s
     ((i--))         	0m0,217s
     ((--i))         	0m0,186s
-    let "i=i-1"     	0m0,331s
-    let "i-=1"      	0m0,342s
+    let "i=i-1"     	0m0,355s
+    let "i-=1"      	0m0,331s
     let "i--"       	0m0,298s
     let "--i"       	0m0,290s
     let i=i-1       	0m0,322s
