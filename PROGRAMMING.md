@@ -267,8 +267,8 @@ To-do ...
 
 <p align="justify">Subsequently there is a more or less complete list of methods for incrementing an integer number together with the time the execution takes for a maximum value of <code>n=100000</code>.</p>
     
-    Expression             Execution Time
-    ----------             -------------- 
+    Expression              Execution Time
+    ----------              -------------- 
     i=$((i+1))      	0m0,268s
     i=$((i+=1))     	0m0,303s
     ((i=i+1))       	0m0,252s
