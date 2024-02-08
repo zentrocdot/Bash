@@ -302,7 +302,7 @@ versus
     ~$ i=0; echo $((++i))
     ~$ 1
 
-To-do ...
+a little more to-do ...
 
 ### Decrementing integer numbers 
 
@@ -342,7 +342,7 @@ versus
     ~$ i=1; echo $((--i))
     ~$ 0
 
-To-do ...
+a little more to-do ...
 
 ## Types of Loops
 
