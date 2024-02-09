@@ -46,6 +46,8 @@
 <a href="https://www.buymeacoffee.com/zentrocdot" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 </p>
 
+<hr width="100%" size="2">
+
 <h2>Donation</h2>
 
 <p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee.</p>
