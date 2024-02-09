@@ -686,6 +686,25 @@ or rewritten using a hack with backticks:
 
 <p align="justify"></p>
 
+dec2hex
+
+    printf '%x' ${decimal}
+    printf '%X' ${decimal}
+
+    echo "obase=16; 15" | bc
+    
+To-do ...
+
+# Decimal to octal
+
+<p align="justify"></p>
+
+dec2oct
+
+    printf '%o' $number
+
+    echo "obase=8; 15" | bc
+
 To-do ...
 
 # Ternary operator
