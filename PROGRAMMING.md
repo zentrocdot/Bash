@@ -240,6 +240,7 @@ Subsequently an overview of some parameter expansion modes:
 Examples:
 
     VAR="This is a long test example."
+    
     echo ${VAR#* }   ->  is a long test example.
     echo ${VAR##* }  ->  example.
     echo ${VAR% *}   ->  This is a long test
