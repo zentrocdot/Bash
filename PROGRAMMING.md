@@ -816,6 +816,8 @@ To-do ...
 
 [U1]    mywiki.wooledge.org/Bashism
 
+[V1]    www&#8203;.networkworld.com/article/971677/converting-numbers-on-linux-among-decimal-hexadecimal-octal-and-binary.html
+
 <hr width="100%" size="2">
 
 <p align="center">I loved the time when you could get also a hamburger for one euro!</p>
