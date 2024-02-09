@@ -15,25 +15,27 @@
 
 <p align="justify">In the simplest conceivable case, a script is nothing more than a list of system commands that are stored in a <code>ASCII</code> compatible text file. This saves the effort of having to re-enter this special sequence of system commands each time they are needed and they are called.</p>
 
-<p align="justify">In the next step, we add a suitable first line to the file. This first line contains the so-called <code>Shebang</code> and the required interpreter for the script with the full path. In addition to the system commands, comments can be added to the file.</p>
+<p align="justify">In the next step, we add a suitable first line to the file. This first line contains the so-called <code>Shebang</code> and the required interpreter for the script with the full path. In addition to the system commands, comments can be added to the file content.</p>
 
 <p align="justify">In the last step, control structures such as loops and if else statements can be added to the file. The result is a file that produces an executable program as a script.</p>
 
 ##  Command Line Interpreter Bash
 
-<p align="justify"><code>Bash</code> is a so called shell and the command language interpreter or command line interpreter installed on an operating system like <code>Unix</code> or <code>Linux</code>. It runs within a terminal window or a virtual console. The name is an acronym for <code>Bourne-Again SHell</code>. It is an direct successor of the <code>Unix</code> or <code>Linux</code> shell <code>sh</code>. There are other shells next to Bash.</p>
+<p align="justify"><code>Bash</code> is a so called shell and the command language interpreter or command line interpreter installed on an operating system like <code>Unix</code> or <code>Linux</code>. It runs within a terminal window or a virtual console. The name is an acronym for <code>Bourne-Again SHell</code>. It is an direct successor of the <code>Unix</code> or <code>Linux</code> shell <code>sh</code>. There are a bunch of other shells next to <code>Bash</code>.</p>
 
 <p align="justify">To get a list of available shells on the operating system use the the following command :</p>
 
     cat /etc/shells
 
-With following commands it can be checked which shell are in use:
+<p align="justify">With following commands it can be checked which shell are in use:</p>
 
-    echo $0
+    echo $0        # Command line argument
 
 and
 
-    echo $SHELL
+    echo $SHELL    # Environmental variable
+
+<p align="justify">This is the first time that we are getting in touch with <code>command line arguments</code> and <code>environmental variables</code>code>. Later on we will see that both commands are dealing with variables and the so-called <code>parameter expansion</code>code>.</p>    
 
 ## Invocation of a Bash Program Script
 
