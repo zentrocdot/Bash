@@ -151,6 +151,10 @@ further explanations to-do ...
 
 further explanations to-do ...
 
+## Variable assigment
+
+<p align="justify"></p>
+
 ## Parameter Expansion
 
 ### Special character <code>$</code>
