@@ -40,7 +40,7 @@
 
 <p align="justify">Used common names, trade names, product designations, etc. may be trademarks even without special identification and as such may be subject to local country statutory provisions.</p>
 
-<hline></hline>
+<hr width="100%" size="2">
 
 <p align="center">
 <a href="https://www.buymeacoffee.com/zentrocdot" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
