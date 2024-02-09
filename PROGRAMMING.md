@@ -782,6 +782,8 @@ To-do ...
 
 [S6]    stackoverflow.com/questions/10278513/bash-shell-decimal-to-binary-base-2-conversion
 
+[S7]    stackoverflow.com/questions/22709371/backticks-vs-braces-in-bash
+
 [T1]    www&#8203;.thegeekstuff.com/2014/01/linux-interrupts/
 
 [X1]    www&#8203;.geeksforgeeks.org/interrupts/
