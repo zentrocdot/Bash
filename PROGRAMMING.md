@@ -763,6 +763,20 @@ or
 
 To-do ...
 
+## Abbreviations
+
+CMD      Command
+
+PID    Process ID 
+
+PPID    Parent process ID
+
+PGID
+
+SID 
+
+TTY     Terminal type
+
 ## Resources
 
 <p align="justify">In addition to the books and literature I own, I use websites and forums as sources of information. I like to use good internet sources again and again. I check all information several times and carry out cross-checks.</p>
