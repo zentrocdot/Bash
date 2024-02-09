@@ -765,16 +765,28 @@ To-do ...
 
 ## Abbreviations
 
-| Abbreviation | Description       |
-| ------------ | ----------------- |
-| CMD          | Command           |
-| EUID         | Effective User ID |
-| PID          | Process ID        |
-| PGID         | Process Group ID  |
-| PPID         | Parent process ID |
-| SID          | Session ID        |  
-| TTY          | Terminal type     |
-| UID          | User ID           |
+| Abbreviation | Description           |
+| ------------ | --------------------- |
+| apt          | Advanced Package Tool |
+| BASH         | Bourne-Again SHell    |
+| chmod        | Change Mode           |
+| chown        | Change owner          |
+| CMD          | Command               |
+| cp           | copy                  |
+| EUID         | Effective User ID     |
+| mv           | move                  |
+| PID          | Process ID            |
+| PGID         | Process Group ID      |
+| PPID         | Parent process ID     |
+| ps           | Process status        |
+| rm           | remove                |
+| sed          | Stream EDditor        |
+| SID          | Session ID            |  
+| ssh          | Secure shell          |
+| TGID         | Thread Group ID       |
+| TTY          | Terminal type         |
+| UID          | User ID               |
+| umask        | User mask             |
 
 ## Resources
 
@@ -799,6 +811,8 @@ To-do ...
 [8]    tldp.org/LDP/abs/html/dblparens.html
 
 [9]    www&#8203;.assertnotmagic.com/2018/06/20/bash-brackets-quick-reference/
+
+[10]    www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
 
 ## See also:
 
