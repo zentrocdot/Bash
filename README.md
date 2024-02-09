@@ -26,7 +26,7 @@
 
 <p align="justify">The names of the scripts were assigned according to the task to be performed. I have not checked whether there are Bash scripts worldwide that use the same or similar names. This would be a pure coincidence.</p>
 
-<p align="justify">The file extensions of the <code>Bash</code> scripts are in general <code>.bash</code>.</p>
+<p align="justify">The file extensions of the <code>Bash scripts</code> are in general <code>.bash</code>.</p>
 
 ### To-Do
 
