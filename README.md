@@ -63,3 +63,5 @@ DMh7EXf7XbibFFsqaAetdQQ77Zb5TVCXiX            (DOGE)
 
 <p align="justify">Used common names, trade names, product designations, etc. may be trademarks even without special identification and as such may be subject to local country statutory provisions.</p>
 
+<p align="center">Last modified 09/02/2024</p>
+
