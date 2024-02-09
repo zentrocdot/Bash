@@ -41,18 +41,8 @@
 <p align="center">I loved the time when you could get also a hamburger for one euro!</p>
 
 <p align="center">
-<a href="https://www.buymeacoffee.com/zentrocdot" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-</p>
-
-<p align="center">
 <a href="https://www.buymeacoffee.com/zentrocdot" target="_blank"><img src="\IMAGES\greeen-button.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 </p>
-
-#<p align="center">
-#<img src="\images/archimedes_figure1.png" alt="Figure 3"><br/>
-#Figure 1: Archimedes, Measurement of a Circle, circle and right-handed triangle
-#</p>
-#<br/>
 
 <hr width="100%" size="2">
 
