@@ -36,12 +36,7 @@
 
 <p align="justify">I do not use web links to prevent unnecessary Internet traffic. Web links are references.</p>
 
-### :balance_scale: Legal Notice
-
-<p align="justify">Used common names, trade names, product designations, etc. may be trademarks even without special identification and as such may be subject to local country statutory provisions.</p>
-
 <hr width="100%" size="2">
-
 
 <p align="center">I loved the time when you could get also a hamburger for one euro!</p>
 
@@ -60,4 +55,8 @@ DMh7EXf7XbibFFsqaAetdQQ77Zb5TVCXiX    (DOGE)
 12JsKesep3yuDpmrcXCxXu7EQJkRaAvsc5    (BITCOIN)</pre>
     
 <p align="justify">My wallet says thank you :smiley:</p>
+
+#### :balance_scale: Legal Notice
+
+<p align="justify">Used common names, trade names, product designations, etc. may be trademarks even without special identification and as such may be subject to local country statutory provisions.</p>
 
