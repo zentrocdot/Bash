@@ -6,7 +6,7 @@
 
 <p align="justify">I used <code>Basic</code> intensively on both the <code>C64</code> and the <code>Apple IIe</code>. I really missed these good programming options, which were available as standard on both the <code>C64</code> and the <code>Apple IIe</code> under <code>MS-DOS</code> and <code>MS-Windows</code>. Batch programming was only a mediocre substitute as a programming tool for carrying out various tasks. So I used <code>Pascal/Turbo Pascal</code> and also <code>Fortran</code>, among others. From time to time I also programmed in <code>C/C++</code>.</p>
 
-<p align="justify">Long long ago at school we had a teletype writer (tty) in addition to the <code>Apple IIe</code> in our computer science lessons.</p>
+<p align="justify">Long long ago at school we had a <code>teletype writer (tty)</code> in addition to the <code>Apple IIe</code> in our computer science lessons.</p>
 
 ### Motivation
 
