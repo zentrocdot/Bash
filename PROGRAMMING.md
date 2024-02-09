@@ -359,19 +359,21 @@ To-do ...
 
 ## Types of loops
 
-<p align="justify"></p>
+<p align="justify">For the next example is stated, that we want to run over a range from 0 to 16.</p>
 
 Case 1:
 
+    start=0
+    end=16
+    
     for ((i=$start; i<=$end; i++))
     do
         echo -e "${i}"
-    sleep 1
     done
 
 Case 2:
 
-    for i in {<range>}    # e.g. {<range>} := {0..16} 
+    for i in {0..16} 
     do
        echo -e "${i}"
     done
@@ -380,12 +382,36 @@ Case 3:
 
     start=0
     end=16
+    
+    for i in $(eval echo "{${start}..${end}")
+    do
+        echo -e "${i}"
+    done
+
+Case 4:
+
+    start=0
+    end=16
+    
     i=${start}
+    
     while [[ $i -le ${end} ]]
     do
         echo -e "${i}"
         ((i = i + 1))
     done
+
+Case 5:
+
+    start=0
+    end=16
+
+    for i in $(seq ${start} ${end})
+    do
+        echo -e "${i}
+    done
+
+<p align="justify"></p>
 
 infos and so on to-do ...
 
