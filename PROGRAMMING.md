@@ -587,6 +587,14 @@ To-do ...
 
 ##  Concepts of heredocs and herestrings
 
+### Heredocs
+
+<p align="justify"></p>
+
+To-do ... 
+
+### Herestrings
+
 <p align="justify"></p>
 
 To-do ... 
