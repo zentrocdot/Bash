@@ -249,6 +249,12 @@ Examples:
 
 To-do ...    
 
+## Braces compendium
+
+<p align="justify"></p>
+
+To-do ...   
+
 ## The command set
 
 <p align="justify"></p>
@@ -292,7 +298,6 @@ To-do ...
 > [!WARNING]
 > The prefix increment <code>$((++i))</code> and the postfix increment <code>$((i++))</code> do not behave the same way. See also [8].
 
-
 Try on the command line the following:
 
     ~$ i=0; echo $((i++))
@@ -311,24 +316,25 @@ a little more to-do ...
 
     Expression              Execution Time
     ----------              -------------- 
-    i=$((i-1))      	0m0,257s
-    i=$((i-=1))     	0m0,289s
-    ((i=i-1))       	0m0,235s
+    i=$((i-1))      	0m0,285s
+    i=$((i-=1))     	0m0,291s
+    ((i=i-1))       	0m0,208s
     ((i-=1))        	0m0,223s
-    ((i--))         	0m0,217s
-    ((--i))         	0m0,186s
-    let "i=i-1"     	0m0,355s
-    let "i-=1"      	0m0,331s
-    let "i--"       	0m0,298s
-    let "--i"       	0m0,290s
-    let i=i-1       	0m0,322s
-    let i-=1        	0m0,280s
-    let i--         	0m0,267s
-    let --i         	0m0,290s
-    declare -i i; i=i-1	0m0,389s
+    ((i--))         	0m0,212s
+    ((--i))         	0m0,178s
+    let "i=i-1"     	0m0,332s
+    let "i-=1"      	0m0,300s
+    let "i--"       	0m0,286s
+    let "--i"       	0m0,322s
+    let i=i-1       	0m0,301s
+    let i-=1        	0m0,303s
+    let i--         	0m0,291s
+    let --i         	0m0,281s
+    declare -i i; i=i-1	0m0,412s
+    declare -i i; i-=1	failed
     i=$(expr $i - 1)	0m52,962s
 
-<p align="justify">As expected, ((--i)) and ((i--)) have the best performance. If you run more than one test with the test script, the performance of the two methods will change slightly per run between each other. The script for performing this test can be found in the Math_Scripts folder.</p>
+<p align="justify">As expected, ((--i)) and ((i--)) have in principle again the best performance. If you run more than one test with the test script, the performance of the two methods will change slightly per run between each other. The script for performing this test can be found in the Math_Scripts folder.</p>
 
 > [!WARNING]
 > The prefix decrement <code>$((--i))</code> and the postfix decrement <code>$((i--))</code> do not behave the same way. See also [8].
@@ -345,7 +351,19 @@ versus
 
 a little more to-do ...
 
-## Types of Loops
+## Reformatting between number formats
+
+<p align="justify"></p>
+
+To-do ...
+
+## Types of loops
+
+<p align="justify"></p>
+
+To-do ...
+
+## Looping over number ranges
 
 <p align="justify"></p>
 
@@ -555,6 +573,8 @@ Using former code results in a teddy bear :teddy_bear:.
     echo -e '\U0001f643'
     
 Using former code results in a upside down smiley :upside_down_face:.
+
+<p align="justify">In the folder Unicode_Scripts there can be found a script which prints pretty well selected ranges of unicode characters.</p>
 
 ##  Zombie processes
 
