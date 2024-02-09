@@ -361,7 +361,33 @@ To-do ...
 
 <p align="justify"></p>
 
-To-do ...
+Case 1:
+
+    for ((i=$start; i<=$end; i++))
+    do
+        echo -e "${i}"
+    sleep 1
+    done
+
+Case 2:
+
+    for i in {<range>}    # e.g. {<range>} := {0..16} 
+    do
+       echo -e "${i}"
+    done
+
+Case 3:
+
+    start=0
+    end=16
+    i=${start}
+    while [[ $i -le ${end} ]]
+    do
+        echo -e "${i}"
+        ((i = i + 1))
+    done
+
+infos and so on to-do ...
 
 ## Looping over number ranges
 
