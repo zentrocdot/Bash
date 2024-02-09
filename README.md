@@ -42,6 +42,8 @@
 
 <hr width="100%" size="2">
 
+I loved the time when you could get a hamburger for one euro!
+
 <p align="center">
 <a href="https://www.buymeacoffee.com/zentrocdot" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 </p>
