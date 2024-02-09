@@ -658,7 +658,9 @@ To-do ...
 
 ##  Number system conversion
 
-<p align="justify">Number systems that are used in the context with computer technology are decimal, hexadecimal, octal and binary. Decimal is 10 based, hexadecimal is 16 based, octal is 8 based and Binary is 2 based.</p>
+<p align="justify">Number systems that are used in the context with computer technology are decimal, hexadecimal, octal and binary. Decimal is 10 based, hexadecimal is 16 based, octal is 8 based and Binary is 2 based. Hindu presented the first known description of a binary system.</p>
+
+<p align="justify">Sidenotes: The Babylonian number system used base 60 (sexagesimal) instead of 10. Hawaiians used a base 4 number system. Pacific nations such as Papua New Guinea used also base 4. Mayans used base 20 both for astronomical reasons. There are a lot of other examples. So it makes sense think about more than the earlier listed 4 number systems.</p>
 
 # Decimal to binary
 
