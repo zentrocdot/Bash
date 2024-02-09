@@ -656,7 +656,9 @@ To-do ...
 
 To-do ...
 
-##  Converting number systems
+##  Number system conversion
+
+<p align="justify">Number systems that are used in the context with computer technology are decimal, hexadecimal, octal and binary. Decimal is 10 based, hexadecimal is 16 based, octal is 8 based and Binary is 2 based.</p>
 
 # Decimal to binary
 
@@ -704,6 +706,7 @@ dec2oct
     printf '%o' $number
 
     echo "obase=8; 15" | bc
+    echo "obase=8; ibase=10; 15" | bc
 
 To-do ...
 
