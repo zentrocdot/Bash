@@ -95,13 +95,13 @@ Early Shebang directives looked like:
 
 ## Command line arguments
 
-### Command line arguments
+### Command line arguments explained
 
 <p align="justify"></p>
 
 To-do ...
 
-### The command shift
+### usage of the command shift
 
 <p align="justify"></p>
 
@@ -148,6 +148,8 @@ further explanations to-do ...
 <p align="justify">The semicolon is used as delimiter between command.</p>
 
 <p align="justify">The backslash is used for multiline commands.</p>
+
+further explanations to-do ...
 
 ## Parameter Expansion
 
@@ -251,7 +253,7 @@ To-do ...
 
 ## Braces compendium
 
-<p align="justify"></p>
+<p align="justify">A quite good reference is [9].</p>
 
 To-do ...   
 
@@ -661,6 +663,8 @@ To-do ...
 [7]    tldp.org/LDP/abs/html/exitcodes.html
 
 [8]    tldp.org/LDP/abs/html/dblparens.html
+
+[9]    www&#8203;.assertnotmagic.com/2018/06/20/bash-brackets-quick-reference/
 
 ## See also:
 
