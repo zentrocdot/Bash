@@ -45,7 +45,7 @@
 </p>
 
 <p align="center">
-<a href="https://www.buymeacoffee.com/zentrocdot" target="_blank"><img src="\greeen-button.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="https://www.buymeacoffee.com/zentrocdot" target="_blank"><img src="\IMAGES\greeen-button.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 </p>
 
 #<p align="center">
