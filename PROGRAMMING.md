@@ -35,7 +35,11 @@ and
 
     echo $SHELL    # Environmental variable
 
-<p align="justify">This is the first time that we are getting in touch with <code>command line arguments</code> and <code>environmental variables</code>code>. Later on we will see that both commands are dealing with variables and the so-called <code>parameter expansion</code>code>.</p>    
+<p align="justify">This is the first time that we are getting in touch with <code>command line arguments</code> and <code>environmental variables</code>code>. Later on we will see that both commands are dealing with variables and the so-called <code>parameter expansion</code>.</p>
+
+<p align="justify">Try out in this context the command:</p>
+
+    printenv
 
 ## Invocation of a Bash Program Script
 
@@ -99,7 +103,18 @@ Early Shebang directives looked like:
 
 ### Command line arguments explained
 
-<p align="justify"></p>
+<p align="justify">Command line arguments are of the type $0, $1, $2, $3 etc. $@ is the array of all the given parameters. $#is the total number of arguments.</p>
+
+| Special Variable  | Explaination |
+| ------------- | ------------- |
+| $1 … $n  | Positional argument indicating from 1 .. n  |
+| $0  | Name of the script  |
+| $@  | Array with all arguments  |
+| $# | Total number of arguments  |
+| $* | Double-quoted arguments  |
+| $$  | process id of the current shell  |
+| $?   | Exit status id |
+|  $!  | Last command process id  |
 
 To-do ...
 
