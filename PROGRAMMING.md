@@ -361,7 +361,9 @@ To-do ...
 
 ## Types of loops
 
-<p align="justify">For the next example is stated, that we want to run over a range from 0 to 16.</p>
+### Simple loop over a range of numbers
+
+<p align="justify">For the next example is stated, that we want to run over a range from 0 to 16. The iteration step size can also be added.</p>
 
 Case 1:
 
@@ -417,7 +419,7 @@ Case 5:
 
 infos and so on to-do ...
 
-## Looping over number ranges
+## Looping over number ranges like decimal and hexadecimal numbers
 
 <p align="justify"></p>
 
