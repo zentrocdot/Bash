@@ -538,7 +538,15 @@ To-do ...
 
 ## Short Circuit evaluation of a conditional
 
-<p align="justify"></p>
+<p align="justify">A short circuit expression looks like:</p>
+
+     COMMAND1 && COMMAND2 || COMMAND3    or
+     EXPRESSION1 && EXPRESSION2 || EXPRESSION
+
+     COMMAND1 || COMMAND2 && COMMAND3    or
+     EXPRESSION1 || EXPRESSION2 && EXPRESSION
+
+The formulation is not limeted to 3 commands or 3 expressions.
 
 To-do ...
 
@@ -677,6 +685,32 @@ or rewritten using a hack with backticks:
 # Decimal to hex
 
 <p align="justify"></p>
+
+To-do ...
+
+# Ternary operator
+
+<p align="justify">A <code>ternary operator</code> can be written in generalized notation as follows:</p>
+
+    z = expression ? value1 : value2
+
+<p align="justify">This syntax is similar to an if else conditional expression. If the expression is true, value1 is assigned to z, otherwise value2 is assigned to z.</p>
+
+Now we fill the equation with life
+
+   expression = a > b
+   value1 = a
+   value2 = b
+
+The <code>ternary operator</code> is written as if-else statement e.g.:
+
+    if [ "$a" -gt "$b" ]; then z="${a}"; else z="${b}"; fi
+
+or 
+
+    z=$(( a > b ? a : b ))
+
+    ((z = a > b ? a : b))
 
 To-do ...
 
