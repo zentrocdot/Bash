@@ -1,10 +1,8 @@
 # EASTER EGGS
 
-Programmers are of each kind are quite funny guys since the early beginning of the computer age.
+<p align="justify">Programmers are of each kind are quite funny guys and gals and others since the early beginning of the computer age.</p>
 
-This is the story of the littel prince.
-
-Try out:
+<p align="justify">This is the story of the littel prince. Try it out on yor own:</p>
 
 <pre>aptitude moo
     
