@@ -103,18 +103,18 @@ Early Shebang directives looked like:
 
 ### Command line arguments explained
 
-<p align="justify">Command line arguments are of the type $0, $1, $2, $3 etc. $@ is the array of all the given parameters. $#is the total number of arguments.</p>
+<p align="justify">Command line arguments are of the type $0, $1, $2, $3 etc. $@ is the array of all the given parameters. $# is the total number of arguments.</p>
 
-| Special Variable  | Explanation                                 |
-| ----------------- | ------------------------------------------- |
-| $1 … $n           | Positional argument indicating from 1 .. n  |
-| $0                | Name of the script                          |
-| $@                | Array with all arguments                    |
-| $#                | Total number of arguments                   |
-| $*                | Double-quoted arguments                     |
-| $$                | process id of the current shell             |
-| $?                | Exit status id                              |
-|  $!               | Last command process id                     |
+| Special Variable | Explanation                                 |
+| ---------------- | ------------------------------------------- |
+| $1 … $n          | Positional argument from 1 ... n            |
+| $0               | Name of the shell script                    |
+| $@               | Array with all arguments                    |
+| $*               | Double-quoted arguments                     |
+| $#               | Total number of arguments                   |
+| $$               | Process ID (PID) of the current shell       |
+| $?               | Exit status ID                              |
+| $!               | Last command process ID                     |
 
 To-do ...
 
