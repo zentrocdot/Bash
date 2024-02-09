@@ -768,17 +768,27 @@ To-do ...
 
 [K1]    linuxconfig.org/bash-prompt-basics
 
+[L1]    www&#8203;.baeldung.com/linux/bash-ternary-conditional-operator
+
 [S1]    stackoverflow.com/questions/19482123/extract-part-of-a-string-using-bash-cut-split
 
 [S2]    stackoverflow.com/questions/17368067/length-of-string-in-bash
 
 [S3]    stackoverflow.com/questions/3826425/how-to-represent-multiple-conditions-in-a-shell-if-statement
 
+[S4]    stackoverflow.com/questions/37814739/how-to-write-fancy-indented-multi-line-brace-expansion-in-bash
+
+[S5]    stackoverflow.com/questions/44738494/understanding-code-0-10-10-10-10-10-10-10-1
+
+[S6]    stackoverflow.com/questions/10278513/bash-shell-decimal-to-binary-base-2-conversion
+
 [T1]    www&#8203;.thegeekstuff.com/2014/01/linux-interrupts/
 
 [X1]    www&#8203;.geeksforgeeks.org/interrupts/
 
 [Z1]    www&#8203;.geeksforgeeks.org/difference-between-hardware-interrupt-and-software-interrupt/
+
+[U1]    mywiki.wooledge.org/Bashism
 
 <hr width="100%" size="2">
 
