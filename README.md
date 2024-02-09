@@ -2,9 +2,11 @@
 
 ### Background
 
-<p align="justify">Many years ago, I generally gave up working with <code>Windows</code>. Before that point, I used <code>Windows</code> and <code>Linux</code> in parallel and sometimes <code>Unix</code> as well as <code>Sinix</code>. In the first days of my <code>Linux</code> experience I used <code>Suse Linux</code>. Later on I came to <code>Ubuntu</code> and finally to <code>Mint</code>. In between I also used <code>Raspian</code>.</p>
+<p align="justify">Many years ago, I generally gave up working with <code>MS-Windows</code>. Before that point, I used <code>MS-Windows</code> and <code>Linux</code> in parallel and sometimes <code>Unix</code> as well as <code>Sinix</code>. In the first days of my <code>Linux</code> experience I used <code>Suse Linux</code>. Later on I came to <code>Ubuntu</code> and finally to <code>Mint</code>. In between I also used <code>Raspian</code>.</p>
 
-<p align="justify">I used <code>Basic</code>code> intensively on both the <code>C64</code> and the Apple IIe. I really missed these good programming options, which were available as standard on both the C64 and the Apple IIe, under MS-DOS and MS-Windows. Batch programming was only a mediocre substitute as a programming tool for carrying out various tasks. So I used Pascal/Turbo Pascal and also <code>Fortran</code>, among others. From time to time I also programmed in <code>C/C++</code>.</p>
+<p align="justify">I used <code>Basic</code>code> intensively on both the <code>C64</code> and the <code>Apple IIe</code>. I really missed these good programming options, which were available as standard on both the <code>C64</code> and the <code>Apple IIe</code>, under <code>MS-DOS</code> and <code>MS-Windows</code>. Batch programming was only a mediocre substitute as a programming tool for carrying out various tasks. So I used <code>Pascal/Turbo Pascal</code> and also <code>Fortran</code>, among others. From time to time I also programmed in <code>C/C++</code>.</p>
+
+<p align="justify">Long long ago at school we had a teletype writer (tty) in addition to the Apple IIe in our computer science lessons.</p>
 
 ### Motivation
 
