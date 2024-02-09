@@ -10,15 +10,15 @@
 
 ### Motivation
 
-<p align="justify">When I came to the Linux world scripting became in the focus of my interest. And here the tool of choice is <code>Bash</code>, which is always available. Whenever things need to be done, I do them in <code>Bash</code> or <code>Python</code>. <code>Perl 5</code> has recently been added to the latertwo programming languages. In general, I try to use the right programming language for a related problem. If necessary, I also learn a new programming language.</p>
+<p align="justify">When I came to the <code>Linux world</code> scripting became in the focus of my interest. And here the tool of choice is <code>Bash</code>, which is always available. Whenever things need to be done, I do them in <code>Bash</code> or <code>Python</code>. <code>Perl 5</code> has recently been added to the later two programming languages. In general, I try to use the right programming language for a related problem. If necessary, I also learn a new programming language.</p>
 
 ### Introduction
 
-<p align="justify">The last two weeks I have once again built a prototype computer for various tasks. While installing the operating system and software and looking through my old hard disks, I found a few interesting scripts. I am also posting them here now. I am also forced to reconsider what I had programmed and whether it corresponds to the current state of knowledge.</p>
+<p align="justify">The last few weeks I have once again built a prototype computer for various tasks. While installing the operating system and software and looking through my old hard disks, I found a few interesting scripts. I am also posting them here now. I am also forced to reconsider what I had programmed and whether it corresponds to the current state of knowledge.</p>
 
 ### Content
 
-<p align="justify">This repository is a collection of helpful bash scripts. I assume <code>Debian</code>, <code>Ubuntu</code> or <code>Mint</code> as the operating system. Recurring tasks can be ideally mapped in algorithms.</p>
+<p align="justify">This repository is a collection of helpful <code>Bash scripts</code>. I assume <code>Debian</code>, <code>Ubuntu</code> or <code>Mint</code> as the operating system. Recurring tasks can be ideally mapped in algorithms.</p>
 
 ### Remark
 
@@ -26,7 +26,7 @@
 
 ### Naming
 
-<p align="justify">The names of the scripts were assigned according to the task to be performed. I have not checked whether there are Bash scripts worldwide that use the same or similar names. This would be a pure coincidence.</p>
+<p align="justify">The names of the scripts were assigned according to the task to be performed. I have not checked whether there are <code>Bash scripts</code> worldwide that use the same or similar names. This would be a pure coincidence.</p>
 
 <p align="justify">The file extensions of the <code>Bash scripts</code> are in general <code>.bash</code>.</p>
 
