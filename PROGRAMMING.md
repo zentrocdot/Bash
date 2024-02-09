@@ -9,7 +9,7 @@
 <p align="justify">I am using the well known shell script analysis tool <code>Shellcheck</code> for checking my <code>Bash</code> scripts. <code>ShellCheck</code> is very well suited for optimising <code>Bash</code> scripts. The feedback from <code>ShellCheck</code> in the form of infos, warnings and errors are also always very helpful.</p>
 
 > [!NOTE]
-> The <code>Bash</code> version I am working with is <code>GNU Bash 5.1.16</code>. What I am presenting below is valid for the previous mentioned <code>Bash</code> version.
+> <p align="justify">The <code>Bash</code> version I am working with is <code>GNU Bash 5.1.16</code>. What I am presenting below is valid for the previous mentioned <code>Bash</code> version.</p>
 
 ## Writing Program Scripts
 
