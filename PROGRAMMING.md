@@ -638,7 +638,7 @@ Using former code results in a upside down smiley :upside_down_face:.
 
 ##  Zombie processes
 
-<p align="justify"></p>
+<p align="justify">A zombie process is sometimes also referred to as defunct or dead process. This is a process that has completed his execution, but his entry is not removed from the process table. How to handle this is following.</p>
 
 To-do ...
 
