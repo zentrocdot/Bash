@@ -4,11 +4,11 @@
 
 <p align="justify">Many years ago, I generally gave up working with <code>Windows</code>. Before that point, I used <code>Windows</code> and <code>Linux</code> in parallel and sometimes <code>Unix</code> as well as <code>Sinix</code>. In the first days of my <code>Linux</code> experience I used <code>Suse Linux</code>. Later on I came to <code>Ubuntu</code> and finally to <code>Mint</code>. In between I also used <code>Raspian</code>.</p>
 
-<p align="justify">I used Basic intensively on both the C64 and the Apple IIe. I really missed these good programming options, which were available as standard on both the C64 and the Apple IIe, under MS-DOS and MS-Windows. Batch programming was only a mediocre substitute as a programming tool for carrying out various tasks. So I used Pascal/Turbo Pascal and also Fortran, among others. From time to time I also programmed in C/C++.</p>
+<p align="justify">I used <code>Basic</code>code> intensively on both the <code>C64</code> and the Apple IIe. I really missed these good programming options, which were available as standard on both the C64 and the Apple IIe, under MS-DOS and MS-Windows. Batch programming was only a mediocre substitute as a programming tool for carrying out various tasks. So I used Pascal/Turbo Pascal and also <code>Fortran</code>, among others. From time to time I also programmed in <code>C/C++</code>.</p>
 
 ### Motivation
 
-<p align="justify">When I came to the Linux world scripting became in the focus of my interest. And here the tool of choice is Bash, which is always available. Whenever things need to be done, I do them in Bash or Python. Perl 5 has recently been added. In general, I try to use the right programming language for a related problem. If necessary, I also learn a new programming language.</p>
+<p align="justify">When I came to the Linux world scripting became in the focus of my interest. And here the tool of choice is <code>Bash</code>, which is always available. Whenever things need to be done, I do them in <code>Bash</code> or <code>Python</code>. <code>Perl 5</code> has recently been added to the latertwo programming languages. In general, I try to use the right programming language for a related problem. If necessary, I also learn a new programming language.</p>
 
 ### Introduction
 
@@ -16,11 +16,11 @@
 
 ### Content
 
-<p align="justify">This repository is a collection of helpful bash scripts. I assume Debian, Ubuntu or Mint as the operating system. Recurring tasks can be ideally mapped in algorithms.</p>
+<p align="justify">This repository is a collection of helpful bash scripts. I assume <code>Debian</code>, <code>Ubuntu</code> or <code>Mint</code> as the operating system. Recurring tasks can be ideally mapped in algorithms.</p>
 
 ### Remark
 
-<p align="justify">So far almost all of the listed scripts are working under Linux Mint 21.3 without problems. In very rare cases I have to install a missing package.</p>
+<p align="justify">So far almost all of the listed scripts are working under <code>Linux Mint 21.3</code>code> without problems. In very rare cases I have to install a missing package.</p>
 
 ### Naming
 
