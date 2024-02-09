@@ -663,6 +663,17 @@ To-do ...
 
     echo ${DEC2BIN[DEC]}
 
+or rewritten using a hack with backticks:
+
+    DEC2BIN=({0..1}{0..1}{0..1}{0..1}{0..1}{0..1}{0..1}{0..1}\
+    `       `{0..1}{0..1}{0..1}{0..1}{0..1}{0..1}{0..1}{0..1})
+            
+    DEC=65535
+
+    echo ${DEC2BIN[DEC]}
+
+<p align="justify">The expression between the backticks open a subshell with nothing in it. The expression in backticks is then processed before the expansion is provcessed. This way the expansion just sees nothing than an empty space.</p>
+
 # Decimal to hex
 
 <p align="justify"></p>
