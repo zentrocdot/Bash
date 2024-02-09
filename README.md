@@ -2,7 +2,7 @@
 
 ### Background
 
-<p align="justify">Many years ago, I generally gave up working with Windows. Before that point, I used Windows and Linux in parallel and sometimes Unix as well as Sinix. In the first days of my Linux experience I used Suse Linux. Later on I came to Ubuntu and finally to Mint. In between I also used Raspian.</p>
+<p align="justify">Many years ago, I generally gave up working with Windows. Before that point, I used Windows and <code>Linux</code> in parallel and sometimes Unix as well as Sinix. In the first days of my <code>Linux</code> experience I used Suse Linux. Later on I came to Ubuntu and finally to Mint. In between I also used Raspian.</p>
 
 <p align="justify">I used Basic intensively on both the C64 and the Apple IIe. I really missed these good programming options, which were available as standard on both the C64 and the Apple IIe, under MS-DOS and MS-Windows. Batch programming was only a mediocre substitute as a programming tool for carrying out various tasks. So I used Pascal/Turbo Pascal and also Fortran, among others. From time to time I also programmed in C/C++.</p>
 
