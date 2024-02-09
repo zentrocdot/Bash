@@ -765,17 +765,19 @@ To-do ...
 
 ## Abbreviations
 
-CMD      Command
+------ | -------- 
 
-PID    Process ID 
+CMD    | Command
 
-PPID    Parent process ID
+PID    | Process ID 
 
-PGID
+PPID   | Parent process ID
 
-SID 
+PGID   |
 
-TTY     Terminal type
+SID    |
+
+TTY    | Terminal type
 
 ## Resources
 
