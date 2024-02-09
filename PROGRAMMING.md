@@ -765,19 +765,16 @@ To-do ...
 
 ## Abbreviations
 
------- | -------- 
-
-CMD    | Command
-
-PID    | Process ID 
-
-PPID   | Parent process ID
-
-PGID   |
-
-SID    |
-
-TTY    | Terminal type
+| Abbreviation | Description       |
+| ------------ | ----------------- |
+| CMD          | Command           |
+| EUID         | Effective User ID |
+| PID          | Process ID        |
+| PGID         | Process Group ID  |
+| PPID         | Parent process ID |
+| SID          | Session ID        |  
+| TTY          | Terminal type     |
+| UID          | User ID           |
 
 ## Resources
 
