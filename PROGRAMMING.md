@@ -554,7 +554,6 @@ To-do ...
 
 To-do ... 
 
-
 ##  Write to files
 
 <p align="justify"></p>
@@ -644,6 +643,27 @@ Using former code results in a upside down smiley :upside_down_face:.
 To-do ...
 
 ##  Interface programming
+
+<p align="justify"></p>
+
+To-do ...
+
+##  Converting number systems
+
+# Decimal to binary
+
+<p align="justify">Decimal to binary conversion using pure bash:</p>
+
+    DEC2BIN=(
+    {0..1}{0..1}{0..1}{0..1}{0..1}{0..1}{0..1}{0..1}\
+    {0..1}{0..1}{0..1}{0..1}{0..1}{0..1}{0..1}{0..1}
+    )
+
+    DEC=65535    # Max value for this approach.  
+
+    echo ${DEC2BIN[DEC]}
+
+# Decimal to hex
 
 <p align="justify"></p>
 
