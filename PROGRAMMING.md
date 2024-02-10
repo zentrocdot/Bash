@@ -765,7 +765,9 @@ To-do ...
 
 ## Abbreviations
 
-<a href="/DOCUMENTS/Abbreviations_and_acronyms.md">Abbreviations and Acronyms</a>.
+<p align="justify">A list with abbreviations and acronyms can be found here:</p>
+
+    <a href="/DOCUMENTS/Abbreviations_and_acronyms.md">Abbreviations and Acronyms</a>
 
 ## Resources
 
