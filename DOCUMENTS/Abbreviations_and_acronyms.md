@@ -42,6 +42,7 @@
 | ksh                     | KornShell                                          |
 | LAN                     | Local Area Network                                 |
 | ls                      | list                                               |
+| LTS                     | Long Term Support                                  |
 | MAC                     | Media Access Control                               |
 | mv                      | move                                               |
 | OS                      | Operating System                                   |
