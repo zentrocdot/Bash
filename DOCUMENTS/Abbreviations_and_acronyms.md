@@ -57,6 +57,7 @@
 
 <hr width="100%" size="2">
 
+<p align="justify">Other good ways to simply donate a coffee to me :smiley:.</p>
 
 <table>
   <tbody>
@@ -78,6 +79,8 @@
     </tr>
   </tbody>
 </table>
+
+<hr width="100%" size="1">
 
 <sup>[1]</sup> See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
 
