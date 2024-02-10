@@ -594,7 +594,7 @@ To-do ...
     ~$ [[ $a < $b ]] || [[ $b > $c ]] && echo "True" || echo "False"
     ~$ True
 
-<p align="justify">Please note that every expression has it own exit status which will be linked to the previous one. So it is not a valid approach to use short circuit expressions as a substitute of an <code></code>if … then … else … fi</p>code> statement.</p>
+<p align="justify">Please note that every expression has it own exit status which will be linked to the previous one. So it is not a valid approach to use short circuit expressions as a substitute of an <code>if … then … else … fi</code> statement.</p>
 
 > [!CAUTION]
 > See section '22. cmd1 && cmd2 || cmd3' in reference [4]. There the pitfall of misleading usage of short-circuit evaluations will be shown and explained.
