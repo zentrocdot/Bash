@@ -28,8 +28,6 @@
 | UID                     | User ID               |
 | umask                   | User mask             |
 
-<sup>[1]</sup> See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
-
-
+See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
 
 [^1]: See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
