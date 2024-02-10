@@ -94,6 +94,8 @@
 | YAML                    | YAML Ain't Markup Language                         |
 | zsh                     | Z Shell                                            |
 
+<hr width="100%" size="1">
+
 <p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee :coffee:. I drink a lot of coffee while programming and writing  :smiley:.</p>
 
 <hr width="100%" size="1">
