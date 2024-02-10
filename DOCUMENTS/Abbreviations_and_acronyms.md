@@ -61,11 +61,11 @@
 <table>
   <tbody>
     <tr>
-      <td>Column One</td>
+      <td>TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7</td>
       <td>Column One</td>
     </tr>
     <tr>
-      <td>Content of column one</td>
+      <td>TRON</td>
       <td>Content of column two</td>
     </tr>
   </tbody>
@@ -75,7 +75,7 @@
 <table>
   <tbody>
     <tr>
-      <td>TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7</td>
+      <td></td>
       <td>TRON</td>
     </tr>
 <tr><td>DMh7EXf7XbibFFsqaAetdQQ77Zb5TVCXiX</td><td>Doge</td>/</tr>
