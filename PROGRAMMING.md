@@ -574,7 +574,32 @@ To-do ...
      ~$ [[ $a < $b ]] && echo "True" || echo "False"
      ~$ True
 
-To-do ...
+<p align="justify">One can check the values of the set variables:</p>
+
+    ~$ echo $a $b
+    ~$ 0 1
+
+<p align="justify">For our next example we delete the values of the variables.</p>
+
+    ~$ unset a b    # Here we see, why we deal wit the parameter expansion. We unset a and b not $a and $b                         
+<p align="justify">Next example:</p>
+
+    ~$ a=1
+    ~$ b=2
+    ~$ c=3
+
+    ~$ [[ $a > $b ]] || [[ $b > $c ]] && echo "True" || echo "False"
+    ~$ False
+
+    ~$ [[ $a < $b ]] || [[ $b > $c ]] && echo "True" || echo "False"
+    ~$ True
+
+<p align="justify">Please note that every expression has it own exit status which will be linked to the previous one. So it is not a valid approach to use short circuit expressions as a substitute of an <code></code>if … then … else … fi</p>code> statement.</p>
+
+> [!CAUTION]
+> See section '22. cmd1 && cmd2 || cmd3' in reference [4]. There the pitfall of misleading usage of short-circuit evaluations will be shown and explained.
+
+a little bit more explanations to-do ...
 
 ##  Read from the command prompt
 
@@ -686,7 +711,7 @@ To-do ...
 
 ##  Interface programming
 
-<p align="justify"></p>
+<p align="justify">For GUI programming one can use dialog or zenity.</p>
 
 To-do ...
 
