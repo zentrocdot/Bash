@@ -35,10 +35,14 @@
 | GREP                    | Global-Regular-Expression-Print                    |
 | GUI                     | Graphical user interface                           |  
 | HUP                     | Hang UP                                            |
+| HTML                    | Hypertext Markup Language                          |
 | IBM                     | International Business Machines                    |
 | ID                      | Identificator                                      |
 | IEEE                    | Institute of Electrical and Electronic Engineers   |
+| IRQ                     | Interrupt request                                  |
+| ITU                     | International Telecommunication Union              |
 | I/O                     | input/output                                       |
+| KB                      | Keyboard                                           |
 | ksh                     | KornShell                                          |
 | LAN                     | Local Area Network                                 |
 | ls                      | list                                               |
