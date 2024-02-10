@@ -837,16 +837,6 @@ To-do ...
 <a href="https://www.buymeacoffee.com/zentrocdot" target="_blank"><img src="\IMAGES\greeen-button.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 </p>
 
-<hr width="100%" size="2">
-
-<hr width="100%" size="1">
-
-<p align="center">I loved the time when you could get also a hamburger for one euro!</p>
-
-<p align="center">
-<a href="https://www.buymeacoffee.com/zentrocdot" target="_blank"><img src="..\IMAGES\greeen-button.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-</p>
-
 <hr width="100%" size="1">
 
 <p align="justify">Here are some other good ways to simply donate a coffee to me via my favourite coins :coin:.</p>
@@ -871,5 +861,7 @@ To-do ...
     </tr>
   </tbody>
 </table>
+
+<hr width="100%" size="1">
 
 <p align="center">File last modified 10/02/2024</p>
