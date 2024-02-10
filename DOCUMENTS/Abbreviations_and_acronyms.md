@@ -1,13 +1,11 @@
 ## Abbreviations and Acronyms
 
-<p align="justify">For documentation purposes, subsequently there is table with abbreviations and acronyms related to Linux and Bash. This list does not claim to be exhaustive footnote.[^1]:</p>[^1]:[^1]:
-[^1]
+<p align="justify">For documentation purposes, subsequently there is table with abbreviations and acronyms related to Linux and Bash. This list does not claim to be exhaustive footnote.</p>
 
-A footnote can also have multiple lines[^2].
+[^2].
 
 [^1]: My reference.
-[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
-  This is a second line.
+
 
 | Abbreviation or Acronym | Description           |
 | ----------------------- | --------------------- |
