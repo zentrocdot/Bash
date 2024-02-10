@@ -829,7 +829,7 @@ To-do ...
 
 [10]    www&#8203;.shellcheck.net/
 
-<p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee. I drink a lot of coffee while programming and writing :coffee:.</p>
+<pre><p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee. I drink a lot of coffee while programming and writing :coffee:.</p></pre>
 
 <hr width="100%" size="2">
 
