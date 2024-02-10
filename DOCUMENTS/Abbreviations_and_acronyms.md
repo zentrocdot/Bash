@@ -80,7 +80,7 @@
   </tbody>
 </table>
 
-<hr width="100%" size="1">
+<hr width="100%">
 
 <sup>[1]</sup> See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
 
