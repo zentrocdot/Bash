@@ -765,28 +765,7 @@ To-do ...
 
 ## Abbreviations
 
-| Abbreviation | Description           |
-| ------------ | --------------------- |
-| apt          | Advanced Package Tool |
-| BASH         | Bourne-Again SHell    |
-| chmod        | Change Mode           |
-| chown        | Change owner          |
-| CMD          | Command               |
-| cp           | copy                  |
-| EUID         | Effective User ID     |
-| mv           | move                  |
-| PID          | Process ID            |
-| PGID         | Process Group ID      |
-| PPID         | Parent process ID     |
-| ps           | Process status        |
-| rm           | remove                |
-| sed          | Stream EDditor        |
-| SID          | Session ID            |  
-| ssh          | Secure shell          |
-| TGID         | Thread Group ID       |
-| TTY          | Terminal type         |
-| UID          | User ID               |
-| umask        | User mask             |
+<a href="/DOCUMENTS/Abbreviations_and_acronyms.md">Abbreviations and Acronyms</a>.
 
 ## Resources
 
