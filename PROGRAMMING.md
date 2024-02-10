@@ -555,7 +555,7 @@ To-do ...
 
 ## Short Circuit test or evaluation of a conditional expression
 
-<p align="justify">A <code>short circuit test</code> looks like the expressions shown below. These are combinations of AND and OR operators. Tzhe AND operator is && and the OR operator is ||.</p>
+<p align="justify">A <code>short circuit test</code> looks like the expressions shown below. These are combinations of AND and OR operators. The AND operator is && and the OR operator is ||.</p>
 
      COMMAND1 && COMMAND2 || COMMAND3    or
      EXPRESSION1 && EXPRESSION2 || EXPRESSION
