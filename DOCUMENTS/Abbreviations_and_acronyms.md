@@ -22,12 +22,17 @@
 | CMD                     | Command                                            |
 | cp                      | copy                                               |
 | csh                     | C shell                                            |
+| C64                     | Commodore 64                                       |
 | dash                    | Debian Almquist Shell                              |
 | dpkg	                  | Debian Package                                     |
+| ELF                     | Executable Linkable Format                         |
+| etc                     | etcetera                                           |
 | EUID                    | Effective User ID                                  |
 | FD                      | File Descriptor                                    |
+| FDD                     | Floppy Disk Drive                                  |
 | fish                    | Friendly Interactive SHell                         | 
 | fg                      | Foreground                                         |
+| FHS                     | Filesystem Hierarchy Standard                      |
 | FN                      | Filename                                           |
 | Fortran                 | Formula Translation                                |
 | ftp                     | File transfer protocol                             |
@@ -35,14 +40,18 @@
 | gawk                    | GNU awk                                            |
 | GNOME                   | GNU Network Object Model Environment               |
 | GNU                     | GNU's Not UNIX                                     |
+| GPL                     | General Public License                             | 
 | GREP                    | Global-Regular-Expression-Print                    |
-| GUI                     | Graphical user interface                           |  
+| GRUB                    | GRand Unified Bootloader                           |
+| GUI                     | Graphical user interface                           | 
+| HDD                     | Hard Disk Drive                                    |
 | HUP                     | Hang UP                                            |
 | HTML                    | Hypertext Markup Language                          |
 | IBM                     | International Business Machines                    |
 | ID                      | Identificator                                      |
 | IEEE                    | Institute of Electrical and Electronic Engineers   |
 | IRQ                     | Interrupt request                                  |
+| ISO                     | International Organization for Standardization     |
 | ITU                     | International Telecommunication Union              |
 | I/O                     | input/output                                       |
 | KB                      | Keyboard                                           |
@@ -56,6 +65,7 @@
 | man                     | Manual                                             |
 | mv                      | move                                               |
 | NAS                     | Network Allocation Storage                         |
+| NIC                     | Network Interface Card                             |
 | NFS                     | Network file system                                | 
 | NTP                     | Network time protocol                              |
 | OS                      | Operating System                                   |
@@ -76,6 +86,7 @@
 | sh                      | (Bourne) Shell                                     |
 | SIG                     | Signal                                             |
 | SID                     | Session ID                                         |  
+| src                     | Source                                             |
 | ssh                     | Secure shell                                       |
 | su                      | switch user                                        |
 | sudo                    | SUper user DO                                      |
@@ -95,6 +106,8 @@
 | URL                     | Uniform Resource Locator                           |
 | USB                     | Universal serial bus                               |
 | umask                   | User mask                                          |
+| usr                     | Unix System Resources                              |
+| usr                     | user                                               |
 | VGA                     | VGA—Video Graphics Array                           |
 | WAN                     | Wide Area Network                                  |
 | WLAN                    | Wireless LAN                                       |
