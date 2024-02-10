@@ -15,6 +15,7 @@
 | bg                      | Background                                         |
 | BIOS                    | Basic Input/Output System                          |
 | BSD                     | Berkeley Software Distribution                     |
+| chgrp                   | CHange GRouP                                       |                       
 | chmod                   | CHange MODe                                        |
 | chown                   | CHange OWNer                                       |
 | CLI                     | Command line interface                             |
@@ -22,12 +23,14 @@
 | cp                      | copy                                               |
 | csh                     | C shell                                            |
 | dash                    | Debian Almquist Shell                              |
+| dpkg	                  | Debian Package                                     |
 | EUID                    | Effective User ID                                  |
 | FD                      | File Descriptor                                    |
 | fish                    | Friendly Interactive SHell                         | 
 | fg                      | Foreground                                         |
 | FN                      | Filename                                           |
 | Fortran                 | Formula Translation                                |
+| ftp                     | File transfer protocol                             |
 | GCC                     | GNU Compiler Collection                            |
 | gawk                    | GNU awk                                            |
 | GNOME                   | GNU Network Object Model Environment               |
@@ -49,6 +52,9 @@
 | LTS                     | Long Term Support                                  |
 | MAC                     | Media Access Control                               |
 | mv                      | move                                               |
+| NAS                     | Network Allocation Storage                         |
+| NFS                     | Network file system                                | 
+| NTP                     | Network time protocol                              |
 | OS                      | Operating System                                   |
 | PCI                     | Peripheral Component Interconnect                  |
 | Perl                    | Practical Extraction and Reporting Language        |
@@ -133,7 +139,7 @@
 
 <hr width="100%" size="1">
 
-<sup>[1]</sup> See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
+<sup>[1]</sup> www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
 
 <sup>[2]</sup> linfo.org/acronym_list.html
 
