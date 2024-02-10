@@ -57,14 +57,12 @@
 
 <hr width="100%" size="2">
 
-<pre>
-| Column One    | Column Two    |                                                                                                                                                   
-| ---           | ---           |                                                                                                                                                   
-| TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7  | TRON |     
-| DMh7EXf7XbibFFsqaAetdQQ77Zb5TVCXiX  | Doge |
-| 2JsKesep3yuDpmrcXCxXu7EQJkRaAvsc5    |Bitcoin|
-| 0x31042e2F3AE241093e0387b41C6910B11d94f7ec |Ethereum |
-</pre>
+    |    |   |                                                                                          
+    | ---           | ---           |                                                                                          
+    | TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7  | TRON |     
+    | DMh7EXf7XbibFFsqaAetdQQ77Zb5TVCXiX  | Doge |
+    | 2JsKesep3yuDpmrcXCxXu7EQJkRaAvsc5    |Bitcoin|
+    | 0x31042e2F3AE241093e0387b41C6910B11d94f7ec |Ethereum |
 
 <sup>[1]</sup> See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
 
