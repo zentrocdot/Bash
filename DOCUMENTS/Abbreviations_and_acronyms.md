@@ -62,11 +62,11 @@
   <tbody>
     <tr>
       <td>TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7</td>
-      <td>Column One</td>
+      <td>TRON</td>
     </tr>
     <tr>
-      <td>TRON</td>
-      <td>Content of column two</td>
+      <td>DMh7EXf7XbibFFsqaAetdQQ77Zb5TVCXiX</td>
+      <td>Doge</td>
     </tr>
   </tbody>
 </table>
@@ -78,7 +78,7 @@
       <td></td>
       <td>TRON</td>
     </tr>
-<tr><td>DMh7EXf7XbibFFsqaAetdQQ77Zb5TVCXiX</td><td>Doge</td>/</tr>
+<tr><td></td><td>Doge</td>/</tr>
 <tr><td>2JsKesep3yuDpmrcXCxXu7EQJkRaAvsc5</td><td>Bitcoin</td></tr>
 <tr><td>0x31042e2F3AE241093e0387b41C6910B11d94f7ec</td><td>Ethereum</td></tr>
 </tbody></table>
