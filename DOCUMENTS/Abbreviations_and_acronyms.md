@@ -1,8 +1,6 @@
 ## Abbreviations and Acronyms
 
-<p align="justify">For documentation purposes, subsequently there is table with abbreviations and acronyms related to Linux and Bash. This list does not claim to be exhaustivee.
-
-Here is a simple footnote[^1].</p> 
+<p align="justify">For documentation purposes, subsequently there is table with abbreviations and acronyms related to Linux and Bash. This list does not claim to be exhaustive footnote[^1].</p> 
 
 A footnote can also have multiple lines[^2].
 
