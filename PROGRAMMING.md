@@ -839,7 +839,7 @@ To-do ...
 <a href="https://www.buymeacoffee.com/zentrocdot" target="_blank"><img src="\IMAGES\greeen-button.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 </p>
 
-<p align="center">I loved the time when you could get also a hamburger for one euro!</p>
+<p align="center">I loved the time when you could get also a hamburger for one euro :hamburger:!</p>
 
 <hr width="100%" size="1">
 
