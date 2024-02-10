@@ -4,14 +4,17 @@
 
 | Abbreviation or Acronym | Description                                        |
 | ----------------------- | -------------------------------------------------- |
+| ALSA                    | Advanced Linux Sound Architecture                  |
 | AMD                     | Advanced Micro Devices                             |
 | ANSI                    | American National Standards Institute              |
 | apt                     | Advanced Package Tool                              |
 | ASCII                   | American Standard Code for Information Interchange |
-| awk                     |                                                    |
+| awk                     | Aho, Weinberger and Kernighan                      |
+| BASIC                   | Beginner's All-Purpose Symbolic Instruction Code   |
 | BASH                    | Bourne-Again SHell                                 |
 | bg                      | Background                                         |
 | BIOS                    | Basic Input/Output System                          |
+| BSD                     | Berkeley Software Distribution                     |
 | chmod                   | CHange MODe                                        |
 | chown                   | CHange OWNer                                       |
 | CLI                     | Command line interface                             |
@@ -24,6 +27,7 @@
 | fish                    | Friendly Interactive SHell                         | 
 | fg                      | Foreground                                         |
 | FN                      | Filename                                           |
+| gawk                    | GNU awk                                            |
 | GNOME                   | GNU Network Object Model Environment               |
 | GNU                     | GNU's Not UNIX                                     |
 | GUI                     | Graphical user interface                           |  
