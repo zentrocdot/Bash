@@ -24,6 +24,7 @@
 | GUI                     | Graphical user interface                           |  
 | HUP                     | Hang UP                                            |
 | IBM                     | International Business Machines                    |
+| ID                      | Identificator                                      |
 | IEEE                    | Institute of Electrical and Electronic Engineers   |
 | I/O                     | input/output                                       |
 | LAN                     | Local Area Network                                 |
@@ -36,6 +37,7 @@
 | ps                      | Process status                                     |
 | pwd                     | print working directory                            |
 | PWR                     | Power                                              |
+| ROM                     | Read Only Menory                                   |
 | rm                      | remove                                             |
 | sed                     | Stream EDditor                                     |
 | sh                      | (Bourne) Shell                                     |
@@ -77,7 +79,7 @@
   <tbody>
     <tr>
       <td>TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7</td>
-      <td>TRON</td>
+      <td>Tron</td>
     </tr>
     <tr>
       <td>DMh7EXf7XbibFFsqaAetdQQ77Zb5TVCXiX</td>
