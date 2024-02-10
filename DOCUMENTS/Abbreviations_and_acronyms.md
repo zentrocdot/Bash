@@ -1,6 +1,6 @@
 ## Abbreviations and Acronyms
 
-<p align="justify">For documentation purposes, subsequently there is table with abbreviations and acronyms related to Linux and Bash. I will update this page from time to time. This list does not claim to be exhaustive<sup>[1,2]</sup>.</p>
+<p align="justify">For documentation purposes, subsequently there is table with abbreviations and acronyms related to Linux and Bash. I will update this page from time to time. This list does not claim to be exhaustive<sup>[1,2,3]</sup>.</p>
 
 | Abbreviation or Acronym | Description                                        |
 | ----------------------- | -------------------------------------------------- |
@@ -27,9 +27,12 @@
 | fish                    | Friendly Interactive SHell                         | 
 | fg                      | Foreground                                         |
 | FN                      | Filename                                           |
+| Fortran                 | Formula Translation                                |
+| GCC                     | GNU Compiler Collection                            |
 | gawk                    | GNU awk                                            |
 | GNOME                   | GNU Network Object Model Environment               |
 | GNU                     | GNU's Not UNIX                                     |
+| GREP                    | Global-Regular-Expression-Print                    |
 | GUI                     | Graphical user interface                           |  
 | HUP                     | Hang UP                                            |
 | IBM                     | International Business Machines                    |
@@ -38,8 +41,12 @@
 | I/O                     | input/output                                       |
 | ksh                     | KornShell                                          |
 | LAN                     | Local Area Network                                 |
+| ls                      | list                                               |
+| MAC                     | Media Access Control                               |
 | mv                      | move                                               |
 | OS                      | Operating System                                   |
+| PCI                     | Peripheral Component Interconnect                  |
+| Perl                    | Practical Extraction and Reporting Language        |
 | PID                     | Process ID                                         |
 | PGID                    | Process Group ID                                   |
 | POSIX                   | Portable Operating System Interface                |
@@ -47,6 +54,8 @@
 | ps                      | Process status                                     |
 | pwd                     | print working directory                            |
 | PWR                     | Power                                              |
+| RGB                     | Red, Green, Blue                                   |
+| RegEx                   | Regular Expressions                                | 
 | ROM                     | Read Only Menory                                   |
 | rm                      | remove                                             |
 | sed                     | Stream EDditor                                     |
@@ -56,9 +65,12 @@
 | ssh                     | Secure shell                                       |
 | su                      | switch user                                        |
 | sudo                    | SUper user DO                                      |
+| SUSE                    | Software und System-Entwicklung                    |
 | tcsh                    | TENEX C Shell                                      | 
 | TERM                    | Terminal                                           |
 | TGID                    | Thread Group ID                                    |
+| TROFF                   | Trace Off                                          | 
+| TRON                    | Trace On                                           | 
 | TRON                    | The Real Time Operating System                     |
 | TTY                     | Terminal type                                      |
 | TTY                     | TeleTYpewriter                                     |
@@ -69,10 +81,12 @@
 | URL                     | Uniform Resource Locator                           |
 | USB                     | Universal serial bus                               |
 | umask                   | User mask                                          |
+| VGA                     | VGA—Video Graphics Array                           |
 | WAN                     | Wide Area Network                                  |
 | WLAN                    | Wireless LAN                                       |
 | Wi-Fi                   | Wireless Fidelity                                  |
 | XML                     | Extensible markup language                         |  
+| YAML                    | YAML Ain't Markup Language                         |
 | zsh                     | Z Shell                                            |
 
 <p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee. I drink a lot of coffee while programming and writing :coffee:.</p>
@@ -119,6 +133,8 @@
 <sup>[1]</sup> See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
 
 <sup>[2]</sup> linfo.org/acronym_list.html
+
+<sup>[3]</sup> en.wikipedia.org/wiki/List_of_computing_and_IT_abbreviations
 
 
 
