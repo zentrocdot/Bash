@@ -1,6 +1,10 @@
 # Collection of References
 
-[A1]    www&#8203;.gnu.org/software/bash/manual/
+<p align="justify">Below is a list of references that I have found useful during my work. I will check whether this is really the case. Then I will update the list.</p>
+
+[A1]    phoenixnap.com/kb/bash-if-statement
+
+[A2]    phoenixnap.com/kb/change-bash-prompt-linux
 
 [B1]    linuxize.com/post/bash-break-continue/
 
@@ -15,10 +19,6 @@
 [E1]    www www&#8203;.redhat.com/sysadmin/exit-codes-demystified
 
 [F1]    www&#8203;.ubuntumint.com/find-longest-lines-file-linux/
-
-[H1]    phoenixnap.com/kb/bash-if-statement
-
-[H2]    phoenixnap.com/kb/change-bash-prompt-linux
 
 [I1]    stackabuse.com/guide-to-parameter-expansion-in-bash/
 
