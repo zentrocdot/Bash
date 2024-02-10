@@ -57,6 +57,19 @@
 
 <hr width="100%" size="2">
 
+
+<table>
+  <tbody>
+    <tr>
+      <td>Column One</td>
+      <td>Column One</td>
+    </tr>
+    <tr>
+      <td>Content of column one</td>
+      <td>Content of column two</td>
+    </tr>
+  </tbody>
+</table>
 <table><tbody>
 <tr>
   <td>TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7</td>
