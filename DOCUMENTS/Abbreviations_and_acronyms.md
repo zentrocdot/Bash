@@ -112,7 +112,7 @@
 | WAN                     | Wide Area Network                                  |
 | WLAN                    | Wireless LAN                                       |
 | Wi-Fi                   | Wireless Fidelity                                  |
-| XML                     | Extensible markup language                         |  
+| XML                     | eXtensible Markup Language                         |  
 | YAML                    | YAML Ain't Markup Language                         |
 | zsh                     | Z Shell                                            |
 
