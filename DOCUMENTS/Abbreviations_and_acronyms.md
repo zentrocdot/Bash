@@ -48,7 +48,7 @@
 | UID                     | User ID                                            |
 | umask                   | User mask                                          |
 
-<p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee. I drink a lot of coffee while programming and writing :smiley:.</p>
+<p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee. I drink a lot of coffee while programming and writing :coffee:.</p>
 
 <hr width="100%" size="2">
 
@@ -60,7 +60,7 @@
 
 <hr width="100%" size="2">
 
-<p align="justify">Other good ways to simply donate a coffee to me :smiley:.</p>
+<p align="justify">Other good ways to simply donate a coffee to me via my favourite coins :coin:.</p>
 
 <table>
   <tbody>
