@@ -93,7 +93,9 @@
 
 <sup>[2]</sup> linfo.org/acronym_list.html
 
-<hr width="50%" height="1px" justify="center" size="0">
+<center>
+<hr width="50%" size="1">  
+</center>
 
 <p align="center">File last modified 10/02/2024</p>
 
