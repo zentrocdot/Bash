@@ -22,8 +22,10 @@
 | CMD                     | Command                                             |
 | cp                      | copy                                                |
 | csh                     | C shell                                             |
+| CUPS                    | Common Unix Printing System                         |
 | C64                     | Commodore 64                                        |
 | dash                    | Debian Almquist Shell                               |
+| DOS                     | Disk Operating System                               |
 | dpkg	                  | Debian Package                                      |
 | EEPROM                  | Electrically Erasable Programmable Read-Only Memory |
 | ELF                     | Executable Linkable Format                          |
@@ -47,6 +49,7 @@
 | GRUB                    | GRand Unified Bootloader                            |
 | GUI                     | Graphical user interface                            | 
 | HDD                     | Hard Disk Drive                                     |
+| HP                      | Hewlett Packard                                     |
 | HUP                     | Hang UP                                             |
 | HTML                    | Hypertext Markup Language                           |
 | IBM                     | International Business Machines                     |
@@ -65,6 +68,7 @@
 | LTS                     | Long Term Support                                   |
 | MAC                     | Media Access Control                                |
 | man                     | Manual                                              |
+| MS                      | Microsoft                                           |
 | mv                      | move                                                |
 | NAS                     | Network Allocation Storage                          |
 | NIC                     | Network Interface Card                              |
@@ -86,6 +90,7 @@
 | RAM                     | Random Access Menory                                |
 | ROM                     | Read Only Menory                                    |
 | rm                      | remove                                              |
+| SANE                    | Scanner Access Now Easy                             |
 | sed                     | Stream EDditor                                      |
 | sh                      | (Bourne) Shell                                      |
 | SIG                     | Signal                                              |
@@ -103,6 +108,7 @@
 | TRON                    | The Real Time Operating System                      |
 | TTY                     | Terminal type                                       |
 | TTY                     | TeleTYpewriter                                      |
+| TWAIN                   | Technology Without An Interesting Name              | 
 | UEFI                    | Unified Extensible Firmware Interface               |
 | UI                      | User interface                                      |
 | UID                     | User ID                                             |
