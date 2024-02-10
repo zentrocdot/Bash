@@ -1,32 +1,40 @@
 ## Abbreviations and Acronyms
 
-<p align="justify">For documentation purposes, subsequently there is table with abbreviations and acronyms related to Linux and Bash. This list does not claim to be exhaustive footnote<sup>[1]</sup>.</p>
+<p align="justify">For documentation purposes, subsequently there is table with abbreviations and acronyms related to Linux and Bash. This list does not claim to be exhaustive<sup>[1,2]</sup>.</p>
 
-| Abbreviation or Acronym | Description           |
-| ----------------------- | --------------------- |
-| apt                     | Advanced Package Tool |
-| BASH                    | Bourne-Again SHell    |
-| chmod                   | Change Mode           |
-| chown                   | Change owner          |
-| CMD                     | Command               |
-| cp                      | copy                  |
-| EUID                    | Effective User ID     |
-| mv                      | move                  |
-| PID                     | Process ID            |
-| PGID                    | Process Group ID      |
-| PPID                    | Parent process ID     |
-| ps                      | Process status        |
-| rm                      | remove                |
-| sed                     | Stream EDditor        |
-| SIG                     | Signal                |
-| SID                     | Session ID            |  
-| ssh                     | Secure shell          |
-| su                      | Switch user           |
-| sudo                    | SUper user DO         |
-| TGID                    | Thread Group ID       |
-| TTY                     | Terminal type         |
-| UID                     | User ID               |
-| umask                   | User mask             |
+| Abbreviation or Acronym | Description                                        |
+| ----------------------- | -------------------------------------------------- |
+| AMD                     | Advanced Micro Devices                             |
+| apt                     | Advanced Package Tool                              |
+| ASCII                   | American Standard Code for Information Interchange |
+| BASH                    | Bourne-Again SHell                                 |
+| chmod                   | Change Mode                                        |
+| chown                   | Change owner                                       |
+| CMD                     | Command                                            |
+| cp                      | copy                                               |
+| EUID                    | Effective User ID                                  |
+| HUP                     | Hang UP                                            |
+| mv                      | move                                               |
+| OS                      | Operating System                                   |
+| PID                     | Process ID                                         |
+| PGID                    | Process Group ID                                   |
+| PPID                    | Parent process ID                                  |
+| ps                      | Process status                                     |
+| PWR                     | Power                                              |
+| rm                      | remove                                             |
+| sed                     | Stream EDditor                                     |
+| sh                      | (Bourne) Shell                                     |
+| SIG                     | Signal                                             |
+| SID                     | Session ID                                         |  
+| ssh                     | Secure shell                                       |
+| su                      | Switch user                                        |
+| sudo                    | SUper user DO                                      |
+| TGID                    | Thread Group ID                                    |
+| TTY                     | Terminal type                                      |
+| TTY                     | TeleTYpewriter                                     |
+| UID                     | User ID                                            |
+| umask                   | User mask                                          |
 
-See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
+<sup>[1]</sup> See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
+<sup>[2]</sup> linfo.org/acronym_list.html
 
