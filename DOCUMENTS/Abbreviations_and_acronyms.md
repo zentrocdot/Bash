@@ -49,8 +49,11 @@
 | ksh                     | KornShell                                          |
 | LAN                     | Local Area Network                                 |
 | ls                      | list                                               |
+| lspci                   | List PCI devices                                   |
+| lsusb                   | List USB devices                                   |
 | LTS                     | Long Term Support                                  |
 | MAC                     | Media Access Control                               |
+| man                     | Manual                                             |
 | mv                      | move                                               |
 | NAS                     | Network Allocation Storage                         |
 | NFS                     | Network file system                                | 
