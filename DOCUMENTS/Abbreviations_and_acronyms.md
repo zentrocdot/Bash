@@ -94,9 +94,9 @@
 | YAML                    | YAML Ain't Markup Language                         |
 | zsh                     | Z Shell                                            |
 
-<p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee. I drink a lot of coffee while programming and writing :coffee:.</p>
+<p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee :coffee:. I drink a lot of coffee while programming and writing  :smiley:.</p>
 
-<hr width="100%" size="2">
+<hr width="100%" size="1">
 
 <p align="center">I loved the time when you could get also a hamburger for one euro!</p>
 
@@ -106,7 +106,7 @@
 
 <hr width="100%" size="1">
 
-<p align="justify">Here are some other good ways to simply donate a coffee to me via my favourite coins :coin:.</p>
+<p align="justify">Here are some other good ways to simply donate a coffee to me via my favourite coins :moneybag:.</p>
 
 <table>
   <tbody>
@@ -131,15 +131,15 @@
 
 <hr width="100%" size="1">
 
-<p align="center">File last modified 10/02/2024</p>
-
-<hr width="100%" size="1">
-
 <sup>[1]</sup> See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
 
 <sup>[2]</sup> linfo.org/acronym_list.html
 
 <sup>[3]</sup> en.wikipedia.org/wiki/List_of_computing_and_IT_abbreviations
+
+<hr width="100%" size="1">
+
+<p align="center">File last modified 10/02/2024</p>
 
 
 
