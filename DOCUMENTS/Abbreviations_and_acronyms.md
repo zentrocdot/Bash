@@ -1,6 +1,6 @@
 ## Abbreviations and Acronyms
 
-<p align="justify">For documentation purposes, subsequently there is table with abbreviations and acronyms related to Linux and Bash. This list does not claim to be exhaustive<sup>[1,2]</sup>.</p>
+<p align="justify">For documentation purposes, subsequently there is table with abbreviations and acronyms related to Linux and Bash. I will update this page from time to time. This list does not claim to be exhaustive<sup>[1,2]</sup>.</p>
 
 | Abbreviation or Acronym | Description                                        |
 | ----------------------- | -------------------------------------------------- |
@@ -16,7 +16,11 @@
 | CMD                     | Command                                            |
 | cp                      | copy                                               |
 | EUID                    | Effective User ID                                  |
+| FD                      | File Descriptor                                    |
 | fg                      | Foreground                                         |
+| FN                      | Filename                                           |
+| GNOME                   | GNU Network Object Model Environment               |
+| GNU                     | GNU's Not UNIX                                     |
 | GUI                     | Graphical user interface                           |  
 | HUP                     | Hang UP                                            |
 | IBM                     | International Business Machines                    |
@@ -60,7 +64,7 @@
 
 <hr width="100%" size="2">
 
-<p align="justify">Other good ways to simply donate a coffee to me via my favourite coins :coin:.</p>
+<p align="justify">Here are some other good ways to simply donate a coffee to me via my favourite coins :coin:.</p>
 
 <table>
   <tbody>
@@ -88,4 +92,9 @@
 <sup>[1]</sup> See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
 
 <sup>[2]</sup> linfo.org/acronym_list.html
+
+<hr width="50%">
+
+<p align="center">File last modified 10/02/2024</p>
+
 
