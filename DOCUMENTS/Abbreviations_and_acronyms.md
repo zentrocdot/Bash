@@ -2,6 +2,8 @@
 
 <p align="justify">For documentation purposes, subsequently there is table with abbreviations and acronyms related to Linux and Bash. This list does not claim to be exhaustive<sup>[1](#myfootnote1)</sup>.</p>
 
+<a id="1">The name where you want to jump</a>
+
 | Abbreviation or Acronym | Description           |
 | ----------------------- | --------------------- |
 | apt                     | Advanced Package Tool |
@@ -28,4 +30,4 @@
 | UID                     | User ID               |
 | umask                   | User mask             |
 
-<a name="myfootnote1">1</a>: See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
+<a name="1">1</a>: See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
