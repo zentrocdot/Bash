@@ -57,7 +57,6 @@
 
 <hr width="100%" size="2">
 
-<small>
 |                |   |                                                                                          
 | ---                                 | ---           |                                                       
 | <small>TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7 </small> | TRON |     
