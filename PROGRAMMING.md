@@ -841,6 +841,8 @@ To-do ...
 
 <p align="justify">Here are some other good ways to simply donate a coffee to me via my favourite coins :coin:.</p>
 
+<center>
+
 <table>
   <tbody>
     <tr>
@@ -861,6 +863,8 @@ To-do ...
     </tr>
   </tbody>
 </table>
+
+</center>
 
 <hr width="100%" size="1">
 
