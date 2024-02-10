@@ -87,13 +87,13 @@
   </tbody>
 </table>
 
-<hr width="100%">
+<hr width="100%" height="1px" margin=auto>
 
 <sup>[1]</sup> See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
 
 <sup>[2]</sup> linfo.org/acronym_list.html
 
-style="height: 1px; width:50%; margin: auto;"
+<hr width="50%" height="1px" margin=auto>
 
 <p align="center">File last modified 10/02/2024</p>
 
