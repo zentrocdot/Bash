@@ -26,6 +26,7 @@
 | IBM                     | International Business Machines                    |
 | IEEE                    | Institute of Electrical and Electronic Engineers   |
 | I/O                     | input/output                                       |
+| LAN                     | Local Area Network                                 |
 | mv                      | move                                               |
 | OS                      | Operating System                                   |
 | PID                     | Process ID                                         |
@@ -52,6 +53,8 @@
 | UID                     | User ID                                            |
 | USB                     | Universal serial bus                               |
 | umask                   | User mask                                          |
+| WAN                     | Wide Area Network                                  |
+| WLAN                    | Wireless LAN                                       |
 | XML                     | Extensible markup language                         |  
 
 <p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee. I drink a lot of coffee while programming and writing :coffee:.</p>
