@@ -21,7 +21,7 @@
 
 ##  Command Line Interpreter Bash
 
-<p align="justify"><code>Bash</code> is a so called shell and the command language interpreter or command line interpreter installed on an operating system like <code>Unix</code> or <code>Linux</code>. It runs within a terminal window or a virtual console. The name is an acronym for <code>Bourne-Again SHell</code>. It is an direct successor of the <code>Unix</code> or <code>Linux</code> shell <code>sh</code>. There are a bunch of other shells next to <code>Bash</code>.</p>
+<p align="justify"><code>Bash</code> is a so called shell and the <code>command language interpreter</code>code> or <code>command line interpreter</code>code> installed on an operating system like <code>Unix</code> or <code>Linux</code>. It runs within a terminal window or a virtual console. The name is an acronym for <code>Bourne-Again SHell</code>. It is an direct successor of the <code>Unix</code> or <code>Linux</code> shell <code>sh</code>. There are a bunch of other shells next to <code>Bash</code>.</p>
 
 <p align="justify">To get a list of available shells on the operating system use the the following command :</p>
 
@@ -868,4 +868,4 @@ DMh7EXf7XbibFFsqaAetdQQ77Zb5TVCXiX            (DOGE)
 12JsKesep3yuDpmrcXCxXu7EQJkRaAvsc5            (BITCOIN)
 0x31042e2F3AE241093e0387b41C6910B11d94f7ec    (Ethereum)</pre>
 
-<p align="center">File last modified 09/02/2024</p>
+<p align="center">File last modified 10/02/2024</p>
