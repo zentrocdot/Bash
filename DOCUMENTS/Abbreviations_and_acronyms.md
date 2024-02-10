@@ -51,6 +51,8 @@
 | TTY                     | TeleTYpewriter                                     |
 | UI                      | User interface                                     |
 | UID                     | User ID                                            |
+| URI                     | Uniform Resource Identifier                        |
+| URL                     | Uniform Resource Locator                           |
 | USB                     | Universal serial bus                               |
 | umask                   | User mask                                          |
 | WAN                     | Wide Area Network                                  |
