@@ -793,8 +793,6 @@ To-do ...
 
 [9]    www&#8203;.assertnotmagic.com/2018/06/20/bash-brackets-quick-reference/
 
-[10]    www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
-
 ## See also:
 
 [A1]    www&#8203;.gnu.org/software/bash/manual/
