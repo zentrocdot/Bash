@@ -47,11 +47,15 @@
 
 <p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee. I drink a lot of coffee while programming and writing :smiley:.</p>
 
+<hr width="100%" size="2">
+
 <p align="center">I loved the time when you could get also a hamburger for one euro!</p>
 
 <p align="center">
 <a href="https://www.buymeacoffee.com/zentrocdot" target="_blank"><img src="..\IMAGES\greeen-button.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 </p>
+
+<hr width="100%" size="2">
 
 <sup>[1]</sup> See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
 
