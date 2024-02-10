@@ -8,15 +8,20 @@
 | ANSI                    | American National Standards Institute              |
 | apt                     | Advanced Package Tool                              |
 | ASCII                   | American Standard Code for Information Interchange |
+| awk                     |                                                    |
 | BASH                    | Bourne-Again SHell                                 |
 | bg                      | Background                                         |
+| BIOS                    | Basic Input/Output System                          |
 | chmod                   | CHange MODe                                        |
 | chown                   | CHange OWNer                                       |
 | CLI                     | Command line interface                             |
 | CMD                     | Command                                            |
 | cp                      | copy                                               |
+| csh                     | C shell                                            |
+| dash                    | Debian Almquist Shell                              |
 | EUID                    | Effective User ID                                  |
 | FD                      | File Descriptor                                    |
+| fish                    | Friendly Interactive SHell                         | 
 | fg                      | Foreground                                         |
 | FN                      | Filename                                           |
 | GNOME                   | GNU Network Object Model Environment               |
@@ -27,6 +32,7 @@
 | ID                      | Identificator                                      |
 | IEEE                    | Institute of Electrical and Electronic Engineers   |
 | I/O                     | input/output                                       |
+| ksh                     | KornShell                                          |
 | LAN                     | Local Area Network                                 |
 | mv                      | move                                               |
 | OS                      | Operating System                                   |
@@ -46,11 +52,13 @@
 | ssh                     | Secure shell                                       |
 | su                      | switch user                                        |
 | sudo                    | SUper user DO                                      |
+| tcsh                    | TENEX C Shell                                      | 
 | TERM                    | Terminal                                           |
 | TGID                    | Thread Group ID                                    |
 | TRON                    | The Real Time Operating System                     |
 | TTY                     | Terminal type                                      |
 | TTY                     | TeleTYpewriter                                     |
+| UEFI                    | Unified Extensible Firmware Interface              |
 | UI                      | User interface                                     |
 | UID                     | User ID                                            |
 | URI                     | Uniform Resource Identifier                        |
@@ -59,7 +67,9 @@
 | umask                   | User mask                                          |
 | WAN                     | Wide Area Network                                  |
 | WLAN                    | Wireless LAN                                       |
+| Wi-Fi                   | Wireless Fidelity                                  |
 | XML                     | Extensible markup language                         |  
+| zsh                     | Z Shell                                            |
 
 <p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee. I drink a lot of coffee while programming and writing :coffee:.</p>
 
