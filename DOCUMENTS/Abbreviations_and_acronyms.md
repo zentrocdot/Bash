@@ -57,6 +57,19 @@
 
 <hr width="100%" size="2">
 
+<table>
+  <tbody>
+    <tr>
+      <td style="border: none">Column One</td>
+      <td style="border: none">Column One</td>
+    </tr>
+    <tr>
+      <td style="border: none">Content of column one</td>
+      <td style="border: none">Content of column two</td>
+    </tr>
+  </tbody>
+</table>
+
 <sup>[1]</sup> See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
 
 <sup>[2]</sup> linfo.org/acronym_list.html
