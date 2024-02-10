@@ -50,7 +50,9 @@
 | TTY                     | TeleTYpewriter                                     |
 | UI                      | User interface                                     |
 | UID                     | User ID                                            |
+| USB                     | Universal serial bus                               |
 | umask                   | User mask                                          |
+| XML                     | Extensible markup language                         |  
 
 <p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee. I drink a lot of coffee while programming and writing :coffee:.</p>
 
