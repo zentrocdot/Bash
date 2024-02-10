@@ -12,10 +12,12 @@
 | bg                      | Background                                         |
 | chmod                   | CHange MODe                                        |
 | chown                   | CHange OWNer                                       |
+| CLI                     | Command line interface                             |
 | CMD                     | Command                                            |
 | cp                      | copy                                               |
 | EUID                    | Effective User ID                                  |
 | fg                      | Foreground                                         |
+| GUI                     | Graphical user interface                           |  
 | HUP                     | Hang UP                                            |
 | IBM                     | International Business Machines                    |
 | IEEE                    | Institute of Electrical and Electronic Engineers   |
@@ -42,6 +44,7 @@
 | TRON                    | The Real Time Operating System                     |
 | TTY                     | Terminal type                                      |
 | TTY                     | TeleTYpewriter                                     |
+| UI                      | User interface                                     |
 | UID                     | User ID                                            |
 | umask                   | User mask                                          |
 
