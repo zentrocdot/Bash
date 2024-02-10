@@ -553,9 +553,9 @@ To-do ...
 
 To-do ...
 
-## Short Circuit evaluation of a conditional
+## Short Circuit test or evaluation of a conditional expression
 
-<p align="justify">A short circuit expression looks like:</p>
+<p align="justify">A <code>short circuit test</code> looks like the expressions shown below. These are combinations of AND and OR operators. Tzhe AND operator is && and the OR operator is ||.</p>
 
      COMMAND1 && COMMAND2 || COMMAND3    or
      EXPRESSION1 && EXPRESSION2 || EXPRESSION
@@ -563,7 +563,16 @@ To-do ...
      COMMAND1 || COMMAND2 && COMMAND3    or
      EXPRESSION1 || EXPRESSION2 && EXPRESSION
 
-The formulation is not limeted to 3 commands or 3 expressions.
+<p align="justify">The introduced formulation of short circiut tests is not limited to 3 commands or 3 expressions. Subsequently I am presenting some examples at the command prompt.</p>
+
+    ~$ a=0
+    ~$ b=1
+
+    ~$ [[ $a > $b ]] && echo "True" || echo "False"
+    ~$ False
+
+     ~$ [[ $a < $b ]] && echo "True" || echo "False"
+     ~$ True
 
 To-do ...
 
