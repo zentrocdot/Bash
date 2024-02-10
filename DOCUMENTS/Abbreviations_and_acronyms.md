@@ -1,6 +1,6 @@
 ## Abbreviations and Acronyms
 
-<p align="justify">For documentation purposes, subsequently there is table with abbreviations and acronyms related to Linux and Bash. This list does not claim to be exhaustive.</p> [^1]
+<p align="justify">For documentation purposes, subsequently there is table with abbreviations and acronyms related to Linux and Bash. This list does not claim to be exhaustive[^1].</p> 
 
 | Abbreviation or Acronym | Description           |
 | ----------------------- | --------------------- |
@@ -28,4 +28,5 @@
 | UID                     | User ID               |
 | umask                   | User mask             |
 
+[^1]: My reference.
 [^1]: See also www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
