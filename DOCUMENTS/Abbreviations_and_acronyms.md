@@ -13,9 +13,11 @@
 | BASIC                   | Beginner's All-Purpose Symbolic Instruction Code    |
 | BASH                    | Bourne-Again SHell                                  |
 | bg                      | Background                                          |
+| BGP                     | Border Gateway Protocol                             |
 | bc                      | Basic Calculator                                    |
 | BIOS                    | Basic Input/Output System                           |
 | BSD                     | Berkeley Software Distribution                      | 
+| CAD                     | Computer Aided Design                               |
 | cat                     | ConCATenate                                         |
 | chgrp                   | CHange GRouP                                        |      
 | chmod                   | CHange MODe                                         |
