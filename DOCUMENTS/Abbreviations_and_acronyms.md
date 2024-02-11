@@ -25,6 +25,7 @@
 | CLI                     | Command line interface                              |
 | CMD                     | Command                                             |
 | cp                      | copy                                                |
+| CPU                     | Central Processing Unit                             |
 | cron                    | ChRONos                                             |
 | csh                     | C shell                                             |
 | CUPS                    | Common Unix Printing System                         |
