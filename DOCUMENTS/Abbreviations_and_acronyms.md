@@ -12,6 +12,7 @@
 | API                     | Application programming interface                   |
 | apt                     | Advanced Package Tool                               |
 | APU                     | Accelerated Processing Unit                         |
+| ARJ                     | Archivar Robert Jung                                |
 | ARM                     | Acorn RISC Machine                                  |
 | ARM                     | Advanced RISC Machine                               |
 | ASCII                   | American Standard Code for Information Interchange  |
@@ -35,6 +36,7 @@
 | CLI                     | Command line interface                              |
 | CMD                     | Command                                             |
 | cp                      | copy                                                |
+| CPR                     | Cursor position report                              |
 | CPU                     | Central Processing Unit                             |
 | cron                    | ChRONos                                             |
 | csh                     | C shell                                             |
@@ -67,6 +69,7 @@
 | Fortran                 | Formula Translation                                 |
 | FOSS                    | Free open source software                           |
 | FS                      | Filesystem                                          |
+| FSB                     | Front Side Bus                                      |
 | ftp                     | File transfer protocol                              |
 | gawk                    | GNU awk                                             |
 | Gb                      | Gigabit                                             |
@@ -103,6 +106,7 @@
 | ksh                     | KornShell                                           |
 | LAMP                    | Linux Apache MySQL and PHP                          |
 | LAN                     | Local Area Network                                  |
+| LPC                     | Low Pin Count                                       |
 | ls                      | list                                                |
 | lspci                   | List PCI devices                                    |
 | lsusb                   | List USB devices                                    |
