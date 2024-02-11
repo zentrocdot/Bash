@@ -733,6 +733,10 @@ To-do ...
     shopt --help
     shopt           # Listed all the options.    
 
+or in
+
+    man bash
+
 To-do ...
 
 ##  Number system conversion
