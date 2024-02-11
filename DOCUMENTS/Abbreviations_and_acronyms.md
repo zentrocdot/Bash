@@ -11,7 +11,7 @@
 | AMD                     | Advanced Micro Devices                              |
 | ANSI                    | American National Standards Institute               |
 | AP                      |	Access Point                                        |
-| API                     | Application programming interface                   |
+| API                     | Application Programming Interface                   |
 | apt                     | Advanced Package Tool                               |
 | APU                     | Accelerated Processing Unit                         |
 | ARJ                     | Archivar Robert Jung                                |
@@ -134,9 +134,13 @@
 | LTS                     | Long Term Support                                   |
 | MAC                     | Media Access Control                                |
 | man                     | Manual                                              |
+| MBR                     | Master Boot Record                                  |
 | mc                      | Midnight Commander                                  |
+| MC                      | Microcontroller                                     |
+| MCU                     | Microcontroller unit                                | 
 | MIDI                    | Musical Instrument Digital Interface                |
 | MIT                     | Massachusetts Institute of Technology               |
+| ML                      | Machine Learning                                    |
 | MMU                     | Memory Management Unit                              |
 | MS                      | Microsoft                                           |
 | mv                      | move                                                |
@@ -154,6 +158,7 @@
 | PCI                     | Peripheral Component Interconnect                   |
 | PDA                     | Personal digital assistant                          |
 | Perl                    | Practical Extraction and Reporting Language         |
+| PI                      | Python Interpreter                                  |
 | PID                     | Process ID                                          |
 | PGID                    | Process Group ID                                    |
 | POSIX                   | Portable Operating System Interface                 |
