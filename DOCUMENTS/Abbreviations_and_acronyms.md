@@ -6,9 +6,11 @@
 
 | Abbreviation or Acronym | Description                                         |
 | ----------------------- | --------------------------------------------------- |
+| AIM                     | AOL Instant Messenger                               |
 | ALSA                    | Advanced Linux Sound Architecture                   |
 | AMD                     | Advanced Micro Devices                              |
 | ANSI                    | American National Standards Institute               |
+| AP                      |	Access Point                                        |
 | API                     | Application programming interface                   |
 | apt                     | Advanced Package Tool                               |
 | APU                     | Accelerated Processing Unit                         |
@@ -16,8 +18,10 @@
 | ARM                     | Acorn RISC Machine                                  |
 | ARM                     | Advanced RISC Machine                               |
 | ASCII                   | American Standard Code for Information Interchange  |
+| AT                      |	Advanced Technology                                 |
 | ATA                     | AT Attachment                                       |
 | ATAPI                   | AT Attachment Packet Interface                      |
+| ATX	                    | Advanced Technology Extended                        |
 | awk                     | Aho, Weinberger and Kernighan                       |
 | BASIC                   | Beginner's All-Purpose Symbolic Instruction Code    |
 | BASH                    | Bourne-Again SHell                                  |
@@ -129,6 +133,7 @@
 | OUI                     | Organizationally unique identifier                  | 
 | PAM                     | Pluggable Authentication Modules                    |
 | PC                      | Personal Computer                                   |
+| PCB                     | Printed Circuit Board                               |
 | PCI                     | Peripheral Component Interconnect                   |
 | PDA                     | Personal digital assistant                          |
 | Perl                    | Practical Extraction and Reporting Language         |
@@ -147,6 +152,8 @@
 | RISC                    | Reduced Instruction Set Computer                    |
 | ROM                     | Read Only Menory                                    |
 | rm                      | remove                                              |
+| RST                     | Reset                                               |
+| RST                     | reStructuredText                                    |
 | SAE                     | Society of Automotive Engineers                     | 
 | SANE                    | Scanner Access Now Easy                             |
 | SATA                    | Serial ATA                                          |
@@ -186,6 +193,7 @@
 | VFP                     | Vector Floating Point                               | 
 | VGA                     | VGA—Video Graphics Array                            |
 | WAN                     | Wide Area Network                                   |
+| WAP                     | WLAN access point                                   |
 | WINCH                   | WINdow size CHanged                                 |
 | Wi-Fi                   | Wireless Fidelity                                   |
 | WLAN                    | Wireless LAN                                        |
