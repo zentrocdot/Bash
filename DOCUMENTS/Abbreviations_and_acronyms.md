@@ -67,15 +67,19 @@
 | DVI                     | Digital Visual Interface                            |
 | EEPROM                  | Electrically Erasable Programmable Read-Only Memory |
 | EFF                     | Electronic Frontier Foundation                      |
+| EGA                     | Enhanced Graphics Array                             |
 | ELF                     | Executable Linkable Format                          |
 | EOF                     | End of file                                         |  
 | EOL                     | End of Life                                         |
 | etc                     | etcetera                                            |
 | EUID                    | Effective User ID                                   |
 | eval                    | EVALuate                                            |
+| EXT                     | EXTended file system                                |
 | FAT                     | File Allocation Table                               |
 | FD                      | File Descriptor                                     |
+| FDC                     | Floppy-Disk Controller                              |
 | FDD                     | Floppy Disk Drive                                   |
+| FIFO                    | First In First Out                                  |
 | fish                    | Friendly Interactive SHell                          | 
 | fg                      | Foreground                                          |
 | FHS                     | Filesystem Hierarchy Standard                       |
@@ -85,6 +89,7 @@
 | FOSS                    | Free open source software                           |
 | FS                      | Filesystem                                          |
 | FSB                     | Front Side Bus                                      |
+| fsck                    | File System Check                                   |
 | ftp                     | File transfer protocol                              |
 | gawk                    | GNU awk                                             |
 | Gb                      | Gigabit                                             |
@@ -168,11 +173,20 @@
 | SAE                     | Society of Automotive Engineers                     | 
 | SANE                    | Scanner Access Now Easy                             |
 | SATA                    | Serial ATA                                          |
+| SDK                     | Software Development Kit                            |
 | sed                     | Stream EDditor                                      |
+| SFTP                    | Secure FTP                                          |
+| SFTP                    | Simple File Transfer Protocol                       |
+| SFTP                    | SSH File Transfer Protocol                          |
+| SGI                     | Silicon Graphics, Incorporated                      |
+| SGML                    | Standard Generalized Markup Language                |
 | sh                      | (Bourne) Shell                                      |
+| SHA                     | Secure Hash Algorithm                               |
 | SIG                     | Signal                                              |
 | SID                     | Session ID                                          | 
 | sox                     | SOund eXchanger                                     |
+| SPARC                   | Scalable Processor Architecture                     |
+| SQL                     | Structured Query Language                           |
 | src                     | Source                                              |
 | SSD                     | Solid State Drive                                   |
 | ssh                     | Secure shell                                        |
