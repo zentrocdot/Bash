@@ -2,6 +2,8 @@
 
 <p align="justify">For documentation purposes, subsequently there is table with abbreviations and acronyms related to Linux and Bash. I will update this page from time to time. This list does not claim to be exhaustive<sup>[1,2,3]</sup>.</p>
 
+<p align="justify">The abbreviations and acronyms listed hereinafter are partly known and partly probably rather unknown. Some are still current in use, others are more historical.</p>
+
 | Abbreviation or Acronym | Description                                         |
 | ----------------------- | --------------------------------------------------- |
 | ALSA                    | Advanced Linux Sound Architecture                   |
