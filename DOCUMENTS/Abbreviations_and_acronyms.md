@@ -8,6 +8,9 @@
 | AMD                     | Advanced Micro Devices                              |
 | ANSI                    | American National Standards Institute               |
 | apt                     | Advanced Package Tool                               |
+| APU                     | Accelerated Processing Unit                         |
+| ARM                     | Acorn RISC Machine                                  |
+| ARM                     | Advanced RISC Machine                               |
 | ASCII                   | American Standard Code for Information Interchange  |
 | awk                     | Aho, Weinberger and Kernighan                       |
 | BASIC                   | Beginner's All-Purpose Symbolic Instruction Code    |
@@ -22,6 +25,7 @@
 | chgrp                   | CHange GRouP                                        |      
 | chmod                   | CHange MODe                                         |
 | chown                   | CHange OWNer                                        |
+| CISC                    | Complex Instruction Set Computing                   |
 | CLI                     | Command line interface                              |
 | CMD                     | Command                                             |
 | cp                      | copy                                                |
@@ -35,6 +39,7 @@
 | dd                      | data definition                                     |
 | DOS                     | Disk Operating System                               |
 | dpkg	                  | Debian Package                                      |
+| DRAM                    | Dynamic Random Access Memory                        |
 | EEPROM                  | Electrically Erasable Programmable Read-Only Memory |
 | ELF                     | Executable Linkable Format                          |
 | etc                     | etcetera                                            |
@@ -49,12 +54,13 @@
 | FN                      | Filename                                            |
 | Fortran                 | Formula Translation                                 |
 | ftp                     | File transfer protocol                              |
-| GCC                     | GNU Compiler Collection                             |
 | gawk                    | GNU awk                                             |
+| GCC                     | GNU Compiler Collection                             |
 | GNOME                   | GNU Network Object Model Environment                |
 | GNU                     | GNU's Not UNIX                                      |
-| GPIO                    | general-purpose input/output                        | 
+| GPIO                    | general-purpose input/output                        |
 | GPL                     | General Public License                              | 
+| GPU                     | Graphics Processing Unit                            |
 | GREP                    | Global-Regular-Expression-Print                     |
 | GRUB                    | GRand Unified Bootloader                            |
 | GUI                     | Graphical user interface                            | 
@@ -78,6 +84,7 @@
 | LTS                     | Long Term Support                                   |
 | MAC                     | Media Access Control                                |
 | man                     | Manual                                              |
+| MMU                     | Memory Management Unit                              |
 | MS                      | Microsoft                                           |
 | mv                      | move                                                |
 | NAS                     | Network Allocation Storage                          |
@@ -86,6 +93,7 @@
 | nohup                   |	NO Hang-UP                                          |
 | NTP                     | Network time protocol                               |
 | OS                      | Operating System                                    |
+| PC                      | Personal Computer                                   |
 | PCI                     | Peripheral Component Interconnect                   |
 | Perl                    | Practical Extraction and Reporting Language         |
 | PID                     | Process ID                                          |
@@ -99,6 +107,7 @@
 | RGB                     | Red, Green, Blue                                    |
 | RegEx                   | Regular Expressions                                 |
 | RAM                     | Random Access Menory                                |
+| RISC                    | Reduced Instruction Set Computer                    |
 | ROM                     | Read Only Menory                                    |
 | rm                      | remove                                              |
 | SANE                    | Scanner Access Now Easy                             |
@@ -120,6 +129,7 @@
 | TTY                     | Terminal type                                       |
 | TTY                     | TeleTYpewriter                                      |
 | TWAIN                   | Technology Without An Interesting Name              | 
+| UAL                     | Unified Assembly Language                           |
 | UEFI                    | Unified Extensible Firmware Interface               |
 | UI                      | User interface                                      |
 | UID                     | User ID                                             |
@@ -129,6 +139,7 @@
 | umask                   | User mask                                           |  
 | usr                     | Unix System Resources                               |
 | usr                     | user                                                |
+| VFP                     | Vector Floating Point                               | 
 | VGA                     | VGA—Video Graphics Array                            |
 | WAN                     | Wide Area Network                                   |
 | WINCH                   | WINdow size CHanged                                 |
