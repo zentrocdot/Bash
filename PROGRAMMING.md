@@ -715,6 +715,23 @@ To-do ...
 
 To-do ...
 
+##  Terminal size
+
+<p align="justify">A recurring task is determining the size of the terminal window. Within the terminal window using <code>Bash</code> the environmental variables COLUMNS and LINES can be used.</p>
+
+    echo "Cols: ${COLUMNS}"
+    echo "Rows: ${LINES}"
+
+<p align="justify">Within a script both variables are empty. The trick to get the environmental variables working is using the command shopt.</p>
+
+    shopt -s checkwinsize  # Enable option checkwinsize.
+    cat /dev/null          # Refresh LINES and COLUMNS.
+    shopt -u checkwinsize  # Disable option checkwinsize
+
+<p align="justify">A good explanation why this is working can be found in [12].</p>
+
+To-do ...
+
 ##  Number system conversion
 
 <p align="justify">Number systems that are used in the context with computer technology are decimal, hexadecimal, octal and binary. Decimal is 10 based, hexadecimal is 16 based, octal is 8 based and Binary is 2 based. Hindu presented the first known description of a binary system.</p>
@@ -830,6 +847,8 @@ To-do ...
 [10]    www&#8203;.shellcheck.net/
 
 [11]    www&#8203;.shellcheck.net/wiki/
+
+[12]    stackoverflow.com/questions/1780483/lines-and-columns-environmental-variables-lost-in-a-script
 
 <hr width="100%" size="1">
 
