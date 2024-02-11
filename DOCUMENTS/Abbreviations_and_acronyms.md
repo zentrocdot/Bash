@@ -32,6 +32,7 @@
 | CPU                     | Central Processing Unit                             |
 | cron                    | ChRONos                                             |
 | csh                     | C shell                                             |
+| CUDA                    | Compute Unified Device Architecture                 |
 | CUPS                    | Common Unix Printing System                         |
 | C64                     | Commodore 64                                        |
 | dash                    | Debian Almquist Shell                               |
@@ -99,6 +100,7 @@
 | PID                     | Process ID                                          |
 | PGID                    | Process Group ID                                    |
 | POSIX                   | Portable Operating System Interface                 |
+| PPA                     | Personal Package Archive                            |
 | PPID                    | Parent process ID                                   |
 | PROM                    | Programmable Read-Only Memory                       |
 | ps                      | Process status                                      |
