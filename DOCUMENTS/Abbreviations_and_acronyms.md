@@ -144,6 +144,7 @@
 | NIC                     | Network Interface Card                              |
 | NFS                     | Network file system                                 | 
 | nohup                   |	NO Hang-UP                                          |
+| NT                      | New Technology                                      |
 | NTP                     | Network time protocol                               |
 | OS                      | Operating System                                    |
 | OUI                     | Organizationally unique identifier                  | 
@@ -203,7 +204,7 @@
 | TRON                    | The Real Time Operating System                      |
 | TTF                     | TrueType Fonts                                      |
 | TTY                     | Terminal type                                       |
-| TTY                     | TeleTYpewriter                                      |
+| TTY                     | TeleTYpe writer                                     |
 | TWAIN                   | Technology Without An Interesting Name              | 
 | UAL                     | Unified Assembly Language                           |
 | UEFI                    | Unified Extensible Firmware Interface               |
@@ -215,8 +216,12 @@
 | umask                   | User mask                                           |  
 | usr                     | Unix System Resources                               |
 | usr                     | user                                                |
+| VBA                     | Visual Basic for Applications                       |
+| VESA                    | Video Electronics Standards Association             |
 | VFP                     | Vector Floating Point                               | 
 | VGA                     | VGA—Video Graphics Array                            |
+| VM                      | Virtual Machine                                     |
+| VM                      | Virtual Memory                                      |
 | WAN                     | Wide Area Network                                   |
 | WAP                     | WLAN access point                                   |
 | WINCH                   | WINdow size CHanged                                 |
@@ -224,7 +229,11 @@
 | WLAN                    | Wireless LAN                                        |
 | WM                      | Window Manager                                      |
 | www                     | World Wide Web                                      |
-| XML                     | eXtensible Markup Language                          |  
+| XHTML                   | eXtensible HyperText Markup Language                |
+| XML                     | eXtensible Markup Language                          |
+| XP                      | eXPerience                                          |
+| XP                      | Extreme Programming                                 |
+| XVGA                    | eXtended Video Graphics Adapter                     |
 | YAML                    | YAML Ain't Markup Language                          |
 | zsh                     | Z Shell                                             | 
 
