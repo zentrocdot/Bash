@@ -29,8 +29,10 @@
 | BGP                     | Border Gateway Protocol                             |
 | bc                      | Basic Calculator                                    |
 | BIOS                    | Basic Input/Output System                           |
+| bps                     | bits per second                                     |
 | BSD                     | Berkeley Software Distribution                      | 
 | CAD                     | Computer Aided Design                               |
+| CAE                     | Computer-Aided Engineering                          |
 | CAN                     | Controller area network                             |
 | cat                     | ConCATenate                                         |
 | chgrp                   | CHange GRouP                                        |      
@@ -39,26 +41,35 @@
 | CISC                    | Complex Instruction Set Computing                   |
 | CLI                     | Command line interface                              |
 | CMD                     | Command                                             |
+| CMOS                    | Complementary Metal-Oxide Semiconductor             |
 | cp                      | copy                                                |
+| CPAN                    | Comprehensive Perl Archive Network                  |
 | CPR                     | Cursor position report                              |
 | CPU                     | Central Processing Unit                             |
 | cron                    | ChRONos                                             |
+| CRLF                    | Carriage Return Line Feeds                          |
 | csh                     | C shell                                             |
+| CTAN                    | Comprehensive TeX Archive Network                   |
 | CUDA                    | Compute Unified Device Architecture                 |
 | CUPS                    | Common Unix Printing System                         |
 | C64                     | Commodore 64                                        |
 | dash                    | Debian Almquist Shell                               |
 | dc                      | Desk Calculator                                     |
 | dd                      | data definition                                     |
+| DIMM                    | Dual Inline Memory Module                           |
+| DLL                     | Dynamic Link Library                                |
+| DMA                     | Direct Memory Access                                |
 | DOS                     | Disk Operating System                               |
 | dpkg	                  | Debian Package                                      |
 | DRAM                    | Dynamic Random Access Memory                        |
 | DVD                     | Digital versatile disc                              |
 | DVD                     | Digital video disc                                  |
+| DVI                     | Digital Visual Interface                            |
 | EEPROM                  | Electrically Erasable Programmable Read-Only Memory |
 | EFF                     | Electronic Frontier Foundation                      |
 | ELF                     | Executable Linkable Format                          |
-| EOF                     | End of file                                         |   
+| EOF                     | End of file                                         |  
+| EOL                     | End of Life                                         |
 | etc                     | etcetera                                            |
 | EUID                    | Effective User ID                                   |
 | eval                    | EVALuate                                            |
