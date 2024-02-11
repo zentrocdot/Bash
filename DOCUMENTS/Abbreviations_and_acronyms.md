@@ -13,24 +13,29 @@
 | BASIC                   | Beginner's All-Purpose Symbolic Instruction Code    |
 | BASH                    | Bourne-Again SHell                                  |
 | bg                      | Background                                          |
+| bc                      | Basic Calculator                                    |
 | BIOS                    | Basic Input/Output System                           |
 | BSD                     | Berkeley Software Distribution                      | 
+| cat                     | ConCATenate                                         |
 | chgrp                   | CHange GRouP                                        |                       
 | chmod                   | CHange MODe                                         |
 | chown                   | CHange OWNer                                        |
 | CLI                     | Command line interface                              |
 | CMD                     | Command                                             |
 | cp                      | copy                                                |
+| cron                    | ChRONos                                             |
 | csh                     | C shell                                             |
 | CUPS                    | Common Unix Printing System                         |
 | C64                     | Commodore 64                                        |
 | dash                    | Debian Almquist Shell                               |
+| dc                      | Desk Calculator                                     |
 | DOS                     | Disk Operating System                               |
 | dpkg	                  | Debian Package                                      |
 | EEPROM                  | Electrically Erasable Programmable Read-Only Memory |
 | ELF                     | Executable Linkable Format                          |
 | etc                     | etcetera                                            |
 | EUID                    | Effective User ID                                   |
+| eval                    | EVALuate                                            |
 | FD                      | File Descriptor                                     |
 | FDD                     | Floppy Disk Drive                                   |
 | fish                    | Friendly Interactive SHell                          | 
