@@ -737,6 +737,17 @@ or in
 
     man bash
 
+The command resize can be used to get rows and cols.
+
+    ~$ resize 
+    ~$ COLUMNS=80;
+    ~$ LINES=40;
+    ~$ export COLUMNS LINES;
+
+If wee need informations about the window we can use:
+    
+    xwininfo
+    
 To-do ...
 
 ##  Number system conversion
