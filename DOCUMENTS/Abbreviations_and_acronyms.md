@@ -125,6 +125,7 @@
 | nohup                   |	NO Hang-UP                                          |
 | NTP                     | Network time protocol                               |
 | OS                      | Operating System                                    |
+| OUI                     | Organizationally unique identifier                  | 
 | PAM                     | Pluggable Authentication Modules                    |
 | PC                      | Personal Computer                                   |
 | PCI                     | Peripheral Component Interconnect                   |
@@ -164,6 +165,7 @@
 | TROFF                   | Trace Off                                           | 
 | TRON                    | Trace On                                            | 
 | TRON                    | The Real Time Operating System                      |
+| TTF                     | TrueType Fonts                                      |
 | TTY                     | Terminal type                                       |
 | TTY                     | TeleTYpewriter                                      |
 | TWAIN                   | Technology Without An Interesting Name              | 
