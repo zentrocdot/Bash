@@ -50,6 +50,7 @@
 | EEPROM                  | Electrically Erasable Programmable Read-Only Memory |
 | EFF                     | Electronic Frontier Foundation                      |
 | ELF                     | Executable Linkable Format                          |
+| EOF                     | End of file                                         |   
 | etc                     | etcetera                                            |
 | EUID                    | Effective User ID                                   |
 | eval                    | EVALuate                                            |
@@ -86,6 +87,7 @@
 | ID                      | Identificator                                       |
 | IDE                     | Integrated drive electronics                        |
 | IEEE                    | Institute of Electrical and Electronic Engineers    |
+| IFS                     | Input Internal Field Separator                      |  
 | IRQ                     | Interrupt request                                   |
 | ISO                     | International Organization for Standardization      |
 | ITU                     | International Telecommunication Union               |
@@ -171,6 +173,7 @@
 | WAN                     | Wide Area Network                                   |
 | WINCH                   | WINdow size CHanged                                 |
 | WLAN                    | Wireless LAN                                        |
+| WM                      | Window Manager                                      |
 | Wi-Fi                   | Wireless Fidelity                                   |
 | XML                     | eXtensible Markup Language                          |  
 | YAML                    | YAML Ain't Markup Language                          |
