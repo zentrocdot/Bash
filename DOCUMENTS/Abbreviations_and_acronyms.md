@@ -42,11 +42,14 @@
 | DOS                     | Disk Operating System                               |
 | dpkg	                  | Debian Package                                      |
 | DRAM                    | Dynamic Random Access Memory                        |
+| DVD                     | Digital versatile disc                              |
+| DVD                     | Digital video disc                                  |
 | EEPROM                  | Electrically Erasable Programmable Read-Only Memory |
 | ELF                     | Executable Linkable Format                          |
 | etc                     | etcetera                                            |
 | EUID                    | Effective User ID                                   |
 | eval                    | EVALuate                                            |
+| FAT                     | File Allocation Table                               |
 | FD                      | File Descriptor                                     |
 | FDD                     | Floppy Disk Drive                                   |
 | fish                    | Friendly Interactive SHell                          | 
@@ -58,6 +61,7 @@
 | ftp                     | File transfer protocol                              |
 | gawk                    | GNU awk                                             |
 | GCC                     | GNU Compiler Collection                             |
+| GIMP                    | GNU Image Manipulation Program                      |
 | GNOME                   | GNU Network Object Model Environment                |
 | GNU                     | GNU's Not UNIX                                      |
 | GPIO                    | general-purpose input/output                        |
@@ -86,10 +90,11 @@
 | LTS                     | Long Term Support                                   |
 | MAC                     | Media Access Control                                |
 | man                     | Manual                                              |
+| MIDI                    | Musical Instrument Digital Interface                |
 | MMU                     | Memory Management Unit                              |
 | MS                      | Microsoft                                           |
 | mv                      | move                                                |
-| NAS                     | Network Allocation Storage                          |
+| NAS                     | Network Attached Storage                            |
 | NIC                     | Network Interface Card                              |
 | NFS                     | Network file system                                 | 
 | nohup                   |	NO Hang-UP                                          |
@@ -123,6 +128,7 @@
 | su                      | switch user                                         |
 | sudo                    | SUper user DO                                       |
 | SUSE                    | Software und System-Entwicklung                     |
+| SMI                     | System management interrupt                         |
 | tcsh                    | TENEX C Shell                                       | 
 | TERM                    | Terminal                                            |
 | TGID                    | Thread Group ID                                     |
