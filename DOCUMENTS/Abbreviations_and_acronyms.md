@@ -24,6 +24,7 @@
 | BIOS                    | Basic Input/Output System                           |
 | BSD                     | Berkeley Software Distribution                      | 
 | CAD                     | Computer Aided Design                               |
+| CAN                     | Controller area network                             |
 | cat                     | ConCATenate                                         |
 | chgrp                   | CHange GRouP                                        |      
 | chmod                   | CHange MODe                                         |
