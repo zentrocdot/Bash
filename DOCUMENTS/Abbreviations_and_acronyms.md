@@ -17,7 +17,7 @@
 | BIOS                    | Basic Input/Output System                           |
 | BSD                     | Berkeley Software Distribution                      | 
 | cat                     | ConCATenate                                         |
-| chgrp                   | CHange GRouP                                        |                       
+| chgrp                   | CHange GRouP                                        |      
 | chmod                   | CHange MODe                                         |
 | chown                   | CHange OWNer                                        |
 | CLI                     | Command line interface                              |
@@ -29,6 +29,7 @@
 | C64                     | Commodore 64                                        |
 | dash                    | Debian Almquist Shell                               |
 | dc                      | Desk Calculator                                     |
+| dd                      | data definition                                     |
 | DOS                     | Disk Operating System                               |
 | dpkg	                  | Debian Package                                      |
 | EEPROM                  | Electrically Erasable Programmable Read-Only Memory |
