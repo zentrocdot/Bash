@@ -5,7 +5,7 @@
 <p align="justify">The abbreviations and acronyms listed hereinafter are partly known and partly probably rather unknown. Some are still current in use, others are more historical.</p>
 
 | Abbreviation or Acronym | Description                                         |
-| ----------------------- | --------------------------------------------------- |
+| ----------------------- | -----------                                         |
 | AIM                     | AOL Instant Messenger                               |
 | ALSA                    | Advanced Linux Sound Architecture                   |
 | AMD                     | Advanced Micro Devices                              |
