@@ -41,6 +41,7 @@
 | fish                    | Friendly Interactive SHell                          | 
 | fg                      | Foreground                                          |
 | FHS                     | Filesystem Hierarchy Standard                       |
+| fmt                     | format                                              |
 | FN                      | Filename                                            |
 | Fortran                 | Formula Translation                                 |
 | ftp                     | File transfer protocol                              |
@@ -78,6 +79,7 @@
 | NAS                     | Network Allocation Storage                          |
 | NIC                     | Network Interface Card                              |
 | NFS                     | Network file system                                 | 
+| nohup                   |	NO Hang-UP                                          |
 | NTP                     | Network time protocol                               |
 | OS                      | Operating System                                    |
 | PCI                     | Peripheral Component Interconnect                   |
@@ -125,6 +127,7 @@
 | usr                     | user                                                |
 | VGA                     | VGA—Video Graphics Array                            |
 | WAN                     | Wide Area Network                                   |
+| WINCH                   | WINdow size CHanged                                 |
 | WLAN                    | Wireless LAN                                        |
 | Wi-Fi                   | Wireless Fidelity                                   |
 | XML                     | eXtensible Markup Language                          |  
