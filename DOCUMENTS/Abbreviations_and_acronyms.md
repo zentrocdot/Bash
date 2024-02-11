@@ -7,6 +7,7 @@
 | ALSA                    | Advanced Linux Sound Architecture                   |
 | AMD                     | Advanced Micro Devices                              |
 | ANSI                    | American National Standards Institute               |
+| API                     | Application programming interface                   |
 | apt                     | Advanced Package Tool                               |
 | APU                     | Accelerated Processing Unit                         |
 | ARM                     | Acorn RISC Machine                                  |
