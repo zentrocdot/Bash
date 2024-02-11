@@ -96,6 +96,7 @@
 | JPG                     | Joint Photographic (Experts) Group                  | 
 | KB                      | Keyboard                                            |
 | ksh                     | KornShell                                           |
+| LAMP                    | Linux Apache MySQL and PHP                          |
 | LAN                     | Local Area Network                                  |
 | ls                      | list                                                |
 | lspci                   | List PCI devices                                    |
@@ -114,6 +115,7 @@
 | nohup                   |	NO Hang-UP                                          |
 | NTP                     | Network time protocol                               |
 | OS                      | Operating System                                    |
+| PAM                     | Pluggable Authentication Modules                    |
 | PC                      | Personal Computer                                   |
 | PCI                     | Peripheral Component Interconnect                   |
 | Perl                    | Practical Extraction and Reporting Language         |
@@ -132,6 +134,7 @@
 | RISC                    | Reduced Instruction Set Computer                    |
 | ROM                     | Read Only Menory                                    |
 | rm                      | remove                                              |
+| SAE                     | Society of Automotive Engineers                     | 
 | SANE                    | Scanner Access Now Easy                             |
 | sed                     | Stream EDditor                                      |
 | sh                      | (Bourne) Shell                                      |
