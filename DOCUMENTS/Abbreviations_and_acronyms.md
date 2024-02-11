@@ -88,7 +88,11 @@
 | IRQ                     | Interrupt request                                   |
 | ISO                     | International Organization for Standardization      |
 | ITU                     | International Telecommunication Union               |
+| eth                     | Ethernet                                            |
 | I/O                     | input/output                                        |
+| JPE                     | Joint Photographic Experts (Group)                  |
+| JPEG                    | Joint Photographic Experts Group                    |
+| JPG                     | Joint Photographic (Experts) Group                  | 
 | KB                      | Keyboard                                            |
 | ksh                     | KornShell                                           |
 | LAN                     | Local Area Network                                  |
@@ -133,6 +137,7 @@
 | SIG                     | Signal                                              |
 | SID                     | Session ID                                          |  
 | src                     | Source                                              |
+| SSD                     | Solid State Drive                                   |
 | ssh                     | Secure shell                                        |
 | su                      | switch user                                         |
 | sudo                    | SUper user DO                                       |
