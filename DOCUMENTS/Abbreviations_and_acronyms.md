@@ -194,11 +194,14 @@
 | su                      | switch user                                         |
 | sudo                    | SUper user DO                                       |
 | SUSE                    | Software und System-Entwicklung                     |
+| SVG                     | Scalable Vector Graphics                            |
 | SMI                     | System management interrupt                         |
+| Sysop                   | System operator                                     |
 | tac                     | Reverse cat                                         |
 | tcsh                    | TENEX C Shell                                       | 
 | TERM                    | Terminal                                            |
 | TGID                    | Thread Group ID                                     |
+| tmp                     | temporary                                           |
 | TROFF                   | Trace Off                                           | 
 | TRON                    | Trace On                                            | 
 | TRON                    | The Real Time Operating System                      |
@@ -207,6 +210,7 @@
 | TTY                     | TeleTYpe writer                                     |
 | TWAIN                   | Technology Without An Interesting Name              | 
 | UAL                     | Unified Assembly Language                           |
+| UART                    | Universal Asynchronous Receiver/Transmitter         |
 | UEFI                    | Unified Extensible Firmware Interface               |
 | UI                      | User interface                                      |
 | UID                     | User ID                                             |
@@ -216,6 +220,8 @@
 | umask                   | User mask                                           |  
 | usr                     | Unix System Resources                               |
 | usr                     | user                                                |
+| UUID                    | Universally Unique Identifier                       |
+| VB                      | Visual Basic                                        |
 | VBA                     | Visual Basic for Applications                       |
 | VESA                    | Video Electronics Standards Association             |
 | VFP                     | Vector Floating Point                               | 
