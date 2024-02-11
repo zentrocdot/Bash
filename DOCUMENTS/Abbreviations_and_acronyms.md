@@ -45,6 +45,7 @@
 | DVD                     | Digital versatile disc                              |
 | DVD                     | Digital video disc                                  |
 | EEPROM                  | Electrically Erasable Programmable Read-Only Memory |
+| EFF                     | Electronic Frontier Foundation                      |
 | ELF                     | Executable Linkable Format                          |
 | etc                     | etcetera                                            |
 | EUID                    | Effective User ID                                   |
@@ -58,8 +59,12 @@
 | fmt                     | format                                              |
 | FN                      | Filename                                            |
 | Fortran                 | Formula Translation                                 |
+| FOSS                    | Free open source software                           |
+| FS                      | Filesystem                                          |
 | ftp                     | File transfer protocol                              |
 | gawk                    | GNU awk                                             |
+| Gb                      | Gigabit                                             |
+| GB                      | Gigabyte                                            |
 | GCC                     | GNU Compiler Collection                             |
 | GIMP                    | GNU Image Manipulation Program                      |
 | GNOME                   | GNU Network Object Model Environment                |
@@ -76,6 +81,7 @@
 | HTML                    | Hypertext Markup Language                           |
 | IBM                     | International Business Machines                     |
 | ID                      | Identificator                                       |
+| IDE                     | Integrated drive electronics                        |
 | IEEE                    | Institute of Electrical and Electronic Engineers    |
 | IRQ                     | Interrupt request                                   |
 | ISO                     | International Organization for Standardization      |
@@ -91,6 +97,7 @@
 | MAC                     | Media Access Control                                |
 | man                     | Manual                                              |
 | MIDI                    | Musical Instrument Digital Interface                |
+| MIT                     | Massachusetts Institute of Technology               |
 | MMU                     | Memory Management Unit                              |
 | MS                      | Microsoft                                           |
 | mv                      | move                                                |
