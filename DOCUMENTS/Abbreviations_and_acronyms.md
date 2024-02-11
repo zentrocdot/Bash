@@ -85,6 +85,7 @@
 | GRUB                    | GRand Unified Bootloader                            |
 | GUI                     | Graphical user interface                            | 
 | HDD                     | Hard Disk Drive                                     |
+| HDMI                    | High-Definition Multimedia Interface                |
 | HP                      | Hewlett Packard                                     |
 | HUP                     | Hang UP                                             |
 | HTML                    | Hypertext Markup Language                           |
@@ -129,6 +130,7 @@
 | PAM                     | Pluggable Authentication Modules                    |
 | PC                      | Personal Computer                                   |
 | PCI                     | Peripheral Component Interconnect                   |
+| PDA                     | Personal digital assistant                          |
 | Perl                    | Practical Extraction and Reporting Language         |
 | PID                     | Process ID                                          |
 | PGID                    | Process Group ID                                    |
@@ -151,7 +153,8 @@
 | sed                     | Stream EDditor                                      |
 | sh                      | (Bourne) Shell                                      |
 | SIG                     | Signal                                              |
-| SID                     | Session ID                                          |  
+| SID                     | Session ID                                          | 
+| sox                     | SOund eXchanger                                     |
 | src                     | Source                                              |
 | SSD                     | Solid State Drive                                   |
 | ssh                     | Secure shell                                        |
@@ -159,6 +162,7 @@
 | sudo                    | SUper user DO                                       |
 | SUSE                    | Software und System-Entwicklung                     |
 | SMI                     | System management interrupt                         |
+| tac                     | Reverse cat                                         |
 | tcsh                    | TENEX C Shell                                       | 
 | TERM                    | Terminal                                            |
 | TGID                    | Thread Group ID                                     |
