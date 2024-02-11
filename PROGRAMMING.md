@@ -728,7 +728,10 @@ To-do ...
     cat /dev/null          # Refresh LINES and COLUMNS.
     shopt -u checkwinsize  # Disable option checkwinsize
 
-<p align="justify">A good explanation why this is working can be found in [12].</p>
+<p align="justify">A good explanation why this is working can be found in [12]. See also [13] for a short introduction in the command shopt. Use following for help:</p>
+
+    shopt --help
+    shopt           # Listed all the options.    
 
 To-do ...
 
@@ -849,6 +852,8 @@ To-do ...
 [11]    www&#8203;.shellcheck.net/wiki/
 
 [12]    stackoverflow.com/questions/1780483/lines-and-columns-environmental-variables-lost-in-a-script
+
+[13]   www&#8203;.howtogeek.com/691980/how-to-customize-the-bash-shell-with-shopt/
 
 <hr width="100%" size="1">
 
