@@ -15,6 +15,8 @@
 | ARM                     | Acorn RISC Machine                                  |
 | ARM                     | Advanced RISC Machine                               |
 | ASCII                   | American Standard Code for Information Interchange  |
+| ATA                     | AT Attachment                                       |
+| ATAPI                   | AT Attachment Packet Interface                      |
 | awk                     | Aho, Weinberger and Kernighan                       |
 | BASIC                   | Beginner's All-Purpose Symbolic Instruction Code    |
 | BASH                    | Bourne-Again SHell                                  |
@@ -83,6 +85,7 @@
 | HP                      | Hewlett Packard                                     |
 | HUP                     | Hang UP                                             |
 | HTML                    | Hypertext Markup Language                           |
+| Hz                      | Hertz                                               |
 | IBM                     | International Business Machines                     |
 | ID                      | Identificator                                       |
 | IDE                     | Integrated drive electronics                        |
@@ -106,6 +109,7 @@
 | LTS                     | Long Term Support                                   |
 | MAC                     | Media Access Control                                |
 | man                     | Manual                                              |
+| mc                      | Midnight Commander                                  |
 | MIDI                    | Musical Instrument Digital Interface                |
 | MIT                     | Massachusetts Institute of Technology               |
 | MMU                     | Memory Management Unit                              |
@@ -138,6 +142,7 @@
 | rm                      | remove                                              |
 | SAE                     | Society of Automotive Engineers                     | 
 | SANE                    | Scanner Access Now Easy                             |
+| SATA                    | Serial ATA                                          |
 | sed                     | Stream EDditor                                      |
 | sh                      | (Bourne) Shell                                      |
 | SIG                     | Signal                                              |
@@ -172,9 +177,10 @@
 | VGA                     | VGA—Video Graphics Array                            |
 | WAN                     | Wide Area Network                                   |
 | WINCH                   | WINdow size CHanged                                 |
+| Wi-Fi                   | Wireless Fidelity                                   |
 | WLAN                    | Wireless LAN                                        |
 | WM                      | Window Manager                                      |
-| Wi-Fi                   | Wireless Fidelity                                   |
+| www                     | World Wide Web                                      |
 | XML                     | eXtensible Markup Language                          |  
 | YAML                    | YAML Ain't Markup Language                          |
 | zsh                     | Z Shell                                             | 
