@@ -1,3 +1,7 @@
+.buttonless button {
+display: none;
+}
+
 # PROGRAMMING
 
 ## Introductory Words
