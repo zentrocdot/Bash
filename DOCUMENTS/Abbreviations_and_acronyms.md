@@ -268,6 +268,8 @@
 
 <p align="justify">This table was created semi-automatically. In the next step, I will write a script that automatically creates the table for me. This is a good example of electronic data processing.</p>
 
+> <p align="justify">The general idea is to go both ways. Automatically generate a table from raw data. Conversely, automatically create raw data from a table. In addition, check for duplicate entries and sort the data. </p>
+
 ### Specific German Abbreviations and Acronyms
 
 | Abbreviation or Acronym | Description                                         |
