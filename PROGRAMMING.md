@@ -787,11 +787,11 @@ or in
 
 The command resize can be used to get rows and cols.
 
-
-```Bash
-    .buttonless button {
+.buttonless button {
     display: none;
     }
+```buttonless
+    
     ~$ resize 
     ~$ COLUMNS=80;
     ~$ LINES=40;
