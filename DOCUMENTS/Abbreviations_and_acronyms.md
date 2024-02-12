@@ -8,6 +8,7 @@
 
 | Abbreviation or Acronym | Description                                         |
 | :---------------------- | :-------------------------------------------------- |
+| **A**                   |                                                     |
 | ACK                     | Acknowledgement                                     |
 | ACPI                    | Advanced Configuration and Power Interface          |
 | AI                      | Artificial Intelligence                             |
@@ -31,6 +32,7 @@
 | ATAPI                   | AT Attachment Packet Interface                      |
 | ATX	                    | Advanced Technology Extended                        |
 | awk                     | Aho, Weinberger and Kernighan                       |
+| **B**                   |                                                     |
 | BASIC                   | Beginner's All-Purpose Symbolic Instruction Code    |
 | BASH                    | Bourne-Again SHell                                  |
 | BCC                     | Blind Carbon Copy                                   |
@@ -41,6 +43,7 @@
 | bps                     | bits per second                                     |
 | BSD                     | Berkeley Software Distribution                      | 
 | BT                      | Bluetooth                                           |
+| **C**                   |                                                     |
 | CAD                     | Computer Aided Design                               |
 | CAE                     | Computer-Aided Engineering                          |
 | CAN                     | Controller area network                             |
@@ -65,6 +68,7 @@
 | CUDA                    | Compute Unified Device Architecture                 |
 | CUPS                    | Common Unix Printing System                         |
 | C64                     | Commodore 64                                        |
+| **D**                   |                                                     |
 | dash                    | Debian Almquist Shell                               |
 | dc                      | Desk Calculator                                     |
 | dd                      | data definition                                     |
@@ -83,6 +87,7 @@
 | DVI                     | Digital Visual Interface                            |
 | DXF                     | Drawing Interchange Format                          |
 | DXF                     | Drawing Exchange Format                             |
+| **E**                   |                                                     |
 | ECMA                    | European Computer Manufacturers Association         |
 | EEPROM                  | Electrically Erasable Programmable Read-Only Memory |
 | EFF                     | Electronic Frontier Foundation                      |
@@ -91,9 +96,11 @@
 | EOF                     | End of file                                         |  
 | EOL                     | End of Life                                         |
 | etc                     | etcetera                                            |
+| eth                     | Ethernet                                            |
 | EUID                    | Effective User ID                                   |
 | eval                    | EVALuate                                            |
 | EXT                     | EXTended file system                                |
+| **F**                   |                                                     |
 | FAT                     | File Allocation Table                               |
 | FD                      | File Descriptor                                     |
 | FDC                     | Floppy-Disk Controller                              |
@@ -111,6 +118,7 @@
 | FSB                     | Front Side Bus                                      |
 | fsck                    | File System Check                                   |
 | ftp                     | File transfer protocol                              |
+| **G**                   |                                                     |
 | gawk                    | GNU awk                                             |
 | Gb                      | Gigabit                                             |
 | GB                      | Gigabyte                                            |
@@ -124,12 +132,14 @@
 | GREP                    | Global-Regular-Expression-Print                     |
 | GRUB                    | GRand Unified Bootloader                            |
 | GUI                     | Graphical user interface                            | 
+| **H**                   |                                                     |
 | HDD                     | Hard Disk Drive                                     |
 | HDMI                    | High-Definition Multimedia Interface                |
 | HP                      | Hewlett Packard                                     |
 | HUP                     | Hang UP                                             |
 | HTML                    | Hypertext Markup Language                           |
 | Hz                      | Hertz                                               |
+| **I**                   |                                                     |
 | IBM                     | International Business Machines                     |
 | ID                      | Identificator                                       |
 | IDE                     | Integrated drive electronics                        |
@@ -138,13 +148,15 @@
 | IRQ                     | Interrupt request                                   |
 | ISO                     | International Organization for Standardization      |
 | ITU                     | International Telecommunication Union               |
-| eth                     | Ethernet                                            |
 | I/O                     | input/output                                        |
+| **J**                   |                                                     |
 | JPE                     | Joint Photographic Experts (Group)                  |
 | JPEG                    | Joint Photographic Experts Group                    |
 | JPG                     | Joint Photographic (Experts) Group                  | 
+| **K**                   |                                                     |
 | KB                      | Keyboard                                            |
 | ksh                     | KornShell                                           |
+| **L**                   |                                                     |
 | LAMP                    | Linux Apache MySQL and PHP                          |
 | LAN                     | Local Area Network                                  |
 | LPC                     | Low Pin Count                                       |
@@ -152,6 +164,7 @@
 | lspci                   | List PCI devices                                    |
 | lsusb                   | List USB devices                                    |
 | LTS                     | Long Term Support                                   |
+| **M**                   |                                                     |
 | MAC                     | Media Access Control                                |
 | man                     | Manual                                              |
 | MBR                     | Master Boot Record                                  |
@@ -165,14 +178,17 @@
 | MMU                     | Memory Management Unit                              |
 | MS                      | Microsoft                                           |
 | mv                      | move                                                |
+| **N**                   |                                                     |
 | NAS                     | Network Attached Storage                            |
 | NIC                     | Network Interface Card                              |
 | NFS                     | Network file system                                 | 
 | nohup                   |	NO Hang-UP                                          |
 | NT                      | New Technology                                      |
 | NTP                     | Network time protocol                               |
+| **O**                   |                                                     |
 | OS                      | Operating System                                    |
 | OUI                     | Organizationally unique identifier                  | 
+| **P**                   |                                                     |
 | PAM                     | Pluggable Authentication Modules                    |
 | PC                      | Personal Computer                                   |
 | PCB                     | Printed Circuit Board                               |
@@ -189,6 +205,7 @@
 | ps                      | Process status                                      |
 | pwd                     | print working directory                             |
 | PWR                     | Power                                               |
+| **R**                   |                                                     |
 | RGB                     | Red, Green, Blue                                    |
 | RegEx                   | Regular Expressions                                 |
 | RAM                     | Random Access Menory                                |
@@ -197,6 +214,7 @@
 | rm                      | remove                                              |
 | RST                     | Reset                                               |
 | RST                     | reStructuredText                                    |
+| **S**                   |                                                     |
 | SAE                     | Society of Automotive Engineers                     | 
 | SANE                    | Scanner Access Now Easy                             |
 | SATA                    | Serial ATA                                          |
@@ -223,6 +241,7 @@
 | SVG                     | Scalable Vector Graphics                            |
 | SMI                     | System management interrupt                         |
 | Sysop                   | System operator                                     |
+| **T**                   |                                                     |
 | tac                     | Reverse cat                                         |
 | tcp                     | Transmission Control Protocol                       |
 | tcsh                    | TENEX C Shell                                       | 
@@ -237,6 +256,7 @@
 | TTY                     | Terminal type                                       |
 | TTY                     | TeleTYpe writer                                     |
 | TWAIN                   | Technology Without An Interesting Name              | 
+| **U**                   |                                                     |
 | UAL                     | Unified Assembly Language                           |
 | UART                    | Universal Asynchronous Receiver/Transmitter         |
 | udp                     | User Datagram Protocol                              |
@@ -252,6 +272,7 @@
 | usr                     | Unix System Resources                               |
 | usr                     | user                                                |
 | UUID                    | Universally Unique Identifier                       |
+| **V**                   |                                                     |
 | VB                      | Visual Basic                                        |
 | VBA                     | Visual Basic for Applications                       |
 | VESA                    | Video Electronics Standards Association             |
@@ -259,6 +280,7 @@
 | VGA                     | VGA—Video Graphics Array                            |
 | VM                      | Virtual Machine                                     |
 | VM                      | Virtual Memory                                      |
+| **W**                   |                                                     |
 | WAN                     | Wide Area Network                                   |
 | WAP                     | WLAN access point                                   |
 | WINCH                   | WINdow size CHanged                                 |
@@ -273,7 +295,9 @@
 | XP                      | eXPerience                                          |
 | XP                      | Extreme Programming                                 |
 | XVGA                    | eXtended Video Graphics Adapter                     |
+| **Y**                   |                                                     |
 | YAML                    | YAML Ain't Markup Language                          |
+| **Z**                   |                                                     |
 | zsh                     | Z Shell                                             | 
 
 <p align="justify">This table was created semi-automatically. In the next step, I will write a script that automatically creates the table for me. This is a good example of electronic data processing.</p>
