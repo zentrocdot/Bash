@@ -270,7 +270,13 @@
 
 ### Specific German Abbreviations and Acronyms
 
-
+| Abbreviation or Acronym | Description                                         |
+| :---------------------- | :-------------------------------------------------- |
+| EDV                     | Elektronische Datenverarbeitung                     |
+| EVA                     | Eingabe – Verarbeitung – Ausgabe                    |
+| IT                      | Informationstechnik                                 |
+| KI                      | Künstliche Intelligenz                              |
+| PC                      | Personal Computer                                   |
 
 <hr width="100%" size="1">
 
