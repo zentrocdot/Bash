@@ -441,6 +441,33 @@ Case 5:
 
 infos and so on to-do ...
 
+## Infinite loops
+
+<p align="justify">Sometimes loops are needed that would run indefinitely.</p>
+
+    Example 1:
+    
+    while true
+    do
+        :
+    done
+
+    Example 2:
+
+    while true; do
+        :
+    done
+
+    Example 3:
+    
+    while true; do :; done
+
+    Example 4:
+    
+    sed ':x;bx' <<< $''
+
+some more explanation to-do ...
+
 ## Looping over number ranges like decimal and hexadecimal numbers
 
 <p align="justify"></p>
