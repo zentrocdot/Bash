@@ -281,6 +281,7 @@
 | :---------------------- | :-------------------------------------------------- |
 | AI                      | Artifizielle Intelligenz                            |
 | BV                      | Bildverarbeitung                                    |
+| DBMS                    | Datenbankmanagementsystem                           |
 | EDV                     | Elektronische Datenverarbeitung                     |
 | EVA                     | Eingabe – Verarbeitung – Ausgabe                    |
 | IT                      | Informationstechnik                                 |
