@@ -266,7 +266,7 @@
 | WLAN                    | Wireless LAN                                        |
 | WM                      | Window Manager                                      |
 | www                     | World Wide Web                                      |
-| X                       |                                                     |
+| **X**                   |                                                     |
 | Xenix                   | Microsoft Unix                                      |
 | XHTML                   | eXtensible HyperText Markup Language                |
 | XML                     | eXtensible Markup Language                          |
