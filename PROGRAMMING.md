@@ -447,7 +447,7 @@ infos and so on to-do ...
 
     Example 1:
 
-```Ruby
+```shell
     while :
     do
         :
