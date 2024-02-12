@@ -163,6 +163,8 @@
 | IDE                     | Integrated drive electronics                        |
 | IEEE                    | Institute of Electrical and Electronic Engineers    |
 | IFS                     | Input Internal Field Separator                      |  
+| IPv4                    | Internetprotokoll Version 4                         |
+| IPv6                    | Internetprotokoll Version 6                         |
 | IRQ                     | Interrupt request                                   |
 | ISO                     | International Organization for Standardization      |
 | ITU                     | International Telecommunication Union               |
@@ -183,6 +185,7 @@
 | lsusb                   | List USB devices                                    |
 | LTS                     | Long Term Support                                   |
 | **M**                   |                                                     |
+| Mac                     | Macintosh                                           |
 | MAC                     | Media Access Control                                |
 | man                     | Manual                                              |
 | MBR                     | Master Boot Record                                  |
@@ -198,6 +201,7 @@
 | mv                      | move                                                |
 | **N**                   |                                                     |
 | NAS                     | Network Attached Storage                            |
+| NAT                     | Network Address Translation                         |
 | NIC                     | Network Interface Card                              |
 | NFS                     | Network file system                                 | 
 | nohup                   |	NO Hang-UP                                          |
