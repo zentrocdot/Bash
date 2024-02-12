@@ -279,6 +279,7 @@
 
 | Abbreviation or Acronym | Description                                         |
 | :---------------------- | :-------------------------------------------------- |
+| AI                      | Artifizielle Intelligenz                            |
 | BV                      | Bildverarbeitung                                    |
 | EDV                     | Elektronische Datenverarbeitung                     |
 | EVA                     | Eingabe – Verarbeitung – Ausgabe                    |
