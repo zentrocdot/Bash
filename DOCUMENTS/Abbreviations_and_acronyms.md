@@ -265,6 +265,8 @@
 | YAML                    | YAML Ain't Markup Language                          |
 | zsh                     | Z Shell                                             | 
 
+<p align="justify">This table was created semi-automatically. In the next step, I will write a script that automatically creates the table for me. This is a good example of electronic data processing.</p>
+
 <hr width="100%" size="1">
 
 <p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee :coffee:. I drink a lot of coffee while programming and writing  :smiley:.</p>
