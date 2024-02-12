@@ -64,13 +64,19 @@
 | DIMM                    | Dual Inline Memory Module                           |
 | DLL                     | Dynamic Link Library                                |
 | DMA                     | Direct Memory Access                                |
+| DNS                     | Domain Name System                                  |
+| DOM                     | Document Object Model                               |
 | DOS                     | Disk Operating System                               |
 | DPI                     | Dots Per Inch                                       |
 | dpkg	                  | Debian Package                                      |
 | DRAM                    | Dynamic Random Access Memory                        |
+| DRM                     | Digital Rights Management                           |
 | DVD                     | Digital versatile disc                              |
 | DVD                     | Digital video disc                                  |
 | DVI                     | Digital Visual Interface                            |
+| DXF                     | Drawing Interchange Format                          |
+| DXF                     | Drawing Exchange Format                             |
+| ECMA                    | European Computer Manufacturers Association         |
 | EEPROM                  | Electrically Erasable Programmable Read-Only Memory |
 | EFF                     | Electronic Frontier Foundation                      |
 | EGA                     | Enhanced Graphics Array                             |
@@ -212,6 +218,7 @@
 | SMI                     | System management interrupt                         |
 | Sysop                   | System operator                                     |
 | tac                     | Reverse cat                                         |
+| tcp                     | Transmission Control Protocol                       |
 | tcsh                    | TENEX C Shell                                       | 
 | TERM                    | Terminal                                            |
 | TGID                    | Thread Group ID                                     |
@@ -225,6 +232,7 @@
 | TWAIN                   | Technology Without An Interesting Name              | 
 | UAL                     | Unified Assembly Language                           |
 | UART                    | Universal Asynchronous Receiver/Transmitter         |
+| udp                     | User Datagram Protocol                              |
 | UEFI                    | Unified Extensible Firmware Interface               |
 | UI                      | User interface                                      |
 | UID                     | User ID                                             |
