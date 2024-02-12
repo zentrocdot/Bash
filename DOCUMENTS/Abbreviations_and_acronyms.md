@@ -4,7 +4,7 @@
 
 <p align="justify">The abbreviations and acronyms listed hereinafter are partly known and partly probably rather unknown. Some are still current in use, others are more historical.</p>
 
-### Abbreviations and Acronyms
+### Common Abbreviations and Acronyms
 
 | Abbreviation or Acronym | Description                                         |
 | :---------------------- | :-------------------------------------------------- |
