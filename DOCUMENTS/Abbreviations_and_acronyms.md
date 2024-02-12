@@ -100,7 +100,6 @@
 | Fortran                 | Formula Translation                                 |
 | FOSS                    | Free open source software                           |
 | FPS                     | Frames Per Second                                   |
-
 | FS                      | Filesystem                                          |
 | FSB                     | Front Side Bus                                      |
 | fsck                    | File System Check                                   |
