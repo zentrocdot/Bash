@@ -8,6 +8,7 @@
 
 | Abbreviation or Acronym | Description                                         |
 | :---------------------- | :-------------------------------------------------- |
+| ACK                     | Acknowledgement                                     |
 | ACPI                    | Advanced Configuration and Power Interface          |
 | AI                      | Artificial Intelligence                             |
 | AJAX                    | asynchronous JavaScript and XML                     |
@@ -17,8 +18,10 @@
 | ANSI                    | American National Standards Institute               |
 | AP                      |	Access Point                                        |
 | API                     | Application Programming Interface                   |
+| APL                     | A Programming Language                              |
 | apt                     | Advanced Package Tool                               |
 | APU                     | Accelerated Processing Unit                         |
+| AR                      | Augmented Reality                                   |
 | ARJ                     | Archivar Robert Jung                                |
 | ARM                     | Acorn RISC Machine                                  |
 | ARM                     | Advanced RISC Machine                               |
@@ -30,12 +33,14 @@
 | awk                     | Aho, Weinberger and Kernighan                       |
 | BASIC                   | Beginner's All-Purpose Symbolic Instruction Code    |
 | BASH                    | Bourne-Again SHell                                  |
+| BCC                     | Blind Carbon Copy                                   |
 | bg                      | Background                                          |
 | BGP                     | Border Gateway Protocol                             |
 | bc                      | Basic Calculator                                    |
 | BIOS                    | Basic Input/Output System                           |
 | bps                     | bits per second                                     |
 | BSD                     | Berkeley Software Distribution                      | 
+| BT                      | Bluetooth                                           |
 | CAD                     | Computer Aided Design                               |
 | CAE                     | Computer-Aided Engineering                          |
 | CAN                     | Controller area network                             |
