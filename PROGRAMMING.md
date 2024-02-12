@@ -445,49 +445,49 @@ infos and so on to-do ...
 
 <p align="justify">Sometimes loops are needed that would run indefinitely.</p>
 
-    Example 1:
-
 ```shell
+    # Example 1:
+
     while :
     do
         :
     done
-```
 
-    Example 2
+    # Example 2
     
     while true
     do
         :
     done
 
-    Example 3:
+    # Example 3:
 
     while false
     do
         :
     done
 
-    Example 4:
+    # Example 4:
 
     while true; do
         :
     done
 
-    Example 5:
+    # Example 5:
     
     while true; do :; done
 
-    Example 6:
-    
-    sed ':x;bx' <<< $''
-
-    Example 7:
+   # Example 6:
 
     for ((;;))
     do
         :
     done
+
+    # Example 7:
+    
+    sed ':x;bx' <<< $''
+```
 
 some more explanation to-do ...
 
