@@ -4,6 +4,8 @@
 
 <p align="justify">The abbreviations and acronyms listed hereinafter are partly known and partly probably rather unknown. Some are still current in use, others are more historical.</p>
 
+### Abbreviations and Acronyms
+
 | Abbreviation or Acronym | Description                                         |
 | :---------------------- | :-------------------------------------------------- |
 | ACPI                    | Advanced Configuration and Power Interface          |
@@ -265,6 +267,10 @@
 | zsh                     | Z Shell                                             | 
 
 <p align="justify">This table was created semi-automatically. In the next step, I will write a script that automatically creates the table for me. This is a good example of electronic data processing.</p>
+
+### Specific German Abbreviations and Acronyms
+
+
 
 <hr width="100%" size="1">
 
