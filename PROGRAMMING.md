@@ -787,10 +787,12 @@ or in
 
 The command resize can be used to get rows and cols.
 
+```Bash
     ~$ resize 
     ~$ COLUMNS=80;
     ~$ LINES=40;
     ~$ export COLUMNS LINES;
+```
 
 If wee need informations about the window we can use:
     
