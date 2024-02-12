@@ -229,6 +229,7 @@
 | TERM                    | Terminal                                            |
 | TGID                    | Thread Group ID                                     |
 | tmp                     | temporary                                           |
+| TOR                     | The Onion Router                                    |
 | TROFF                   | Trace Off                                           | 
 | TRON                    | Trace On                                            | 
 | TRON                    | The Real Time Operating System                      |
@@ -246,6 +247,8 @@
 | URL                     | Uniform Resource Locator                            |
 | USB                     | Universal serial bus                                |
 | umask                   | User mask                                           |  
+| UNICS                   | UNiplexed Information Computing System              |
+| UNIX                    | Uniplexed Information and Computing System          |
 | usr                     | Unix System Resources                               |
 | usr                     | user                                                |
 | UUID                    | Universally Unique Identifier                       |
@@ -263,6 +266,8 @@
 | WLAN                    | Wireless LAN                                        |
 | WM                      | Window Manager                                      |
 | www                     | World Wide Web                                      |
+| X                       |                                                     |
+| Xenix                   | Microsoft Unix                                      |
 | XHTML                   | eXtensible HyperText Markup Language                |
 | XML                     | eXtensible Markup Language                          |
 | XP                      | eXPerience                                          |
