@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 #
-# Menu demo
+# Menu demo and user as well as system info
 # Version 0.0.0.1
 #
 # shellcheck disable=SC2034
