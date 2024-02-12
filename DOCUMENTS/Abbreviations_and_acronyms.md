@@ -48,7 +48,12 @@
 | CAE                     | Computer-Aided Engineering                          |
 | CAN                     | Controller area network                             |
 | cat                     | ConCATenate                                         |
+| cc                      | C Compiler                                          |
+| CC                      | Carbon Copy                                         |
+| CCC                     | Chaos Computer Club                                 |
+| CD                      | Compact Disk                                        |
 | CD-ROM                  | Compact Disc Read-Only Memory                       |
+| CGI                     | Common Gateway Interface                            |
 | chgrp                   | CHange GRouP                                        |      
 | chmod                   | CHange MODe                                         |
 | chown                   | CHange OWNer                                        |
@@ -56,9 +61,12 @@
 | CLI                     | Client Line Interface                               |
 | CMD                     | Command                                             |
 | CMOS                    | Complementary Metal-Oxide Semiconductor             |
+| CMS                     | Content Management System                           |
 | COBOL                   | Common Business Oriented Language                   |
 | cp                      | copy                                                |
 | CPAN                    | Comprehensive Perl Archive Network                  |
+| CP/M                    | Control Program for Microcomputers                  |
+| CP/M                    | Control Program/Monitor                             |
 | CPR                     | Cursor position report                              |
 | CPU                     | Central Processing Unit                             |
 | cron                    | ChRONos                                             |
@@ -186,7 +194,9 @@
 | NT                      | New Technology                                      |
 | NTP                     | Network time protocol                               |
 | **O**                   |                                                     |
+| OEM                     | Original Equipment Manufacturer                     |
 | OS                      | Operating System                                    |
+| OS/2                    | Operating System/2                                  |
 | OUI                     | Organizationally unique identifier                  | 
 | **P**                   |                                                     |
 | PAM                     | Pluggable Authentication Modules                    |
@@ -227,8 +237,11 @@
 | SGML                    | Standard Generalized Markup Language                |
 | sh                      | (Bourne) Shell                                      |
 | SHA                     | Secure Hash Algorithm                               |
-| SIG                     | Signal                                              |
 | SID                     | Session ID                                          | 
+| SIG                     | Signal                                              |
+| SINIX                   | Siemens-Nixdorf                                     |
+| SINIX                   | Siemens-Nixdorf Unix                                |
+| SLI                     | Scalable Link Interface                             |
 | sox                     | SOund eXchanger                                     |
 | SPARC                   | Scalable Processor Architecture                     |
 | SQL                     | Structured Query Language                           |
