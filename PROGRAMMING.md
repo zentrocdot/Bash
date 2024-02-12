@@ -1,6 +1,6 @@
-.buttonless button {
+{.buttonless button {
 display: none;
-}
+}}
 
 # PROGRAMMING
 
