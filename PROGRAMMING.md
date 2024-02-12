@@ -447,10 +447,12 @@ infos and so on to-do ...
 
     Example 1:
 
+```Ruby
     while :
     do
         :
     done
+```
 
     Example 2
     
