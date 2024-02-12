@@ -12,7 +12,7 @@
 | ACK                     | Acknowledgement                                     |
 | ACPI                    | Advanced Configuration and Power Interface          |
 | AI                      | Artificial Intelligence                             |
-| AJAX                    | asynchronous JavaScript and XML                     |
+| AJAX                    | Asynchronous JavaScript and XML                     |
 | AIM                     | AOL Instant Messenger                               |
 | ALSA                    | Advanced Linux Sound Architecture                   |
 | AMD                     | Advanced Micro Devices                              |
@@ -103,17 +103,21 @@
 | DXF                     | Drawing Exchange Format                             |
 | **E**                   |                                                     |
 | ECMA                    | European Computer Manufacturers Association         |
+| EDP                     | Electronic Data Processing                          |
 | EEPROM                  | Electrically Erasable Programmable Read-Only Memory |
 | EFF                     | Electronic Frontier Foundation                      |
 | EGA                     | Enhanced Graphics Array                             |
 | ELF                     | Executable Linkable Format                          |
+| Env                     | Environment                                         |
 | EOF                     | End of file                                         |  
 | EOL                     | End of Life                                         |
 | etc                     | etcetera                                            |
 | eth                     | Ethernet                                            |
 | EUID                    | Effective User ID                                   |
 | eval                    | EVALuate                                            |
+| Exif                    | Exchangeable Image File Format                      |
 | EXT                     | EXTended file system                                |
+| E-Mail                  | Electronic Mail                                     |
 | **F**                   |                                                     |
 | FAT                     | File Allocation Table                               |
 | FD                      | File Descriptor                                     |
