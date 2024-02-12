@@ -272,9 +272,11 @@
 
 | Abbreviation or Acronym | Description                                         |
 | :---------------------- | :-------------------------------------------------- |
+| BV                      | Bildverarbeitung                                    |
 | EDV                     | Elektronische Datenverarbeitung                     |
 | EVA                     | Eingabe – Verarbeitung – Ausgabe                    |
 | IT                      | Informationstechnik                                 |
+| IT                      | Informationstechnologie                             |
 | KI                      | Künstliche Intelligenz                              |
 | PC                      | Personal Computer                                   |
 
