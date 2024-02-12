@@ -446,25 +446,46 @@ infos and so on to-do ...
 <p align="justify">Sometimes loops are needed that would run indefinitely.</p>
 
     Example 1:
+
+    while :
+    do
+        :
+    done
+
+    Example 2
     
     while true
     do
         :
     done
 
-    Example 2:
+    Example 3:
+
+    while false
+    do
+        :
+    done
+
+    Example 4:
 
     while true; do
         :
     done
 
-    Example 3:
+    Example 5:
     
     while true; do :; done
 
-    Example 4:
+    Example 6:
     
     sed ':x;bx' <<< $''
+
+    Example 7:
+
+    for ((;;))
+    do
+        :
+    done
 
 some more explanation to-do ...
 
