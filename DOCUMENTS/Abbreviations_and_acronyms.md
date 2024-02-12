@@ -6,6 +6,9 @@
 
 | Abbreviation or Acronym | Description                                         |
 | :---------------------- | :-------------------------------------------------- |
+| ACPI                    | Advanced Configuration and Power Interface          |
+| AI                      | Artificial Intelligence                             |
+| AJAX                    | asynchronous JavaScript and XML                     |
 | AIM                     | AOL Instant Messenger                               |
 | ALSA                    | Advanced Linux Sound Architecture                   |
 | AMD                     | Advanced Micro Devices                              |
@@ -35,13 +38,15 @@
 | CAE                     | Computer-Aided Engineering                          |
 | CAN                     | Controller area network                             |
 | cat                     | ConCATenate                                         |
+| CD-ROM                  | Compact Disc Read-Only Memory                       |
 | chgrp                   | CHange GRouP                                        |      
 | chmod                   | CHange MODe                                         |
 | chown                   | CHange OWNer                                        |
 | CISC                    | Complex Instruction Set Computing                   |
-| CLI                     | Command line interface                              |
+| CLI                     | Client Line Interface                               |
 | CMD                     | Command                                             |
 | CMOS                    | Complementary Metal-Oxide Semiconductor             |
+| COBOL                   | Common Business Oriented Language                   |
 | cp                      | copy                                                |
 | CPAN                    | Comprehensive Perl Archive Network                  |
 | CPR                     | Cursor position report                              |
@@ -60,6 +65,7 @@
 | DLL                     | Dynamic Link Library                                |
 | DMA                     | Direct Memory Access                                |
 | DOS                     | Disk Operating System                               |
+| DPI                     | Dots Per Inch                                       |
 | dpkg	                  | Debian Package                                      |
 | DRAM                    | Dynamic Random Access Memory                        |
 | DVD                     | Digital versatile disc                              |
@@ -87,6 +93,8 @@
 | FN                      | Filename                                            |
 | Fortran                 | Formula Translation                                 |
 | FOSS                    | Free open source software                           |
+| FPS                     | Frames Per Second                                   |
+
 | FS                      | Filesystem                                          |
 | FSB                     | Front Side Bus                                      |
 | fsck                    | File System Check                                   |
@@ -139,6 +147,7 @@
 | MC                      | Microcontroller                                     |
 | MCU                     | Microcontroller unit                                | 
 | MIDI                    | Musical Instrument Digital Interface                |
+| MIME                    | Multipurpose Internet Mail Extensions               |
 | MIT                     | Massachusetts Institute of Technology               |
 | ML                      | Machine Learning                                    |
 | MMU                     | Memory Management Unit                              |
