@@ -787,11 +787,7 @@ or in
 
 The command resize can be used to get rows and cols.
 
-.buttonless button {
-    display: none;
-    }
-```buttonless
-    
+```Ruby    
     ~$ resize 
     ~$ COLUMNS=80;
     ~$ LINES=40;
