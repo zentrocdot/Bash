@@ -445,7 +445,7 @@ infos and so on to-do ...
 
 <p align="justify">Sometimes loops are needed that would run indefinitely.</p>
 
-```shell
+```bash
     # Example 1:
 
     while :
