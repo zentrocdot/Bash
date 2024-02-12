@@ -77,9 +77,15 @@
 | CUPS                    | Common Unix Printing System                         |
 | C64                     | Commodore 64                                        |
 | **D**                   |                                                     |
+| DAT                     | Digital Audio Tape                                  |
+| DARPA                   | Defense Advanced Research Projects Agency           |
 | dash                    | Debian Almquist Shell                               |
+| DB                      | Database                                            |
+| DBF                     | DataBaseFiles                                       |
 | dc                      | Desk Calculator                                     |
+| DCIM                    | Digital Camera Images                               |
 | dd                      | data definition                                     |
+| DDR                     | Double Data Rate                                    |
 | DIMM                    | Dual Inline Memory Module                           |
 | DLL                     | Dynamic Link Library                                |
 | DMA                     | Direct Memory Access                                |
@@ -323,6 +329,7 @@
 | :---------------------- | :-------------------------------------------------- |
 | AI                      | Artifizielle Intelligenz                            |
 | BV                      | Bildverarbeitung                                    |
+| DAU                     | Dümmster anzunehmender User                         |
 | DBMS                    | Datenbankmanagementsystem                           |
 | EDV                     | Elektronische Datenverarbeitung                     |
 | EVA                     | Eingabe – Verarbeitung – Ausgabe                    |
