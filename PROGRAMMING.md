@@ -491,7 +491,15 @@ infos and so on to-do ...
 
 some more explanation to-do ...
 
-## Looping over number ranges like decimal and hexadecimal numbers
+## Looping over number ranges
+
+### Decimal range
+
+<p align="justify"></p>
+
+To-do ...
+
+### Hexadecimal range
 
 <p align="justify"></p>
 
