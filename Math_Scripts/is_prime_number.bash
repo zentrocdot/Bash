@@ -38,7 +38,7 @@ is_prime_number () {
     # shellcheck disable=SC2181
     if [[ $? -ne 0 ]] || [[ "${num}" -lt 1 ]]; then
         echo -n "2"
-        return 2
+        return 1
     fi
     # Loop over the range of meaningful divisors.
     for((i=2; i<=((num/2)); i++))
