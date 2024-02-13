@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 #
 # Is prime number
-# Version 0.0.0.2
+# Version 0.0.0.3
 #
 # Description:
 # Application of a simple approach to check if a given number is a prime
@@ -17,6 +17,9 @@
 # www.wikihow.com/Check-if-a-Number-Is-Prime
 # www.rookieslab.com/posts/fastest-way-to-check-if-a-number-is-prime-or-not
 # stackoverflow.com/questions/806906/how-do-i-test-if-a-variable-is-a-number-in-bash
+# unix.stackexchange.com/questions/574079/prime-number-calculation-using-shell-scripting
+#
+# Script was checked with ShellCheck.
 
 # Assign the command line argument to the global variable.
 NUM=$1
@@ -32,9 +35,10 @@ is_prime_number () {
     num=$1
     # Initialise the variable is_prime.
     is_prime=0
-    # Check if a valid number is given.
+    # Check if a valid number is given. First if it is not an empty string.
+    # Second if it is a number. Errors if not are redirected to /dev/null.
     # shellcheck disable=SC2292
-    [ -n "${num}" ] && [ "${num}" -eq "${num}" ] 2>/dev/null
+    [ -n "${num}" ] && [ "${num}" -eq "${num}" ] 2> /dev/null
     # shellcheck disable=SC2181
     if [[ $? -ne 0 ]] || [[ "${num}" -lt 1 ]]; then
         echo -n "2"
@@ -56,6 +60,10 @@ is_prime_number () {
     # Return 0.
     return 0
 }
+
+# +++++++++++++++++++
+# Main script section
+# +++++++++++++++++++
 
 # Check if number is a prime number.
 is_prime=$(is_prime_number "${NUM}")
