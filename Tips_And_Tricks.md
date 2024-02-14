@@ -75,8 +75,6 @@ versus
     ~$ i=0; echo $((++i))
     ~$ 1
 
-a little more to-do ...
-
 ### Decrementing integer numbers 
 
 <p align="justify">Subsequently there is a list of methods for decrementing an integer number together with the time the execution takes for a maximum value of <code>n=100000</code>.</p>
@@ -115,5 +113,3 @@ versus
 
     ~$ i=1; echo $((--i))
     ~$ 0
-
-a little more to-do ...
