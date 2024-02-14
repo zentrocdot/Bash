@@ -1,6 +1,6 @@
 # Tips and Tricks
 
-> [Note]
+> [!Note]
 > Subsequently ~$ represented the command prompt. 
 
 ## Prime numbers
