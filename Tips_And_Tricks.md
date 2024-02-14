@@ -137,7 +137,7 @@ versus
 
 [1]    www&#8203;.onlinegdb.com/online_bash_shell
 
-[2]    www.&#8203;shellcheck.net/
+[2]    www&#8203;.shellcheck.net/
 
 <hr width="100%" size="1">
 
