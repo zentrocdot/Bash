@@ -96,6 +96,7 @@
 | dpkg	                  | Debian Package                                      |
 | DRAM                    | Dynamic Random Access Memory                        |
 | DRM                     | Digital Rights Management                           |
+| DSLR                    | Digital Single Lens Reflex                          |
 | DVD                     | Digital versatile disc                              |
 | DVD                     | Digital video disc                                  |
 | DVI                     | Digital Visual Interface                            |
@@ -141,6 +142,7 @@
 | Gb                      | Gigabit                                             |
 | GB                      | Gigabyte                                            |
 | GCC                     | GNU Compiler Collection                             |
+| gcd                     | Greatest common divisor                             | 
 | GIMP                    | GNU Image Manipulation Program                      |
 | GNOME                   | GNU Network Object Model Environment                |
 | GNU                     | GNU's Not UNIX                                      |
