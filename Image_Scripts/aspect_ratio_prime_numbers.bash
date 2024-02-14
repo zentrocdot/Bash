@@ -3,12 +3,15 @@
 # Calculate the aspect ratio of an image.
 # Version 0.0.0.1
 #
+# Remark:
+# Written for learning purposes.
+#
 # Description:
 # An array with the prime numbers of x-resolution as well as y-resolution
 # is created. These two arrays then untouched in the whole script.
 #
 # See also:
-# de.wikipedia.org/wiki/Bildaufl%C3%B6sungen_in_der_Digitalfotografie
+# de.wikipedia.org/wiki/Bildauflösungen_in_der_Digitalfotografie
 
 # Example aspect ratios:
 # Canon EOS 550D:
