@@ -1,0 +1,9 @@
+# Tips and Tricks
+
+<p align="justify">
+
+
+
+</p>
+
+PX=$(factor "${XRES}" | sed 's/^.*: \(.*\)/\1/')
