@@ -119,8 +119,11 @@ versus
 <p align="justify">The following snippet calculates the greatest common divisor of a number quite fast.</p>
 
 ```bash
+    #!/usr/bin/bash
+
     a=5184
     b=3456
+
     while [[ "${b}" -gt 0 ]]; do
         n="${a}"
         a="${b}"
@@ -128,11 +131,13 @@ versus
     done
     echo "${a}"
 ```
-<p align="justify">Use e.g. [1] for a verification of the snippet.</p>
+<p align="justify">Use e.g. [1] for a verification how the snippet works. ShellCheck is used to check the code [2].</p>
 
 ## Resources
 
-[1] www&#8203;.onlinegdb.com/online_bash_shell
+[1]    www&#8203;.onlinegdb.com/online_bash_shell
+
+[2]    www.&#8203;shellcheck.net/
 
 <hr width="100%" size="1">
 
