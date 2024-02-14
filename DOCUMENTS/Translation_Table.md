@@ -9,6 +9,7 @@ a small translation page to help me remember them.</p>
 | Arithmetic mean                         | Arithmetisches Mittel           |
 | Aspect ratio                            | Seitenverhältnis                | 
 | Average value                           | Durchschnittswert               |
+| Digital Single Lens Reflex              | Spiegelreflexkamera             | 
 | Euclid's lemma                          | Lemma von Euklid                |
 | Floppy Disk                             | Diskette                        |
 | Geometric mean                          | Geometrisches Mittel            |
