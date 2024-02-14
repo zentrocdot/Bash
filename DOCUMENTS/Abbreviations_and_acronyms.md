@@ -49,6 +49,7 @@
 | **C**                   |                                                     |
 | CAD                     | Computer Aided Design                               |
 | CAE                     | Computer-Aided Engineering                          |
+| CAM                     | Computer-Aided Manufacturing                        |
 | CAN                     | Controller area network                             |
 | cat                     | ConCATenate                                         |
 | cc                      | C Compiler                                          |
@@ -215,6 +216,7 @@
 | NIC                     | Network Interface Card                              |
 | NFS                     | Network file system                                 | 
 | nohup                   |	NO Hang-UP                                          |
+| NCSA                    | National Center for Supercomputing Applications     |
 | NT                      | New Technology                                      |
 | NTP                     | Network time protocol                               |
 | **O**                   |                                                     |
