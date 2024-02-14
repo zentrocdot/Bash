@@ -93,7 +93,9 @@
 | DIMM                    | Dual Inline Memory Module                           |
 | DLL                     | Dynamic Link Library                                |
 | DMA                     | Direct Memory Access                                |
+| DND                     | Drag-and-Drop                                       |
 | DNS                     | Domain Name System                                  |
+| DORA                    | Discover, Offer, Request, Acknowledge               |
 | DOM                     | Document Object Model                               |
 | DoS                     | Denial of Service                                   |
 | DOS                     | Disk Operating System                               |
