@@ -198,6 +198,11 @@
 | ML                      | Machine Learning                                    |
 | MMU                     | Memory Management Unit                              |
 | MS                      | Microsoft                                           |
+| MSB                     | Most Significant Bit                                |
+| MSDN                    | Microsoft Developer Network                         | 
+| MP                      | Mega Pixel                                          |
+| MP                      | MicroProcessor                                      | 
+| MPU                     | Microprocessor Unit                                 |
 | mv                      | move                                                |
 | **N**                   |                                                     |
 | NAS                     | Network Attached Storage                            |
