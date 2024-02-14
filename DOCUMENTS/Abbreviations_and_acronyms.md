@@ -88,6 +88,7 @@
 | DBF                     | DataBaseFiles                                       |
 | dc                      | Desk Calculator                                     |
 | DCIM                    | Digital Camera Images                               |
+| DD                      | Double Density                                      |
 | dd                      | data definition                                     |
 | DDR                     | Double Data Rate                                    |
 | DIMM                    | Dual Inline Memory Module                           |
