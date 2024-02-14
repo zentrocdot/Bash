@@ -37,6 +37,7 @@
 | BAL                     | Basic Assembly Language                             | 
 | BASIC                   | Beginner's All-Purpose Symbolic Instruction Code    |
 | BASH                    | Bourne-Again SHell                                  |
+| BBS                     | Bulletin Board System                               |
 | BCC                     | Blind Carbon Copy                                   |
 | bg                      | Background                                          |
 | BGP                     | Border Gateway Protocol                             |
