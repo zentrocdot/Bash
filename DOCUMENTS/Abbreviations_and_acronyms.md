@@ -92,6 +92,7 @@
 | dd                      | data definition                                     |
 | DDR                     | Double Data Rate                                    |
 | DIMM                    | Dual Inline Memory Module                           |
+| DIN                     | Deutsches Institut für Normung                      |
 | DLL                     | Dynamic Link Library                                |
 | DMA                     | Direct Memory Access                                |
 | DND                     | Drag-and-Drop                                       |
@@ -106,6 +107,7 @@
 | DRM                     | Digital Rights Management                           |
 | DR-DOS                  | Digital Research – Disk Operating System            |  
 | DSLR                    | Digital Single Lens Reflex                          |
+| DV                      | Datenverarbeitung                                   |
 | DVD                     | Digital versatile disc                              |
 | DVD                     | Digital video disc                                  |
 | DVI                     | Digital Visual Interface                            |
@@ -114,6 +116,7 @@
 | **E**                   |                                                     |
 | ECMA                    | European Computer Manufacturers Association         |
 | EDP                     | Electronic Data Processing                          |
+| EDV                     | Elektronische Datenverarbeitung                     |
 | EEPROM                  | Electrically Erasable Programmable Read-Only Memory |
 | EFF                     | Electronic Frontier Foundation                      |
 | EGA                     | Enhanced Graphics Array                             |
