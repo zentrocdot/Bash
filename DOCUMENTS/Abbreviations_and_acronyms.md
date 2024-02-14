@@ -95,6 +95,7 @@
 | DMA                     | Direct Memory Access                                |
 | DNS                     | Domain Name System                                  |
 | DOM                     | Document Object Model                               |
+| DoS                     | Denial of Service                                   |
 | DOS                     | Disk Operating System                               |
 | DPI                     | Dots Per Inch                                       |
 | dpkg	                  | Debian Package                                      |
