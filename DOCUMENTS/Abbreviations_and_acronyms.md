@@ -104,6 +104,7 @@
 | dpkg	                  | Debian Package                                      |
 | DRAM                    | Dynamic Random Access Memory                        |
 | DRM                     | Digital Rights Management                           |
+| DR-DOS                  | Digital Research – Disk Operating System            |  
 | DSLR                    | Digital Single Lens Reflex                          |
 | DVD                     | Digital versatile disc                              |
 | DVD                     | Digital video disc                                  |
