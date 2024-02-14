@@ -16,6 +16,7 @@ a small translation page to help me remember them.</p>
 | Hard Disk                               | Festplatte                      |
 | Lowest common divisor                   | Kleinster gemeinsamer Teiler    | 
 | Mean value                              | Mittelwert                      |
+| Prime number                            | Primzahl                        |
 | Resolution                              | Auflösung                       |
 
 <p align="justify">To be completed even further ...</p>
