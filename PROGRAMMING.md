@@ -890,7 +890,9 @@ or
 
     ((z = a > b ? a : b))
 
-To-do ...
+## The metasyntactic variables foo and bar
+
+<p align="justify">Especially the variables <code>foo</code> and <code>bar</code> are so-called metasyntactic variables foo and bar. Metasyntactic variables are specific words or set of words which are placeholder in computer science and computer programming. These words are commonly found in examples and source code and are intended to be modified or substituted for later real world usage. Other metasyntactic variables for common use are foobar, baz, qux, quuz and corge. In addition to these there are some other metasyntactic variables in use.</p>
 
 ## Abbreviations
 
