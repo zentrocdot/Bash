@@ -128,6 +128,58 @@ versus
     done
     echo "${a}"
 ```
+<p align="justify">Use e.g. [1] for a verification of the snippet.</p>
+
 ## Resources
 
-www&#8203;.onlinegdb.com/online_bash_shell
+[1] www&#8203;.onlinegdb.com/online_bash_shell
+
+<hr width="100%" size="1">
+
+<p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee :coffee:. I drink a lot of coffee while programming and writing  :smiley:.</p>
+
+<hr width="100%" size="1">
+
+<p align="center">
+<a href="https://www.buymeacoffee.com/zentrocdot" target="_blank"><img src="..\IMAGES\greeen-button.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+</p>
+
+<p align="center">I loved the time when you could get also a hamburger :hamburger: for one euro!</p>
+
+<hr width="100%" size="1">
+
+<p align="justify">Here are some other good ways to simply donate a coffee to me via my favourite coins :moneybag:.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7</td>
+      <td>Tron</td>
+    </tr>
+    <tr>
+      <td>DMh7EXf7XbibFFsqaAetdQQ77Zb5TVCXiX</td>
+      <td>Doge</td>
+    </tr>
+    <tr>
+      <td>2JsKesep3yuDpmrcXCxXu7EQJkRaAvsc5</td>
+      <td>Bitcoin</td>
+    </tr>
+    <tr>
+      <td>0x31042e2F3AE241093e0387b41C6910B11d94f7ec</td>
+      <td>Ethereum</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr width="100%" size="1">
+
+<sup>[1]</sup> www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
+
+<sup>[2]</sup> linfo.org/acronym_list.html
+
+<sup>[3]</sup> en.wikipedia.org/wiki/List_of_computing_and_IT_abbreviations
+
+<hr width="100%" size="1">
+
+<p align="center">File last modified 14/02/2024</p>
+
