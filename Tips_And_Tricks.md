@@ -178,13 +178,5 @@ versus
 
 <hr width="100%" size="1">
 
-<sup>[1]</sup> www&#8203;.2daygeek.com/linux-commands-acronyms-abbreviations/
-
-<sup>[2]</sup> linfo.org/acronym_list.html
-
-<sup>[3]</sup> en.wikipedia.org/wiki/List_of_computing_and_IT_abbreviations
-
-<hr width="100%" size="1">
-
 <p align="center">File last modified 14/02/2024</p>
 
