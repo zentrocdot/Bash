@@ -7,8 +7,10 @@
 
 <p align="justify">Prime numbers can be determined with a bash script or with the command factor.</p>
 
+```bash
     ~$ factor 32
     ~$ 32: 2 2 2 2 2
+```
 
 <p align="justify">To get only the prime numbers, use the following command.</p>
 
