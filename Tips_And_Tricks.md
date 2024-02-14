@@ -1,7 +1,7 @@
 # Tips and Tricks
 
 > [!Note]
-> Subsequently ~$ represented the command prompt. 
+> Subsequently ~$ represents the command prompt in the terminal window. 
 
 ## Prime numbers
 
@@ -14,16 +14,20 @@
 
 <p align="justify">To get only the prime numbers, use the following command.</p>
 
+```bash
     ~$ factor 32 | sed 's/^.*: \(.*\)/\1/'
     ~$ 2 2 2 2 2
+```
 
 ## Prevent overwriting files
 
 <p align="justify">To prevent overwriting files the command shopt can be used.</p>
 
+```bash
     ~$ echo "foo" > "bar"
     ~$ set -o noclobber
     ~$ echo "foo" > "bar"
     ~$ bash: bar: cannot overwrite existing file
+```
 
 <p align="justify">The former foo and bar are so-called common metasyntactic variables.</p>
