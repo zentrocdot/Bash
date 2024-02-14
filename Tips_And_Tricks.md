@@ -131,13 +131,15 @@ versus
     done
     echo "${a}"
 ```
-<p align="justify">Use e.g. [1] for a verification how the snippet works. ShellCheck is used to check the code [2].</p>
+<p align="justify">Use e.g. [1,2] for a verification how the snippet works. ShellCheck is used to check the code [3].</p>
 
 ## Resources
 
 [1]    www&#8203;.onlinegdb.com/online_bash_shell
 
-[2]    www&#8203;.shellcheck.net/
+[2]    www&#8203;.jdoodle.com/test-bash-shell-script-online/
+
+[3]    www&#8203;.shellcheck.net/
 
 <hr width="100%" size="1">
 
