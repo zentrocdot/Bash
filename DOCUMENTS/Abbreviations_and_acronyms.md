@@ -30,9 +30,11 @@
 | AT                      |	Advanced Technology                                 |
 | ATA                     | AT Attachment                                       |
 | ATAPI                   | AT Attachment Packet Interface                      |
+| ATM                     | Asynchronous Transfer Mode                          |
 | ATX	                    | Advanced Technology Extended                        |
 | awk                     | Aho, Weinberger and Kernighan                       |
 | **B**                   |                                                     |
+| BAL                     | Basic Assembly Language                             | 
 | BASIC                   | Beginner's All-Purpose Symbolic Instruction Code    |
 | BASH                    | Bourne-Again SHell                                  |
 | BCC                     | Blind Carbon Copy                                   |
