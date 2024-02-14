@@ -1,5 +1,7 @@
 # Tips and Tricks
 
+<p align="justify">You will gradually find useful tips and tricks here. As these are separate from the actual programming activities, I have created a separate file for this purpose.</p>
+
 > [!Note]
 > Subsequently ~$ represents the command prompt in the terminal window. 
 
