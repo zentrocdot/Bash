@@ -7,11 +7,11 @@
 
 ## Prevent overwriting files
 
-<p align="justify">To prevent overwriting files the command shopt can be used.</p>
+<p align="justify">To prevent overwriting files the command <code>set</code> can be used.</p>
 
 ```bash
     ~$ echo "foo" > "bar"
-    ~$ set -o noclobber
+    ~$ set -o noclobber                          # This line is the trick.
     ~$ echo "foo" > "bar"
     ~$ bash: bar: cannot overwrite existing file
 ```
