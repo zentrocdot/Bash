@@ -43,9 +43,11 @@
 | BGP                     | Border Gateway Protocol                             |
 | bc                      | Basic Calculator                                    |
 | BIOS                    | Basic Input/Output System                           |
+| BL                      | Bell Laboratories (Bell Labs)
 | bps                     | bits per second                                     |
 | BSD                     | Berkeley Software Distribution                      | 
 | BT                      | Bluetooth                                           |
+| BTL                     | Bell Telephone Laboratories                         | 
 | **C**                   |                                                     |
 | CAD                     | Computer Aided Design                               |
 | CAE                     | Computer-Aided Engineering                          |
@@ -91,6 +93,8 @@
 | DD                      | Double Density                                      |
 | dd                      | data definition                                     |
 | DDR                     | Double Data Rate                                    |
+| DHCP                    | Dynamic Host Configuration Protocol                 | 
+| DHTML                   | Dynamic Hypertext Markup Language                   | 
 | DIMM                    | Dual Inline Memory Module                           |
 | DIN                     | Deutsches Institut für Normung                      |
 | DL                      | Download                                            |
@@ -108,6 +112,7 @@
 | DRM                     | Digital Rights Management                           |
 | DR-DOS                  | Digital Research – Disk Operating System            |  
 | DSLR                    | Digital Single Lens Reflex                          |
+| DTP                     | Desktop Publishing                                  |
 | DV                      | Datenverarbeitung                                   |
 | DVD                     | Digital versatile disc                              |
 | DVD                     | Digital video disc                                  |
@@ -194,6 +199,7 @@
 | **L**                   |                                                     |
 | LAMP                    | Linux Apache MySQL and PHP                          |
 | LAN                     | Local Area Network                                  |
+| LISP                    | List Processing                                     |  
 | LPC                     | Low Pin Count                                       |
 | ls                      | list                                                |
 | lspci                   | List PCI devices                                    |
@@ -230,11 +236,13 @@
 | NTP                     | Network time protocol                               |
 | **O**                   |                                                     |
 | OEM                     | Original Equipment Manufacturer                     |
+| OS                      | Open Source                                         |
 | OS                      | Operating System                                    |
 | OS/2                    | Operating System/2                                  |
 | OUI                     | Organizationally unique identifier                  | 
 | **P**                   |                                                     |
 | PAM                     | Pluggable Authentication Modules                    |
+| PARC                    | Palo Alto Research Center                           |
 | PC                      | Personal Computer                                   |
 | PCB                     | Printed Circuit Board                               |
 | PCI                     | Peripheral Component Interconnect                   |
