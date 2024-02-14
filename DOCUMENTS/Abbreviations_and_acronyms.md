@@ -93,6 +93,7 @@
 | DDR                     | Double Data Rate                                    |
 | DIMM                    | Dual Inline Memory Module                           |
 | DIN                     | Deutsches Institut für Normung                      |
+| DL                      | Download                                            |
 | DLL                     | Dynamic Link Library                                |
 | DMA                     | Direct Memory Access                                |
 | DND                     | Drag-and-Drop                                       |
