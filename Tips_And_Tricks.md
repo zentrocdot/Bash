@@ -113,3 +113,21 @@ versus
 
     ~$ i=1; echo $((--i))
     ~$ 0
+    
+## Greatest common divisor of a number
+
+<p align="justify">The following snippet calculates the greatest common divisor of a number quite fast.</p>
+
+```bash
+    a=5184
+    b=3456
+    while [[ "${b}" -gt 0 ]]; do
+        n="${a}"
+        a="${b}"
+        b=$((n%b))
+    done
+    echo "${a}"
+```
+## Resources
+
+www&#8203;.onlinegdb.com/online_bash_shell
