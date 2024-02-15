@@ -220,7 +220,7 @@ versus
     echo -en "\n"
     echo -ne "\n"
 
-    # Using command printf
+    # Using command printf.
     printf "%b" "\n"
 ```
 
