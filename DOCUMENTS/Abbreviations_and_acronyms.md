@@ -70,6 +70,7 @@
 | CGI                     | Common Gateway Interface                            |
 | chgrp                   | CHange GRouP                                        |      
 | chmod                   | CHange MODe                                         |
+| chn                     | Channel                                             |
 | chown                   | CHange OWNer                                        |
 | CISC                    | Complex Instruction Set Computing                   |
 | CLI                     | Client Line Interface                               |
@@ -86,6 +87,7 @@
 | cron                    | ChRONos                                             |
 | CRLF                    | Carriage Return Line Feed                           |
 | csh                     | C shell                                             |
+| CSI                     | Control Sequence Introducer                         |
 | CTAN                    | Comprehensive TeX Archive Network                   |
 | CUDA                    | Compute Unified Device Architecture                 |
 | CUPS                    | Common Unix Printing System                         |
@@ -164,6 +166,8 @@
 | Fortran                 | Formula Translation                                 |
 | FOSS                    | Free open source software                           |
 | FPS                     | Frames Per Second                                   |
+| frq                     | Frequency                                           |
+| freq                    | Frequency                                           |
 | FS                      | Filesystem                                          |
 | FSB                     | Front Side Bus                                      |
 | fsck                    | File System Check                                   |
@@ -271,6 +275,7 @@
 | PCI                     | Peripheral Component Interconnect                   |
 | PDA                     | Personal digital assistant                          |
 | Perl                    | Practical Extraction and Reporting Language         |
+| PGP                     | Pretty Good Privacy                                 |
 | PI                      | Python Interpreter                                  |
 | PID                     | Process ID                                          |
 | ping                    | Packet Internet Groper                              | 
