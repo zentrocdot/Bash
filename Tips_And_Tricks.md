@@ -224,6 +224,8 @@ versus
     printf "%b" "\n"
 ```
 
+<p align="justify">I currently prefer the last method presented.</p>
+
 ## Resources
 
 [1]    www&#8203;.onlinegdb.com/online_bash_shell
