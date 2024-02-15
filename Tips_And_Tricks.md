@@ -137,7 +137,9 @@ versus
 
 <p align="justify">Both tips are uncommen but somehow helpful. First make variables in a function local if they are not global. Second declare all the used variables in a suitable manner.</p>
 
-<p align="justify">Use the return statement as it is intended. The return statement is intended for the return of an exit code that can be queried via the system variable <code>$?</code>. Functions that return <code>true</code> which is 0 and <code>false</code> which is unequal 0 are fine. Functions that return arithmetic values use the return statement at least unusually with various negative side effects.</p>
+<p align="justify">Use the return statement as it is intended. The return statement is intended for the return of an exit code that can be queried via the system variable <code>$?</code>. Functions that return <code>true</code> which is 0 and <code>false</code> which is unequal 0 are fine.</p>
+
+<p align="justify">Functions that return numeric values (strings will raise an error) use the return statement at least unusually with various negative side effects.</p>
 
 ## Pitfall using arrays in functions
 
