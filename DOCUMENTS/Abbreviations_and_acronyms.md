@@ -102,6 +102,7 @@
 | DMA                     | Direct Memory Access                                |
 | DND                     | Drag-and-Drop                                       |
 | DNS                     | Domain Name System                                  |
+| DOD                     | Dial-On-Demand                                      |
 | DORA                    | Discover, Offer, Request, Acknowledge               |
 | DOM                     | Document Object Model                               |
 | DoS                     | Denial of Service                                   |
@@ -179,10 +180,12 @@
 | Hz                      | Hertz                                               |
 | **I**                   |                                                     |
 | IBM                     | International Business Machines                     |
+| IC                      | Integrated Circuit                                  |
 | ID                      | Identificator                                       |
 | IDE                     | Integrated drive electronics                        |
 | IEEE                    | Institute of Electrical and Electronic Engineers    |
-| IFS                     | Input Internal Field Separator                      |  
+| IFS                     | Input Internal Field Separator                      | 
+| IP                      | Internet Protocol                                   | 
 | IPv4                    | Internetprotokoll Version 4                         |
 | IPv6                    | Internetprotokoll Version 6                         |
 | IRQ                     | Interrupt request                                   |
@@ -265,14 +268,17 @@
 | RISC                    | Reduced Instruction Set Computer                    |
 | ROM                     | Read Only Menory                                    |
 | rm                      | remove                                              |
+| RPi                     | Raspberry Pi                                        |
 | RST                     | Reset                                               |
 | RST                     | reStructuredText                                    |
 | **S**                   |                                                     |
 | SAE                     | Society of Automotive Engineers                     | 
 | SANE                    | Scanner Access Now Easy                             |
 | SATA                    | Serial ATA                                          |
+| SC                      | Server Cluster                                      |
 | SDK                     | Software Development Kit                            |
 | sed                     | Stream EDditor                                      |
+| SF                      | Server Farm                                         |
 | SFTP                    | Secure FTP                                          |
 | SFTP                    | Simple File Transfer Protocol                       |
 | SFTP                    | SSH File Transfer Protocol                          |
