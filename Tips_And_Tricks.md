@@ -133,6 +133,12 @@ versus
 ```
 <p align="justify">Use e.g. [1,2] for a verification how the snippet works. ShellCheck is used to check the code [3].</p>
 
+## Functions
+
+<p align="justify">Both tips are uncommen but somehow helpful. First make variables in a function local if they are not global. Second declare all the used variables in a suitable manner.</p>
+
+<p align="justify">Use the return statement as it is intended. It is intended for the return of an exit codes that can be queried via the system variable $?. Functions that return True (0) or False (1) are fine. Functions that return arithmetic values use the return statement at least unusually with various negative side effects.</p>
+
 ## Resources
 
 [1]    www&#8203;.onlinegdb.com/online_bash_shell
