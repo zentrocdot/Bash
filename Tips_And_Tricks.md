@@ -221,6 +221,7 @@ versus
     echo -ne "\n"
 
     # Using command printf.
+    printf "\n"
     printf "%b" "\n"
 ```
 
