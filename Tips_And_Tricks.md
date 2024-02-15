@@ -139,6 +139,40 @@ versus
 
 <p align="justify">Use the return statement as it is intended. It is intended for the return of an exit codes that can be queried via the system variable $?. Functions that return True (0) or False (1) are fine. Functions that return arithmetic values use the return statement at least unusually with various negative side effects.</p>
 
+## Pitfall using arrays in functions
+
+```bash
+    # Declare an indexed array.
+    declare -a ARR
+    ARR=(1 2 3 4 5 6 7 8 9 0)
+
+    # Add foo and bar to the array.
+    foobar () {
+        local arr=("$@")
+        arr+=("foo" "bar")
+        echo "${arr[@]}"
+    }
+
+    # This approach will fail.
+    # Call function.
+    ARR=$(foobar "${ARR[@]}")
+
+    # Print array.
+    for i in "${ARR[@]}"; do
+        echo $i
+    done
+
+    # This approach will work.
+    # Call function
+    ARR=($(foobar "${ARR[@]}"))
+
+    # Print array.
+    for i in "${ARR[@]}"; do
+        echo $i
+    done
+
+```
+
 ## Resources
 
 [1]    www&#8203;.onlinegdb.com/online_bash_shell
