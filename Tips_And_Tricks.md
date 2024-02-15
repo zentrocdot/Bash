@@ -219,6 +219,8 @@ versus
     echo -e -n "\n"
     echo -en "\n"
     echo -ne "\n"
+    echo -e \\u0015
+    echo -ne \\0015\\0013
 
     # Using command printf.
     printf "\n"
