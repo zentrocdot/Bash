@@ -212,17 +212,44 @@ versus
 
 ```bash
     # Using command echo.
+
     echo
     echo ''
     echo ""
     echo -e ""
+
     echo -e -n "\n"
     echo -en "\n"
     echo -ne "\n"
-    echo -e \\u0015
-    echo -ne \\0015\\0013
+
+    echo -ne "\0015\0013"
+    echo -ne "\x0A\x0D"
+    echo -ne "\012\015"
+
+    echo -ne \\x0A\\x0D"
+    echo -ne \\012\\015"
+
+    echo -e '\u0015'
+    echo -e '\U0015'
+
+    echo $'\u0015'
+    echo $'\U0015'
+    echo $'\x0A\x0D'
+    echo $'\012\015'
 
     # Using command printf.
+
+    printf "%b" \\0015\\0013"
+    printf "%b" "\0015\0013"
+    printf "%b" \\x0A\\x0D
+    printf "%b" "\x0A\x0D"
+    printf "%b" \\012\\015
+    printf "%b" "\012\015"
+
+    printf "\0015\0013"
+    printf "\x0A\x0D"
+    printf "\012\015"
+
     printf "\n"
     printf "%b" "\n"
 ```
