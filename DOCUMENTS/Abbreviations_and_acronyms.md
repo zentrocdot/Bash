@@ -79,7 +79,7 @@
 | CPR                     | Cursor position report                              |
 | CPU                     | Central Processing Unit                             |
 | cron                    | ChRONos                                             |
-| CRLF                    | Carriage Return Line Feeds                          |
+| CRLF                    | Carriage Return Line Feed                           |
 | csh                     | C shell                                             |
 | CTAN                    | Comprehensive TeX Archive Network                   |
 | CUDA                    | Compute Unified Device Architecture                 |
@@ -207,6 +207,10 @@
 | LAMP                    | Linux Apache MySQL and PHP                          |
 | LAN                     | Local Area Network                                  |
 | LISP                    | List Processing                                     |  
+| LF                      | Line Feed                                           |
+| LP                      | Laser Printer                                       |
+| LP                      | Line Printer                                        |
+| lpr                     | line printer                                        |
 | LPC                     | Low Pin Count                                       |
 | ls                      | list                                                |
 | lspci                   | List PCI devices                                    |
