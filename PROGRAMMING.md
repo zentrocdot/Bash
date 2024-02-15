@@ -909,6 +909,8 @@ To-do ...
     # Now it will become an array with 10 elements.
     ARR=($ARR)
 ```
+> [!NOTE]
+> <p align="justify">ShellCheck will write a warning if the expression in the round brackets has no double quotes. In this case this is intended correct.</p>
 
 To-do ...
 
