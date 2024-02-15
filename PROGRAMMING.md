@@ -667,7 +667,36 @@ To-do ...
 
 ##  Functions in bash
 
-<p align="justify"></p>
+<p align="justify">Functions or subroutines are different to other programming languages. The can be introduced by the keword function. On the other hand this keyword is not required.</p>
+
+```bash
+    function foobar () {
+        # Do nothing here.
+        :
+        # Return the exit status. 
+        return 0
+    }  
+```
+<p align="justify">Without the keyword function the parentheses declare the construct as function.</p>
+
+```bash
+    foobar () {
+        # Do nothing here.
+        :
+        # Return the exit status. 
+        return 0
+    }  
+```
+<p align="justify">When we using the keyword function the parentheses are optional.</p>
+
+```bash
+    function foobar {
+        # Do nothing here.
+        :
+        # Return the exit status. 
+        return 0
+    }  
+```
 
 To-do ... 
 
