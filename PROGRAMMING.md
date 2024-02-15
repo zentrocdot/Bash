@@ -103,7 +103,7 @@ Early Shebang directives looked like:
 
 ### Command line arguments explained
 
-<p align="justify">Command line arguments are of the type $0, $1, $2, $3, etc. $@ is the array of all the given parameters. $# is the total number of arguments.</p>
+<p align="justify">Command line arguments are of the type <code>$0</code>, <code>$1</code>, <code>$2</code>, <code>$3</code> etc. <code>$@</code> is the array of all the given parameters. <code>$#</code> is the total number of arguments.</p>
 
 | Special Variable | Explanation                                 |
 | ---------------- | ------------------------------------------- |
