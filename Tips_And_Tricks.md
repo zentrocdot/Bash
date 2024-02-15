@@ -143,6 +143,8 @@ versus
 
 ## Pitfall using arrays in functions
 
+<p align="justify">In the next example we are adding two values to an array within a function.</p>
+
 ```bash
     # Declare an indexed array.
     declare -a ARR
@@ -157,7 +159,7 @@ versus
 
     # This approach will fail.
     # Call function.
-    ARR=$(foobar "${ARR[@]}")
+    ARR=$(foobar "${ARR[@]}")      # Wrong!
 
     # Print array.
     for i in "${ARR[@]}"; do
@@ -166,13 +168,19 @@ versus
 
     # This approach will work.
     # Call function
-    ARR=($(foobar "${ARR[@]}"))
+    ARR=($(foobar "${ARR[@]}"))    # Right!
 
     # Print array.
     for i in "${ARR[@]}"; do
         echo $i
     done
+```
 
+<p align="justify">The round brackets around the command substitution are the step needed to get back the array in the expected manner.</p>
+
+```bash
+    TMP=$(foobar "${ARR[@]}")    # Command substitution.
+    ARR=(${TMP})                 # Create an array again.  
 ```
 
 ## Resources
