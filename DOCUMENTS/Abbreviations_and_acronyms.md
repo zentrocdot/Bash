@@ -106,6 +106,7 @@
 | DD                      | Double Density                                      |
 | dd                      | data definition                                     |
 | DDR                     | Double Data Rate                                    |
+| DEC                     | Decimal                                             |
 | DHCP                    | Dynamic Host Configuration Protocol                 | 
 | DHTML                   | Dynamic Hypertext Markup Language                   | 
 | DIMM                    | Dual Inline Memory Module                           |
@@ -203,6 +204,7 @@
 | IDE                     | Integrated drive electronics                        |
 | IEEE                    | Institute of Electrical and Electronic Engineers    |
 | IFS                     | Input Internal Field Separator                      | 
+| INT                     | Integer                                             |
 | IP                      | Internet Protocol                                   | 
 | IPv4                    | Internetprotokoll Version 4                         |
 | IPv6                    | Internetprotokoll Version 6                         |
