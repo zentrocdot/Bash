@@ -11,6 +11,7 @@
 | **A**                   |                                                     |
 | ACK                     | Acknowledgement                                     |
 | ACPI                    | Advanced Configuration and Power Interface          |
+| AFK                     | Away from Keyboard                                  |
 | AI                      | Artificial Intelligence                             |
 | AIM                     | AOL Instant Messenger                               |
 | AJAX                    | Asynchronous JavaScript and XML                     |
@@ -32,6 +33,8 @@
 | AT                      |	Advanced Technology                                 |
 | ATA                     | AT Attachment                                       |
 | ATAPI                   | AT Attachment Packet Interface                      |
+| ATI                     | Advanced Technology Institute                       |
+| ATI                     | Acronis True Image                                  |
 | ATM                     | Asynchronous Transfer Mode                          |
 | ATX	                    | Advanced Technology Extended                        |
 | awk                     | Aho, Weinberger and Kernighan                       |
@@ -85,6 +88,7 @@
 | CUDA                    | Compute Unified Device Architecture                 |
 | CUPS                    | Common Unix Printing System                         |
 | C64                     | Commodore 64                                        |
+| C128                    | Commodore 128                                       | 
 | **D**                   |                                                     |
 | DAT                     | Digital Audio Tape                                  |
 | DARPA                   | Defense Advanced Research Projects Agency           |
@@ -145,7 +149,7 @@
 | **F**                   |                                                     |
 | FAT                     | File Allocation Table                               |
 | FD                      | File Descriptor                                     |
-| FDC                     | Floppy-Disk Controller                              |
+| FDC                     | Floppy Disk Controller                              |
 | FDD                     | Floppy Disk Drive                                   |
 | FIFO                    | First In First Out                                  |
 | fish                    | Friendly Interactive SHell                          | 
@@ -176,6 +180,8 @@
 | GRUB                    | GRand Unified Bootloader                            |
 | GUI                     | Graphical user interface                            | 
 | **H**                   |                                                     |
+| HD                      | Hard Disk                                           |
+| HDC                     | Hard disk controller                                | 
 | HDD                     | Hard Disk Drive                                     |
 | HDMI                    | High-Definition Multimedia Interface                |
 | HP                      | Hewlett Packard                                     |
@@ -286,6 +292,7 @@
 | SAE                     | Society of Automotive Engineers                     | 
 | SANE                    | Scanner Access Now Easy                             |
 | SATA                    | Serial ATA                                          |
+| SC                      | Semiconductor                                       |
 | SC                      | Server Cluster                                      |
 | SDK                     | Software Development Kit                            |
 | sed                     | Stream EDditor                                      |
