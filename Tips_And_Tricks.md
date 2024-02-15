@@ -234,6 +234,12 @@ versus
 
 [3]    www&#8203;.shellcheck.net/
 
+[4]    tldp.org/LDP/abs/html/
+
+[5]    www&#8203;.gnu.org/software/bash/manual/bash.html
+
+[6]    mywiki.wooledge.org/BashPitfalls
+
 <hr width="100%" size="1">
 
 <p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee :coffee:. I drink a lot of coffee while programming and writing  :smiley:.</p>
