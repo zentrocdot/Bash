@@ -202,7 +202,9 @@
 | JPG                     | Joint Photographic (Experts) Group                  | 
 | **K**                   |                                                     |
 | KB                      | Keyboard                                            |
+| KB                      | Kilobyte                                            |
 | ksh                     | KornShell                                           |
+| KI                      | Künstliche Intelligenz                              |
 | **L**                   |                                                     |
 | LAMP                    | Linux Apache MySQL and PHP                          |
 | LAN                     | Local Area Network                                  |
