@@ -866,6 +866,38 @@ dec2oct
 
 To-do ...
 
+# Indexed arrays
+
+<p align="justify">for the moment the explanations are limited to indexed arrays.</p>
+
+```bash
+    # Declare an indexed array.
+    declare -a ARR
+    ARR=(1 2 3 4 5 6 7 8 9 0)
+
+    # In both loops we will see a difference. 
+
+    # Print all the elements line by line.
+    for i in "${ARR[*]}"; do
+        echo "$i"
+    done
+
+    # Print all the elements as one quoted string.
+    for i in "${ARR[@]}"; do
+        echo "$i"
+    done
+
+     # Printout of the length gives the same result. 
+
+    # Print the number of elements, which is in our case 10.
+    echo ${#ARR[@]}
+
+    # Print the number of elements, which is in our case 10.
+    echo ${#ARR[*]}
+```
+
+To-do ...
+
 # Ternary operator
 
 <p align="justify">A <code>ternary operator</code> can be written in generalized notation as follows:</p>
