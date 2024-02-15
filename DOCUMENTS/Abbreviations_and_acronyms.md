@@ -45,12 +45,14 @@
 | BBS                     | Bulletin Board System                               |
 | BCC                     | Blind Carbon Copy                                   |
 | BD                      | Boston Dynamics                                     |
+| BEL                     | Bell                                                |
 | bg                      | Background                                          |
 | BGP                     | Border Gateway Protocol                             |
 | bc                      | Basic Calculator                                    |
 | BIOS                    | Basic Input/Output System                           |
 | BL                      | Bell Laboratories (Bell Labs)                       |
 | bps                     | bits per second                                     |
+| BS                      | Backspace                                           |
 | BSD                     | Berkeley Software Distribution                      | 
 | BT                      | Bluetooth                                           |
 | BTL                     | Bell Telephone Laboratories                         | 
@@ -94,6 +96,7 @@
 | DARPA                   | Defense Advanced Research Projects Agency           |
 | dash                    | Debian Almquist Shell                               |
 | DB                      | Database                                            |
+| DB                      | Datenbank                                           |
 | DBF                     | DataBaseFiles                                       |
 | dc                      | Desk Calculator                                     |
 | DC                      | Data Center                                         |
@@ -151,6 +154,7 @@
 | FD                      | File Descriptor                                     |
 | FDC                     | Floppy Disk Controller                              |
 | FDD                     | Floppy Disk Drive                                   |
+| FF                      | Form Feed                                           |
 | FIFO                    | First In First Out                                  |
 | fish                    | Friendly Interactive SHell                          | 
 | fg                      | Foreground                                          |
@@ -315,6 +319,7 @@
 | src                     | Source                                              |
 | SSD                     | Solid State Drive                                   |
 | ssh                     | Secure shell                                        |
+| ST                      | String Terminator                                   |
 | su                      | switch user                                         |
 | sudo                    | SUper user DO                                       |
 | SUSE                    | Software und System-Entwicklung                     |
