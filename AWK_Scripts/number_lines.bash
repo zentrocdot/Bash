@@ -2,4 +2,4 @@
 
 FN=$1
 
-awk '{print NR, length}' "${FN}"
+awk '{print NR, $0}' "${FN}"
