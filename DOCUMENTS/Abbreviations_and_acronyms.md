@@ -314,6 +314,7 @@
 | tcsh                    | TENEX C Shell                                       | 
 | TERM                    | Terminal                                            |
 | TGID                    | Thread Group ID                                     |
+| TI                      | Texas Instruments                                   |
 | tmp                     | temporary                                           |
 | TOR                     | The Onion Router                                    |
 | TROFF                   | Trace Off                                           | 
