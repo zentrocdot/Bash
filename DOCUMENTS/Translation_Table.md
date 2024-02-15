@@ -18,6 +18,7 @@ a small translation page to help me remember them.</p>
 | Lowest common divisor                   | Kleinster gemeinsamer Teiler    | 
 | Mean value                              | Mittelwert                      |
 | Prime number                            | Primzahl                        |
+| Prime factor                            | Primfaktor   
 | Resolution                              | Auflösung                       |
 
 <p align="justify">To be completed even further ...</p>
