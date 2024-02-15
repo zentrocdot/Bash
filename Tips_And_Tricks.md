@@ -141,6 +141,29 @@ versus
 
 <p align="justify">Functions that return numeric values (strings will raise an error) use the return statement at least unusually with various negative side effects.</p>
 
+## Arrays
+
+<p align="justify">This is an array with 10 elements:</p>
+
+```bash
+    # Array with ten elements.
+    ARR=("1" "2" "3" "4" "5" "6" "7" "8" "9" "0")
+```
+
+<p align="justify">This is an array with 1 element:</p>
+
+```bash
+    # Array with one element.
+    ARR=("1 2 3 4 5 6 7 8 9 0")
+```
+
+<p align="justify">To get an array with 10 elements one can do.:</p>
+
+```bash
+    # Now it will become an array with 10 elements.
+    ARR=($ARR)
+```
+
 ## Pitfall using arrays in functions
 
 <p align="justify">In the next example we are adding two values to an array within a function.</p>
