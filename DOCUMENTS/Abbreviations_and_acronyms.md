@@ -12,11 +12,13 @@
 | ACK                     | Acknowledgement                                     |
 | ACPI                    | Advanced Configuration and Power Interface          |
 | AI                      | Artificial Intelligence                             |
-| AJAX                    | Asynchronous JavaScript and XML                     |
 | AIM                     | AOL Instant Messenger                               |
+| AJAX                    | Asynchronous JavaScript and XML                     |
+| AK                      | Akustikkoppler                                      |
 | ALSA                    | Advanced Linux Sound Architecture                   |
 | AMD                     | Advanced Micro Devices                              |
 | ANSI                    | American National Standards Institute               |
+| AOL                     | America Online                                      |
 | AP                      |	Access Point                                        |
 | API                     | Application Programming Interface                   |
 | APL                     | A Programming Language                              |
@@ -39,11 +41,12 @@
 | BASH                    | Bourne-Again SHell                                  |
 | BBS                     | Bulletin Board System                               |
 | BCC                     | Blind Carbon Copy                                   |
+| BD                      | Boston Dynamics                                     |
 | bg                      | Background                                          |
 | BGP                     | Border Gateway Protocol                             |
 | bc                      | Basic Calculator                                    |
 | BIOS                    | Basic Input/Output System                           |
-| BL                      | Bell Laboratories (Bell Labs)
+| BL                      | Bell Laboratories (Bell Labs)                       |
 | bps                     | bits per second                                     |
 | BSD                     | Berkeley Software Distribution                      | 
 | BT                      | Bluetooth                                           |
@@ -89,6 +92,7 @@
 | DB                      | Database                                            |
 | DBF                     | DataBaseFiles                                       |
 | dc                      | Desk Calculator                                     |
+| DC                      | Data Center                                         |
 | DCIM                    | Digital Camera Images                               |
 | DD                      | Double Density                                      |
 | dd                      | data definition                                     |
