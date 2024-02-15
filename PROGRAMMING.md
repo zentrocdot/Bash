@@ -677,7 +677,7 @@ To-do ...
         return 0
     }  
 ```
-<p align="justify">Without the keyword function the parentheses declare the construct as function.</p>
+<p align="justify">Without the keyword function the parentheses declare the following construct with the curly braces as function. A time ago I decided to use a function declaration like the subsequently following one. This is less code and straightforward.</p>
 
 ```bash
     foobar () {
@@ -687,6 +687,16 @@ To-do ...
         return 0
     }  
 ```
+<p align="justify">The following construct is also allowed.</p>
+
+```bash
+    foobar() {
+        # Do nothing here.
+        :
+        # Return the exit status. 
+        return 0
+    }  
+
 <p align="justify">When we using the keyword function the parentheses are optional.</p>
 
 ```bash
