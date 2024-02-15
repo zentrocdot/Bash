@@ -669,7 +669,7 @@ To-do ...
 
 ##  Functions in bash
 
-<p align="justify">Functions or subroutines are different to other programming languages. The can be introduced by the keword function. On the other hand this keyword is not required.</p>
+<p align="justify">Functions or subroutines are different to other programming languages. The can be introduced by the keword function. On the other hand this keyword is not required [4].</p>
 
 ```bash
     function foobar () {
