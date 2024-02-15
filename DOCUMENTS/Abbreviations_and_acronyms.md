@@ -257,6 +257,7 @@
 | Perl                    | Practical Extraction and Reporting Language         |
 | PI                      | Python Interpreter                                  |
 | PID                     | Process ID                                          |
+| ping                    | Packet Internet Groper                              | 
 | PGID                    | Process Group ID                                    |
 | POSIX                   | Portable Operating System Interface                 |
 | PPA                     | Personal Package Archive                            |
