@@ -866,16 +866,21 @@ dec2oct
 
 To-do ...
 
-# Indexed arrays
+# Arrays
+
+## Indexed arrays
 
 <p align="justify">for the moment the explanations are limited to indexed arrays.</p>
 
 ```bash
     # Declare an indexed array.
     declare -a ARR
+
+    # Set up the array.
+    #ARR=("1" "2" "3" "4" "5" "6" "7" "8" "9" "0")
     ARR=(1 2 3 4 5 6 7 8 9 0)
 
-    # In both loops we will see a difference. 
+    # In the following both loops we will see a difference. 
 
     # Print all the elements line by line.
     for i in "${ARR[*]}"; do
@@ -887,14 +892,27 @@ To-do ...
         echo "$i"
     done
 
-     # Printout of the length gives the same result. 
+     # Printout of the length gives the same result. Here there is no difference. 
 
-    # Print the number of elements, which is in our case 10.
+    # Print the number of elements (length of array), which is in our case 10.
     echo ${#ARR[@]}
 
-    # Print the number of elements, which is in our case 10.
+    # Print the number of elements (length of array), which is in our case 10.
     echo ${#ARR[*]}
 ```
+<p align="justify">The next array is an array with one element.</p>
+
+```bash
+    # Array with one element.
+    ARR=("1 2 3 4 5 6 7 8 9 0")
+
+    # Now it will become an array with 10 elements.
+    ARR=($ARR)
+```
+
+To-do ...
+
+## Associative arrays
 
 To-do ...
 
