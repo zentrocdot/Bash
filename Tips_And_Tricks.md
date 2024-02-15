@@ -206,6 +206,24 @@ versus
     ARR=(${TMP})                 # Create an array again.  
 ```
 
+## Print empty lines
+
+<p align="justify">A blank line is sometimes required for the output on the screen.</p>
+
+```bash
+    # Using command echo.
+    echo
+    echo ''
+    echo ""
+    echo -e ""
+    echo -e -n "\n"
+    echo -en "\n"
+    echo -ne "\n"
+
+    # Using command printf
+    printf "%b" "\n"
+```
+
 ## Resources
 
 [1]    www&#8203;.onlinegdb.com/online_bash_shell
