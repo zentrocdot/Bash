@@ -120,17 +120,19 @@ To-do ...
 
 ### usage of the command shift
 
-<p align="justify"></p>
+<p align="justify">The shift command takes just one non-negative optional argument <code>n</code> which determines the number of positions the parameters should be left shifted. If <code>n</code> is passed as 0, no parameters are shifted. <code>n</code> has a default value of 1. It is applied to <code>$0</code>, <code>$1</code>, <code>$2</code>, <code>$3</code> etc.</p>
 
-To-do ...
+See also:
+
+    shift --help
 
 ## Bash builtins
 
-To print the <code>Bash builtins</code> use:
+<p align="justify">To print the <code>Bash builtins</code> use:</p>
 
     compgen -b
 
-further explanations to-do ...
+<p align="justify">The bash builtin is shipped together with Bash and is part of Bash.</p>
 
 ## Comments in scripts
 
