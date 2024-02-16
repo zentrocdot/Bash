@@ -62,6 +62,7 @@
 | CAM                     | Computer-Aided Manufacturing                        |
 | CAN                     | Controller area network                             |
 | cat                     | ConCATenate                                         |
+| CBRT                    | Cube root                                           |
 | cc                      | C Compiler                                          |
 | CC                      | Carbon Copy                                         |
 | CCC                     | Chaos Computer Club                                 |
@@ -326,6 +327,7 @@
 | sox                     | SOund eXchanger                                     |
 | SPARC                   | Scalable Processor Architecture                     |
 | SQL                     | Structured Query Language                           |
+| SQRT                    | Square root                                         | 
 | src                     | Source                                              |
 | SSD                     | Solid State Drive                                   |
 | ssh                     | Secure shell                                        |
