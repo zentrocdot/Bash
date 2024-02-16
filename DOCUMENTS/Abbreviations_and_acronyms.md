@@ -106,6 +106,7 @@
 | DD                      | Double Density                                      |
 | dd                      | data definition                                     |
 | DDR                     | Double Data Rate                                    |
+| DE                      | Desktop environment                                 | 
 | DEC                     | Decimal                                             |
 | DHCP                    | Dynamic Host Configuration Protocol                 | 
 | DHTML                   | Dynamic Hypertext Markup Language                   | 
@@ -189,6 +190,7 @@
 | GRUB                    | GRand Unified Bootloader                            |
 | GUI                     | Graphical user interface                            | 
 | **H**                   |                                                     |
+| HCI                     | Human–computer interaction                          |
 | HD                      | Hard Disk                                           |
 | HDC                     | Hard disk controller                                | 
 | HDD                     | Hard Disk Drive                                     |
@@ -219,6 +221,7 @@
 | **K**                   |                                                     |
 | KB                      | Keyboard                                            |
 | KB                      | Kilobyte                                            |
+| KDE                     | K Desktop Environment                               |
 | ksh                     | KornShell                                           |
 | KI                      | Künstliche Intelligenz                              |
 | **L**                   |                                                     |
@@ -376,6 +379,7 @@
 | **W**                   |                                                     |
 | WAN                     | Wide Area Network                                   |
 | WAP                     | WLAN access point                                   |
+| WIMP                    | windows, icons, menus, pointer                      |
 | WINCH                   | WINdow size CHanged                                 |
 | Wi-Fi                   | Wireless Fidelity                                   |
 | WLAN                    | Wireless LAN                                        |
