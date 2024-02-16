@@ -103,7 +103,9 @@
 | DBF                     | DataBaseFiles                                       |
 | dc                      | Desk Calculator                                     |
 | DC                      | Data Center                                         |
+| DC                      | Digital Camera                                      |
 | DCIM                    | Digital Camera Images                               |
+| DD                      | Disk Drive                                          |
 | DD                      | Double Density                                      |
 | dd                      | data definition                                     |
 | DDR                     | Double Data Rate                                    |
