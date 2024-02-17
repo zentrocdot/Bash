@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 #
-# Make markdown table
+# Make a markdown table from raw data
 # Version 0.0.0.1
 #
 # docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables
@@ -9,11 +9,11 @@
 # shellcheck disable=SC2312
 
 # Set the file names.
-FN="in.txt"
+FN="raw_in.txt"
 
 # shellcheck disable=SC2250
 FN_IN=${1:-$FN}
-FN_OUT="out.txt"
+FN_OUT="md_out.txt"
 FN_TMP="tmp.txt"
 
 # Sort the file content.
@@ -26,9 +26,13 @@ WIDTH2=52
 # Set the char.
 CHR="|"
 
+# Set the strings.
+STR1="Abbreviation or Acronym"
+STR2="Description"
+
 # Set the description.
-str1=${2:-COL1}
-str2=${3:-COL2}
+str1=${2:-$STR1}
+str2=${3:-$STR2}
 
 # ###############
 # Function filler
@@ -73,18 +77,21 @@ header () {
 print_table () {
 # Read the data and format the data.
     while IFS= read -r line; do
-        # Get left part.
-        prt1=$(echo "${line}" | awk -F ';' '{print $1}' | sed 's/^ *//;s/ *$//')
-        len1=${#prt1}
-        dif1=$((WIDTH1-len1))
-        spc1=$(filler "${dif1}" "\x20")
-        # Get right part.
-        prt2=$(echo "${line}" | awk -F ';' '{print $2}' | sed 's/^ *//;s/ *$//')
-        len2=${#prt2}
-        dif2=$((WIDTH2-len2))
-        spc2=$(filler "${dif2}" "\x20")
-        # Print line to file.
-        printf "| %s%s| %s%s|\n" "${prt1}" "${spc1}" "${prt2}"  "${spc2}" >> "${FN_OUT}"
+        # Ignore empyty lines.
+        if [[ "${line}" != "" ]]; then
+            # Get left part.
+            prt1=$(echo "${line}" | awk -F ';' '{print $1}' | sed 's/^ *//;s/ *$//')
+            len1=${#prt1}
+            dif1=$((WIDTH1-len1))
+            spc1=$(filler "${dif1}" "\x20")
+            # Get right part.
+            prt2=$(echo "${line}" | awk -F ';' '{print $2}' | sed 's/^ *//;s/ *$//')
+            len2=${#prt2}
+            dif2=$((WIDTH2-len2))
+            spc2=$(filler "${dif2}" "\x20")
+            # Print line to file.
+            printf "| %s%s| %s%s|\n" "${prt1}" "${spc1}" "${prt2}"  "${spc2}" >> "${FN_OUT}"
+        fi
     done < "${FN_TMP}"
 }
 
