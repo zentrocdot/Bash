@@ -13,6 +13,8 @@
 
 ## Tables in markdown
 
+<p align="justify">The markdown code for a table looks like:</p>
+
 ```markdown
 | Col 1                   | Col 2                   |
 | :---------------------- | :---------------------- |
@@ -22,11 +24,13 @@
 
 ## Accessible scripts
 
-<p align="justify">The script <code>make_raw.bash</code>code> reads a markdown table and writes raw data without formatting to a file.</p>
+<p align="justify">The script <code>make_raw_md.bash</code>code> reads a markdown table and writes raw data without formatting to a file. I assume that the content of a markdown table as shown in the last section is to be read in. The headline and the formatting line is hereby omited. The content of the table is separated by the delimiter ; in the output file.</p>
 
-<p align="justify">The script <code>make_table.bash</code>code> reads raw data from a file and creates a markdown table which is written to a file.</p>
+<p align="justify">The script <code>make_table_md.bash</code>code> reads raw data from a file and creates a markdown table which is written to a file.</p>
 
 [1] www&#8203;.markdownguide.org/getting-started/
+
+[2]  docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 <hr width="100%" size="1">
 
