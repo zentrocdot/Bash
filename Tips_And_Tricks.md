@@ -226,17 +226,11 @@ versus
     echo -ne "\x0A\x0D"
     echo -ne "\012\015"
 
-    echo -ne \\x0A\\x0D"
-    echo -ne \\012\\015"
-
-    echo -e '\u0015'
-    echo -e '\U0015'
+    echo -ne \\x0A\\x0D
+    echo -ne \\012\\015
 
     echo -n $'\x0A\x0D'
     echo -n $'\012\015'
-
-    echo $'\u0015'
-    echo $'\U0015'
 
     # Using command printf.
 
