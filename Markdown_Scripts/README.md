@@ -1,8 +1,12 @@
-# README
+# Markdown
+
+## Motivation
+
+<p align="justify">I keep my own list of abbreviations and acronyms. To be able to use them here, I had to convert my data into a table.  The next step was the logical conclusion. I wrote two scripts to convert Markdown tables into text and to convert text into Markdown tables. This way I can automatically keep a list in the form of a table in Markdown without having to do a lot of work. I add new abbreviations and acronyms to Markdown table or to text file and I am finished.</p>
 
 ## Markdown language
 
-<p align="justify"><code>Markdown</code> is a lightweight markup language next to other markup languages for creating formatted text using a plain-text editor. I am using for writing <code>nano</code> and <code>gedit</code> preferably.</p>
+<p align="justify"><code>Markdown</code> in the current context is a lightweight markup language next to other markup languages for creating formatted text using a plain-text editor. I am using for writing <code>nano</code> and <code>gedit</code> preferably.</p>
 
 <p align="justify">Some other markup languages are:</p>
 
@@ -26,7 +30,7 @@
 
 <p align="justify">The script <code>make_raw_md.bash</code> reads a markdown table and writes raw data without formatting to a file. I assume that the content of a markdown table as shown in the last section is to be read in. The headline and the formatting line is hereby omited. The content of the table is separated by the delimiter ; in the output file.</p>
 
-<p align="justify">The script <code>make_table_md.bash</code> reads raw data from a file and creates a markdown table which is written to a file. This is the reverse of the way I have just described.</p>
+<p align="justify">The script <code>make_table_md.bash</code> reads raw data from a file and creates a markdown table which is written to a file. This is the reverse of the way I have just described. The raw data in the text file is taken and then a markdown table is created with headline and formatting.</p>
 
 [1] www&#8203;.markdownguide.org/getting-started/
 
