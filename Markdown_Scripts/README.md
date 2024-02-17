@@ -11,9 +11,20 @@
 3. Hypter Text Markup Language (HTML)
 4. Standard Generalized Markup Language (SGML)
 
-<p align="justify">The script make_raw.bash reads a markdown table and writes raw data without header and formatting to file.</p>
+## Tables in markdown
 
-<p align="justify">The script make_table.bash reads raw data from a file and creates a markdown table which is written to a file.</p>
+```markdown
+| Col 1                   | Col 2                   |
+| :---------------------- | :---------------------- |
+| row 1                   | text 1                  |
+| row 2                   | text 2                  |
+```
+
+## Accessible scripts
+
+<p align="justify">The script <code>make_raw.bash</code>code> reads a markdown table and writes raw data without formatting to a file.</p>
+
+<p align="justify">The script <code>make_table.bash</code>code> reads raw data from a file and creates a markdown table which is written to a file.</p>
 
 [1] www&#8203;.markdownguide.org/getting-started/
 
