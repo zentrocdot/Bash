@@ -11,16 +11,16 @@
 | **A**                   |                                                     |
 | ACK                     | Acknowledgement                                     |
 | ACPI                    | Advanced Configuration and Power Interface          |
-| AFK                     | Away from Keyboard                                  |
+| Admin                   | Administrator                                       |
+| ADSL                    | Asymmetric Digital Subscriber Line                  |
+| AES                     | Advanced Encryption Standard                        |
 | AI                      | Artificial Intelligence                             |
 | AIM                     | AOL Instant Messenger                               |
 | AJAX                    | Asynchronous JavaScript and XML                     |
-| AK                      | Akustikkoppler                                      |
 | ALSA                    | Advanced Linux Sound Architecture                   |
 | AMD                     | Advanced Micro Devices                              |
 | ANSI                    | American National Standards Institute               |
-| AOL                     | America Online                                      |
-| AP                      |	Access Point                                        |
+| AP                      | Access Point                                        |
 | API                     | Application Programming Interface                   |
 | APL                     | A Programming Language                              |
 | apt                     | Advanced Package Tool                               |
@@ -30,124 +30,100 @@
 | ARM                     | Acorn RISC Machine                                  |
 | ARM                     | Advanced RISC Machine                               |
 | ASCII                   | American Standard Code for Information Interchange  |
-| AT                      |	Advanced Technology                                 |
+| ASR                     | Automatic Speech Recognition                        |
 | ATA                     | AT Attachment                                       |
+| AT                      | Advanced Technology                                 |
 | ATAPI                   | AT Attachment Packet Interface                      |
-| ATI                     | Advanced Technology Institute                       |
-| ATI                     | Acronis True Image                                  |
-| ATM                     | Asynchronous Transfer Mode                          |
-| ATX	                    | Advanced Technology Extended                        |
+| ATX                     | Advanced Technology Extended                        |
+| AVC                     | Advanced Video Coding                               |
 | awk                     | Aho, Weinberger and Kernighan                       |
+| AWT                     | Abstract Window Toolkit                             |
 | **B**                   |                                                     |
-| BAL                     | Basic Assembly Language                             | 
-| BASIC                   | Beginner's All-Purpose Symbolic Instruction Code    |
 | BASH                    | Bourne-Again SHell                                  |
+| BASIC                   | Beginner's All-Purpose Symbolic Instruction Code    |
 | BBS                     | Bulletin Board System                               |
+| bc                      | Basic Calculator                                    |
 | BCC                     | Blind Carbon Copy                                   |
-| BD                      | Boston Dynamics                                     |
-| BEL                     | Bell                                                |
+| BD                      | Backdoor                                            |
 | bg                      | Background                                          |
 | BGP                     | Border Gateway Protocol                             |
-| bc                      | Basic Calculator                                    |
 | BIOS                    | Basic Input/Output System                           |
-| BL                      | Bell Laboratories (Bell Labs)                       |
 | bps                     | bits per second                                     |
-| BS                      | Backspace                                           |
-| BSD                     | Berkeley Software Distribution                      | 
+| BSD                     | Berkeley Software Distribution                      |
 | BT                      | Bluetooth                                           |
-| BTL                     | Bell Telephone Laboratories                         | 
 | **C**                   |                                                     |
+| C64                     | Commodore 64                                        |
 | CAD                     | Computer Aided Design                               |
 | CAE                     | Computer-Aided Engineering                          |
-| CAM                     | Computer-Aided Manufacturing                        |
 | CAN                     | Controller area network                             |
 | cat                     | ConCATenate                                         |
-| CBRT                    | Cube root                                           |
-| cc                      | C Compiler                                          |
 | CC                      | Carbon Copy                                         |
 | CCC                     | Chaos Computer Club                                 |
+| cc                      | C Compiler                                          |
 | CD                      | Compact Disk                                        |
 | CD-ROM                  | Compact Disc Read-Only Memory                       |
 | CGI                     | Common Gateway Interface                            |
-| chgrp                   | CHange GRouP                                        |      
+| chgrp                   | CHange GRouP                                        |
 | chmod                   | CHange MODe                                         |
-| chn                     | Channel                                             |
 | chown                   | CHange OWNer                                        |
 | CISC                    | Complex Instruction Set Computing                   |
 | CLI                     | Client Line Interface                               |
 | CMD                     | Command                                             |
 | CMOS                    | Complementary Metal-Oxide Semiconductor             |
 | CMS                     | Content Management System                           |
+| CMYK                    | Cyan, Magenta, Yellow, Key (Black)                  |
 | COBOL                   | Common Business Oriented Language                   |
-| cp                      | copy                                                |
 | CPAN                    | Comprehensive Perl Archive Network                  |
+| cp                      | copy                                                |
 | CP/M                    | Control Program for Microcomputers                  |
 | CP/M                    | Control Program/Monitor                             |
 | CPR                     | Cursor position report                              |
 | CPU                     | Central Processing Unit                             |
+| CRLF                    | Carriage Return Line Feeds                          |
 | cron                    | ChRONos                                             |
-| CRLF                    | Carriage Return Line Feed                           |
 | csh                     | C shell                                             |
-| CSI                     | Control Sequence Introducer                         |
 | CTAN                    | Comprehensive TeX Archive Network                   |
 | CUDA                    | Compute Unified Device Architecture                 |
 | CUPS                    | Common Unix Printing System                         |
-| C64                     | Commodore 64                                        |
-| C128                    | Commodore 128                                       | 
 | **D**                   |                                                     |
-| DAT                     | Digital Audio Tape                                  |
 | DARPA                   | Defense Advanced Research Projects Agency           |
 | dash                    | Debian Almquist Shell                               |
+| DAT                     | Digital Audio Tape                                  |
 | DB                      | Database                                            |
-| DB                      | Datenbank                                           |
 | DBF                     | DataBaseFiles                                       |
 | dc                      | Desk Calculator                                     |
-| DC                      | Data Center                                         |
-| DC                      | Digital Camera                                      |
 | DCIM                    | Digital Camera Images                               |
-| DD                      | Disk Drive                                          |
-| DD                      | Double Density                                      |
 | dd                      | data definition                                     |
 | DDR                     | Double Data Rate                                    |
-| DE                      | Desktop environment                                 | 
-| DEC                     | Decimal                                             |
-| DHCP                    | Dynamic Host Configuration Protocol                 | 
-| DHTML                   | Dynamic Hypertext Markup Language                   | 
+| DDR                     | Double Data Rate                                    |
 | DIMM                    | Dual Inline Memory Module                           |
-| DIN                     | Deutsches Institut für Normung                      |
-| DL                      | Download                                            |
+| DL                      | Deadline                                            |
 | DLL                     | Dynamic Link Library                                |
 | DMA                     | Direct Memory Access                                |
-| DND                     | Drag-and-Drop                                       |
 | DNS                     | Domain Name System                                  |
-| DOD                     | Dial-On-Demand                                      |
-| DORA                    | Discover, Offer, Request, Acknowledge               |
 | DOM                     | Document Object Model                               |
-| DoS                     | Denial of Service                                   |
 | DOS                     | Disk Operating System                               |
 | DPI                     | Dots Per Inch                                       |
-| dpkg	                  | Debian Package                                      |
+| dpkg                    | Debian Package                                      |
 | DRAM                    | Dynamic Random Access Memory                        |
 | DRM                     | Digital Rights Management                           |
-| DR-DOS                  | Digital Research – Disk Operating System            |  
 | DSLR                    | Digital Single Lens Reflex                          |
-| DTP                     | Desktop Publishing                                  |
-| DV                      | Datenverarbeitung                                   |
 | DVD                     | Digital versatile disc                              |
 | DVD                     | Digital video disc                                  |
 | DVI                     | Digital Visual Interface                            |
-| DXF                     | Drawing Interchange Format                          |
 | DXF                     | Drawing Exchange Format                             |
+| DXF                     | Drawing Interchange Format                          |
 | **E**                   |                                                     |
 | ECMA                    | European Computer Manufacturers Association         |
 | EDP                     | Electronic Data Processing                          |
-| EDV                     | Elektronische Datenverarbeitung                     |
 | EEPROM                  | Electrically Erasable Programmable Read-Only Memory |
 | EFF                     | Electronic Frontier Foundation                      |
 | EGA                     | Enhanced Graphics Array                             |
 | ELF                     | Executable Linkable Format                          |
+| E-Mail                  | Electronic Mail                                     |
 | Env                     | Environment                                         |
-| EOF                     | End of file                                         |  
+| Env                     | Environment                                         |
+| EOF                     | End of file                                         |
 | EOL                     | End of Life                                         |
 | etc                     | etcetera                                            |
 | eth                     | Ethernet                                            |
@@ -155,86 +131,78 @@
 | eval                    | EVALuate                                            |
 | Exif                    | Exchangeable Image File Format                      |
 | EXT                     | EXTended file system                                |
-| E-Mail                  | Electronic Mail                                     |
 | **F**                   |                                                     |
 | FAT                     | File Allocation Table                               |
-| FD                      | File Descriptor                                     |
-| FDC                     | Floppy Disk Controller                              |
+| FDC                     | Floppy-Disk Controller                              |
 | FDD                     | Floppy Disk Drive                                   |
-| FF                      | Form Feed                                           |
-| FIFO                    | First In First Out                                  |
-| fish                    | Friendly Interactive SHell                          | 
+| FD                      | File Descriptor                                     |
+| FD                      | Floppy Disk                                         |
 | fg                      | Foreground                                          |
 | FHS                     | Filesystem Hierarchy Standard                       |
+| FIFO                    | First In First Out                                  |
+| fish                    | Friendly Interactive SHell                          |
+| FKP                     | Facial Key Points                                   |
 | fmt                     | format                                              |
 | FN                      | Filename                                            |
 | Fortran                 | Formula Translation                                 |
 | FOSS                    | Free open source software                           |
 | FPS                     | Frames Per Second                                   |
-| frq                     | Frequency                                           |
-| freq                    | Frequency                                           |
-| FS                      | Filesystem                                          |
+| FREQ                    | Frequency                                           |
+| FRQ                     | Frequency                                           |
 | FSB                     | Front Side Bus                                      |
 | fsck                    | File System Check                                   |
+| FS                      | Filesystem                                          |
 | ftp                     | File transfer protocol                              |
 | **G**                   |                                                     |
 | gawk                    | GNU awk                                             |
 | Gb                      | Gigabit                                             |
 | GB                      | Gigabyte                                            |
 | GCC                     | GNU Compiler Collection                             |
-| gcd                     | Greatest common divisor                             | 
+| gcd                     | Greatest common divisor                             |
 | GIMP                    | GNU Image Manipulation Program                      |
 | GNOME                   | GNU Network Object Model Environment                |
 | GNU                     | GNU's Not UNIX                                      |
 | GPIO                    | general-purpose input/output                        |
-| GPL                     | General Public License                              | 
+| GPL                     | General Public License                              |
 | GPU                     | Graphics Processing Unit                            |
 | GREP                    | Global-Regular-Expression-Print                     |
 | GRUB                    | GRand Unified Bootloader                            |
-| GUI                     | Graphical user interface                            | 
+| GUI                     | Graphical user interface                            |
 | **H**                   |                                                     |
-| HCI                     | Human–computer interaction                          |
-| HD                      | Hard Disk                                           |
-| HDC                     | Hard disk controller                                | 
 | HDD                     | Hard Disk Drive                                     |
+| HD                      | Hard Disk                                           |
 | HDMI                    | High-Definition Multimedia Interface                |
+| HMD                     | Head-Mounted Display                                |
+| HMI                     | Human Machine Interface                             |
 | HP                      | Hewlett Packard                                     |
-| HUP                     | Hang UP                                             |
 | HTML                    | Hypertext Markup Language                           |
+| HUP                     | Hang UP                                             |
 | Hz                      | Hertz                                               |
 | **I**                   |                                                     |
+| IaaS                    | Infrastructure as a Service                         |
 | IBM                     | International Business Machines                     |
-| IC                      | Integrated Circuit                                  |
-| ID                      | Identificator                                       |
 | IDE                     | Integrated drive electronics                        |
+| ID                      | Identificator                                       |
 | IEEE                    | Institute of Electrical and Electronic Engineers    |
-| IFS                     | Input Internal Field Separator                      | 
-| INT                     | Integer                                             |
-| IP                      | Internet Protocol                                   | 
+| IFS                     | Input Internal Field Separator                      |
+| I/O                     | input/output                                        |
 | IPv4                    | Internetprotokoll Version 4                         |
 | IPv6                    | Internetprotokoll Version 6                         |
 | IRQ                     | Interrupt request                                   |
 | ISO                     | International Organization for Standardization      |
+| ISP                     | Internet Service Provider                           |
+| ISP                     | The Internet Service Provider                       |
 | ITU                     | International Telecommunication Union               |
-| I/O                     | input/output                                        |
 | **J**                   |                                                     |
-| JPE                     | Joint Photographic Experts (Group)                  |
 | JPEG                    | Joint Photographic Experts Group                    |
-| JPG                     | Joint Photographic (Experts) Group                  | 
+| JPE                     | Joint Photographic Experts (Group)                  |
+| JPG                     | Joint Photographic (Experts) Group                  |
 | **K**                   |                                                     |
 | KB                      | Keyboard                                            |
-| KB                      | Kilobyte                                            |
-| KDE                     | K Desktop Environment                               |
 | ksh                     | KornShell                                           |
-| KI                      | Künstliche Intelligenz                              |
 | **L**                   |                                                     |
 | LAMP                    | Linux Apache MySQL and PHP                          |
 | LAN                     | Local Area Network                                  |
-| LISP                    | List Processing                                     |  
-| LF                      | Line Feed                                           |
-| LP                      | Laser Printer                                       |
-| LP                      | Line Printer                                        |
-| lpr                     | line printer                                        |
 | LPC                     | Low Pin Count                                       |
 | ls                      | list                                                |
 | lspci                   | List PCI devices                                    |
@@ -245,151 +213,166 @@
 | MAC                     | Media Access Control                                |
 | man                     | Manual                                              |
 | MBR                     | Master Boot Record                                  |
-| mc                      | Midnight Commander                                  |
 | MC                      | Microcontroller                                     |
-| MCU                     | Microcontroller unit                                | 
+| mc                      | Midnight Commander                                  |
+| MCU                     | Microcontroller unit                                |
 | MIDI                    | Musical Instrument Digital Interface                |
 | MIME                    | Multipurpose Internet Mail Extensions               |
+| MIMO                    | Multiple-Input Multiple-Output                      |
 | MIT                     | Massachusetts Institute of Technology               |
 | ML                      | Machine Learning                                    |
+| ML                      | Machine Learning                                    |
 | MMU                     | Memory Management Unit                              |
-| MS                      | Microsoft                                           |
-| MSB                     | Most Significant Bit                                |
-| MSDN                    | Microsoft Developer Network                         | 
 | MP                      | Mega Pixel                                          |
-| MP                      | MicroProcessor                                      | 
+| MP                      | MicroProcessor                                      |
 | MPU                     | Microprocessor Unit                                 |
+| MSB                     | Most Significant Bit                                |
+| MSDN                    | Microsoft Developer Network                         |
+| MS                      | Microsoft                                           |
 | mv                      | move                                                |
 | **N**                   |                                                     |
 | NAS                     | Network Attached Storage                            |
 | NAT                     | Network Address Translation                         |
+| NFS                     | Network file system                                 |
 | NIC                     | Network Interface Card                              |
-| NFS                     | Network file system                                 | 
-| nohup                   |	NO Hang-UP                                          |
-| NCSA                    | National Center for Supercomputing Applications     |
+| NNTP                    | Network News Transfer Protocol                      |
+| nohup                   | NO Hang-UP                                          |
 | NT                      | New Technology                                      |
 | NTP                     | Network time protocol                               |
 | **O**                   |                                                     |
 | OEM                     | Original Equipment Manufacturer                     |
-| OS                      | Open Source                                         |
-| OS                      | Operating System                                    |
 | OS/2                    | Operating System/2                                  |
-| OUI                     | Organizationally unique identifier                  | 
+| OS                      | Operating System                                    |
+| OUI                     | Organizationally unique identifier                  |
 | **P**                   |                                                     |
+| P2P                     | Peer-to-Peer                                        |
 | PAM                     | Pluggable Authentication Modules                    |
-| PARC                    | Palo Alto Research Center                           |
-| PC                      | Personal Computer                                   |
 | PCB                     | Printed Circuit Board                               |
 | PCI                     | Peripheral Component Interconnect                   |
+| PC                      | Personal Computer                                   |
 | PDA                     | Personal digital assistant                          |
 | Perl                    | Practical Extraction and Reporting Language         |
-| PGP                     | Pretty Good Privacy                                 |
-| PI                      | Python Interpreter                                  |
-| PID                     | Process ID                                          |
-| ping                    | Packet Internet Groper                              | 
 | PGID                    | Process Group ID                                    |
+| PGP                     | Pretty Good Privacy                                 |
+| PID                     | Process ID                                          |
+| PI                      | Python Interpreter                                  |
+| POC                     | Proof of Concept                                    |
 | POSIX                   | Portable Operating System Interface                 |
 | PPA                     | Personal Package Archive                            |
+| PPD                     | PostScript Printer Description                      |
 | PPID                    | Parent process ID                                   |
+| PPP                     | Point-to-Point Protocol                             |
 | PROM                    | Programmable Read-Only Memory                       |
 | ps                      | Process status                                      |
 | pwd                     | print working directory                             |
 | PWR                     | Power                                               |
 | **R**                   |                                                     |
-| RGB                     | Red, Green, Blue                                    |
-| RegEx                   | Regular Expressions                                 |
+| RAID                    | Redundant Array of Independent Disk                 |
 | RAM                     | Random Access Menory                                |
+| RDMA                    | Remote Direct Memory Access                         |
+| RegEx                   | Regular Expressions                                 |
+| RGB                     | Red, Green, Blue                                    |
 | RISC                    | Reduced Instruction Set Computer                    |
-| ROM                     | Read Only Menory                                    |
 | rm                      | remove                                              |
-| RPi                     | Raspberry Pi                                        |
+| ROM                     | Read Only Menory                                    |
 | RST                     | Reset                                               |
 | RST                     | reStructuredText                                    |
 | **S**                   |                                                     |
-| SAE                     | Society of Automotive Engineers                     | 
+| SaaS                    | Software as a Service                               |
+| SAE                     | Society of Automotive Engineers                     |
 | SANE                    | Scanner Access Now Easy                             |
 | SATA                    | Serial ATA                                          |
-| SC                      | Semiconductor                                       |
-| SC                      | Server Cluster                                      |
 | SDK                     | Software Development Kit                            |
+| SDS                     | Software-Defined Storage                            |
 | sed                     | Stream EDditor                                      |
-| SF                      | Server Farm                                         |
 | SFTP                    | Secure FTP                                          |
 | SFTP                    | Simple File Transfer Protocol                       |
 | SFTP                    | SSH File Transfer Protocol                          |
 | SGI                     | Silicon Graphics, Incorporated                      |
 | SGML                    | Standard Generalized Markup Language                |
-| sh                      | (Bourne) Shell                                      |
 | SHA                     | Secure Hash Algorithm                               |
-| SID                     | Session ID                                          | 
+| sh                      | (Bourne) Shell                                      |
+| SID                     | Session ID                                          |
 | SIG                     | Signal                                              |
 | SINIX                   | Siemens-Nixdorf                                     |
 | SINIX                   | Siemens-Nixdorf Unix                                |
 | SLI                     | Scalable Link Interface                             |
+| SLI                     | Scalable Link Interface                             |
+| SMI                     | System management interrupt                         |
 | sox                     | SOund eXchanger                                     |
 | SPARC                   | Scalable Processor Architecture                     |
 | SQL                     | Structured Query Language                           |
-| SQRT                    | Square root                                         | 
 | src                     | Source                                              |
 | SSD                     | Solid State Drive                                   |
 | ssh                     | Secure shell                                        |
-| ST                      | String Terminator                                   |
-| su                      | switch user                                         |
+| STR                     | String                                              |
 | sudo                    | SUper user DO                                       |
 | SUSE                    | Software und System-Entwicklung                     |
+| su                      | switch user                                         |
 | SVG                     | Scalable Vector Graphics                            |
-| SMI                     | System management interrupt                         |
 | Sysop                   | System operator                                     |
 | **T**                   |                                                     |
 | tac                     | Reverse cat                                         |
 | tcp                     | Transmission Control Protocol                       |
-| tcsh                    | TENEX C Shell                                       | 
+| tcsh                    | TENEX C Shell                                       |
 | TERM                    | Terminal                                            |
 | TGID                    | Thread Group ID                                     |
-| TI                      | Texas Instruments                                   |
 | tmp                     | temporary                                           |
 | TOR                     | The Onion Router                                    |
-| TROFF                   | Trace Off                                           | 
-| TRON                    | Trace On                                            | 
+| TROFF                   | Trace Off                                           |
 | TRON                    | The Real Time Operating System                      |
+| TRON                    | Trace On                                            |
 | TTF                     | TrueType Fonts                                      |
-| TTY                     | Terminal type                                       |
 | TTY                     | TeleTYpe writer                                     |
-| TWAIN                   | Technology Without An Interesting Name              | 
+| TTY                     | Terminal type                                       |
+| TWAIN                   | Technology Without An Interesting Name              |
 | **U**                   |                                                     |
 | UAL                     | Unified Assembly Language                           |
 | UART                    | Universal Asynchronous Receiver/Transmitter         |
 | udp                     | User Datagram Protocol                              |
 | UEFI                    | Unified Extensible Firmware Interface               |
-| UI                      | User interface                                      |
 | UID                     | User ID                                             |
+| UI                      | User interface                                      |
+| umask                   | User mask                                           |
+| UNICS                   | UNiplexed Information Computing System              |
+| UNIX                    | Uniplexed Information and Computing System          |
 | URI                     | Uniform Resource Identifier                         |
 | URL                     | Uniform Resource Locator                            |
 | USB                     | Universal serial bus                                |
-| umask                   | User mask                                           |  
-| UNICS                   | UNiplexed Information Computing System              |
-| UNIX                    | Uniplexed Information and Computing System          |
 | usr                     | Unix System Resources                               |
 | usr                     | user                                                |
 | UUID                    | Universally Unique Identifier                       |
 | **V**                   |                                                     |
-| VB                      | Visual Basic                                        |
 | VBA                     | Visual Basic for Applications                       |
+| VB                      | Visual Basic                                        |
+| VDE                     | Verein Deutscher Elektroingenieure                  |
+| VDI                     | Virtual Desktop Infrastructure                      |
+| VDI                     | Verein Deutscher Ingenieure                         |
 | VESA                    | Video Electronics Standards Association             |
-| VFP                     | Vector Floating Point                               | 
+| VFP                     | Vector Floating Point                               |
 | VGA                     | VGA—Video Graphics Array                            |
 | VM                      | Virtual Machine                                     |
 | VM                      | Virtual Memory                                      |
+| VPN                     | Virtual Private Network                             |
+| VRML                    | Virtual Reality Mark-up Language                    |
+| VR                      | Virtual Reality                                     |
 | **W**                   |                                                     |
 | WAN                     | Wide Area Network                                   |
 | WAP                     | WLAN access point                                   |
-| WIMP                    | windows, icons, menus, pointer                      |
-| WINCH                   | WINdow size CHanged                                 |
 | Wi-Fi                   | Wireless Fidelity                                   |
+| WINCH                   | WINdow size CHanged                                 |
 | WLAN                    | Wireless LAN                                        |
 | WM                      | Window Manager                                      |
+| WUXGA                   | Wide Ultra Extended Graphics Array                  |
+| WVGA                    | Wide Video Graphics Array                           |
+| WWAN                    | Wireless Wide Area Network                          |
 | www                     | World Wide Web                                      |
+| WWW                     | World Wide Web                                      |
+| WXGA                    | Wide Extended Graphics Array                        |
+| WYSISLWYG               | What You See Is Sort-of Like What You Get           |
+| WYSIWYG                 | What You See Is What You Get                        |
 | **X**                   |                                                     |
+| Xenix                   | Microsoft Unix                                      |
 | Xenix                   | Microsoft Unix                                      |
 | XHTML                   | eXtensible HyperText Markup Language                |
 | XML                     | eXtensible Markup Language                          |
@@ -397,9 +380,26 @@
 | XP                      | Extreme Programming                                 |
 | XVGA                    | eXtended Video Graphics Adapter                     |
 | **Y**                   |                                                     |
+| Y2K                     | Year 2000                                           |
+| YAGNI                   | You Ain’t Gonna Need It                             |
 | YAML                    | YAML Ain't Markup Language                          |
+| YaST                    | Yet another Setup Tool                              |
 | **Z**                   |                                                     |
-| zsh                     | Z Shell                                             | 
+| ZBR                     | Zone Bit Recording                                  |
+| ZCAV                    | Zone Constant Angular Velocity                      |
+| ZCS                     | Zero Code Suppression                               |
+| ZFS                     | Zettabyte File System                               |
+| ZIFS                    | Zero Insertion Force Socket                         |
+| ZIF                     | Zero Insertion Force                                |
+| ZIP                     | ZIP file archive                                    |
+| ZISC                    | Zero Instruction Set Computer                       |
+| ZKS                     | Zylinder/Kopf/Sektor, siehe CHS-Adressierung        |
+| ZMA                     | Zone Multicast Address                              |
+| ZOI                     | Zero One Infinity                                   |
+| ZOI                     | Zero One Infinity                                   |
+| ZOPE                    | Z Object Publishing Environment                     |
+| ZPL                     | Z-level Programming Language                        |
+| zsh                     | Z Shell                                             |
 
 <p align="justify">This table was created semi-automatically. In the next step, I will write a script that automatically creates the table for me. This is a good example of electronic data processing.</p>
 
