@@ -24,9 +24,9 @@
 
 ## Accessible scripts
 
-<p align="justify">The script <code>make_raw_md.bash</code>code> reads a markdown table and writes raw data without formatting to a file. I assume that the content of a markdown table as shown in the last section is to be read in. The headline and the formatting line is hereby omited. The content of the table is separated by the delimiter ; in the output file.</p>
+<p align="justify">The script <code>make_raw_md.bash</code> reads a markdown table and writes raw data without formatting to a file. I assume that the content of a markdown table as shown in the last section is to be read in. The headline and the formatting line is hereby omited. The content of the table is separated by the delimiter ; in the output file.</p>
 
-<p align="justify">The script <code>make_table_md.bash</code>code> reads raw data from a file and creates a markdown table which is written to a file. This is the reverse of the way I have just described.</p>
+<p align="justify">The script <code>make_table_md.bash</code> reads raw data from a file and creates a markdown table which is written to a file. This is the reverse of the way I have just described.</p>
 
 [1] www&#8203;.markdownguide.org/getting-started/
 
