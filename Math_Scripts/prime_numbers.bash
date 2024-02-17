@@ -39,9 +39,11 @@ declare -A ARR
 for ((i=2; i<="${NUM}"; i++)) do ARR["${i}"]=true; done
 
 # Determine the prime numbers.
-for ((i=2; i<="${SQRT}"; i++)) do
+for ((i=2; i<="${SQRT}"; i++))
+do
     # If associative array value is true do something.
-    if [[ "${ARR[${i}]}" == true ]]; then
+    if [[ "${ARR[${i}]}" == true ]]
+    then
         # Set j to the square of i.
         j=$((i*i))
         # Run a loop until MAX_NUM is reached.
