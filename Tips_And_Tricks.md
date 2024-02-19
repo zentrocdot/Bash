@@ -297,6 +297,8 @@ versus
 
 [7]    www&#8203;.gnu.org/software/bash/manual/html_node/ANSI_002dC-Quoting.html
 
+[8]    en.wikipedia.org/wiki/C0_and_C1_control_codes
+
 <hr width="100%" size="1">
 
 <p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee :coffee:. I drink a lot of coffee while programming and writing  :smiley:.</p>
