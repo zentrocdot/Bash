@@ -299,6 +299,12 @@ versus
 
 [8]    en.wikipedia.org/wiki/C0_and_C1_control_codes
 
+[9]    en.wikipedia.org/wiki/Newline
+
+[10]     www&#8203;.unicode.org/standard/reports/tr13/tr13-5.html
+
+[11]    www&#8203;.geeksforgeeks.org/control-characters/
+
 <hr width="100%" size="1">
 
 <p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee :coffee:. I drink a lot of coffee while programming and writing  :smiley:.</p>
