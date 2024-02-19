@@ -247,12 +247,12 @@ versus
     echo -en "\n"      or    echo -en "\r\n"
     echo -ne "\n"      or    echo -ne "\r\n"
 
-    echo -ne "\0013"    or    echo -ne "\0013\0015"
-    echo -ne "\x0A"     or    echo -ne "\x0D\x0A"
-    echo -ne "\015"     or    echo -ne "\015\012"
+    echo -ne "\0013"   or    echo -ne "\0013\0015"
+    echo -ne "\x0A"    or    echo -ne "\x0D\x0A"
+    echo -ne "\015"    or    echo -ne "\015\012"
 
-    echo -ne \\x0A    or    echo -ne \\x0D\\x0A
-    echo -ne \\015    or    echo -ne \\015\\012
+    echo -ne \\x0A     or    echo -ne \\x0D\\x0A
+    echo -ne \\015     or    echo -ne \\015\\012
 
     echo -n $'\x0A'    or    echo -n $'\x0D\x0A'
     echo -n $'\015'    or    echo -n $'\015\012'
@@ -268,15 +268,15 @@ versus
     printf "%b" \\012      or    printf "%b" \\012\\015
     printf "%b" "\012"     or    printf "%b" "\012\015"
 
-    printf "\x0A"    or    printf "\x0A\x0D"
-    printf "\012"    or    printf "\012\015"
+    printf "\x0A"          or    printf "\x0A\x0D"
+    printf "\012"          or    printf "\012\015"
 
-    printf $'\cJ'         or    printf $'\cM\cJ'
-    printf "%s" $'\cJ'    or    printf "%s" $'\cM\cJ'
-    printf "%b" $'\cJ'    or    printf "%b" $'\cM\cJ'
+    printf $'\cJ'          or    printf $'\cM\cJ'
+    printf "%s" $'\cJ'     or    printf "%s" $'\cM\cJ'
+    printf "%b" $'\cJ'     or    printf "%b" $'\cM\cJ'
 
-    printf "\n"           or    printf "\r\n"
-    printf "%b" "\n"      or    printf "%b" "\r\n"
+    printf "\n"            or    printf "\r\n"
+    printf "%b" "\n"       or    printf "%b" "\r\n"
 ```
 
 <p align="justify">I currently prefer the last method presented.</p>
