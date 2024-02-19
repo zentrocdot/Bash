@@ -206,47 +206,77 @@ versus
     ARR=(${TMP})                 # Create an array again.  
 ```
 
-## Print empty lines
+## Remove numbers from array
 
-<p align="justify">A blank line is sometimes required for the output on the screen.</p>
+<p align="justify">Some proposed ways for removing elements from an arrays will work in special cases and for stings. The way using indexing is working well, but one needs a loop over all elements. I figured out a way, which works well so far.</p>
 
 ```bash
-    # Using command echo.
+    # Declare the array. 
+    declare -a ARR
+
+    # Create an array with 20 numbers.
+    for ((i=1; i<=20; i++)); do ARR+=("${i}"); done
+
+    # Remove numbers 2...19 from array. 
+    for element in $(seq 2 19); do
+        ARR=($(sed 's/^/ /;s/$/ /;s/ '"${element}"' / /' <<<${ARR[*]}))
+    done
+```
+
+<p align="justify">The proposed way uses the Bash properties of arrays and sed for removing elements in a onliner.</p>
+
+## Print empty lines
+
+<p align="justify">A blank line is sometimes required for the output on the screen. Here are some ways to print a newline.</p>
+
+```bash
+    # Using command echo and an empty space.
+    # -e expands escape sequences.
 
     echo
     echo ''
     echo ""
+    echo -e ''
     echo -e ""
 
-    echo -e -n "\n"
-    echo -en "\n"
-    echo -ne "\n"
+    # Using command echo and carriage return (CR) and line feed (LF).
+    # -n suppresses the printing of a new line.
 
-    echo -ne "\0015\0013"
-    echo -ne "\x0A\x0D"
-    echo -ne "\012\015"
+    echo -n -e "\n"    or    echo -n -e "\r\n"
+    echo -e -n "\n"    or    echo -e -n "\r\n"
+    echo -en "\n"      or    echo -en "\r\n"
+    echo -ne "\n"      or    echo -ne "\r\n"
 
-    echo -ne \\x0A\\x0D
-    echo -ne \\012\\015
+    echo -ne "\0013"    or    echo -ne "\0013\0015"
+    echo -ne "\x0A"     or    echo -ne "\x0D\x0A"
+    echo -ne "\015"     or    echo -ne "\015\012"
 
-    echo -n $'\x0A\x0D'
-    echo -n $'\012\015'
+    echo -ne \\x0A    or    echo -ne \\x0D\\x0A
+    echo -ne \\015    or    echo -ne \\015\\012
+
+    echo -n $'\x0A'    or    echo -n $'\x0D\x0A'
+    echo -n $'\015'    or    echo -n $'\015\012'
+
+    echo -ne $'\cJ'    or    echo -ne $'\cM\cJ'
 
     # Using command printf.
 
-    printf "%b" \\0015\\0013"
-    printf "%b" "\0015\0013"
-    printf "%b" \\x0A\\x0D
-    printf "%b" "\x0A\x0D"
-    printf "%b" \\012\\015
-    printf "%b" "\012\015"
+    printf "%b" \\0013     or    printf "%b" \\0015\\0013
+    printf "%b" "\0013"    or    printf "%b" "\0015\0013"
+    printf "%b" \\x0A      or    printf "%b" \\x0A\\x0D
+    printf "%b" "\x0A"     or    printf "%b" "\x0A\x0D"
+    printf "%b" \\012      or    printf "%b" \\012\\015
+    printf "%b" "\012"     or    printf "%b" "\012\015"
 
-    printf "\0015\0013"
-    printf "\x0A\x0D"
-    printf "\012\015"
+    printf "\x0A"    or    printf "\x0A\x0D"
+    printf "\012"    or    printf "\012\015"
 
-    printf "\n"
-    printf "%b" "\n"
+    printf $'\cJ'         or    printf $'\cM\cJ'
+    printf "%s" $'\cJ'    or    printf "%s" $'\cM\cJ'
+    printf "%b" $'\cJ'    or    printf "%b" $'\cM\cJ'
+
+    printf "\n"           or    printf "\r\n"
+    printf "%b" "\n"      or    printf "%b" "\r\n"
 ```
 
 <p align="justify">I currently prefer the last method presented.</p>
@@ -264,6 +294,8 @@ versus
 [5]    www&#8203;.gnu.org/software/bash/manual/bash.html
 
 [6]    mywiki.wooledge.org/BashPitfalls
+
+[7]    www&#8203;.gnu.org/software/bash/manual/html_node/ANSI_002dC-Quoting.html
 
 <hr width="100%" size="1">
 
