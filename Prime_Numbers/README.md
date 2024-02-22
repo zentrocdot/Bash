@@ -2,4 +2,10 @@
 
 ## Motivation
 
-I have never really thought about prime numbers. This changed when I needed a script to quickly determine the aspect ratio of images. In the end, I no longer needed the prime numbers there. I then devoted myself to the subject a little more intensively.
+<p align="justify">I have never really thought about prime numbers. This changed when I needed a script to quickly determine the aspect ratio of images. In the end, I no longer needed the prime numbers there. I then devoted myself to the subject a little more intensively.</p>
+
+## References
+
+[1]    en.wikipedia.org/wiki/Largest_known_prime_number
+
+[2]    https://t5k.org/
