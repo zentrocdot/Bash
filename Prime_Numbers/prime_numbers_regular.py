@@ -3,7 +3,7 @@
 # pylint: disable=useless-return
 #
 # Calculate prime numbers
-# CPU version
+# Regular version
 # Version 0.0.0.1
 # Copyright © 2024, Dr. Peter Netz
 # Published under the MIT license.
