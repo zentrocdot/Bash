@@ -8,6 +8,10 @@
 
 <p align="justify">The numbers that are not prime numbers are called composite numbers. Every set of natural numbers can be spliced in prime numbers and composite numbers.</p>
 
+# Bash scripts
+
+<p align="justify">I am using prime_number_calculation.bash as reference script for checking the other prime number calculation scripts.</p>
+
 ## Spin-Off
 
 <p align="justify">A spin-off of my activities was that I was testing if I can calculate prime numbers faster using Python. This was obvious not possible in comparison using Bash script. But using Numba on Python can speed up the calculation.</p>
