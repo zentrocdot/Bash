@@ -10,7 +10,7 @@
 
 ## Spin-Off
 
-<p align="justify">A spin-off of my activities was that I was testing if I can calculate prime numbers on my graphic card. With Bash this cannot be done, but with Python this is easily realised.</p>
+<p align="justify">A spin-off of my activities was that I was testing if I can calculate prime numbers faster using Python. This was obvious not possible in comparison using Bash script. But using Numba on Python can speed up the calculation.</p>
 
 ## References
 
