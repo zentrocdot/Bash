@@ -19,3 +19,5 @@
 [2]    https://t5k.org/
 
 [3]   www&#8203;.math.uchicago.edu/~luis/allprimes.html
+
+[4]    numba.pydata.org/numba-doc/latest/user/5minguide.html
