@@ -9,8 +9,6 @@
 # Set the maximum number for which the prime numbers should be calculated.
 NUM=${1:-100}
 
-#SQRT=$(bc <<< "scale=0; sqrt(${NUM})")
-
 # Declare the prime number and composite number arrays.
 declare -a cn=(1 4 6 8 9)
 declare -a pn=(2 3 5 7)
