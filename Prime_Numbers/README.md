@@ -21,3 +21,9 @@
 [3]   www&#8203;.math.uchicago.edu/~luis/allprimes.html
 
 [4]    numba.pydata.org/numba-doc/latest/user/5minguide.html
+
+[5]    numpy.org/doc/1.24/user/index.html
+
+[6]    carpentries-incubator.github.io/lesson-gpu-programming/numba.html
+
+[7]    numba.readthedocs.io/en/stable/
