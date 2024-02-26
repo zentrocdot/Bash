@@ -1,5 +1,13 @@
 # README
 
+## Software Installation
+
+to-do ...
+
+## System Update and Upgrade
+
+to-do ...
+
 ## GIMP and G'MIC
 
 <p align="justify">I have been using GIMP and the G'MIC plugin for years now successfully. GIMP itself is a really good tool and the plugin G'MIC produces impressive results.</p>
