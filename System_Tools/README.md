@@ -11,7 +11,7 @@
 <p align="justify">The script <code>system_update.bash</code> automates the individual necessary steps. In addition to this the script cleans up the system from packages that are no longer required.</p> 
 
 > [!TIP]
-> <p align="justify">A helpful tool to keep the system up to date is <code>synaptic</code>. Another one is <code>aptitude</code>.</p> 
+> <p align="justify">A helpful tool to keep the system up to date is <code>synaptic</code> with its GUI. Another good tool for updating and upgrading the system is <code>aptitude</code> and its CLI.</p> 
 
 ## Software Installation
 
