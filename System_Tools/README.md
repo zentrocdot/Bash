@@ -10,6 +10,9 @@
 
 <p align="justify">The script <code>system_update.bash</code> automates the individual necessary steps. In addition to this the script cleans up the system from packages that are no longer required.</p> 
 
+> [!TIP]
+> <p align="justify">A helpful tool to keep the system up to date is <code>synaptic</code>. Another one is <code>aptitude</code>.</p> 
+
 ## Software Installation
 
 <p align="justify">I use a selection of programs that have proven themselves over the years. In addition to these programs, I keep alternative programs available.</p>
@@ -21,7 +24,7 @@
 <p align="justify">The choice of software is based on my graphical and mathematical interests.</p>
 
 > [!TIP]
-> <p align="justify">I learned this morning that I have to take care, that the package <code>language-pack-gnome-de</code> is installed. Installing this package I have system-wide language support. E.g. after the installation the UI in nano is in German. It is also possible to install <code>language-pack-gnome-it</code> and <code>language-pack-gnome-fr</code> et cetera.</p>
+> <p align="justify">I learned this morning that I have to take care, that the package <code>language-pack-gnome-de</code> is installed. Installing this package I have system-wide language support. E.g. after the installation the UI in <code>nano</code> is in the German language. It is also possible to install <code>language-pack-gnome-it</code> and <code>language-pack-gnome-fr</code> et cetera.</p>
 
 ## GIMP and G'MIC
 
