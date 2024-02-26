@@ -11,7 +11,7 @@ sudo apt-get dist-upgrade    # Upgrade of the operating system
 sudo apt-get full-upgrade    # Upgrade of the operating system 
 </pre>
 
-<p align="justify">The script <code>system_update.bash</code> automates the individual necessary steps. In addition to this the script cleans up the system from packages that are no longer required.</p> 
+<p align="justify">The script <code>system_update.bash</code> automates the individual necessary steps. In addition to this the script cleans up the system from packages and data that are no longer required.</p> 
 
 > [!TIP]
 > <p align="justify">A helpful tool to keep the system up to date is <code>synaptic</code> with its GUI. Another good tool for updating and upgrading the system is <code>aptitude</code> and its CLI.</p> 
