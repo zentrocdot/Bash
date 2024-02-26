@@ -14,8 +14,9 @@
 
 <p align="justify">I use a selection of programs that have proven themselves over the years. In addition to these, I keep alternative programs available.</p>
 
-<p align="justify">After setting up a computer I run the script.</p>
+<p align="justify">After setting up a computer I run the script <code>software_install.bash</code> and I am ready to go on working.</p>
 
+<p align="justify">Of course, I still have to do some work by hand.</p>
 
 ## GIMP and G'MIC
 
