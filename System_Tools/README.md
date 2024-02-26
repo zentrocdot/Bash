@@ -31,7 +31,7 @@ sudo apt-get full-upgrade    # Upgrade of the operating system
 
 ## GIMP and G'MIC
 
-<p align="justify">I have been using GIMP and the G'MIC plugin for years now successfully. GIMP itself is a really good tool and the plugin G'MIC produces impressive results.</p>
+<p align="justify">I have been using <code>GIMP</code>code> and the <code>G'MIC</code>code> plugin for years now successfully. <code>GIMP</code>code> itself is a really good tool and the plugin <code>G'MIC</code>code> produces impressive results.</p>
 
 <p align="justify">Over the years the installation procedure changes a little bit. In addition to the installation via the system using <code>apt-get install gimp</code> <code>GIMP</code> can be installed by use of <code>flatpak</code>. This is the recommended way. Another way is to build <code>GIMP</code>  from source.</p>
 
