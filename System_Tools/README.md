@@ -8,7 +8,7 @@
     sudo apt-get upgrade         # Upgrade of the installed packages
     sudo apt-get dist-upgrade    # Upgrade of the operating system
 
- <p align="justify">A system update and an system upgrade can be done with the knowledge about a few commands.</p>   
+ <p align="justify">The script <code>system_update.bash</code> automates the individual necessary steps. In addition to this the script cleans up the system from packages that are no longer required.</p> 
 
 ## Software Installation
 
