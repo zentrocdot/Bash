@@ -2,21 +2,20 @@
 
 ## System Update and Upgrade
 
-<p align="justify">A system update and an system upgrade can be done with the knowledge about a few commands.</p>
+<p align="justify">A system update and a system upgrade can be done with the knowledge about a few commands.</p>
 
     sudo apt-get update          # Update of the package informations
     sudo apt-get upgrade         # Upgrade of the installed packages
     sudo apt-get dist-upgrade    # Upgrade of the operating system
 
- <p align="justify">The script <code>system_update.bash</code> automates the individual necessary steps. In addition to this the script cleans up the system from packages that are no longer required.</p> 
+<p align="justify">The script <code>system_update.bash</code> automates the individual necessary steps. In addition to this the script cleans up the system from packages that are no longer required.</p> 
 
 ## Software Installation
 
-to-do ...
+<p align="justify">I use a selection of programs that have proven themselves over the years. In addition to these, I keep alternative programs available.</p>
 
-## System Update and Upgrade
+<p align="justify">After setting up a computer I run the script.</p>
 
-to-do ...
 
 ## GIMP and G'MIC
 
