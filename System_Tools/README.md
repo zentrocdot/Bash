@@ -21,7 +21,7 @@
 <p align="justify">The choice of software is based on my graphical and mathematical interests.</p>
 
 > [!TIP]
-> <p align="justify">I learned this morning that I have to take care, that the package <code>language-pack-gnome-de</code> is installed. Installing this package I have system-wide language support. It is also possible to install <code>language-pack-gnome-it</code> and <code>language-pack-gnome-fr</code> et cetera.</p>
+> <p align="justify">I learned this morning that I have to take care, that the package <code>language-pack-gnome-de</code> is installed. Installing this package I have system-wide language support. E.g. after the installation the UI in nano is in German. It is also possible to install <code>language-pack-gnome-it</code> and <code>language-pack-gnome-fr</code> et cetera.</p>
 
 ## GIMP and G'MIC
 
