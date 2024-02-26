@@ -14,6 +14,10 @@
 
 [2]    https://gmic.eu/
 
+<hr width="100%" size="1">
+
+<p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee :coffee:. I drink a lot of coffee while programming and writing  :smiley:.</p>
+
 <hr width="100%" size="2">
 
 <p align="center">I loved the time when you could get also a hamburger :hamburger: for one euro!</p>
