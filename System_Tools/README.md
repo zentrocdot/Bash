@@ -1,5 +1,15 @@
 # README
 
+## System Update and Upgrade
+
+<p align="justify">A system update and an system upgrade can be done with the knowledge about a few commands.</p>
+
+    sudo apt-get update          # Update of the package informations
+    sudo apt-get upgrade         # Upgrade of the installed packages
+    sudo apt-get dist-upgrade    # Upgrade of the operating system
+
+ <p align="justify">A system update and an system upgrade can be done with the knowledge about a few commands.</p>   
+
 ## Software Installation
 
 to-do ...
