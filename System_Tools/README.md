@@ -20,6 +20,9 @@
 
 <p align="justify">The choice of software is based on my graphical and mathematical interests.</p>
 
+> [!TIP]
+> <p align="justify">I learned this morning that I have to take care, that the package <code>language-pack-gnome-de</code> is installed. Installing this package I have system-wide language support. It is also possible to install <code>language-pack-gnome-it</code> and <code>language-pack-gnome-fr</code> et cetera.</p>
+
 ## GIMP and G'MIC
 
 <p align="justify">I have been using GIMP and the G'MIC plugin for years now successfully. GIMP itself is a really good tool and the plugin G'MIC produces impressive results.</p>
