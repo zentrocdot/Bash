@@ -12,11 +12,13 @@
 
 ## Software Installation
 
-<p align="justify">I use a selection of programs that have proven themselves over the years. In addition to these, I keep alternative programs available.</p>
+<p align="justify">I use a selection of programs that have proven themselves over the years. In addition to these programs, I keep alternative programs available.</p>
 
-<p align="justify">After setting up a computer I run the script <code>software_install.bash</code> and I am ready to go on working.</p>
+<p align="justify">After setting up a new operating system on a computer I run the script <code>software_install.bash</code> and I am ready to go on working.</p>
 
-<p align="justify">Of course, I still have to do some work by hand.</p>
+<p align="justify">I try to keep the packages up to date by deleting software that I no longer need or want and adding other packages or programs I need. Of course, I still have to do some work by hand.</p>
+
+<p align="justify">The choice of software is based on my graphical and mathematical interests.</p>
 
 ## GIMP and G'MIC
 
