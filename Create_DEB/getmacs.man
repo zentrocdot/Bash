@@ -1,0 +1,164 @@
+.\" Hey, EMACS: -*- nroff -*-
+.\"
+.\" (C) Copyright 2017 Dr. Peter Netz <email@example.com>
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\"
+.\" for manpage-specific macros, see man(7)
+.\"
+.\" TeX users may be more comfortable with the \fB<whatever>\fP and
+.\" \fI<whatever>\fP escape sequences to invode bold face and italics,
+.\" respectively.
+.\"
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.\" Please adjust this date whenever revising the manpage.
+.\" Change tab stop positions. The tab is given in inch. 
+.ta 1.5i 3i 4.5i 6i  
+.TH GETMAC 1 "October 25, 2017"
+.SH NAME
+getmac \- Finds MAC addresses in given data.
+.SH SYNOPSIS
+\fBgetmac\fP [\fI options \fP] data 
+.br
+command | \fBgetmacs\fP [\fI options \fP]
+.br
+\fBgetmac\fP [\fI options \fP] < file
+.\" ###
+.\" ### DESCRIPTION
+.\" ###
+.SH DESCRIPTION
+\fBgetmac\fP finds MAC addresses in given data. The program reads data from the command line, a file or from a pipe. In case of success the program outputs the MAC addresses into the terminal window.
+.br
+.TP
+A MAC address can not be found if the hexadecimal characters consist of upper and lower characters. The MAC separator is the same character within the given MAC.
+.br
+.TP
+The output is a single MAC address or a list of MAC addresses separated by a newline. If no MAC address could be found the output is NULL.
+.\" ###
+.\" ### OPTIONS
+.\" ###
+.SH OPTIONS
+.TP
+\fB\-h\fP \t Shows the program help and exits the program
+.TP
+\fB\-v\fP \t Shows the program version and exits the program
+.TP
+\fB\-a\fP \t Finds MAC of type xx:xx:xx:xx:xx:xx
+.TP
+\fB\-b\fP \t Finds MAC of type xxxx.xxxx.xxxx
+.TP
+\fB\-c\fP \t Finds MAC of type xxxxxx:xxxxxx
+.TP
+\fB\-g\fP \t Finds universally administered MAC addresses
+.TP
+\fB\-l\fP \t Finds locally administered MAC addresses
+.TP
+\fB\-u\fP \t Finds unicast MAC addresses
+.TP
+\fB\-m\fP \t Finds upper case MAC addresses
+.TP
+\fB\-L\fP \t Finds lower case MAC addresses
+.TP
+\fB\-U\fP \t Finds upper case MAC addresses
+.TP
+\fB\-S <char>\fP \t MAC separator e.g. -: etc.
+.TP
+\fB\-D <char>\fP \t MAC delimiter e.g. ;, etc.
+.TP
+\fB\-1 <char>\fP \t First delimiter before the MAC address
+.TP
+\fB\-2 <char>\fP \t Second delimiter after the MAC address
+.\" ###
+.\" ### EXIT STATUS
+.\" ###
+.SH EXIT STATUS
+.TP
+\fB0\fP \t No Errors: Success of command execution.
+.TP
+\fB1\fP \t Error: Miscellaneous problem
+.TP
+\fB16\fP \t Error: No data from stdin (command line)
+.TP
+\fB32\fP \t Error: Wrong command line option
+.TP
+\fB130\fP \t Error: Script terminated by CTRL+C
+.\" ###
+.\" ### SEE ALSO
+.\" ###
+.SH SEE ALSO
+.BR ifconfig(8),
+.BR iwconfig(8),
+.BR iw(8).
+.SH NOTES
+.TP
+Not allowed separator chars: !, \\
+.\" ###
+.\" ### BUGS 
+.\" ###
+.SH BUGS
+.TP
+Bugs not known yet.
+.\" ###
+.\" ### EXAMPLE 
+.\" ###
+.SH EXAMPLE
+.TP
+.RI
+Read data from the command line
+.br
+getmac "00:04:ff:10:33:ab"
+.br
+getmac "Hardware address: 2d-56-71-01-ef-30"
+.br
+getmac "46-6F-91-20-56-AB is a valid MAC address."
+.br
+etc.
+.TP
+.RI
+Read data from a piped command
+.br
+ifconfig | getmac 
+.br
+iwconfig 2>/dev/null | getmac
+.br
+iw wlan0 scan | getmac
+.br
+etc.
+.TP
+.RI
+Read data from a file
+.br
+getmac < raw_data.txt
+.br
+etc.
+.\" ###
+.\" ### REFERENCES 
+.\" ###
+.SH REFERENCES
+http://standards-oui.ieee.org/oui.txt
+.br
+http://netaddr.readthedocs.io/en/latest/tutorial_02.html
+.br
+https://en.wikipedia.org/wiki/MAC_address
+.br
+https://www.howtogeek.com/169540/what-exactly-is-a-mac-address-used-for/
+.br
+https://www.postgresql.org/docs/8.2/static/datatype-net-types.html
+.br
+https://www.postgresql.org/docs/9.1/static/datatype-net-types.html
+.\" ###
+.\" ### AUTHOR 
+.\" ###
+.SH AUTHOR
+Dr. Peter Netz
+
