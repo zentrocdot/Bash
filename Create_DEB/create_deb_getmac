@@ -1,0 +1,500 @@
+#!/bin/bash
+
+# ##############################################################################
+#                         __              __     __
+#   _____________  ____ _/ /____     ____/ /__  / /_
+#  / ___/ ___/ _ \/ __ `/ __/ _ \   / __  / _ \/ __ \
+# / /__/ /  /  __/ /_/ / /_/  __/  / /_/ /  __/ /_/ /
+# \___/_/   \___/\__,_/\__/\___/   \__,_/\___/_.___/
+#
+# create deb, Copyright © 2017, Dr. Peter Netz
+#
+# Description:
+#   Bash script with which Debian deb packages can be created.
+#
+# Exit Codes:
+#     3   -> DEB folder error
+#     4   -> dh_make error
+#     5   -> debuild error
+#     6   -> dpkg error
+#     255 -> CTRL+C
+# ##############################################################################
+
+# Prerequisites:
+# build-essential, dh-make, devscripts, fakeroot, lintian
+# figlet, lolcat, boxes, tree
+#
+# References:
+# -----------
+#
+# http://www.tldp.org/LDP/abs/html/exitcodes.html
+# https://askubuntu.com/questions/27715/create-a-deb-package-from-scripts-or-binaries/
+# https://askubuntu.com/questions/279686/how-to-package-a-simple-bash-script
+# https://en.wikipedia.org/wiki/Example.com
+# https://people.canonical.com/~cjwatson/ubuntu-policy/policy.html/ch-archive.html
+#
+# Further Readings:
+# -----------------
+#
+# http://blog.tonns.org/2013/07/building-perl-package-for-ubuntu.html
+# http://santi-bassett.blogspot.de/2014/07/how-to-create-debian-package.html
+# http://tldp.org/HOWTO/html_single/Debian-Binary-Package-Building-HOWTO/
+# http://wiki.freegeek.org/index.php/Basic_Debian_Packaging
+# https://blog.heckel.xyz/2015/10/18/how-to-create-debian-package-and-debian-repository/
+# https://blog.packagecloud.io/debian/debuild/packaging/2015/06/08/buildling-deb-packages-with-debuild/
+# https://blog.packagecloud.io/eng/2015/07/14/using-dh-make-to-prepare-debian-packages/
+# https://blog.packagecloud.io/eng/2016/12/15/howto-build-debian-package-containing-simple-shell-scripts/
+# https://debian-handbook.info/browse/de-DE/stable/sect.building-first-package.html
+# https://linuxconfig.org/easy-way-to-create-a-debian-package-and-local-package-repository
+# https://unix.stackexchange.com/questions/30303/how-to-create-a-deb-file-manually
+# https://wiki.ubuntuusers.de/Grundlagen_der_Paketerstellung/
+# https://www.strangeparty.com/2010/06/17/a-debian-packaging-howto/
+
+# ******************************************************************************
+# DEB Data Beginning - Change data here!
+# ******************************************************************************
+
+# Set name of script.
+SRCBIN="getmac"
+
+# Set path to script (without last /).
+SRCBINPATH="$HOME/script"
+
+# Set version of deb package.
+DEBVER="0.0.1"
+
+# Set deb package specific variables.
+DEBFULLNAME="Dr. Peter Netz"
+DEBEMAIL="email@example.com"
+
+# Set Section string in debian/control.
+# Allowed section entries:
+# admin, cli-mono, comm, database, devel, debug, doc, editors, electronics,
+# embedded, fonts, games, gnome, graphics, gnu-r, gnustep, hamradio, haskell,
+# httpd, interpreters, java, kde, kernel, libs, libdevel, lisp, localization,
+# mail, math, metapackages, misc, net, news, ocaml, oldlibs, otherosfs, perl,
+# php, python, ruby, science, shells, sound, tex, text, utils, vcs, video, web,
+# x11, xfce, zope
+NEW_SECTION="utils"
+
+# Set other strings in debian/control.
+NEW_HOMEPAGE="http:\/\/www.example.com\/"
+NEW_DESCRIPTION="finds MAC addresses in given data."
+NEW_DESC_LONG="finds MAC addresses in data. reads data from command line, file or pipe."
+
+# ******************************************************************************
+# DEB Data Ending - Change data here!
+# ******************************************************************************
+
+# Export deb package specific variables.
+export DEBFULLNAME DEBEMAIL
+
+# Set file path to script.
+SCRIPTPATH="${SRCBINPATH}/${SRCBIN}"
+
+# Set base directory.
+BASEDIR="${HOME}/USR_DEB"
+
+# Set manual directory.
+MANDIR="${HOME}/USR_DEB/MANUAL_PAGES"
+
+# Set package dir.
+DEBDIR="${BASEDIR}/${SRCBIN}"
+
+# Set package name.
+PKGNAME="${SRCBIN}-${DEBVER}"
+
+# Create deb folder name.
+DEBFOLDER="${DEBDIR}/${PKGNAME}"
+
+# Set chars.
+CHR0="+"
+
+# Set strings.
+STR0=$(printf "%80s" "" | tr " " "${CHR0}")
+
+# Set search pattern.
+CTRL_SECTION="unknown"
+CTRL_HOMEPAGE="<insert the upstream URL, if relevant>"
+CTRL_DESCRIPTION="<insert up to 60 chars description>"
+CTRL_DESC_LONG="<insert long description, indented with spaces>"
+
+# Set message strings.
+STRA="Congratulation! Debian package successfully created!"
+STRB="Debian package installation done!"
+
+# Set script strings.
+SCRIPTNAME="create deb"
+
+# ==============================================================================
+# Function header()
+# ==============================================================================
+function header() {
+    # Modify PATH variable. Add path of package lolcat.
+    PATH="$PATH:/usr/games"
+    # Set char.
+    local chr="#"
+    # Set string.
+    local str=""
+    str=$(printf "%80s" "" | tr " " "${chr}")
+    # Check if figlet and lolcat is installed.
+    if [[ $(figlet -v 2>/dev/null) ]]; then
+        if [[ $(lolcat --version 2>/dev/null) ]]; then
+            figlet "${SCRIPTNAME}" | lolcat
+            echo ">>>>>>> Copyright © 2017, Dr. Peter Netz <<<<<<<"
+        else
+            figlet "${SCRIPTNAME}"
+            echo ">>>>>>> Copyright © 2017, Dr. Peter Netz <<<<<<<"
+        fi
+    else
+       printf "%s\n%-35s%s%35s\n%s\n" \
+              "${str}" "${chr}" "${SCRIPTNAME}" "${chr}" "${str}"
+    fi
+    # Return exit code.
+    return 0
+}
+
+# ==============================================================================
+# Function headline()
+# ==============================================================================
+function headline() {
+    # Assign the function parameter to the local variables.
+    local txt=$2
+    local chr=$3
+    # Set local variables.
+    local len=""
+    local str=""
+    # Calculate underline.
+    len=${#txt}
+    str=$(printf "%${len}s" "" | tr " " "${chr}")
+    # Print headline.
+    printf "%b%s\n%s\n%b" "$1" "${txt}" "${str}" "$4"
+    # Return exit code.
+    return 0
+}
+
+# ==============================================================================
+# Function empty_line()
+# ==============================================================================
+function empty_line() {
+    # Print empty line.
+    printf "\n"
+    # Return exit code.
+    return 0
+}
+
+# ==============================================================================
+# Function modify_READMEsource()
+# ==============================================================================
+function modify_READMEsource() {
+    # Initialise local variables.
+    local str=""
+    local pat="You WILL either need to modify or delete this file"
+    local fn="debian/README.source"
+    # Write message into the terminal window.
+    printf "%s\n" "Modify file 'README.source' in folder 'debian'."
+    # Modify files.
+    sed -i "s/\(${pat}\)/${str}/" "${fn}"
+    sed -i '7,8d' "${fn}"
+    # Return exit code.
+    return 0
+}
+
+# ==============================================================================
+# Function modify_READMEdebian()
+# ==============================================================================
+function modify_READMEdebian() {
+    # Initialise local variables.
+    local pat="<possible notes regarding this package - if none, delete this file>"
+    local str="No notes regarding this package."
+    local fn="debian/README.Debian"
+    # Write message into the terminal window.
+    printf "%s\n" "Modify file 'README.Debian' in folder 'debian'."
+    # Modify files.
+    sed -i "s/${pat}/${str}/" "${fn}"
+    # Return exit code.
+    return 0
+}
+
+# ==============================================================================
+# Function modify_control()
+# ==============================================================================
+function modify_control() {
+    # Write message into the terminal window.
+    printf "%s\n" "Modify file 'control' in foldery 'debian'."
+    # Manipulate debian/control file.
+    sed -i "s/\(Section:\) ${CTRL_SECTION}/\1 ${NEW_SECTION}/" debian/control
+    sed -i "s/\(Homepage:\) \(${CTRL_HOMEPAGE}\)/\1 ${NEW_HOMEPAGE}/" debian/control
+    sed -i "s/\(Description:\) ${CTRL_DESCRIPTION}/\1 ${NEW_DESCRIPTION}/" debian/control
+    sed -i "s/${CTRL_DESC_LONG}/${NEW_DESC_LONG}/" debian/control
+    sed -i '/^#/d' debian/control
+    # Return exit code.
+    return 0
+}
+
+# ==============================================================================
+# Function modify_copyright()
+# ==============================================================================
+function modify_copyright() {
+    # Write message into the terminal window.
+    printf "%s\n" "Modify file 'copyright' in foldery 'debian'."
+    # Set local variable.
+    local year=""
+    # Get current year.
+    year=$(date +%Y)
+    # Set filename.
+    local filename="debian/copyright"
+    # set string.
+    local str="Copyright © ${year}, ${DEBFULLNAME}. All rights reserved."
+    # Update copyright file.
+    echo "${str}" > "${filename}"
+    # Return exit code.
+    return 0
+}
+
+# ==============================================================================
+# Function modify_changelog()
+# ==============================================================================
+function modify_changelog() {
+    # Create changelog file.
+    dch -n "Initial release."
+    # Remove unwanted lines from file.
+    sed -i '7,12d' debian/changelog
+    # Return exit code.
+    return 0
+}
+
+# ==============================================================================
+# Function create_manpage()
+# ==============================================================================
+function create_manpage() {
+    # Move the manual example file.
+    mv debian/manpage.1.ex debian/${SRCBIN}.1
+    # Copy and move example files.
+    cp "${MANDIR}/getmacs.man" "debian/${SRCBIN}.1" 2>/dev/null \
+        || (echo && echo -e "\n\e[41mNo manpage ${BASEDIR}/getmacs.man found!\e[49m\n" \
+        | boxes -d pound-cmt)
+    # Announce the manual page in the deb structure.
+    echo "debian/${SRCBIN}.1" > debian/${SRCBIN}.manpages
+    # Return exit code.
+    return 0
+}
+
+# ==============================================================================
+# Function check_name()
+# ==============================================================================
+function check_name() {
+    # Set local variable.
+    local res=""
+    # Check name of package.
+    res=$(apt-cache search "${SRCBIN}")
+    # Evaluate the result of the check.
+    if [[ "${res}" != "" ]]; then
+        figlet -f standard " Oops! " | cowsay -n -f ghostbusters | lolcat
+        printf "\n%s\n\n%b" "Check package name!" "\e[100m"
+        printf "%s%b\n" "${res}" "\e[49m" | boxes -d pound-cmt
+        printf "\n%s" "Press any key or exit with CTRL+C"
+        read dummy
+    fi
+    # Return exit code.
+    return 0
+}
+
+# ==============================================================================
+# Function remove_pkgdata()
+# ==============================================================================
+function remove_pkgdata() {
+    # Remove existing files.
+    rm -r "${DEBDIR}" 2>/dev/null
+    # Write result of operation into the terminal window.
+    [[ "$?" == "0" ]] \
+        && printf "\n>>>> %s\n\n" "Old deb package data has been removed." \
+        || printf "\n"
+    # Return exit code.
+    return 0
+}
+
+# ==============================================================================
+# Function make_dirs()
+# ==============================================================================
+function make_dirs() {
+    dirarr=("${BASEDIR}" "${MANDIR}" "${DEBDIR}" "${DEBFOLDER}")
+    for ele in "${dirarr[@]}"
+    do
+        if [ -d "${ele}" ]; then
+            echo "${ele} exists!"
+        else
+            mkdir "${ele}"
+            echo "${ele} created."
+        fi
+    done
+    # Return exit code.
+    return 0
+}
+
+# ==============================================================================
+# Function quit()
+# ==============================================================================
+function quit() {
+    # Write messages into the terminal window.
+    printf "\rSIGINT caught"
+    printf "\rYou pressed CTR+C!\n\n"
+    # Remove files.
+    rm -r "${DEBDIR}" 2>/dev/null
+    # Exit script.
+    exit 255
+}
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# MAIN SCRIPT SECTION
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Trap SIGINT.
+trap 'quit' SIGINT
+
+# Reset screen.
+reset
+
+# Write header to screen.
+header
+
+# Write an empty line into the terminal window.
+empty_line
+
+# Remove package from system.
+apt-get remove --purge "${SRCBIN}"
+
+# Check name.
+check_name
+
+# remove old package data.
+remove_pkgdata
+
+# Write message into the terminal window.
+headline "" "Create package directories:" "-" "\n"
+
+# Create required directories.
+make_dirs
+
+# Write an empty line into the terminal window.
+empty_line
+
+# Write message into the terminal window.
+printf ">>>> %s\n\n" "Change permissions of '${SCRIPTPATH}'."
+
+# Set the script permissions.
+chmod u+x "${SCRIPTPATH}"
+
+# Write message into the terminal window.
+printf ">>>> %s\n\n" "Copy script '${SCRIPTPATH}' nach '${DEBFOLDER}'."
+
+# Copy script to deb folder.
+cp "${SCRIPTPATH}" "${DEBFOLDER}"
+
+# Change into deb folder.
+cd "${DEBFOLDER}" || exit 3
+
+# Write message into the terminal window.
+headline "" "Run dh_make:" "-" "\n"
+
+# Create the packaging skeleton (debian/*)
+# 1. The --indep flag will tell dh_make that we intend to create a binary
+#    that can be shared across all cpu architectures.
+# 2. The --createorig flag will take the current directory and create
+#    an original source archive necessary for building the package. The
+#    source archive will be placed in the parent directory.
+dh_make -s -y --indep --createorig || exit 4
+
+# Write message into the terminal window.
+headline "\n" "Modify files in folder 'debian':" "-" "\n"
+
+# Modify file changelog (optional).
+modify_changelog
+
+# Modify file control (optional).
+modify_control
+
+# Modify file README.source (optional).
+modify_READMEsource
+
+# Modify file README.Debian (optional).
+modify_READMEdebian
+
+# Modify file copyright file (optional).
+modify_copyright
+
+# Write message into the terminal window.
+printf "%s\n" "Modify file 'rules' in foldery 'debian'."
+
+# Remove make calls from debian/rules (required).
+grep -v makefile debian/rules > debian/rules.new
+mv debian/rules.new debian/rules
+
+# Write message into the terminal window.
+printf "%s\n" "Modify file 'install' in foldery 'debian'."
+
+# Write list of scripts into debian/install (required).
+# debian/install must contain the list of scripts
+# which should be installed as well as the target directory.
+echo "${SRCBIN}" "usr/bin" > debian/install
+
+# Write message into the terminal window.
+printf "%s\n" "Modify file 'format' in foldery 'debian/source'."
+
+# Set debian source format (required).
+# 1.0 -> working but deprecated.
+# 2.0 -> unknown effect
+# 3.0 (native); 3.0 (quilt)
+echo "3.0 (native)" > debian/source/format
+
+# Create manpage.
+create_manpage
+
+# Remove the example files.
+rm -f debian/*.ex debian/*.EX
+
+# Write message into the terminal window.
+headline "\n" "Run debuild:" "-" "\n"
+
+# Build the package.
+debuild --no-lintian -us -uc -D \
+    && printf "%s\n%s\n%s\n\n" "${STR0}" "${STRA}" "${STR0}" \
+    || exit 5
+
+# Clean up. Remove a log file.
+rm debian/*.log
+
+# Change directory.
+cd ..
+
+# Get name of deb file.
+DEBNAME=$(dir ${SRCBIN}*deb)
+
+# Write message into the terminal window.
+headline "" "Run lintian:" "-" "\n"
+
+# Check deb package.
+lintian "${DEBNAME}"
+
+# Write message into the terminal window.
+headline "\n" "Package Installation:" "-" "\n"
+
+# Install NEW package.
+dpkg -i "${DEBNAME}" \
+    && printf "\n%s\n%s\n%s\n" "${STR0}" "${STRB}" "${STR0}" \
+    || exit 6
+
+# Write an empty line into the terminal window.
+empty_line
+
+# Write message into the terminal window.
+headline "" "Package structure:" "-" "\n"
+
+# Write data structure into terminal window.
+tree "${DEBDIR}"
+
+# Write farewell message into the terminal window.
+printf "\n%s\n" "Bye. Have a nice day!"
+
+# Exit script without error.
+exit 0
