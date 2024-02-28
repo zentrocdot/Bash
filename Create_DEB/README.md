@@ -4,3 +4,6 @@ for the moment based on my tool wapscan.
 
 A review of the script which is creating the DEBIAN skeleton for packaging DEB files and the DEB package
 itself will follow shortly.
+
+I was able after now six years to use my created DEB package to integrate my Wireless Access Point scan tool
+to my new Linux Mint without further changes. That's quite nice.
