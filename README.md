@@ -22,7 +22,7 @@
 
 ### Remark
 
-<p align="justify">So far almost all of the listed scripts are working under <code>Linux Mint 21.3</code>code> without problems. In very rare cases I have to install a missing package.</p>
+<p align="justify">So far almost all of the listed scripts are working under <code>Linux Mint 21.3</code> without problems. In very rare cases I have to install a missing package.</p>
 
 ### Naming
 
